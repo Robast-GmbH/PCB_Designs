@@ -1,4 +1,18 @@
-19821610105353988
+19829823399944830
+4 Position Terminal Block Header, Male, right angle
+TE_282811-4
+
+
+0
+4
+4
+5 Position Terminal Block Header, Male, right angle
+691312710005
+<b>WR-TBL Serie 3127 - 5.00 mm Open Horizontal PCB Header <br></b>Max Height = 8.5mm , Pitch 5mm , 5pins
+
+0
+5
+5
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52212,6 +52226,13 @@ heatsink
 0
 2
 1
+IRLML2502
+SOT23
+<b>SOT-23</b>
+
+0
+3
+3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -56710,6 +56731,13 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+MBRS340
+DIOM7959X261N
+
+
 0
 2
 2
@@ -77559,6 +77587,13 @@ rotary encoder
 0
 5
 4
+SB320
+DIOAD1990W125L950D560
+
+
+0
+2
+2
 SN65HVD230_Module
 SN65HSV230_Module
 
