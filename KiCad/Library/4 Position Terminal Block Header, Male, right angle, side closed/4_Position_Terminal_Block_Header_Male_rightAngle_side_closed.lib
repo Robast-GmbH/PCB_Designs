@@ -3,24 +3,23 @@ EESchema-LIBRARY Version 2.3
 #(c) SnapEDA 2016 (snapeda.com)
 #This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
 #
-# 796638-5
+# 796644-4
 #
-DEF 796638-5 J 0 40 Y Y 1 L N
+DEF 796644-4 J 0 40 Y Y 1 L N
 F0 "J" -220 300 50 H V L BNN
-F1 "796638-5" -200 -400 50 H V L BNN
-F2 "TE_796638-5" 0 0 50 H I L BNN
+F1 "796644-4" -200 -300 50 H V L BNN
+F2 "TE_796644-4" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Compliant" 0 0 50 H I L BNN "EU_RoHS_Compliance"
-F5 "796638-5" 0 0 50 H I L BNN "Comment"
-F6 "5" 0 0 50 H I L BNN "Number_of_Positions"
-F7 "5.08 mm[.2 in]" 0 0 50 H I L BNN "Centerline_Pitch"
+F5 "796644-4" 0 0 50 H I L BNN "Comment"
+F6 "4" 0 0 50 H I L BNN "Number_of_Positions"
+F7 "5 mm[.197 in]" 0 0 50 H I L BNN "Centerline_Pitch"
 DRAW
-S -200 -300 200 300 0 0 10 f
+S -200 -200 200 300 0 0 10 f
 X 1 1 -400 200 200 R 40 40 0 0 P 
 X 2 2 -400 100 200 R 40 40 0 0 P 
 X 3 3 -400 0 200 R 40 40 0 0 P 
 X 4 4 -400 -100 200 R 40 40 0 0 P 
-X 5 5 -400 -200 200 R 40 40 0 0 P 
 ENDDRAW
 ENDDEF
 #
