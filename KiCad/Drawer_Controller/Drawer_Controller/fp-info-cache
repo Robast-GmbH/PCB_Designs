@@ -1,4 +1,4 @@
-19829823399944830
+19831466147144362
 4 Position Terminal Block Header, Male, right angle
 TE_282811-4
 
@@ -7,7 +7,7 @@ TE_282811-4
 4
 4
 5 Position Terminal Block Header, Male, right angle
-691312710005
+phoenix_5Pin_TerminalBlockHeader_male_rightAngle
 <b>WR-TBL Serie 3127 - 5.00 mm Open Horizontal PCB Header <br></b>Max Height = 8.5mm , Pitch 5mm , 5pins
 
 0
@@ -51253,6 +51253,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EEEFK1E102AQ
+CAP_EEEFK1E102AQ
+
+
+0
+2
+2
 ESP32 DevKit
 MODULE_ESP32-DEVKITC-32D
 
