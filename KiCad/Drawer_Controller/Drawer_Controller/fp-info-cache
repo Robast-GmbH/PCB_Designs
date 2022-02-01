@@ -1,4 +1,4 @@
-19833109143814058
+19834752807121174
 4 Position Terminal Block Header, Male, right angle
 TE_282811-4
 
@@ -13,9 +13,16 @@ TE_282811-4
 0
 4
 4
-5 Position Terminal Block Header, Male, right angle
-phoenix_5Pin_TerminalBlockHeader_male_rightAngle
-<b>WR-TBL Serie 3127 - 5.00 mm Open Horizontal PCB Header <br></b>Max Height = 8.5mm , Pitch 5mm , 5pins
+4 Position Terminal Block Header, Male, vertical
+phoenix_4Pin_TerminalBlockHeader_male_vertical
+<b>WR-TBL Serie 311 - 5.08 mm Open Vertical PCB Header , 4 Pins
+
+0
+4
+4
+5 Position Terminal Block Header, Male, vertical
+phoenix_5Pin_TerminalBlockHeader_male_vertical
+<b>WR-TBL Serie 311 - 5.08 mm Open Vertical PCB Header , 5 Pins
 
 0
 5
