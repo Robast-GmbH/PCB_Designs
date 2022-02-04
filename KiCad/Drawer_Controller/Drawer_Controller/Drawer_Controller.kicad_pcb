@@ -722,6 +722,11 @@
       (net 1 "+5V") (pintype "passive") (tstamp e47adf3d-9c24-4345-80c9-66679cad107e))
     (pad "2" smd rect locked (at 4.85 0 90) (size 5.7 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pintype "passive") (tstamp 7f3eb118-a20c-4239-b800-c9211c66847d))
+    (model "C:/Robast/PCB_Designs/KiCad/Library/EEEFK1E102AQ/EEEFK1E102AQ.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "MountingHole:MountingHole_4.3mm_M4_ISO7380" (layer "F.Cu")

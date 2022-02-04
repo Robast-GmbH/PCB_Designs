@@ -385,7 +385,7 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "Drawer_Controller.emn",
       "netlist": "",
       "specctra_dsn": "",
       "step": "Drawer_Controller.step",
