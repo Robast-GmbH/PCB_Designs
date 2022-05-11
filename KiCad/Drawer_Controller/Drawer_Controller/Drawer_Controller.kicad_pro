@@ -435,6 +435,18 @@
     [
       "9538e4ed-27e6-4c37-b989-9859dc0d49e8",
       ""
+    ],
+    [
+      "375bd27a-5fe8-4777-87c7-bb8503282184",
+      "VDD_Switch1"
+    ],
+    [
+      "88435c8d-3afb-43e1-8ff2-e1b49358ea8a",
+      "VDD_Switch"
+    ],
+    [
+      "4867def4-1105-43d6-a07f-5ca3d84c0e6a",
+      "Switch_Sensing"
     ]
   ],
   "text_variables": {}
