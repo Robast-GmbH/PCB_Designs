@@ -441,12 +441,24 @@
       "VDD_Switch1"
     ],
     [
-      "88435c8d-3afb-43e1-8ff2-e1b49358ea8a",
+      "33f1c50c-a051-49cb-9dc7-d5b94846f90b",
       "VDD_Switch"
     ],
     [
       "4867def4-1105-43d6-a07f-5ca3d84c0e6a",
       "Switch_Sensing"
+    ],
+    [
+      "65d1fbec-6555-478f-ba27-b3cd5b887450",
+      "Voltage_Divider"
+    ],
+    [
+      "bfdaee22-1ef7-49f4-b250-572bf1b0904f",
+      "Voltage_Divider1"
+    ],
+    [
+      "ba04d53b-52e5-49bf-8d48-e097f600069b",
+      "Voltage_Divider2"
     ]
   ],
   "text_variables": {}
