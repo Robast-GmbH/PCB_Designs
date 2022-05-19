@@ -438,15 +438,15 @@
     ],
     [
       "375bd27a-5fe8-4777-87c7-bb8503282184",
-      "VDD_Switch1"
+      "VDD_Switch_Lock1_Close"
     ],
     [
       "33f1c50c-a051-49cb-9dc7-d5b94846f90b",
-      "VDD_Switch"
+      "VDD_Switch_Lock1_Open"
     ],
     [
       "4867def4-1105-43d6-a07f-5ca3d84c0e6a",
-      "Switch_Sensing"
+      "Switch_Sensing_Lock1"
     ],
     [
       "65d1fbec-6555-478f-ba27-b3cd5b887450",
@@ -459,6 +459,10 @@
     [
       "ba04d53b-52e5-49bf-8d48-e097f600069b",
       "Voltage_Divider2"
+    ],
+    [
+      "a9c6a5c1-637b-448d-9b5c-b70b6c7734f6",
+      "Switch_Sensing_Drawer_Closed"
     ]
   ],
   "text_variables": {}
