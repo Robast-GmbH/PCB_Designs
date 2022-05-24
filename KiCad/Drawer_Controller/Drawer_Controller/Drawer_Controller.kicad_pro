@@ -437,7 +437,7 @@
       ""
     ],
     [
-      "375bd27a-5fe8-4777-87c7-bb8503282184",
+      "79ff7d08-c026-425f-9ef2-c423cbd4d714",
       "VDD_Switch_Lock1_Close"
     ],
     [
@@ -462,7 +462,23 @@
     ],
     [
       "a9c6a5c1-637b-448d-9b5c-b70b6c7734f6",
-      "Switch_Sensing_Drawer_Closed"
+      "Switch_Sensing_Drawer_Closed_1"
+    ],
+    [
+      "13f633be-c3c2-4934-884a-6d035f461fc7",
+      "Switch_Sensing_Drawer_Closed_2"
+    ],
+    [
+      "464e8176-115e-4d51-8875-ebf328287c87",
+      "Switch_Sensing_Lock2"
+    ],
+    [
+      "7951cd1c-22fc-41b3-a1f0-dd63219edf20",
+      "VDD_Switch_Lock2_Open"
+    ],
+    [
+      "b484ef63-b922-464f-8984-baa9a786b6e1",
+      "VDD_Switch_Lock2_Close"
     ]
   ],
   "text_variables": {}
