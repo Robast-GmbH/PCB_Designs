@@ -743,11 +743,11 @@
         )
       )
     )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3.3V" (at 0 3.556 0)
+      (property "Value" "+3V3" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -756,13 +756,13 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3.3V_0_1"
+      (symbol "+3V3_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -788,7 +788,7 @@
           (fill (type none))
         )
       )
-      (symbol "+3.3V_1_1"
+      (symbol "+3V3_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3V3" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1474,7 +1474,7 @@
     )
   )
 
-  (hierarchical_label "3.3V" (shape input) (at 27.94 29.21 180) (fields_autoplaced)
+  (hierarchical_label "3V3" (shape input) (at 27.94 29.21 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0660a941-e584-431e-b757-6de2f878eea8)
   )
@@ -1774,34 +1774,6 @@
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/d557abfe-79f2-46f1-bb01-f841b9b29d69"
           (reference "#PWR012") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 72.39 85.725 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3953f430-bdd1-423e-a1b3-666f21cd8552)
-    (property "Reference" "#PWR0102" (at 72.39 89.535 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 68.58 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 72.39 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 72.39 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 072c31c5-1be9-4f56-98fc-b653773f93ce))
-    (instances
-      (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "#PWR0102") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/d557abfe-79f2-46f1-bb01-f841b9b29d69"
-          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2142,6 +2114,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 72.39 85.725 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid adda174b-d9e7-4363-8cf9-2ad5e0d758c2)
+    (property "Reference" "#PWR072" (at 72.39 89.535 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 72.39 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 72.39 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 108ac63a-e098-4225-aeea-f1b2ff03b254))
+    (instances
+      (project "Drawer_Controller"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/d557abfe-79f2-46f1-bb01-f841b9b29d69"
+          (reference "#PWR072") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:Crystal") (at 141.605 116.205 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid afe9627d-3ab5-466e-b758-e6248bba8c33)
@@ -2383,6 +2380,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 36.83 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d47b13a7-25fb-48b6-aa87-89a75634ff6f)
+    (property "Reference" "#PWR018" (at 36.83 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 36.83 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 36.83 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 36.83 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1d6f2d96-d897-4a2f-b7e6-92514c61fe83))
+    (instances
+      (project "Drawer_Controller"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/d557abfe-79f2-46f1-bb01-f841b9b29d69"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small") (at 258.445 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dadf13b6-da91-4144-b074-1d8ac524b857)
@@ -2463,34 +2485,6 @@
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/d557abfe-79f2-46f1-bb01-f841b9b29d69"
           (reference "#PWR09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 36.83 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid df2635d9-9551-4490-81c9-e04e2400d083)
-    (property "Reference" "#PWR0102" (at 36.83 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 36.83 25.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 36.83 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 36.83 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f0d8c5a2-dfc4-4239-97ef-eced9be1f881))
-    (instances
-      (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "#PWR0102") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/d557abfe-79f2-46f1-bb01-f841b9b29d69"
-          (reference "#PWR018") (unit 1)
         )
       )
     )
