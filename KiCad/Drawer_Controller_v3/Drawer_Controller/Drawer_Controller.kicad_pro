@@ -509,6 +509,10 @@
     [
       "6919ef41-88db-4974-953c-7e1cbfae00a9",
       "Voltage_Divider2"
+    ],
+    [
+      "83c4ae5d-d64f-40dd-979e-e38a8ced97c0",
+      "ESP32_WROOM_32"
     ]
   ],
   "text_variables": {}
