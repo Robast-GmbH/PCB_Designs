@@ -487,6 +487,10 @@
       "Switch_Sensing_Drawer_Closed_1"
     ],
     [
+      "26e7b6ec-52c6-40b8-aa42-9ef60fc0b8f0",
+      "Electrical_Drawer1"
+    ],
+    [
       "bf7de1fb-ee2c-4451-99df-ac86ebbf5454",
       "Switch_Sensing_Drawer_Closed_2"
     ],
@@ -503,16 +507,20 @@
       "CAN_circuit"
     ],
     [
-      "b6745898-b243-4513-a878-5603641de099",
-      "Power Stage"
-    ],
-    [
       "6919ef41-88db-4974-953c-7e1cbfae00a9",
       "Voltage_Divider2"
     ],
     [
       "83c4ae5d-d64f-40dd-979e-e38a8ced97c0",
       "ESP32_WROOM_32"
+    ],
+    [
+      "116698a8-1d79-42ab-8e41-bc8a6feebb86",
+      "Electrical_Drawer"
+    ],
+    [
+      "8d969422-65ba-4eec-9081-e3062cead741",
+      "Power Stage"
     ]
   ],
   "text_variables": {}
