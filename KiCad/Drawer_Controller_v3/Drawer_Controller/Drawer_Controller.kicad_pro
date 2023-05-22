@@ -529,6 +529,10 @@
     [
       "0514319a-a3f1-442c-9545-e714144c58b7",
       "Differential_Line_Receiver1"
+    ],
+    [
+      "18a76fdc-0e09-49e0-9380-806c2f315ad0",
+      "Port_Expander"
     ]
   ],
   "text_variables": {}
