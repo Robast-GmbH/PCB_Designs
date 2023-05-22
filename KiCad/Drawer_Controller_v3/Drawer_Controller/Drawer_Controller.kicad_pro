@@ -488,7 +488,7 @@
     ],
     [
       "1e76985c-8d5c-4698-93c6-d17abaa8f3ee",
-      "Electrical_Drawer1"
+      "TMC2209_1"
     ],
     [
       "bf7de1fb-ee2c-4451-99df-ac86ebbf5454",
@@ -516,7 +516,7 @@
     ],
     [
       "116698a8-1d79-42ab-8e41-bc8a6feebb86",
-      "Electrical_Drawer"
+      "TMC2209"
     ],
     [
       "8d969422-65ba-4eec-9081-e3062cead741",

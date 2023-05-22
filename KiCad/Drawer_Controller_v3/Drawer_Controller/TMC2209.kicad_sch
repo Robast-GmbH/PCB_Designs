@@ -1310,7 +1310,7 @@
   (symbol (lib_id "power:+24V") (at 37.465 22.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07ad5b82-1418-4e1c-a7b4-e1f36371f6b5)
-    (property "Reference" "#PWR0132" (at 37.465 26.035 0)
+    (property "Reference" "#PWR0120" (at 37.465 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 37.465 18.415 0)
@@ -1325,11 +1325,11 @@
     (pin "1" (uuid 6ab02d1c-8740-47f6-866f-abd052851876))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0132") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0120") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -1338,7 +1338,7 @@
   (symbol (lib_id "Device:C_Small") (at 186.69 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c1a5288-3c9c-4b1e-af7a-6a6f46748f21)
-    (property "Reference" "C41" (at 180.34 30.48 0)
+    (property "Reference" "C36" (at 180.34 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 179.705 33.02 0)
@@ -1354,11 +1354,11 @@
     (pin "2" (uuid 657a4de7-d6fd-4dbb-81cf-9558702e0d24))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "C41") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "C36") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -1367,7 +1367,7 @@
   (symbol (lib_id "Device:C_Small") (at 200.025 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ceb38c8-fa70-43b2-b8f8-3f43e2f99de0)
-    (property "Reference" "C43" (at 193.675 53.975 0)
+    (property "Reference" "C38" (at 193.675 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 193.04 56.515 0)
@@ -1383,11 +1383,11 @@
     (pin "2" (uuid cd8df35c-e9b7-4ea1-93f2-99648b491d20))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "C43") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "C38") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -1396,7 +1396,7 @@
   (symbol (lib_id "power:GND") (at 148.59 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12193541-adfe-4c94-ad77-03927be88fca)
-    (property "Reference" "#PWR060" (at 148.59 61.595 0)
+    (property "Reference" "#PWR?" (at 148.59 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 57.785 0)
@@ -1412,16 +1412,16 @@
     (instances
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/8d969422-65ba-4eec-9081-e3062cead741"
           (reference "#PWR064") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0149") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0127") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -1430,7 +1430,7 @@
   (symbol (lib_id "Device:C_Small") (at 88.9 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15470bf6-9759-4c87-a00b-39352bc9f2db)
-    (property "Reference" "C40" (at 81.915 62.865 0)
+    (property "Reference" "C34" (at 81.915 62.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22n 50V" (at 78.105 65.405 0)
@@ -1446,11 +1446,11 @@
     (pin "2" (uuid 386c5622-bf23-4703-9641-c25b3a682c6e))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "C40") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "C34") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -1459,7 +1459,7 @@
   (symbol (lib_id "Device:R_Small") (at 148.59 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1570a46c-2cb5-4e0f-8ecb-7e3259db3eff)
-    (property "Reference" "R28" (at 151.765 46.355 0)
+    (property "Reference" "R?" (at 151.765 46.355 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k" (at 151.13 48.26 0)
@@ -1476,16 +1476,16 @@
     (instances
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "R28") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/8d969422-65ba-4eec-9081-e3062cead741"
           (reference "R28") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "R59") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "R52") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -1494,7 +1494,7 @@
   (symbol (lib_id "power:GND") (at 208.915 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bed34d2-55e3-4a78-95a8-762b73dcd603)
-    (property "Reference" "#PWR0145" (at 208.915 44.45 0)
+    (property "Reference" "#PWR0148" (at 208.915 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.915 42.545 0)
@@ -1509,11 +1509,11 @@
     (pin "1" (uuid 2f0c5566-fc5f-432a-bdbd-091a13eca9c0))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0145") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0148") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -1522,7 +1522,7 @@
   (symbol (lib_id "Device:C_Small") (at 199.39 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 307ea145-ce0f-4819-9478-ac3948ae7019)
-    (property "Reference" "C42" (at 193.04 30.48 0)
+    (property "Reference" "C37" (at 193.04 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 192.405 33.02 0)
@@ -1538,11 +1538,11 @@
     (pin "2" (uuid 93c4ddc2-5e5f-4064-8e69-ff495190ce89))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "C42") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "C37") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -1551,7 +1551,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 160.655 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 326fcbe2-e5da-4eb4-8ee3-52b69ad25d0b)
-    (property "Reference" "C47" (at 163.195 36.83 0)
+    (property "Reference" "C35" (at 163.195 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 163.195 39.37 0)
@@ -1567,11 +1567,11 @@
     (pin "2" (uuid fcb722c5-e6de-48a7-bf75-8197beb266e7))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "C47") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "C35") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "C47") (unit 1)
         )
       )
     )
@@ -1580,7 +1580,7 @@
   (symbol (lib_id "power:GND") (at 200.025 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36fc5bb2-4f0e-4580-9d3a-95b47e12d9dd)
-    (property "Reference" "#PWR0143" (at 200.025 66.675 0)
+    (property "Reference" "#PWR0131" (at 200.025 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.025 64.77 0)
@@ -1595,11 +1595,11 @@
     (pin "1" (uuid ab3e615b-1c56-4d2a-a763-2398e2680a0c))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0143") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0131") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -1608,7 +1608,7 @@
   (symbol (lib_id "power:GND") (at 135.89 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cd27e2d-d2e8-4e24-aaf1-58ad1d4d5b7c)
-    (property "Reference" "#PWR0140" (at 135.89 93.345 0)
+    (property "Reference" "#PWR0126" (at 135.89 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 91.44 0)
@@ -1623,11 +1623,11 @@
     (pin "1" (uuid b0d3a75d-1973-4313-bdcb-17f58d0a70ad))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0140") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0126") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -1636,7 +1636,7 @@
   (symbol (lib_id "TMC2209-LA:TMC2209-LA") (at 114.3 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e74af54-0f82-4250-a33d-8a64a52fa7e4)
-    (property "Reference" "U14" (at 114.3 23.495 0)
+    (property "Reference" "U13" (at 114.3 23.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TMC2209-LA" (at 114.3 26.035 0)
@@ -1694,11 +1694,11 @@
     (pin "9" (uuid 5a1ba1b2-ac37-41fc-8a3f-103875655cbc))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "U14") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "U13") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -1707,7 +1707,7 @@
   (symbol (lib_id "Device:R_Small") (at 70.485 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ee0a8b7-8c9b-4ecc-9675-27d2e0cdf195)
-    (property "Reference" "R55" (at 65.405 68.58 0)
+    (property "Reference" "R51" (at 65.405 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 66.04 70.485 0)
@@ -1723,11 +1723,11 @@
     (pin "2" (uuid 7ca408d0-c486-4c8a-8bdf-31ae109dfc97))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "R55") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "R51") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -1736,7 +1736,7 @@
   (symbol (lib_id "Device:C_Small") (at 208.915 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ee5294b-5d38-425f-b92f-a3d438fd5774)
-    (property "Reference" "C44" (at 202.565 30.48 0)
+    (property "Reference" "C39" (at 202.565 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 201.93 33.02 0)
@@ -1752,11 +1752,11 @@
     (pin "2" (uuid 3d039dfe-0b2e-4442-a5c6-6261da8d7d59))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "C44") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "C39") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -1765,7 +1765,7 @@
   (symbol (lib_id "power:GND") (at 194.31 126.365 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 622b2e2b-92fc-4fcf-a895-40e9282418a7)
-    (property "Reference" "#PWR0141" (at 194.31 132.715 0)
+    (property "Reference" "#PWR0129" (at 194.31 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 130.81 0)
@@ -1780,11 +1780,11 @@
     (pin "1" (uuid cda5c801-b434-48d0-af79-95547500111d))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0141") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0129") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -1793,7 +1793,7 @@
   (symbol (lib_id "Device:R") (at 41.275 117.475 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6697bda3-78bf-492b-ae0b-a57899d1b9dc)
-    (property "Reference" "R2" (at 34.925 116.205 0)
+    (property "Reference" "R?" (at 34.925 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 34.925 118.745 0)
@@ -1810,16 +1810,16 @@
     (instances
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/d557abfe-79f2-46f1-bb01-f841b9b29d69"
           (reference "R1") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "R54") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "R50") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -1828,7 +1828,7 @@
   (symbol (lib_id "power:GND") (at 73.66 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fceb6d4-1ad7-4b38-bc4b-232c704ceb51)
-    (property "Reference" "#PWR0139" (at 73.66 64.135 0)
+    (property "Reference" "#PWR0125" (at 73.66 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 62.23 0)
@@ -1843,11 +1843,11 @@
     (pin "1" (uuid d826d018-16ac-48da-b16e-69b2d7e445e3))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0139") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0125") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -1856,7 +1856,7 @@
   (symbol (lib_id "power:GND") (at 37.465 29.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74d7365b-0a75-4afd-b8d8-da92cbeb8a6a)
-    (property "Reference" "#PWR0133" (at 37.465 36.195 0)
+    (property "Reference" "#PWR0122" (at 37.465 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 37.465 34.29 0)
@@ -1871,11 +1871,11 @@
     (pin "1" (uuid 6638b86d-f1f7-4542-aa67-5e32d7948913))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0133") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0122") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -1884,7 +1884,7 @@
   (symbol (lib_id "power:+3V3") (at 42.545 24.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b429320-7191-4b97-8856-50d5173f5413)
-    (property "Reference" "#PWR0135" (at 42.545 28.575 0)
+    (property "Reference" "#PWR0124" (at 42.545 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 42.545 21.59 0)
@@ -1899,11 +1899,11 @@
     (pin "1" (uuid 938bd208-d321-4c44-af32-1e50e5e67ae3))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0135") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0124") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -1912,7 +1912,7 @@
   (symbol (lib_id "Device:R_Small") (at 187.325 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fd7ad25-d70a-4a09-aa64-320b08a3eac3)
-    (property "Reference" "R57" (at 187.325 120.65 90)
+    (property "Reference" "R58" (at 187.325 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330mΩ" (at 187.325 122.555 90)
@@ -1928,11 +1928,11 @@
     (pin "2" (uuid 4e1b47d5-7cfc-46b3-bc6d-bca9b2a3de5d))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "R57") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "R58") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -1941,7 +1941,7 @@
   (symbol (lib_id "Device:LED_Small") (at 148.59 52.705 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e3dfeb4-9caa-46c0-a9e6-1ee28608a227)
-    (property "Reference" "D2" (at 150.495 51.3714 90)
+    (property "Reference" "D?" (at 150.495 51.3714 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "white" (at 150.495 53.34 90)
@@ -1958,16 +1958,16 @@
     (instances
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "D2") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/8d969422-65ba-4eec-9081-e3062cead741"
           (reference "D2") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "D8") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "D7") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1976,7 +1976,7 @@
   (symbol (lib_id "power:+24V") (at 208.915 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9679933b-e231-4964-a5a4-9a3d2571d227)
-    (property "Reference" "#PWR0144" (at 208.915 27.305 0)
+    (property "Reference" "#PWR0146" (at 208.915 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 208.915 19.685 0)
@@ -1991,11 +1991,11 @@
     (pin "1" (uuid 7e61762f-8df5-4b9b-b012-f0f876993da0))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0144") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0146") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -2004,7 +2004,7 @@
   (symbol (lib_id "Device:R_Small") (at 187.325 117.475 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdcfa47d-5806-4d0c-a4e5-0d1923593224)
-    (property "Reference" "R56" (at 187.325 113.665 90)
+    (property "Reference" "R53" (at 187.325 113.665 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330mΩ" (at 187.325 115.57 90)
@@ -2020,11 +2020,11 @@
     (pin "2" (uuid 6c03da31-ba4a-4ea3-9727-6e9ef23ddf0d))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "R56") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "R53") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -2033,7 +2033,7 @@
   (symbol (lib_id "power:+3V3") (at 200.025 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d92137fd-de08-4bec-84cf-d672bd4595f4)
-    (property "Reference" "#PWR0142" (at 200.025 54.61 0)
+    (property "Reference" "#PWR0130" (at 200.025 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 200.025 47.625 0)
@@ -2048,11 +2048,11 @@
     (pin "1" (uuid d2b17f17-ba5c-423b-baa3-6562157891f7))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0142") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0130") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -2061,7 +2061,7 @@
   (symbol (lib_id "power:GND") (at 160.655 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e61927d6-e81e-47ea-bd9d-4a26a22fa723)
-    (property "Reference" "#PWR0147" (at 160.655 46.99 0)
+    (property "Reference" "#PWR0128" (at 160.655 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.655 45.085 0)
@@ -2076,11 +2076,11 @@
     (pin "1" (uuid 0c9fea31-72e6-4610-9129-04be722396b2))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0128") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -2089,7 +2089,7 @@
   (symbol (lib_id "power:GND") (at 41.275 121.285 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e69dbf7e-5c46-4f2d-9819-73a700db5eaa)
-    (property "Reference" "#PWR0134" (at 41.275 127.635 0)
+    (property "Reference" "#PWR0123" (at 41.275 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 125.73 0)
@@ -2104,11 +2104,11 @@
     (pin "1" (uuid 52651180-96aa-45d3-b331-6c06f0918193))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "#PWR0134") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "#PWR0123") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -2117,7 +2117,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 217.17 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f81c2d55-0017-4e88-b7c6-e916169bb15d)
-    (property "Reference" "C45" (at 219.71 30.48 0)
+    (property "Reference" "C46" (at 219.71 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 219.71 33.02 0)
@@ -2133,11 +2133,11 @@
     (pin "2" (uuid e0b78f86-7822-4573-a6b6-c8938f517d5d))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
-          (reference "C45") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/1e76985c-8d5c-4698-93c6-d17abaa8f3ee"
           (reference "C46") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/116698a8-1d79-42ab-8e41-bc8a6feebb86"
+          (reference "C45") (unit 1)
         )
       )
     )

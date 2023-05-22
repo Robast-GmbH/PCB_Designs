@@ -2022,7 +2022,7 @@
     (property "Datasheet" "" (at 33.02 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28ffa9aa-e992-43d1-8b0c-019a551d9c67))
+    (pin "1" (uuid 450fca9b-713d-4f02-8f10-15d73da2527f))
     (instances
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
@@ -2161,7 +2161,7 @@
     (property "Datasheet" "" (at 33.02 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c237c023-8b7c-405c-b0ac-60a09fafd229))
+    (pin "1" (uuid ef644633-9531-486f-9ea5-48fdb5650842))
     (instances
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
