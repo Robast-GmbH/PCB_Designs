@@ -521,6 +521,14 @@
     [
       "8d969422-65ba-4eec-9081-e3062cead741",
       "Power Stage"
+    ],
+    [
+      "397ec7e4-8784-463c-b7f2-2c739cf65853",
+      "Differential_Line_Receiver"
+    ],
+    [
+      "0514319a-a3f1-442c-9545-e714144c58b7",
+      "Differential_Line_Receiver1"
     ]
   ],
   "text_variables": {}
