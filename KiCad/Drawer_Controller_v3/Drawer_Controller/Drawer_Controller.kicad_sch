@@ -3134,7 +3134,7 @@
     (property "Datasheet" "" (at 100.965 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e721489-4fe7-4283-98ca-95b44b3bc07c))
+    (pin "1" (uuid 0070d23a-2785-4d16-8437-e01e9af20c8d))
     (instances
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
