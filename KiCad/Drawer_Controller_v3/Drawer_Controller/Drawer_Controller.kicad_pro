@@ -459,16 +459,16 @@
       ""
     ],
     [
-      "79ff7d08-c026-425f-9ef2-c423cbd4d714",
-      "VDD_Switch_Lock1_Close"
+      "4d0d8553-a962-4d46-b063-09dd4a50629d",
+      "Lock_Control_2"
     ],
     [
-      "33f1c50c-a051-49cb-9dc7-d5b94846f90b",
-      "VDD_Switch_Lock1_Open"
+      "71d0b198-1316-4d81-a087-9c412111263f",
+      "VDD_Switch_Lock_Open"
     ],
     [
-      "b056c5c9-d57d-4339-b1bd-e5614ea30163",
-      "Switch_Sensing_Lock1"
+      "ea5fd44d-7c9c-466d-b279-11343818b91c",
+      "Switch_Sensing_Lock"
     ],
     [
       "100be100-b70c-4c21-835a-cce5bd270d59",
@@ -479,8 +479,8 @@
       "Voltage_Divider"
     ],
     [
-      "f9438dc2-ad6d-4891-9fb9-73fbb0fe62d9",
-      "Switch_Sensing_Lock2"
+      "ea5fd44d-7c9c-466d-b279-11343818b91c",
+      "Switch_Sensing_Lock"
     ],
     [
       "f91917c5-5c82-405b-bb02-32e095ca780e",
@@ -495,12 +495,12 @@
       "Switch_Sensing_Drawer_Closed_2"
     ],
     [
-      "7951cd1c-22fc-41b3-a1f0-dd63219edf20",
-      "VDD_Switch_Lock2_Open"
+      "7ae93643-32b1-4edd-979c-9c2570527f1e",
+      "VDD_Switch_Lock_Close"
     ],
     [
-      "b484ef63-b922-464f-8984-baa9a786b6e1",
-      "VDD_Switch_Lock2_Close"
+      "71d0b198-1316-4d81-a087-9c412111263f",
+      "VDD_Switch_Lock_Open"
     ],
     [
       "d557abfe-79f2-46f1-bb01-f841b9b29d69",
@@ -532,7 +532,19 @@
     ],
     [
       "18a76fdc-0e09-49e0-9380-806c2f315ad0",
-      "Port_Expander"
+      "Port_Expander_1"
+    ],
+    [
+      "4068348c-0a68-4f37-b0c5-0d4121dd1aee",
+      "Lock_Control_1"
+    ],
+    [
+      "7ae93643-32b1-4edd-979c-9c2570527f1e",
+      "VDD_Switch_Lock_Close"
+    ],
+    [
+      "1fcbb1e1-6aeb-48e2-9242-5118d9fed048",
+      "Port_Expander_2"
     ]
   ],
   "text_variables": {}

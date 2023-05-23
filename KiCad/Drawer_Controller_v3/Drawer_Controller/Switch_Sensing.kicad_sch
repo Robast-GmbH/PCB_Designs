@@ -134,216 +134,35 @@
         )
       )
     )
-    (symbol "SMF05CT1G:SMF05CT1G" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -5.1054 6.096 0)
+    (symbol "LESD5D5.0CT1G:LESD5D5.0CT1G" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at -5.08 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "Value" "SMF05CT1G" (at -5.1054 -9.0932 0)
+      (property "Value" "LESD5D5.0CT1G" (at -5.08 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "Footprint" "SOT65P210X110-6N" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      (property "Footprint" "TVS_LESD5D5.0CT1G" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+        (effects (font (size 1.27 1.27)) hide)
       )
-      (property "PRICE" "None" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      (property "PARTREV" "O" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "MP" "SMF05CT1G" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      (property "MANUFACTURER" "LRC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "PACKAGE" "SOT-363 ON Semiconductor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      (property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "STANDARD" "IPC7351B" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      (property "STANDARD" "Manufacturer Recommendations" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "DESCRIPTION" "SMF05C Series 7.2 V 100 W 5-Line Transient Voltage Suppressor Array - SC-88" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "MANUFACTURER" "ON Semiconductor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "SMF05CT1G_0_0"
-        (rectangle (start -5.08 -5.08) (end 5.08 5.08)
-          (stroke (width 0.4064) (type default))
-          (fill (type background))
-        )
+      (symbol "LESD5D5.0CT1G_0_0"
         (polyline
           (pts
-            (xy -2.54 -1.778)
-            (xy -2.286 -2.032)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 3.302)
-            (xy -2.286 3.048)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 -3.048)
-            (xy -1.905 -3.302)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 -2.54)
-            (xy -2.54 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 -2.54)
-            (xy -2.286 -3.048)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 -2.54)
-            (xy -1.016 -3.175)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 -2.032)
-            (xy -2.286 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 2.032)
-            (xy -1.905 1.778)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 2.54)
-            (xy -2.54 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 2.54)
-            (xy -2.286 2.032)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 2.54)
-            (xy -1.016 1.905)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 3.048)
-            (xy -2.286 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -3.175)
-            (xy -1.016 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -2.54)
-            (xy -1.016 -1.905)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -2.54)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -1.905)
-            (xy -2.286 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 1.905)
-            (xy -1.016 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 2.54)
-            (xy -1.016 3.175)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 2.54)
-            (xy 0 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 3.175)
-            (xy -2.286 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -2.54)
-            (xy 0.762 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
+            (xy -1.27 0)
             (xy -2.54 0)
           )
           (stroke (width 0.1524) (type default))
@@ -351,175 +170,31 @@
         )
         (polyline
           (pts
-            (xy 0 0)
-            (xy 0 -2.54)
+            (xy 0 -0.762)
+            (xy -0.254 -1.016)
           )
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 2.54)
-            (xy 0 0)
+            (xy 0 -0.762)
+            (xy 0 0.762)
           )
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 2.54)
-            (xy 0.762 2.54)
+            (xy 0 0.762)
+            (xy 0.254 1.016)
           )
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 0 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.889 -3.175)
-            (xy 2.159 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.889 -1.905)
-            (xy 0.889 -3.175)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.889 -0.635)
-            (xy 2.159 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.889 0.635)
-            (xy 0.889 -0.635)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.889 1.905)
-            (xy 2.159 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.889 3.175)
-            (xy 0.889 1.905)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.032 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.032 2.54)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 -3.048)
-            (xy 2.159 -2.032)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 -2.54)
-            (xy 0.889 -1.905)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 -2.032)
-            (xy 1.778 -1.778)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 -0.508)
-            (xy 2.159 0.508)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 0)
-            (xy 0.889 0.635)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 0.508)
-            (xy 1.778 0.762)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 2.032)
-            (xy 2.159 3.048)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 2.54)
-            (xy 0.889 3.175)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.159 3.048)
-            (xy 1.778 3.302)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.286 0)
+            (xy 1.27 0)
             (xy 2.54 0)
           )
           (stroke (width 0.1524) (type default))
@@ -527,51 +202,31 @@
         )
         (polyline
           (pts
-            (xy 2.413 -3.302)
-            (xy 2.159 -3.048)
+            (xy 0 0)
+            (xy -1.27 -0.762)
+            (xy -1.27 0.762)
+            (xy 0 0)
           )
           (stroke (width 0.1524) (type default))
-          (fill (type none))
+          (fill (type outline))
         )
         (polyline
           (pts
-            (xy 2.413 -0.762)
-            (xy 2.159 -0.508)
+            (xy 0 0)
+            (xy 1.27 0.762)
+            (xy 1.27 -0.762)
+            (xy 0 0)
           )
           (stroke (width 0.1524) (type default))
-          (fill (type none))
+          (fill (type outline))
         )
-        (polyline
-          (pts
-            (xy 2.413 1.778)
-            (xy 2.159 2.032)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -7.62 2.54 0) (length 5.08)
+        (pin passive line (at -5.08 0 0) (length 2.54)
           (name "~" (effects (font (size 1.016 1.016))))
           (number "1" (effects (font (size 1.016 1.016))))
         )
-        (pin passive line (at -7.62 0 0) (length 5.08)
+        (pin passive line (at 5.08 0 180) (length 2.54)
           (name "~" (effects (font (size 1.016 1.016))))
           (number "2" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at -7.62 -2.54 0) (length 5.08)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "3" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 5.08)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "4" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 7.62 0 180) (length 5.08)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "5" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 5.08)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "6" (effects (font (size 1.016 1.016))))
         )
       )
     )
@@ -669,41 +324,21 @@
     )
   )
 
-  (junction (at 139.7 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid 121fae12-3508-428f-b49c-b51e7a252ffa)
-  )
-  (junction (at 143.51 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid 1f47cb68-2c36-4929-8135-b8fe738e8cf9)
-  )
-  (junction (at 134.62 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid 5cb21de0-58be-43bd-9cfc-5fc83599eaf8)
-  )
   (junction (at 109.855 85.09) (diameter 0) (color 0 0 0 0)
     (uuid b259ee7e-87a1-43cf-8bbe-7ddc0d9ab514)
   )
-  (junction (at 130.81 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid bd94e20c-2cd7-4676-9114-aa77fe1ec94a)
-  )
-  (junction (at 137.16 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid bed34236-ecff-4d5c-9996-5206ba308242)
+  (junction (at 139.065 85.09) (diameter 0) (color 0 0 0 0)
+    (uuid c832ce08-992c-4d1b-afd1-00bc5dffb8fb)
   )
   (junction (at 132.08 85.09) (diameter 0) (color 0 0 0 0)
     (uuid ff0abeb8-3d70-4442-8ade-3cf8a22ce754)
   )
 
-  (wire (pts (xy 143.51 85.09) (xy 154.305 85.09))
-    (stroke (width 0) (type default))
-    (uuid 01420905-269e-4e31-9494-fa2bbcd91577)
-  )
-  (wire (pts (xy 132.08 85.09) (xy 134.62 85.09))
+  (wire (pts (xy 132.08 85.09) (xy 139.065 85.09))
     (stroke (width 0) (type default))
     (uuid 08cacacf-22ab-4f0d-a5b8-658ea035d235)
   )
-  (wire (pts (xy 134.62 85.09) (xy 137.16 85.09))
-    (stroke (width 0) (type default))
-    (uuid 2a46b486-b610-4313-adbd-396f731da950)
-  )
-  (wire (pts (xy 130.81 85.09) (xy 132.08 85.09))
+  (wire (pts (xy 125.095 85.09) (xy 132.08 85.09))
     (stroke (width 0) (type default))
     (uuid 4861d9ef-9221-4bf4-80c4-7d2632d65550)
   )
@@ -711,52 +346,28 @@
     (stroke (width 0) (type default))
     (uuid 518f9e0b-2bd8-4154-a676-7ee732141e40)
   )
-  (wire (pts (xy 139.7 100.33) (xy 143.51 100.33))
-    (stroke (width 0) (type default))
-    (uuid 61551c4c-dd32-416c-ba8f-6c477fcc4309)
-  )
-  (wire (pts (xy 130.81 85.09) (xy 130.81 100.33))
-    (stroke (width 0) (type default))
-    (uuid 670badb1-5c83-48b5-9039-24299715c7c6)
-  )
   (wire (pts (xy 86.36 85.09) (xy 109.855 85.09))
     (stroke (width 0) (type default))
     (uuid 6924d0ad-a513-4f16-960b-b61844c937c9)
   )
-  (wire (pts (xy 125.095 85.09) (xy 130.81 85.09))
+  (wire (pts (xy 139.065 85.09) (xy 154.305 85.09))
     (stroke (width 0) (type default))
-    (uuid 70bfd3d1-1321-44af-b73a-14b246dad509)
+    (uuid 777d4b6d-3ed1-415e-a910-a40f4555adfe)
   )
   (wire (pts (xy 132.08 84.455) (xy 132.08 85.09))
     (stroke (width 0) (type default))
     (uuid b934e5ac-09c9-4844-af9b-587d253cdd64)
-  )
-  (wire (pts (xy 137.16 85.09) (xy 139.7 85.09))
-    (stroke (width 0) (type default))
-    (uuid c22a75df-4f27-4307-8909-8c2c92189180)
-  )
-  (wire (pts (xy 139.7 85.09) (xy 143.51 85.09))
-    (stroke (width 0) (type default))
-    (uuid ca225db3-2770-4f93-8189-2ce65674fcd2)
-  )
-  (wire (pts (xy 143.51 100.33) (xy 143.51 85.09))
-    (stroke (width 0) (type default))
-    (uuid d56d4b8e-46c9-4a96-9eaa-08b6c5131783)
-  )
-  (wire (pts (xy 130.81 100.33) (xy 134.62 100.33))
-    (stroke (width 0) (type default))
-    (uuid da5c86f9-8be0-498a-85e6-f693b5b8c236)
   )
   (wire (pts (xy 132.08 76.2) (xy 132.08 76.835))
     (stroke (width 0) (type default))
     (uuid f28f5882-6283-4942-b795-99503f90ee5e)
   )
 
-  (hierarchical_label "Switch" (shape output) (at 154.305 85.09 0) (fields_autoplaced)
+  (hierarchical_label "Switch" (shape input) (at 154.305 85.09 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9f2d6335-8dbc-493b-86e3-42c25c50d369)
   )
-  (hierarchical_label "Sense_Input" (shape input) (at 86.36 85.09 180) (fields_autoplaced)
+  (hierarchical_label "Sense_Input" (shape output) (at 86.36 85.09 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b577b58c-083d-4224-8c21-96a17d3261fb)
   )
@@ -779,108 +390,51 @@
     (pin "1" (uuid 20e2be68-badd-4680-9ff3-dec16e8e3922))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b056c5c9-d57d-4339-b1bd-e5614ea30163"
-          (reference "#PWR032") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f9438dc2-ad6d-4891-9fb9-73fbb0fe62d9"
-          (reference "#PWR037") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/bf7de1fb-ee2c-4451-99df-ac86ebbf5454"
           (reference "#PWR048") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f91917c5-5c82-405b-bb02-32e095ca780e"
           (reference "#PWR045") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "#PWR037") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "#PWR032") (unit 1)
+        )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 137.16 100.33 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 139.065 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 540bf713-5064-49c6-849a-363bb297c26b)
-    (property "Reference" "#PWR034" (at 137.16 106.68 0)
+    (uuid 3000fc1d-4332-4f63-a4e4-216316426b54)
+    (property "Reference" "#PWR034" (at 139.065 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 137.16 104.14 0)
+    (property "Value" "GND" (at 139.065 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 137.16 100.33 0)
+    (property "Footprint" "" (at 139.065 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 137.16 100.33 0)
+    (property "Datasheet" "" (at 139.065 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e49a1626-e367-4cd1-a228-627684d77aba))
+    (pin "1" (uuid 2ac3ee84-7725-47b7-92d4-0930a0da9682))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b056c5c9-d57d-4339-b1bd-e5614ea30163"
-          (reference "#PWR034") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f9438dc2-ad6d-4891-9fb9-73fbb0fe62d9"
-          (reference "#PWR039") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/bf7de1fb-ee2c-4451-99df-ac86ebbf5454"
           (reference "#PWR050") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f91917c5-5c82-405b-bb02-32e095ca780e"
           (reference "#PWR047") (unit 1)
         )
-      )
-    )
-  )
-
-  (symbol (lib_id "SMF05CT1G:SMF05CT1G") (at 137.16 92.71 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7eed662e-2087-402e-8cd8-8ebcc70f3d5e)
-    (property "Reference" "U5" (at 143.51 91.4399 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SMF05CT1G" (at 143.51 93.9799 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "SMF05CT1G:SOT65P210X110-6N" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "PRICE" "None" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MP" "SMF05CT1G" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "PACKAGE" "SOT-363 ON Semiconductor" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "STANDARD" "IPC7351B" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "DESCRIPTION" "SMF05C Series 7.2 V 100 W 5-Line Transient Voltage Suppressor Array - SC-88" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MANUFACTURER" "ON Semiconductor" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid dd084e2f-f69b-4d4c-9a7b-84a11bf554fa))
-    (pin "2" (uuid 4aba680f-bffa-4242-8c3e-65f47ae473a1))
-    (pin "3" (uuid c0e798a1-6651-4ea8-b20c-64ed885b6623))
-    (pin "4" (uuid 705d9720-9b15-425d-a870-ade708f005c7))
-    (pin "5" (uuid 2e4ac80b-4628-4eef-9a46-d88ae4c19611))
-    (pin "6" (uuid 12fb79a3-d20f-427a-b9fc-2f3025b24006))
-    (instances
-      (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b056c5c9-d57d-4339-b1bd-e5614ea30163"
-          (reference "U5") (unit 1)
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "#PWR039") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f9438dc2-ad6d-4891-9fb9-73fbb0fe62d9"
-          (reference "U6") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/bf7de1fb-ee2c-4451-99df-ac86ebbf5454"
-          (reference "U8") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f91917c5-5c82-405b-bb02-32e095ca780e"
-          (reference "U7") (unit 1)
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -904,17 +458,17 @@
     (pin "1" (uuid 1e833006-57f5-4342-a143-53020d0ea55a))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b056c5c9-d57d-4339-b1bd-e5614ea30163"
-          (reference "#PWR033") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f9438dc2-ad6d-4891-9fb9-73fbb0fe62d9"
-          (reference "#PWR038") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/bf7de1fb-ee2c-4451-99df-ac86ebbf5454"
           (reference "#PWR049") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f91917c5-5c82-405b-bb02-32e095ca780e"
           (reference "#PWR046") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "#PWR038") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -939,17 +493,17 @@
     (pin "2" (uuid fca4b50b-89d3-404b-8dfc-0558fe2984c2))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b056c5c9-d57d-4339-b1bd-e5614ea30163"
-          (reference "R14") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f9438dc2-ad6d-4891-9fb9-73fbb0fe62d9"
-          (reference "R22") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/bf7de1fb-ee2c-4451-99df-ac86ebbf5454"
           (reference "R26") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f91917c5-5c82-405b-bb02-32e095ca780e"
           (reference "R24") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "R22") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -974,17 +528,67 @@
     (pin "2" (uuid 74044b07-6717-4621-bc07-c1d5cbb58cc5))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b056c5c9-d57d-4339-b1bd-e5614ea30163"
-          (reference "C9") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f9438dc2-ad6d-4891-9fb9-73fbb0fe62d9"
-          (reference "C13") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/bf7de1fb-ee2c-4451-99df-ac86ebbf5454"
           (reference "C12") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f91917c5-5c82-405b-bb02-32e095ca780e"
           (reference "C11") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "C13") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G") (at 139.065 90.17 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f824dd59-11ae-44a5-99cb-f962c6eea062)
+    (property "Reference" "D5" (at 144.145 92.075 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LESD5D5.0CT1G" (at 155.575 89.535 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "TVS_LESD5D5.0CT1G" (at 139.065 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "" (at 139.065 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTREV" "O" (at 139.065 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "LRC" (at 139.065 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm" (at 139.065 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (at 139.065 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (pin "1" (uuid fc90f07e-4207-43eb-b9c7-e53f770bee02))
+    (pin "2" (uuid 0d829611-148b-45a4-ae23-5b51511ab80d))
+    (instances
+      (project "Drawer_Controller"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0"
+          (reference "D5") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f91917c5-5c82-405b-bb02-32e095ca780e"
+          (reference "D14") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/bf7de1fb-ee2c-4451-99df-ac86ebbf5454"
+          (reference "D15") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "D13") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1009,17 +613,17 @@
     (pin "2" (uuid 96112d87-9f72-4a28-9560-ea3fe4d5d469))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b056c5c9-d57d-4339-b1bd-e5614ea30163"
-          (reference "R13") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f9438dc2-ad6d-4891-9fb9-73fbb0fe62d9"
-          (reference "R21") (unit 1)
-        )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/bf7de1fb-ee2c-4451-99df-ac86ebbf5454"
           (reference "R25") (unit 1)
         )
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f91917c5-5c82-405b-bb02-32e095ca780e"
           (reference "R23") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "R21") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/ea5fd44d-7c9c-466d-b279-11343818b91c"
+          (reference "R7") (unit 1)
         )
       )
     )

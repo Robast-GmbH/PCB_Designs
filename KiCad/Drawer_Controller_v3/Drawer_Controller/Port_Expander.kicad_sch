@@ -706,6 +706,9 @@
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "R60") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "R67") (unit 1)
+        )
       )
     )
   )
@@ -732,6 +735,9 @@
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "C54") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "C55") (unit 1)
+        )
       )
     )
   )
@@ -757,6 +763,9 @@
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "#PWR0198") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "#PWR0215") (unit 1)
+        )
       )
     )
   )
@@ -781,6 +790,9 @@
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "#PWR0200") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -840,6 +852,9 @@
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "U21") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "U5") (unit 1)
+        )
       )
     )
   )
@@ -866,6 +881,9 @@
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "R61") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "R66") (unit 1)
+        )
       )
     )
   )
@@ -891,6 +909,9 @@
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "#PWR0197") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "#PWR0214") (unit 1)
+        )
       )
     )
   )
@@ -915,6 +936,9 @@
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "#PWR0196") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -942,6 +966,9 @@
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "R62") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "R68") (unit 1)
+        )
       )
     )
   )
@@ -967,6 +994,9 @@
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "#PWR0199") (unit 1)
         )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "#PWR0212") (unit 1)
+        )
       )
     )
   )
@@ -991,6 +1021,9 @@
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/18a76fdc-0e09-49e0-9380-806c2f315ad0"
           (reference "#PWR0195") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/83c4ae5d-d64f-40dd-979e-e38a8ced97c0/1fcbb1e1-6aeb-48e2-9242-5118d9fed048"
+          (reference "#PWR0211") (unit 1)
         )
       )
     )

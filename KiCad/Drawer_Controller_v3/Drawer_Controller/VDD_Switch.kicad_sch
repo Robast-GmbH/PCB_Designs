@@ -532,17 +532,17 @@
     (pin "1" (uuid 817fd436-d894-4cbd-b7ad-d0cd365d261f))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/33f1c50c-a051-49cb-9dc7-d5b94846f90b"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/71d0b198-1316-4d81-a087-9c412111263f"
           (reference "#PWR0115") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/7951cd1c-22fc-41b3-a1f0-dd63219edf20"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "#PWR0156") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/79ff7d08-c026-425f-9ef2-c423cbd4d714"
-          (reference "#PWR0136") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b484ef63-b922-464f-8984-baa9a786b6e1"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "#PWR0159") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/71d0b198-1316-4d81-a087-9c412111263f"
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -567,17 +567,17 @@
     (pin "2" (uuid 66929bb4-ac3c-45fa-aca6-3eed8e840845))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/33f1c50c-a051-49cb-9dc7-d5b94846f90b"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/71d0b198-1316-4d81-a087-9c412111263f"
           (reference "R10") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/7951cd1c-22fc-41b3-a1f0-dd63219edf20"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "R29") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/79ff7d08-c026-425f-9ef2-c423cbd4d714"
-          (reference "R7") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b484ef63-b922-464f-8984-baa9a786b6e1"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "R32") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/71d0b198-1316-4d81-a087-9c412111263f"
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -603,17 +603,17 @@
     (pin "3" (uuid 870f7373-3b53-42fe-890d-a7c3cebeeff6))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/33f1c50c-a051-49cb-9dc7-d5b94846f90b"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/71d0b198-1316-4d81-a087-9c412111263f"
           (reference "Q3") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/7951cd1c-22fc-41b3-a1f0-dd63219edf20"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "Q5") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/79ff7d08-c026-425f-9ef2-c423cbd4d714"
-          (reference "Q1") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b484ef63-b922-464f-8984-baa9a786b6e1"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "Q7") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/71d0b198-1316-4d81-a087-9c412111263f"
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -637,17 +637,17 @@
     (pin "1" (uuid 8e3aeeb1-da19-40de-b070-fc13584e5814))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/33f1c50c-a051-49cb-9dc7-d5b94846f90b"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/71d0b198-1316-4d81-a087-9c412111263f"
           (reference "#PWR0121") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/7951cd1c-22fc-41b3-a1f0-dd63219edf20"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "#PWR0158") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/79ff7d08-c026-425f-9ef2-c423cbd4d714"
-          (reference "#PWR0138") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b484ef63-b922-464f-8984-baa9a786b6e1"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "#PWR0161") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/71d0b198-1316-4d81-a087-9c412111263f"
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -672,17 +672,17 @@
     (pin "2" (uuid 13c48e7e-8828-4b2a-9b2c-c6c87cbc59f0))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/33f1c50c-a051-49cb-9dc7-d5b94846f90b"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/71d0b198-1316-4d81-a087-9c412111263f"
           (reference "R11") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/7951cd1c-22fc-41b3-a1f0-dd63219edf20"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "R30") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/79ff7d08-c026-425f-9ef2-c423cbd4d714"
-          (reference "R8") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b484ef63-b922-464f-8984-baa9a786b6e1"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "R33") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/71d0b198-1316-4d81-a087-9c412111263f"
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -707,17 +707,17 @@
     (pin "2" (uuid 73485c20-b25b-4608-b333-7adaac1d1c33))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/33f1c50c-a051-49cb-9dc7-d5b94846f90b"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/71d0b198-1316-4d81-a087-9c412111263f"
           (reference "R12") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/7951cd1c-22fc-41b3-a1f0-dd63219edf20"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "R31") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/79ff7d08-c026-425f-9ef2-c423cbd4d714"
-          (reference "R9") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b484ef63-b922-464f-8984-baa9a786b6e1"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "R34") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/71d0b198-1316-4d81-a087-9c412111263f"
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -741,17 +741,17 @@
     (pin "1" (uuid 09bb1351-e7ba-4c64-800d-f7c3c9059616))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/33f1c50c-a051-49cb-9dc7-d5b94846f90b"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/71d0b198-1316-4d81-a087-9c412111263f"
           (reference "#PWR0116") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/7951cd1c-22fc-41b3-a1f0-dd63219edf20"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "#PWR0157") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/79ff7d08-c026-425f-9ef2-c423cbd4d714"
-          (reference "#PWR0137") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b484ef63-b922-464f-8984-baa9a786b6e1"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "#PWR0160") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/71d0b198-1316-4d81-a087-9c412111263f"
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -777,17 +777,17 @@
     (pin "3" (uuid d01c5ba5-63fa-4317-997f-cb61ce43b297))
     (instances
       (project "Drawer_Controller"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/33f1c50c-a051-49cb-9dc7-d5b94846f90b"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/71d0b198-1316-4d81-a087-9c412111263f"
           (reference "Q4") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/7951cd1c-22fc-41b3-a1f0-dd63219edf20"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4068348c-0a68-4f37-b0c5-0d4121dd1aee/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "Q6") (unit 1)
         )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/79ff7d08-c026-425f-9ef2-c423cbd4d714"
-          (reference "Q2") (unit 1)
-        )
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/b484ef63-b922-464f-8984-baa9a786b6e1"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/7ae93643-32b1-4edd-979c-9c2570527f1e"
           (reference "Q8") (unit 1)
+        )
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/4d0d8553-a962-4d46-b063-09dd4a50629d/71d0b198-1316-4d81-a087-9c412111263f"
+          (reference "Q2") (unit 1)
         )
       )
     )
