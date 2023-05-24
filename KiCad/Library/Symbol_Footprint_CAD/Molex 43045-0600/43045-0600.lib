@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 43045-0600
+#/252387/1143795/2.50/6/2/Connector
+DEF 43045-0600 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0600" 650 200 50 H V L CNN
+F2 "43045-06(00,01,02,10)" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" 650 0 50 H I L CNN
+F4 "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 6 Circuits, with Snap-in Plastic Peg PCB Lock" 650 -100 50 H I L CNN "Description"
+F5 "9.9" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "43045-0600" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-43045-0600" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/43045-0600?qs=mrPiglD9aYJ8CzJ%2FE2PNbw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "43045-0600" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/43045-0600/molex?region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 -200 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 800 -200 200 L 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+X 6 6 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
