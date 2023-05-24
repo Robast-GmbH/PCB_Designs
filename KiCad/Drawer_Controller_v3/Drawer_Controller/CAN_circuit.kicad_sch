@@ -889,6 +889,7 @@
     )
   )
 
+
   (junction (at 77.47 86.995) (diameter 0) (color 0 0 0 0)
     (uuid 0cacc909-a472-4afb-8cb9-397645072305)
   )
@@ -1485,7 +1486,7 @@
     )
   )
 
-  (hierarchical_label "3V3" (shape input) (at 32.385 26.035 180) (fields_autoplaced)
+  (hierarchical_label "+3V3" (shape input) (at 32.385 26.035 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0660a941-e584-431e-b757-6de2f878eea8)
   )
@@ -1497,7 +1498,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2cd13317-83c0-4ee8-98ef-205d64896579)
   )
-  (hierarchical_label "5V" (shape input) (at 32.385 22.225 180) (fields_autoplaced)
+  (hierarchical_label "+5V" (shape input) (at 32.385 22.225 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 51103347-02ea-49dc-8cc6-10bf7f09aee0)
   )
