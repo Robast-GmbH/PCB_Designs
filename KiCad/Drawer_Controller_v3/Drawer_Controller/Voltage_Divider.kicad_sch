@@ -86,7 +86,6 @@
     )
   )
 
-
   (junction (at 132.08 98.425) (diameter 0) (color 0 0 0 0)
     (uuid a1960469-3a4f-4edc-94ed-0efefc71f5b4)
   )
@@ -161,7 +160,7 @@
     (property "Value" "10k" (at 134.62 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 132.08 93.98 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 132.08 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 93.98 0)
@@ -193,7 +192,7 @@
     (property "Value" "15k" (at 134.62 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 132.08 102.87 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 132.08 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 102.87 0)
