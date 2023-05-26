@@ -161,14 +161,14 @@
     (property "Value" "10k" (at 134.62 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 132.08 93.98 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 132.08 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 321b900b-49ee-4e76-8d5d-40aacc04b3f7))
-    (pin "2" (uuid d16fcf32-fd60-4142-958e-3242407dbff9))
+    (pin "1" (uuid b045119e-5e9c-4e1a-85a0-6e9358ef389e))
+    (pin "2" (uuid 9c505ee6-3c81-46a6-ae78-1a924f32ed8d))
     (instances
       (project "Drawer_Controller"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/d4f2424c-ac9e-435b-a017-f592f3a3d56d"
@@ -193,7 +193,7 @@
     (property "Value" "15k" (at 134.62 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 132.08 102.87 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 132.08 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 102.87 0)

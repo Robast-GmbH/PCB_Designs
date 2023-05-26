@@ -1745,7 +1745,7 @@
     (property "Value" "100k" (at 34.925 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 39.497 117.475 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 39.497 117.475 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.275 117.475 0)
