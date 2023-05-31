@@ -3442,7 +3442,7 @@
     (property "Value" "330" (at 365.125 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 365.125 35.56 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 365.125 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 365.125 35.56 0)
