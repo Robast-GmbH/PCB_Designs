@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.2*
+G04 #@! TF.CreationDate,2023-06-02T10:52:13+02:00*
+G04 #@! TF.ProjectId,Drawer_Controller_Distribution_v1,44726177-6572-45f4-936f-6e74726f6c6c,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.2) date 2023-06-02 10:52:13*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X25000000Y-125000000D02*
+X425000000Y-125000000D01*
+X425000000Y-155000000D01*
+X25000000Y-155000000D01*
+X25000000Y-125000000D01*
+M02*
