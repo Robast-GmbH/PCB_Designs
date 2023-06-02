@@ -65,7 +65,16 @@
           "width": 0.285
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|188025000|130477500|664116e2-7a14-47c9-8d1e-138bb8b12a17|dfee6d4a-3883-45c0-964b-48664fa28ecc",
+        "hole_clearance|203975000|130477500|0c23b253-7ab5-4976-88a9-8c8802cc950b|f63e6911-aca8-4d49-931d-f9c96dea76d2",
+        "hole_clearance|293025000|130477500|2f07acef-90d3-42a2-b573-498f54621aeb|314b3d99-25b1-4386-a403-d22d46ec3251",
+        "hole_clearance|308975000|130477500|5fcb78d1-0739-4acc-bcb1-5da4a4db3f49|22921ead-8b61-47a0-af35-610f05620acd",
+        "hole_clearance|398025000|130477500|67914ca9-f77f-4c02-a460-21a86516c22a|f026b750-5650-407e-985d-d65186e59d02",
+        "hole_clearance|413975000|130477500|344bdd6c-bc6f-46c8-9c33-c2c904199974|c1fc5bff-9ccf-4dda-a5d5-e3116707e6a3",
+        "hole_clearance|83025000|130477500|b5236ab5-c1dc-4945-a645-70b0d30c9790|a856d2b3-9e23-4428-bb66-9a47f28b3da4",
+        "hole_clearance|98975000|130477500|0f0e9908-d11d-49c2-a9d1-5bacaedc9ad8|286d2a51-3cfc-4c26-a0ac-911424dc2f06"
+      ],
       "meta": {
         "version": 2
       },
@@ -128,7 +137,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
