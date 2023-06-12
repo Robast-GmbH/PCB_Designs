@@ -288,6 +288,7 @@
     )
   )
 
+
   (junction (at 120.015 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 0a0b07b6-6d45-4496-afcd-f40fba85941b)
   )
@@ -371,7 +372,7 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid a0e0920f-365b-40aa-b155-4b60edd26817)
   )
-  (text "Datasheet:\nhttps://www.farnell.com/datasheets/1728642.pdf"
+  (text "Datasheet:\nhttps://www.farnell.com/datasheets/1728642.pdf\nhttps://www.ti.com/lit/ds/symlink/pca9554.pdf"
     (at 15.875 194.31 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid e83905ac-412a-48dd-9e27-c9702f64cd59)
