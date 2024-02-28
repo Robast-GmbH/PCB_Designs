@@ -1,0 +1,280 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9fe6486b-12ef-4055-a949-fbbd9d35b00a")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 181.61 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5989cead-4dab-4ea4-85ae-1ff4d7303df9")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbbe71f-17fc-4cc4-a415-867287c684fd")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3aea9a4-73ee-4f3c-91fa-3275da82453c")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 181.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba82265-27e1-442d-93eb-a20195b53c18")
+	)
+	(label "Lock_VDD_Open"
+		(at 160.02 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97ff5a9c-8975-4ed1-b8ff-559b275e6b18")
+	)
+	(label "Lock_VDD_Close"
+		(at 160.655 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6a1772d-c6ed-4669-a862-1997c3416122")
+	)
+	(hierarchical_label "Lock_VDD_Close"
+		(shape output)
+		(at 181.61 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0727f7cc-6bc6-492f-adb7-b117eb7225fd")
+	)
+	(hierarchical_label "Lock_VDD_Open"
+		(shape output)
+		(at 181.61 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6e006b10-57b2-4094-ba36-0e043663e321")
+	)
+	(hierarchical_label "Lock_Close_Control"
+		(shape input)
+		(at 99.06 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "988a9bcd-7e09-4134-84c0-74dc83d74947")
+	)
+	(hierarchical_label "Lock_Open_Control"
+		(shape input)
+		(at 99.06 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c841da90-3ed8-42cb-8035-098f0ff49fd3")
+	)
+	(sheet
+		(at 106.68 63.5)
+		(size 43.18 4.445)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d666509-c79e-4445-83e5-19adc86bede4")
+		(property "Sheetname" "VDD_Switch_Lock_Open"
+			(at 106.68 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VDD_Switch.kicad_sch"
+			(at 106.68 68.5296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Gate_Control_N-Mosfet" input
+			(at 106.68 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f2041cc-cc18-48a1-ad6b-c1ae7d34cb72")
+		)
+		(pin "VDD_Switchtable" output
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1acb60be-af97-4048-943f-8bfa2b41eb9c")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/38952abe-30d5-4ef0-9940-75b5c54f090d"
+					(page "9")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/659f014e-7acd-4f7d-85c4-f114c10273ee"
+					(page "12")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/7c455a2c-ce6f-4f9e-9e17-9ef94ac67c36"
+					(page "17")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/b9fb9dae-4501-47b9-b244-0c87703f9fe3"
+					(page "20")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f3392d72-ba81-465b-9e51-4fde0591fde8"
+					(page "23")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/a479dd19-ccc5-4bf9-8c7a-2de508f1e4d5"
+					(page "26")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/2c75bec1-6ab8-4504-af17-54d03254e90d"
+					(page "29")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/55464f09-8141-44f3-a4dc-8d95b835c76f"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 77.47)
+		(size 43.18 4.445)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50b27d2d-7b72-44ef-86f9-989f2f4bb8aa")
+		(property "Sheetname" "VDD_Switch_Lock_Close"
+			(at 106.68 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VDD_Switch.kicad_sch"
+			(at 106.68 82.4996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Gate_Control_N-Mosfet" input
+			(at 106.68 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dcfe036c-60a3-484d-a218-e3e2af8a1587")
+		)
+		(pin "VDD_Switchtable" output
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21ce1a1c-afb7-42ba-98e7-aa35a68e050b")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/38952abe-30d5-4ef0-9940-75b5c54f090d"
+					(page "10")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/659f014e-7acd-4f7d-85c4-f114c10273ee"
+					(page "13")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/7c455a2c-ce6f-4f9e-9e17-9ef94ac67c36"
+					(page "18")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/b9fb9dae-4501-47b9-b244-0c87703f9fe3"
+					(page "21")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f3392d72-ba81-465b-9e51-4fde0591fde8"
+					(page "24")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/a479dd19-ccc5-4bf9-8c7a-2de508f1e4d5"
+					(page "27")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/2c75bec1-6ab8-4504-af17-54d03254e90d"
+					(page "30")
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/55464f09-8141-44f3-a4dc-8d95b835c76f"
+					(page "33")
+				)
+			)
+		)
+	)
+)
