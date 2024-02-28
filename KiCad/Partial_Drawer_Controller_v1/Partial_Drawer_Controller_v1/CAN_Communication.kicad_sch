@@ -6499,7 +6499,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "8c651799-756a-4e2a-858f-7b1d2b4a3efe")
 		(property "Reference" "R11"
