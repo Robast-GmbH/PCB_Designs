@@ -410,18 +410,6 @@
       "CAN_Communication"
     ],
     [
-      "50e3c930-e411-4322-b256-5aeeef26ac86",
-      "Voltage_Divider"
-    ],
-    [
-      "37f1f01d-8252-42e2-b2f6-b31bd98aa4e7",
-      "Voltage_Divider1"
-    ],
-    [
-      "ccd72084-dd08-42ca-a313-a5f692c8dbaa",
-      "Voltage_Divider2"
-    ],
-    [
       "d19b84cd-4ee4-4d95-811d-38c072072447",
       "ESP32_WROOM_32"
     ],

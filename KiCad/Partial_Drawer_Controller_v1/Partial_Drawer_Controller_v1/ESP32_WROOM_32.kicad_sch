@@ -6764,8 +6764,8 @@
 		(uuid 542ed546-8a53-477e-b54b-a3c0ea196fcb)
 	)
 	(rectangle
-		(start 362.585 13.97)
-		(end 405.13 220.345)
+		(start 362.585 14.224)
+		(end 405.892 220.345)
 		(stroke
 			(width 0)
 			(type default)
@@ -6982,6 +6982,18 @@
 		)
 		(uuid "d1063074-b01e-46b7-8eee-97b93042b6e8")
 	)
+	(text "TODO: Add Port Expander"
+		(exclude_from_sim no)
+		(at 276.352 122.174 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d697e0c8-1dcb-44ea-840d-5a146182bd52")
+	)
 	(text "Input"
 		(exclude_from_sim no)
 		(at 15.24 17.78 0)
@@ -7017,7 +7029,7 @@
 			)
 		)
 	)
-	(global_label "IO5_SPI_CS"
+	(global_label "IO5_SPI_CS_TWAI_TX"
 		(shape input)
 		(at 384.81 23.495 180)
 		(fields_autoplaced yes)
@@ -7029,7 +7041,7 @@
 		)
 		(uuid "0565abef-fc20-43b6-b5d9-8fe96376b777")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.2604 23.495 0)
+			(at 362.9563 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7403,7 @@
 			)
 		)
 	)
-	(global_label "IO5_SPI_CS"
+	(global_label "IO5_SPI_CS_TWAI_TX"
 		(shape input)
 		(at 284.48 43.18 0)
 		(fields_autoplaced yes)
@@ -7403,7 +7415,7 @@
 		)
 		(uuid "41dfc035-c65b-456f-b3ae-17b452d52e12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.0296 43.18 0)
+			(at 306.3337 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +7975,7 @@
 			)
 		)
 	)
-	(global_label "IO4"
+	(global_label "IO4_TWAI_RX"
 		(shape input)
 		(at 384.81 20.955 180)
 		(fields_autoplaced yes)
@@ -7975,7 +7987,7 @@
 		)
 		(uuid "6fd58a13-993d-4768-af23-e002fee3a6c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 378.7594 20.955 0)
+			(at 370.1529 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8469,7 +8481,7 @@
 			)
 		)
 	)
-	(global_label "IO4"
+	(global_label "IO4_TWAI_RX"
 		(shape input)
 		(at 284.48 40.64 0)
 		(fields_autoplaced yes)
@@ -8481,7 +8493,7 @@
 		)
 		(uuid "a686b9fc-7c6e-46b7-8f3f-5555bc5fa69c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.5306 40.64 0)
+			(at 299.1371 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +9357,7 @@
 		)
 		(uuid "6941724d-b734-4859-ab79-b1a110914838")
 	)
-	(hierarchical_label "IO4"
+	(hierarchical_label "IO4_TWAI_RX"
 		(shape output)
 		(at 384.81 20.955 0)
 		(fields_autoplaced yes)
@@ -9681,7 +9693,7 @@
 		)
 		(uuid "fc309e27-2940-4651-b73e-e9c2ceb96d4a")
 	)
-	(hierarchical_label "IO5_SPI_CS"
+	(hierarchical_label "IO5_SPI_CS_TWAI_TX"
 		(shape output)
 		(at 384.81 23.495 0)
 		(fields_autoplaced yes)
