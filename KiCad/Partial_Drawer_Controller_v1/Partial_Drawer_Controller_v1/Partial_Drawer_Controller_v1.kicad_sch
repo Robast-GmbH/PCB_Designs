@@ -1126,6 +1126,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 90.17) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65271708-09cd-4582-9423-5f0d19f654b8")
+	)
+	(wire
+		(pts
 			(xy 41.91 91.44) (xy 44.45 91.44)
 		)
 		(stroke
@@ -1143,16 +1153,6 @@
 			(type default)
 		)
 		(uuid "6f2ea5df-cc50-4d5a-8507-14de6a8f74fb")
-	)
-	(wire
-		(pts
-			(xy 73.66 92.71) (xy 81.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa2b334-4a6a-41fc-b9d2-8b185f29f03b")
 	)
 	(wire
 		(pts
@@ -1513,7 +1513,7 @@
 	)
 	(global_label "CAN+"
 		(shape input)
-		(at 81.28 96.52 180)
+		(at 81.28 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1523,7 +1523,7 @@
 		)
 		(uuid "97a983c3-1e1a-4e73-979f-709e8ba3f0b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1127 96.52 0)
+			(at 73.1127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1579,7 @@
 	)
 	(global_label "CAN-"
 		(shape input)
-		(at 81.28 100.33 180)
+		(at 81.28 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1589,7 +1589,7 @@
 		)
 		(uuid "fe68c3da-44b2-4c1c-959a-7d99c6380d47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1127 100.33 0)
+			(at 73.1127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +2010,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 73.66 92.71 0)
+		(at 73.66 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2019,7 +2019,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bda292c-335a-4fb0-b4b7-3d52f252e735")
 		(property "Reference" "#PWR031"
-			(at 73.66 96.52 0)
+			(at 73.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2028,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 73.66 88.9 0)
+			(at 73.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 92.71 0)
+			(at 73.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 92.71 0)
+			(at 73.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +2054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 92.71 0)
+			(at 73.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2842,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 81.28 92.71 180)
+			(at 81.28 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2862,7 @@
 			(uuid "aca61706-0d18-4bf0-abe8-5d85e0fffe5b")
 		)
 		(pin "CAN-" bidirectional
-			(at 81.28 100.33 180)
+			(at 81.28 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2872,7 @@
 			(uuid "bbc8cf99-c8b5-4033-b356-7abf42fbb0e9")
 		)
 		(pin "CAN+" bidirectional
-			(at 81.28 96.52 180)
+			(at 81.28 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,6 +2900,16 @@
 				(justify right)
 			)
 			(uuid "2bf7a9ae-689e-4c45-9a3c-7ba0789f82d6")
+		)
+		(pin "EN_High_Speed_Mode" input
+			(at 81.28 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "08011c53-dc9a-44b3-8d28-dea9e15466bf")
 		)
 		(instances
 			(project "Partial_Drawer_Controller_v1"
