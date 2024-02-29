@@ -1716,7 +1716,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 90.17) (xy 81.28 90.17)
+			(xy 76.2 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 111.76) (xy 81.28 111.76)
+			(xy 76.2 111.76) (xy 83.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1846,7 +1846,7 @@
 	)
 	(rectangle
 		(start 58.42 79.375)
-		(end 149.86 119.888)
+		(end 128.905 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -2071,7 +2071,7 @@
 	)
 	(global_label "TWAI_TX"
 		(shape input)
-		(at 81.28 105.41 180)
+		(at 83.82 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2081,7 +2081,7 @@
 		)
 		(uuid "95254edb-bcb6-4a6a-b794-f43e936ee0cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.0377 105.41 0)
+			(at 73.5777 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2093,7 @@
 	)
 	(global_label "CAN+"
 		(shape input)
-		(at 81.28 93.98 180)
+		(at 83.82 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2103,7 +2103,7 @@
 		)
 		(uuid "97a983c3-1e1a-4e73-979f-709e8ba3f0b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1127 93.98 0)
+			(at 75.6527 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,9 +2135,31 @@
 			)
 		)
 	)
+	(global_label "EN_High_Speed_Mode"
+		(shape input)
+		(at 83.82 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9f9fcb9-a3ea-4a76-9d9f-93acaf3b7b08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.6965 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TWAI_RX"
 		(shape input)
-		(at 114.3 109.22 0)
+		(at 116.84 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2147,7 +2169,7 @@
 		)
 		(uuid "fd2b63d3-74e7-478b-bb16-1983a90994de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.8447 109.22 0)
+			(at 127.3847 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2181,7 @@
 	)
 	(global_label "CAN-"
 		(shape input)
-		(at 81.28 97.79 180)
+		(at 83.82 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2169,7 +2191,7 @@
 		)
 		(uuid "fe68c3da-44b2-4c1c-959a-7d99c6380d47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1127 97.79 0)
+			(at 75.6527 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2401,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 73.66 90.17 0)
+		(at 76.2 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2388,7 +2410,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bda292c-335a-4fb0-b4b7-3d52f252e735")
 		(property "Reference" "#PWR031"
-			(at 73.66 93.98 0)
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2419,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 73.66 86.36 0)
+			(at 76.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 90.17 0)
+			(at 76.2 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 90.17 0)
+			(at 76.2 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 90.17 0)
+			(at 76.2 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3160,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 111.76 0)
+		(at 76.2 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3146,7 +3168,7 @@
 		(dnp no)
 		(uuid "ec569a16-c122-47b4-96e9-c94006532353")
 		(property "Reference" "#PWR033"
-			(at 73.66 118.11 0)
+			(at 76.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.755 115.57 0)
+			(at 74.295 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,7 +3186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 111.76 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 111.76 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3204,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 111.76 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3356,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 87.63)
+		(at 83.82 87.63)
 		(size 33.02 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -3346,7 +3368,7 @@
 		)
 		(uuid "1e314787-7f45-4847-9ba5-2ff173980b3b")
 		(property "Sheetname" "CAN_Communication"
-			(at 81.28 86.9184 0)
+			(at 83.82 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3377,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN_Communication.kicad_sch"
-			(at 81.28 115.5196 0)
+			(at 83.82 115.5196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3386,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 81.28 90.17 180)
+			(at 83.82 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3396,7 @@
 			(uuid "ced79119-1f8a-4ba8-8e8e-94a6629a1bf1")
 		)
 		(pin "GND" input
-			(at 81.28 111.76 180)
+			(at 83.82 111.76 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3406,7 @@
 			(uuid "aca61706-0d18-4bf0-abe8-5d85e0fffe5b")
 		)
 		(pin "CAN-" bidirectional
-			(at 81.28 97.79 180)
+			(at 83.82 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3416,7 @@
 			(uuid "bbc8cf99-c8b5-4033-b356-7abf42fbb0e9")
 		)
 		(pin "CAN+" bidirectional
-			(at 81.28 93.98 180)
+			(at 83.82 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3426,7 @@
 			(uuid "39c1fb92-3e17-465a-a6ce-2398d40d3adc")
 		)
 		(pin "CAN_Transmit_Data_Input" input
-			(at 81.28 105.41 180)
+			(at 83.82 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3436,7 @@
 			(uuid "eb58281c-bbce-4131-a3f9-103b460e2f5a")
 		)
 		(pin "CAN_Receive_Data_Output" output
-			(at 114.3 109.22 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3446,7 @@
 			(uuid "2bf7a9ae-689e-4c45-9a3c-7ba0789f82d6")
 		)
 		(pin "EN_High_Speed_Mode" input
-			(at 81.28 101.6 180)
+			(at 83.82 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
