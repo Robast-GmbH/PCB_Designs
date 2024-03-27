@@ -2187,9 +2187,9 @@
 		)
 		(uuid "7364e2bc-0eca-47ef-b289-05df3c58fbcf")
 	)
-	(text "TODO: Add LED Control\n"
+	(text "TODO: Finish LED Control\n"
 		(exclude_from_sim no)
-		(at 94.234 143.002 0)
+		(at 70.612 132.334 0)
 		(effects
 			(font
 				(size 4 4)
@@ -4444,6 +4444,44 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 140.97)
+		(size 81.28 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "914bf34e-a655-4329-ab66-41415a8f8e45")
+		(property "Sheetname" "LED_Control"
+			(at 31.75 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Led_Control.kicad_sch"
+			(at 31.75 182.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(page "38")
 				)
 			)
 		)

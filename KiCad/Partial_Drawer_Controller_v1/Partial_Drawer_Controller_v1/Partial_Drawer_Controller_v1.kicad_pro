@@ -399,7 +399,7 @@
   "sheets": [
     [
       "57f8c193-fe09-43d3-9441-dbd40881d2aa",
-      "Root"
+      "Stammblatt"
     ],
     [
       "cf52d563-fbeb-48d6-b236-fc325e3d0bb7",
@@ -534,8 +534,16 @@
       "Switch_Sensing_Lock_5"
     ],
     [
+      "914bf34e-a655-4329-ab66-41415a8f8e45",
+      "LED_Control"
+    ],
+    [
       "f7e89e29-505f-4615-983e-7608df4b6a54",
       "Switch_Sensing_Lock_6"
+    ],
+    [
+      "5e4ae4d2-a87c-4e40-9b36-dedec0e832ba",
+      "8xLED_White"
     ],
     [
       "cd8aaea3-c06d-4481-9a3c-94147a3b7f01",
