@@ -2249,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 152.4) (xy 60.96 152.4)
+			(xy 100.33 152.4) (xy 62.23 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 149.86) (xy 100.33 149.86)
+			(xy 73.66 149.86) (xy 100.33 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2289,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 152.4) (xy 60.96 149.86)
+			(xy 62.23 152.4) (xy 62.23 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2311,8 +2311,8 @@
 		(uuid 2e4fed52-bdbf-47e2-be9e-b190eb371700)
 	)
 	(rectangle
-		(start 176.53 79.629)
-		(end 266.7 162.814)
+		(start 132.08 79.375)
+		(end 226.06 162.814)
 		(stroke
 			(width 0)
 			(type default)
@@ -2386,7 +2386,7 @@
 	)
 	(text "Lock Control and Sense"
 		(exclude_from_sim no)
-		(at 179.07 84.074 0)
+		(at 134.366 84.074 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2501,6 +2501,116 @@
 		)
 		(uuid "dafe50d0-3793-41cb-ae7f-d105b0919e89")
 	)
+	(global_label "Lock_7_Open_Control"
+		(shape input)
+		(at 160.02 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06167d52-6d26-43ec-a6c6-a3fa7d32fab3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0175 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_5_VDD_Open"
+		(shape input)
+		(at 203.2 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0826931e-3fb4-489f-890f-697a92991cdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.937 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_6_VDD_Open"
+		(shape input)
+		(at 203.2 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08f0632b-c923-40d0-9310-0c659114d767")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.937 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_5_VDD_Close"
+		(shape input)
+		(at 203.2 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09213420-1dcf-402a-a18e-354daf87b718")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4208 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_1_Close_Control"
+		(shape input)
+		(at 160.02 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cb23158-d2b3-44e5-a68c-aa52657f5d3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5337 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_TDI"
 		(shape input)
 		(at 252.73 33.02 180)
@@ -2514,6 +2624,116 @@
 		(uuid "20225d42-2b19-4634-a084-ccc572dbd0d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 241.641 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_1_VDD_Close"
+		(shape input)
+		(at 203.2 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34568c60-1d6d-490e-966c-6e88a1c5ea1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4208 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_5_Close_Control"
+		(shape input)
+		(at 160.02 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "379df8ea-2d60-4d4f-b04e-e67aa92749d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5337 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_1_Open_Control"
+		(shape input)
+		(at 160.02 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37d92f55-b449-4022-a047-ece0f3468220")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0175 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sense_Lock_2"
+		(shape input)
+		(at 160.02 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a96ecdd-0fbe-4bde-8fd4-22f9c3e27c4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0325 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_6_Open_Control"
+		(shape input)
+		(at 160.02 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b821bdd-c7b8-47b0-b3be-452699f11597")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0175 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,6 +2787,50 @@
 			)
 		)
 	)
+	(global_label "Sense_Lock_6"
+		(shape input)
+		(at 160.02 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48f0bdcd-a3db-400e-9cad-f46783673ca0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0325 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_5_Open_Control"
+		(shape input)
+		(at 160.02 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c47af87-9598-4381-8c04-b7409a5ae1bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0175 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN-"
 		(shape input)
 		(at 86.36 59.69 180)
@@ -2589,6 +2853,50 @@
 			)
 		)
 	)
+	(global_label "Lock_1_VDD_Open"
+		(shape input)
+		(at 203.2 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57b714f4-174e-41c5-b3ce-1a0c2aaa429a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.937 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_8_VDD_Close"
+		(shape input)
+		(at 203.2 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57ebec07-eec8-4fd8-b540-113efd34feaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4208 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS_24V"
 		(shape input)
 		(at 87.63 30.48 180)
@@ -2602,6 +2910,72 @@
 		(uuid "608c6d7f-0469-4de0-8536-dbe95bd8e732")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.3504 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_3_Close_Control"
+		(shape input)
+		(at 160.02 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "629fc9a2-a4dd-4830-9827-10566796b06a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5337 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_2_VDD_Close"
+		(shape input)
+		(at 203.2 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62e0d0d5-3edb-4a94-bf93-93927c1df0f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4208 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_3_Open_Control"
+		(shape input)
+		(at 160.02 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d023691-84a0-40f8-807b-08ca57b42d5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0175 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,6 +3029,72 @@
 			)
 		)
 	)
+	(global_label "Lock_6_VDD_Close"
+		(shape input)
+		(at 203.2 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7612f8d4-3256-48f2-b5fa-164b125d386c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4208 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_3_VDD_Open"
+		(shape input)
+		(at 203.2 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "801d633d-c29a-44fa-ada8-4185a686ca74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.937 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sense_Lock_8"
+		(shape input)
+		(at 160.02 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8039d563-62f3-43d8-a770-f7b981ab2a75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0325 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EN_ESP32"
 		(shape input)
 		(at 265.43 33.02 0)
@@ -2695,6 +3135,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_7_VDD_Close"
+		(shape input)
+		(at 203.2 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "893bee3a-0d06-4d46-9c0a-736526c9f66b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4208 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_2_VDD_Open"
+		(shape input)
+		(at 203.2 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d86aeb1-20b7-44ff-9e79-9c7792ab4312")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.937 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2765,6 +3249,50 @@
 			)
 		)
 	)
+	(global_label "Lock_4_VDD_Open"
+		(shape input)
+		(at 203.2 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0171e17-ad59-459d-8438-48c0b6c9cdaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.937 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_2_Open_Control"
+		(shape input)
+		(at 160.02 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a50c8503-7849-423f-8d22-1e6e96d2e71c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0175 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN+"
 		(shape input)
 		(at 24.13 39.37 0)
@@ -2809,6 +3337,138 @@
 			)
 		)
 	)
+	(global_label "Lock_3_VDD_Close"
+		(shape input)
+		(at 203.2 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a652a874-b784-4c57-8685-9d56102192fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4208 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_7_VDD_Open"
+		(shape input)
+		(at 203.2 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4493c67-577e-4aaa-8db1-66c6a5b62482")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.937 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_8_Close_Control"
+		(shape input)
+		(at 160.02 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b68187c1-46a9-43ba-bf5d-82b333a01548")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5337 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sense_Lock_7"
+		(shape input)
+		(at 160.02 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bba3c58c-dcbb-4f00-b9e0-d67fdf4675dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0325 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_7_Close_Control"
+		(shape input)
+		(at 160.02 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be218253-6041-465d-a0a9-25486eb5433a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5337 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sense_Lock_1"
+		(shape input)
+		(at 160.02 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0ab33ea-5bd9-4771-90a9-bee8b826f9ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0325 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_TMS"
 		(shape input)
 		(at 252.73 38.1 180)
@@ -2831,6 +3491,72 @@
 			)
 		)
 	)
+	(global_label "Lock_8_VDD_Open"
+		(shape input)
+		(at 203.2 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9c13fc2-1586-49b0-940a-8acf25acc0cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.937 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_8_Open_Control"
+		(shape input)
+		(at 160.02 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d316694a-b50c-44eb-9bae-9c2edeae1578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0175 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_4_Close_Control"
+		(shape input)
+		(at 160.02 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9622d5c-0fb7-4641-b122-e5bfa3e89dd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5337 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EN_High_Speed_Mode"
 		(shape input)
 		(at 83.82 101.6 180)
@@ -2844,6 +3570,138 @@
 		(uuid "d9f9fcb9-a3ea-4a76-9d9f-93acaf3b7b08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.6965 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_6_Close_Control"
+		(shape input)
+		(at 160.02 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dba2642b-893f-4004-8c41-aaf20225dbd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5337 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_2_Close_Control"
+		(shape input)
+		(at 160.02 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbab6405-042f-4cc6-8913-62888471a03d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5337 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_4_VDD_Close"
+		(shape input)
+		(at 203.2 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de47fb6f-dcd8-4d24-95d3-a3764e98e46b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4208 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sense_Lock_5"
+		(shape input)
+		(at 160.02 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0444229-295b-4b39-a8d5-8c3ed17f2344")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0325 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Lock_4_Open_Control"
+		(shape input)
+		(at 160.02 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e59b05ad-a387-4e23-87a0-7cde22c47e2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0175 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sense_Lock_3"
+		(shape input)
+		(at 160.02 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0aa7a24-ec04-4a61-8201-e6c2a26b4993")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0325 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,6 +3755,28 @@
 			)
 		)
 	)
+	(global_label "Sense_Lock_4"
+		(shape input)
+		(at 160.02 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdf48033-7b99-45ee-b729-a2ccbc9125e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0325 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN-"
 		(shape input)
 		(at 83.82 97.79 180)
@@ -2921,7 +3801,7 @@
 	)
 	(symbol
 		(lib_id "_R_0402:10K")
-		(at 72.39 146.05 0)
+		(at 73.66 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2930,7 +3810,7 @@
 		(fields_autoplaced yes)
 		(uuid "092ff5bc-43ec-47d9-ad84-1f67c32e1e34")
 		(property "Reference" "R218"
-			(at 74.93 144.7799 0)
+			(at 76.2 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +3819,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 74.93 147.3199 0)
+			(at 76.2 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +3828,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 70.612 146.05 90)
+			(at 71.882 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +3837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 146.05 0)
+			(at 73.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +3846,7 @@
 			)
 		)
 		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
-			(at 72.39 146.05 0)
+			(at 73.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +3855,7 @@
 			)
 		)
 		(property "MF" "UNI-ROYAL"
-			(at 72.39 146.05 0)
+			(at 73.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +3864,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 72.39 146.05 0)
+			(at 73.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +3873,7 @@
 			)
 		)
 		(property "OC_LCSC" "C25744"
-			(at 72.39 146.05 0)
+			(at 73.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3882,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 72.39 146.05 0)
+			(at 73.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +4039,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 72.39 142.24 0)
+		(at 73.66 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3167,7 +4047,7 @@
 		(dnp no)
 		(uuid "322be544-305a-4fe6-8c49-508cbb1b1c6d")
 		(property "Reference" "#PWR0180"
-			(at 72.39 146.05 0)
+			(at 73.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +4056,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 72.39 138.43 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +4064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 142.24 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +4073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 142.24 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +4082,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 142.24 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +4236,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 60.96 142.24 0)
+		(at 62.23 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3364,7 +4244,7 @@
 		(dnp no)
 		(uuid "5425af8e-1e33-48d1-b54f-a5212bc81395")
 		(property "Reference" "#PWR0181"
-			(at 60.96 146.05 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +4253,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 60.96 138.43 0)
+			(at 62.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +4261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 142.24 0)
+			(at 62.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +4270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 142.24 0)
+			(at 62.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +4279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 142.24 0)
+			(at 62.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +4817,7 @@
 	)
 	(symbol
 		(lib_id "_R_0402:10K")
-		(at 60.96 146.05 0)
+		(at 62.23 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3946,7 +4826,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7b5d420-de24-4daa-9c61-3fb3593f9313")
 		(property "Reference" "R219"
-			(at 63.5 144.7799 0)
+			(at 64.77 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +4835,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 63.5 147.3199 0)
+			(at 64.77 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +4844,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 59.182 146.05 90)
+			(at 60.452 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 146.05 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4862,7 @@
 			)
 		)
 		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
-			(at 60.96 146.05 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +4871,7 @@
 			)
 		)
 		(property "MF" "UNI-ROYAL"
-			(at 60.96 146.05 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4880,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 60.96 146.05 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4889,7 @@
 			)
 		)
 		(property "OC_LCSC" "C25744"
-			(at 60.96 146.05 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4898,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 60.96 146.05 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,8 +5747,8 @@
 		)
 	)
 	(sheet
-		(at 203.962 88.646)
-		(size 42.418 68.072)
+		(at 160.02 88.9)
+		(size 43.18 67.818)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4879,7 +5759,7 @@
 		)
 		(uuid "43bcf634-e9c3-4351-a59f-ee0dcec3115a")
 		(property "Sheetname" "Lock_Control_And_Sense"
-			(at 203.962 87.9344 0)
+			(at 160.02 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +5768,7 @@
 			)
 		)
 		(property "Sheetfile" "Lock_Control_And_Sense.kicad_sch"
-			(at 203.962 157.3026 0)
+			(at 160.02 157.3026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5777,7 @@
 			)
 		)
 		(pin "Lock_6_VDD_Open" output
-			(at 246.38 127 0)
+			(at 203.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +5787,7 @@
 			(uuid "35a6adda-a146-4458-8061-1ac607d4da8a")
 		)
 		(pin "Lock_7_VDD_Open" output
-			(at 246.38 129.54 0)
+			(at 203.2 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +5797,7 @@
 			(uuid "395785f4-f827-4232-8e9e-0f9d2a10824b")
 		)
 		(pin "Lock_6_VDD_Close" output
-			(at 246.38 105.41 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +5807,7 @@
 			(uuid "147bceb0-bf45-4960-b4d2-3c0d6fd7cf85")
 		)
 		(pin "Lock_8_VDD_Open" output
-			(at 246.38 132.08 0)
+			(at 203.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +5817,7 @@
 			(uuid "4c3b7955-9667-4565-a98e-fb4d94b47aeb")
 		)
 		(pin "Lock_7_VDD_Close" output
-			(at 246.38 107.95 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +5827,7 @@
 			(uuid "0ef8bc8a-f57e-4472-8a90-ff48e0862ba6")
 		)
 		(pin "Lock_8_VDD_Close" output
-			(at 246.38 110.49 0)
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +5837,7 @@
 			(uuid "4a0f0090-00d6-43ce-87a2-909b1f8d1c0b")
 		)
 		(pin "Lock_2_VDD_Open" output
-			(at 246.38 116.84 0)
+			(at 203.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +5847,7 @@
 			(uuid "63092a8b-0bd0-4490-8222-0eddfc2819da")
 		)
 		(pin "Lock_3_VDD_Open" output
-			(at 246.38 119.38 0)
+			(at 203.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5857,7 @@
 			(uuid "81258014-5035-4f97-96d0-beda74caefe1")
 		)
 		(pin "Lock_2_VDD_Close" output
-			(at 246.38 95.25 0)
+			(at 203.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +5867,7 @@
 			(uuid "c718160d-b6bc-4897-bd5e-6a390fec7914")
 		)
 		(pin "Lock_3_VDD_Close" output
-			(at 246.38 97.79 0)
+			(at 203.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5877,7 @@
 			(uuid "330bac02-807b-4ba3-a96a-8ca1589bd156")
 		)
 		(pin "Lock_1_VDD_Close" output
-			(at 246.38 92.71 0)
+			(at 203.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5887,7 @@
 			(uuid "4109f553-a840-4968-9500-1cb3ba2fb229")
 		)
 		(pin "Lock_1_VDD_Open" output
-			(at 246.38 114.3 0)
+			(at 203.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5897,7 @@
 			(uuid "3be965f1-c2a2-4c63-87d6-ec12e6db5f60")
 		)
 		(pin "Lock_4_VDD_Open" output
-			(at 246.38 121.92 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5907,7 @@
 			(uuid "47ffa781-8842-4e15-b042-bb3dd1af2c9e")
 		)
 		(pin "Lock_5_VDD_Open" output
-			(at 246.38 124.46 0)
+			(at 203.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5917,7 @@
 			(uuid "45f08246-45f6-4293-a309-277cc1f0cc1c")
 		)
 		(pin "Lock_4_VDD_Close" output
-			(at 246.38 100.33 0)
+			(at 203.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5927,7 @@
 			(uuid "fa7b9e65-37f5-4fe8-a3a5-941b8aa60bc5")
 		)
 		(pin "Lock_5_VDD_Close" output
-			(at 246.38 102.87 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5937,7 @@
 			(uuid "302cc59c-bb35-4b96-ba85-fbddb0468640")
 		)
 		(pin "Sense_Lock_7" input
-			(at 203.962 152.4 180)
+			(at 160.02 152.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5947,7 @@
 			(uuid "dc03c24b-572c-4466-a99b-f29f346d2946")
 		)
 		(pin "Sense_Lock_8" input
-			(at 203.962 154.94 180)
+			(at 160.02 154.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5957,7 @@
 			(uuid "fe011719-3b40-4e12-86e7-a472311f0925")
 		)
 		(pin "Sense_Lock_1" input
-			(at 203.962 137.16 180)
+			(at 160.02 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5967,7 @@
 			(uuid "86b97e2c-0fa7-48cc-a646-89aec336c2f5")
 		)
 		(pin "Sense_Lock_2" input
-			(at 203.962 139.7 180)
+			(at 160.02 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5977,7 @@
 			(uuid "57e33f01-bee9-4866-bd83-2808e8938cd1")
 		)
 		(pin "Sense_Lock_3" input
-			(at 203.962 142.24 180)
+			(at 160.02 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5987,7 @@
 			(uuid "50c05e97-2ac5-46c7-a8a2-02fb101f81fd")
 		)
 		(pin "Sense_Lock_4" input
-			(at 203.962 144.78 180)
+			(at 160.02 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5997,7 @@
 			(uuid "485ca06d-8fe9-4583-8607-efd394437751")
 		)
 		(pin "Sense_Lock_5" input
-			(at 203.962 147.32 180)
+			(at 160.02 147.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +6007,7 @@
 			(uuid "a876af54-0c98-45b4-88ef-83f4448ac999")
 		)
 		(pin "Sense_Lock_6" input
-			(at 203.962 149.86 180)
+			(at 160.02 149.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +6017,7 @@
 			(uuid "ea8ccad6-8ae0-4a7c-bf43-0d4d8fc2a00c")
 		)
 		(pin "Lock_7_Open_Control" input
-			(at 203.962 129.54 180)
+			(at 160.02 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +6027,7 @@
 			(uuid "28e63423-a721-4eb0-92d2-c716a581f22d")
 		)
 		(pin "Lock_8_Open_Control" input
-			(at 203.962 132.08 180)
+			(at 160.02 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +6037,7 @@
 			(uuid "5cbdfaf2-4623-42d8-b4d8-be3988182201")
 		)
 		(pin "Lock_7_Close_Control" input
-			(at 203.962 107.95 180)
+			(at 160.02 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +6047,7 @@
 			(uuid "d01f7720-9598-4d9e-930b-11b0c60906c8")
 		)
 		(pin "Lock_8_Close_Control" input
-			(at 203.962 110.49 180)
+			(at 160.02 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +6057,7 @@
 			(uuid "61a99f7a-beb3-4112-a80b-82dea02bb6ae")
 		)
 		(pin "Lock_3_Open_Control" input
-			(at 203.962 119.38 180)
+			(at 160.02 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +6067,7 @@
 			(uuid "6b8c8451-a512-49a1-b494-184494d9173e")
 		)
 		(pin "Lock_4_Open_Control" input
-			(at 203.962 121.92 180)
+			(at 160.02 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +6077,7 @@
 			(uuid "3bc00714-f638-4778-8c16-450909a7647a")
 		)
 		(pin "Lock_3_Close_Control" input
-			(at 203.962 97.79 180)
+			(at 160.02 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +6087,7 @@
 			(uuid "f5e27a08-ef76-4cb8-bc89-b3afa05a26a5")
 		)
 		(pin "Lock_4_Close_Control" input
-			(at 203.962 100.33 180)
+			(at 160.02 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +6097,7 @@
 			(uuid "3961f667-00a6-47d0-be22-e600bc8cead5")
 		)
 		(pin "Lock_5_Open_Control" input
-			(at 203.962 124.46 180)
+			(at 160.02 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +6107,7 @@
 			(uuid "31e84dcd-fae6-43a2-b4de-1ece318bfa0f")
 		)
 		(pin "Lock_6_Close_Control" input
-			(at 203.962 105.41 180)
+			(at 160.02 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +6117,7 @@
 			(uuid "1c655137-7ed8-4f9b-96ea-ee301566737d")
 		)
 		(pin "Lock_6_Open_Control" input
-			(at 203.962 127 180)
+			(at 160.02 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +6127,7 @@
 			(uuid "92258efc-a2b3-428c-8c2a-6b3521c5f273")
 		)
 		(pin "Lock_5_Close_Control" input
-			(at 203.962 102.87 180)
+			(at 160.02 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +6137,7 @@
 			(uuid "7f50c49e-0d01-4487-ad72-b57548d4c538")
 		)
 		(pin "Lock_1_Open_Control" input
-			(at 203.962 114.3 180)
+			(at 160.02 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +6147,7 @@
 			(uuid "614b1b30-262e-4554-b730-e4708ca27f13")
 		)
 		(pin "Lock_1_Close_Control" input
-			(at 203.962 92.71 180)
+			(at 160.02 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +6157,7 @@
 			(uuid "32a6f0ed-18b6-4a0a-88c2-db6e986032c0")
 		)
 		(pin "Lock_2_Open_Control" input
-			(at 203.962 116.84 180)
+			(at 160.02 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +6167,7 @@
 			(uuid "4e9b34fd-95d7-4e0b-9796-426330d47b70")
 		)
 		(pin "Lock_2_Close_Control" input
-			(at 203.962 95.25 180)
+			(at 160.02 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
