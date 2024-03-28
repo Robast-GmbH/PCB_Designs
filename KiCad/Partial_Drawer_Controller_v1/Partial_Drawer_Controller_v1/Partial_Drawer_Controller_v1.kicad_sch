@@ -1324,6 +1324,154 @@
 				)
 			)
 		)
+		(symbol "_R_0402:10K"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402WGF1002TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_LCSC" "C25744"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Res Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10K_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10K_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_names
@@ -1931,6 +2079,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 135.89) (xy 90.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23687a73-d49d-4422-b8e0-6f8c8a659f9d")
+	)
+	(wire
+		(pts
 			(xy 90.17 30.48) (xy 100.33 30.48)
 		)
 		(stroke
@@ -1951,6 +2109,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 160.02) (xy 96.52 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49030ef7-0cd8-497f-81ab-320aef2b923b")
+	)
+	(wire
+		(pts
 			(xy 86.36 54.61) (xy 90.17 54.61)
 		)
 		(stroke
@@ -1958,6 +2126,16 @@
 			(type default)
 		)
 		(uuid "4d332cc3-c8ae-4a1f-900e-c0f4e50e139a")
+	)
+	(wire
+		(pts
+			(xy 96.52 133.35) (xy 100.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5032529c-c453-45e0-9f7e-a543f2644a15")
 	)
 	(wire
 		(pts
@@ -2011,6 +2189,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 135.89) (xy 90.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e76c26-af6e-4845-970b-9e3f73902fe6")
+	)
+	(wire
+		(pts
 			(xy 76.2 111.76) (xy 83.82 111.76)
 		)
 		(stroke
@@ -2059,6 +2247,56 @@
 		)
 		(uuid "ce1ec07f-6d66-4558-9004-915049f92284")
 	)
+	(wire
+		(pts
+			(xy 100.33 152.4) (xy 60.96 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbf63d2-8993-4f3a-862d-b646688e19ab")
+	)
+	(wire
+		(pts
+			(xy 72.39 149.86) (xy 100.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7e8ab7-ce48-487b-8f9c-28896a3e7148")
+	)
+	(wire
+		(pts
+			(xy 96.52 132.08) (xy 96.52 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede910d9-4342-4eb8-bbb2-bc9405323222")
+	)
+	(wire
+		(pts
+			(xy 96.52 157.48) (xy 100.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a94ba8-d5d7-41e5-b376-aa6c9385856a")
+	)
+	(wire
+		(pts
+			(xy 60.96 152.4) (xy 60.96 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89031f6-8a0b-45b2-88bc-bcfbb28db1bf")
+	)
 	(rectangle
 		(start 15.24 15.24)
 		(end 131.445 74.93)
@@ -2083,6 +2321,18 @@
 			(type none)
 		)
 		(uuid 45df7559-2108-4518-8ca7-78c859e80337)
+	)
+	(rectangle
+		(start 58.42 122.555)
+		(end 128.905 165.735)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fb5406a-b2e0-4946-a130-4a8114daedec)
 	)
 	(rectangle
 		(start 74.295 18.415)
@@ -2187,18 +2437,6 @@
 		)
 		(uuid "7364e2bc-0eca-47ef-b289-05df3c58fbcf")
 	)
-	(text "TODO: Finish LED Control\n"
-		(exclude_from_sim no)
-		(at 70.612 132.334 0)
-		(effects
-			(font
-				(size 4 4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "81411bfc-c715-463f-951f-16eef9471ddd")
-	)
 	(text "TODO: Add Output Connector\n"
 		(exclude_from_sim no)
 		(at 257.048 5.588 0)
@@ -2224,6 +2462,19 @@
 			(justify left bottom)
 		)
 		(uuid "8d247d90-e19a-44d3-a187-65a06f4d7778")
+	)
+	(text "LED Control"
+		(exclude_from_sim no)
+		(at 59.69 127 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab0a4aae-cc55-48cd-a615-6d5927f8c9c7")
 	)
 	(text "TODO:\nFind a proper connector"
 		(exclude_from_sim no)
@@ -2294,6 +2545,28 @@
 			)
 		)
 	)
+	(global_label "Enable_LED_VDD"
+		(shape input)
+		(at 100.33 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46db2793-d8e7-4da8-ba59-f813f4d27564")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.9841 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN-"
 		(shape input)
 		(at 86.36 59.69 180)
@@ -2329,6 +2602,28 @@
 		(uuid "608c6d7f-0469-4de0-8536-dbe95bd8e732")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.3504 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 100.33 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "739b49fc-b84d-401a-a9fa-dac62f86d0f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8372 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,6 +2853,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 100.33 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f781c4e2-7424-4dad-bded-6f5a3d9b680b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.7767 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TWAI_RX"
 		(shape input)
 		(at 116.84 109.22 0)
@@ -2599,6 +2916,112 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_R_0402:10K")
+		(at 72.39 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "092ff5bc-43ec-47d9-ad84-1f67c32e1e34")
+		(property "Reference" "R218"
+			(at 74.93 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 74.93 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 70.612 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C25744"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "043b22bd-b182-4a52-8f19-1c8f7b18ba7b")
+		)
+		(pin "1"
+			(uuid "77a5f2c9-0bbd-4094-9965-283384a4b7ab")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "R218")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2729,6 +3152,71 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 72.39 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "322be544-305a-4fe6-8c49-508cbb1b1c6d")
+		(property "Reference" "#PWR0180"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10f3d5b0-c023-429d-bc48-709e2255a64b")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -2867,6 +3355,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5425af8e-1e33-48d1-b54f-a5212bc81395")
+		(property "Reference" "#PWR0181"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b60eeb9c-7978-4e6d-b245-144ffe4dd0f2")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
 		(at 257.81 35.56 0)
 		(unit 1)
@@ -2941,6 +3494,72 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d1e6f4c-d827-4c45-8fea-2fa7d992d0ae")
+		(property "Reference" "#PWR0179"
+			(at 96.52 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24cd3dca-e6f0-4082-8922-c26d3ab90cbc")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -3317,6 +3936,112 @@
 		)
 	)
 	(symbol
+		(lib_id "_R_0402:10K")
+		(at 60.96 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7b5d420-de24-4daa-9c61-3fb3593f9313")
+		(property "Reference" "R219"
+			(at 63.5 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 63.5 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 59.182 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C25744"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "986ad244-9853-49f4-9d91-e0d8ccf8ade6")
+		)
+		(pin "1"
+			(uuid "f2df9fb8-efdd-4688-89cb-9284ddf88acc")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "R219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_Interface_CAN_LIN:PESD2CANFD24L-TR")
 		(at 100.33 57.15 0)
 		(unit 1)
@@ -3536,6 +4261,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 90.17 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6316b6e-8646-4819-a74a-3d372744aa66")
+		(property "Reference" "#PWR0178"
+			(at 90.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f44449f8-2237-4cfc-9064-66e8e0714b0a")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 93.98 0)
 		(unit 1)
@@ -3700,6 +4490,72 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 96.52 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e84c0487-b20f-4ec7-be19-ee8e2ef8063c")
+		(property "Reference" "#PWR0177"
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 96.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5040f180-c7b1-460d-80bd-513c0298d509")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -4449,8 +5305,8 @@
 		)
 	)
 	(sheet
-		(at 31.75 140.97)
-		(size 81.28 40.64)
+		(at 100.33 130.81)
+		(size 19.685 29.21)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4461,7 +5317,7 @@
 		)
 		(uuid "914bf34e-a655-4329-ab66-41415a8f8e45")
 		(property "Sheetname" "LED_Control"
-			(at 31.75 140.2584 0)
+			(at 100.33 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,13 +5326,93 @@
 			)
 		)
 		(property "Sheetfile" "Led_Control.kicad_sch"
-			(at 31.75 182.1946 0)
+			(at 100.33 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "ADDR1" input
+			(at 100.33 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35c71278-ab83-4464-8f92-6a4580c525b5")
+		)
+		(pin "ADDR0" input
+			(at 100.33 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28589b33-afb3-42d5-b38a-421fe80808a3")
+		)
+		(pin "SDA" input
+			(at 100.33 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ecaa3b0-481d-498c-921b-7982e56243f2")
+		)
+		(pin "SCL" input
+			(at 100.33 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a88ee99b-73ad-4217-9654-0fba7fc51c91")
+		)
+		(pin "GND" input
+			(at 100.33 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "120ea4dc-969e-4948-b645-b1b5b621c039")
+		)
+		(pin "Enable_LED_VDD" input
+			(at 100.33 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "acadbb73-41fd-457d-b186-fae2607b2c3d")
+		)
+		(pin "+24V" input
+			(at 100.33 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "30aadf83-510c-46e6-9bce-1d69ebe13a01")
+		)
+		(pin "+5V" input
+			(at 100.33 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1a9b28f5-d688-4d60-98c2-a625985a36e2")
 		)
 		(instances
 			(project "Partial_Drawer_Controller_v1"

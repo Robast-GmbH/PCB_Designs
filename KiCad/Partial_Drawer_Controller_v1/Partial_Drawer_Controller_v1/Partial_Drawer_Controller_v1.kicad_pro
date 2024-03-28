@@ -399,7 +399,7 @@
   "sheets": [
     [
       "57f8c193-fe09-43d3-9441-dbd40881d2aa",
-      "Stammblatt"
+      "Root"
     ],
     [
       "cf52d563-fbeb-48d6-b236-fc325e3d0bb7",
@@ -408,6 +408,18 @@
     [
       "1e314787-7f45-4847-9ba5-2ff173980b3b",
       "CAN_Communication"
+    ],
+    [
+      "88b18c9d-4fbb-44b4-a218-73c9d1c33bdc",
+      "8xLED_White1"
+    ],
+    [
+      "08f9f168-3af6-4343-bc3d-a88c83a5aae2",
+      "8xLED_White2"
+    ],
+    [
+      "9c01f1c1-2ff4-4efb-81fb-fd9e7f1768e1",
+      "8xLED_White3"
     ],
     [
       "d19b84cd-4ee4-4d95-811d-38c072072447",
@@ -552,6 +564,110 @@
     [
       "0481b9ea-4eda-4779-9c33-4563f4e2b2a2",
       "Switch_Sensing_Lock_8"
+    ],
+    [
+      "06e01cf9-3035-4f6c-ae85-11eb1f65f17c",
+      "8xLED_White4"
+    ],
+    [
+      "c16081b9-4660-4302-a405-bc093b62d5ed",
+      "8xLED_White5"
+    ],
+    [
+      "710083e5-10d4-463f-914d-30a4be5cc976",
+      "8xLED_White6"
+    ],
+    [
+      "8c69f72e-e828-491d-aee0-9342b69b425e",
+      "8xLED_White7"
+    ],
+    [
+      "b9d0edcb-6b4f-492a-8e07-89e2a975c69c",
+      "8xLED_White8"
+    ],
+    [
+      "f12b9b98-2ce5-4fb8-82ba-b1d10336c4a7",
+      "8xLED_White9"
+    ],
+    [
+      "5d0f0ed7-0ec4-4ceb-9fa2-c7c979d96ce3",
+      "8xLED_White10"
+    ],
+    [
+      "c76fc727-6ff5-4655-979c-88e2c799d976",
+      "8xLED_White11"
+    ],
+    [
+      "38f3dbbb-ad18-4e3a-baef-65368683f5d9",
+      "8xLED_White12"
+    ],
+    [
+      "f4b91e0a-c24f-49b0-ba4a-fcb110a14f84",
+      "8xLED_White13"
+    ],
+    [
+      "53957366-783f-4526-801b-f9c18f479301",
+      "8xLED_White14"
+    ],
+    [
+      "0156007a-1ee3-40b6-a43b-df4d458dcb2b",
+      "8xLED_White15"
+    ],
+    [
+      "685d1a8b-6159-4ec6-8812-70dae98b36e0",
+      "8xLED_White16"
+    ],
+    [
+      "0de9d4c3-cde3-45bf-9f3f-bfc1c77e51d3",
+      "8xLED_White17"
+    ],
+    [
+      "dfa857b2-dfef-4c9d-9048-6cadac1b95d7",
+      "8xLED_White18"
+    ],
+    [
+      "7a62ab13-482f-490b-995e-08704434b34b",
+      "8xLED_White19"
+    ],
+    [
+      "473c2d6b-7a11-4554-9e17-29173c5c8bd1",
+      "8xLED_White20"
+    ],
+    [
+      "4a862770-3b85-4d7b-b08a-966a05e90b63",
+      "8xLED_White21"
+    ],
+    [
+      "bbba9320-8d71-4a38-966c-07230207af30",
+      "8xLED_White22"
+    ],
+    [
+      "2655a9d1-71af-409d-bbd2-3813169a4665",
+      "8xLED_White23"
+    ],
+    [
+      "fd387e21-898d-4ede-8fcf-ebc067831c76",
+      "8xLED_White24"
+    ],
+    [
+      "6512e3c2-762d-4333-aec5-76c998f3a42d",
+      "8xLED_White25"
+    ],
+    [
+      "1e7ff721-b027-42f8-807a-b40e8980836d",
+      "8xLED_White26"
+    ],
+    [
+      "27a9aab7-eed9-44ea-97fd-cb0c527bed90",
+      "8xLED_White27"
+    ],
+    [
+      "cb6e0138-9195-4171-aed1-d2c0e39cf001",
+      "8xLED_White28"
+    ],
+    [
+      "4976777a-f279-4338-a042-8a0c8f762892",
+      "8xLED_White29"
     ]
   ],
   "text_variables": {}
