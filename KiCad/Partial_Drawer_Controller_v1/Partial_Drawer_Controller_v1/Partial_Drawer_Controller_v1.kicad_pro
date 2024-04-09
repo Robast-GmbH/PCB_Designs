@@ -680,6 +680,18 @@
     [
       "784b2884-d726-456d-9cf9-7365a865d845",
       "Port Expander"
+    ],
+    [
+      "5b26ed90-7e22-4020-bd25-96294005c032",
+      "Port Expander3"
+    ],
+    [
+      "d17982c1-9a9f-4dd2-aa68-8c26a8eeced1",
+      "TMC2209"
+    ],
+    [
+      "1cb20bbd-00b4-431f-ae71-2d0dfae72065",
+      "Differential_Line_Receiver"
     ]
   ],
   "text_variables": {}
