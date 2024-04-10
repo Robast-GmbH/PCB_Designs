@@ -9,6 +9,8 @@
 	(paper "A2")
 	(layers
 		(0 "F.Cu" signal)
+		(1 "In1.Cu" power)
+		(2 "In2.Cu" power)
 		(31 "B.Cu" signal)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
@@ -55,8 +57,30 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.51)
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -2053,6 +2077,129 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "02c66a80-6bfd-48c8-b0d9-96bc65939181")
+		(at 113.5 23.7)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H4"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "7d3baa90-0853-4e17-af7b-240f35b6b38a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "937db1c3-0514-4dbf-aaa9-c2b5a2ceaac3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e68c0600-c841-4d20-b0cd-d79148c70898")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "845f3654-7125-45df-8c86-01e67d7287a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a5036f6-072d-4d6d-b139-35fbce61cde5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/500d2a30-1dd2-4514-af44-75a2b0230e20")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "12244965-e8a3-487a-9fb2-81c43dd2990c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "5648eaf3-c895-4906-9aff-8f40f9147bd1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7bd84b70-2d16-4011-bbe3-61abba67b8d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "4df0db9b-7338-44c3-b4aa-525f34cdeaf5")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "9b0a86b0-50a4-41a5-8af8-0c4ef77ba406")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "e3ec2aba-e497-47f9-a74b-6827c0e57fef")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -11743,6 +11890,123 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "0e4fcc40-cc3b-48fa-bd68-b52c88222447")
+		(at 388.6 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H31"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "76848150-ad53-4d58-b872-8178750bf0a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "974690e6-6de5-450e-b0ca-a14822e6117e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f05b5475-8655-4aa8-859b-415fa82b1ccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaf2aeec-248c-42d4-8aeb-a86cdaa3ac3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33bff3af-eb51-4333-974e-5eb93b9201d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/290b064e-d6db-4b36-98e7-c47f2558f034")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "9b5b3600-d77e-4174-9032-cbc6e2640f8e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "fd8f585b-46be-4dd8-8740-02ec15d375ba")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ed007e63-9e54-4727-90a5-c67250614953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f3274399-9f3a-46e2-a481-b87a252335cf")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "bf75b35e-405a-40bd-b83f-e4008b0267be")
+		)
+	)
 	(footprint "Robast:SW_TS-1187"
 		(layer "F.Cu")
 		(uuid "0e511411-7b52-452b-ada7-25fc62956049")
@@ -13013,6 +13277,263 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "0f9c6e47-a963-4409-a79b-3bed3abe2193")
+		(at 190.74 39.47)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H7"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "7ea8e5f9-68b8-4f00-a87b-163b056dd7e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "e8421dc5-4895-47c0-b103-8458a16ff728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6bac8b5-32fb-4276-9422-659f255994ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0af43b58-fe7a-492e-a545-532c6a5d748b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0cfddd6-3012-4bf7-8892-1a376eaaebee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/262c1c14-6184-4297-b1ff-1e1df37b3618")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "bbc9ca51-e75e-405c-b7ee-76538bc1b75c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bc459b6e-18b9-45c1-920b-adf95ad4506c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7f33ed16-f706-404e-be1d-40a2e644a7bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "c9827675-fc60-4bd7-8559-410009973560")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "9a582187-53f8-4039-9afc-5257c5ee7bdc")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "0a8f615a-fe0a-4f9a-9401-c43be2511150")
+		)
+	)
+	(footprint "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(layer "F.Cu")
+		(uuid "0fa80b31-6591-4efd-bca6-66f0bc65197f")
+		(at 383.3 59)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H39"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "3fc051df-d2c3-4177-920b-4ffb19952647")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "21d692c1-800d-4abd-852d-24151cd0859a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e77a12d-c1d0-438d-8b6e-aabaea08f0c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c13d65a-2fbf-4fa4-9142-032adc5de052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8884deb5-463b-4c50-822e-9323f482774c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/cba8310b-c64d-4ba5-800e-bfe04b494bfa")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "fa3882e0-54d3-437b-b987-6f6b170b8f46")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.95 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "a54948d8-5673-4492-ab4e-0a5720da801a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "adfc90d9-f132-46c7-857a-7c74c12c2a59")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "166e7add-9d77-4339-9632-89634fba9476")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1ca72a46-ed51-4d6a-b5a5-ab97cad0d0a1")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(layers "F.Cu" "F.Mask")
+			(uuid "accbd60b-d731-46a7-8760-74c7fed4f605")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 9.4 9.4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "e6b4d17c-bbcc-450e-ba7e-aad2930951d4")
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
@@ -23733,6 +24254,140 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(layer "F.Cu")
+		(uuid "1befde78-dd9f-4cbb-a1c5-cf48cc730660")
+		(at 178.94 59)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H35"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "3ddd93bd-e8c4-4d45-8383-6a009442edc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "1ac6f53e-4e1e-45fc-8d4c-c59fdc6b065a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6d6d715-6fca-46e0-b5b3-bddf63a06809")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0df19017-dd5d-44c5-a752-264613af63d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd9227ab-0817-44b8-8d9e-7d4a6e87bf9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/16d5dbac-3031-4600-b0db-83d7f3f4a986")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "3915b97e-a44e-4ac9-b192-86ed90d19f95")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.95 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "58bec933-dac6-4a54-b75a-01b7f118429f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "48a9b5e7-0176-4010-99dd-eab0848b89f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b33cb38f-1e33-4a82-a73d-ebe25080c504")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "c4d9a18d-6a69-4f6a-9abf-d6042e300e7c")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(layers "F.Cu" "F.Mask")
+			(uuid "4f64731d-7939-4a10-8c12-a774e654b55a")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 9.4 9.4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "1256702b-20bf-4931-886b-1a570d3d878d")
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "1caff049-500d-4ba5-b434-1d2b45e5d2f3")
@@ -24568,6 +25223,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "1e9385b7-a0b0-494e-9a24-9dee08a79cf4")
+		(at 82.06 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H19"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "0f31625d-ab62-4336-be34-0fbfde27b042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "06c74e72-14af-4fc9-b017-ab1e8152c461")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "398a088d-23e0-459f-b4b0-e37c0c38b0eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5308b583-5e24-482d-a129-5364b818a794")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86c05640-9501-42e1-82b3-520d67240588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c7f99bc6-ff84-4d87-be22-887746cc2b27")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "09f72181-7b92-436c-9e07-9c96b1e06419")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "21a6722c-11dc-452d-9662-e9d06b073891")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d2ccd4a7-7764-4430-a33d-def71bf4feff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "62e8276d-0586-47a3-883c-0a1dcba9e383")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "c3aaf0b1-0caa-4f7c-b80a-afee91a0413f")
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
@@ -38092,6 +38864,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "30a1a541-75a2-486b-b494-565bcb81d4c1")
+		(at 30.97 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H17"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "a337428f-eeb2-4372-9521-ed032d7fee58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "0f6a07b6-75ef-409e-ab31-1b76ed6cdc2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb3602cb-56c7-44e0-b02b-4abd3e0893b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f2736e3-b72c-4129-9a21-e37ce707cf6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dea1c2ea-e008-49fe-8500-d5796f003cf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/e3905f93-8b50-4900-9640-1e067f33f300")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "87ae561a-5a4e-4d2b-ac7f-cc3c560ea87d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "01a4b96e-a20a-40a2-89e5-705c439ce835")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7a48cb34-8082-4653-86e2-c5de8878d74f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "25cb61ee-d092-4cfd-8a00-4aadb0e98616")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "2367afe4-207d-4b0f-8a50-073c3be53822")
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
@@ -54739,6 +55628,129 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "476e8228-c5d0-409d-a6c3-54d763b804c7")
+		(at 88.56 39.47)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H3"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "a9aed44b-3e8c-41f9-8ac5-7b6e310737f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "02862862-0976-49ef-a3a5-3f9980d146ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e0d9756-2387-4d29-965d-c684d1e33db2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4c4ed93-cf74-4113-a6d9-d26c7cf311d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fd15657-92ba-4b84-b1e0-9597becaa8fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/1550c776-9f3d-4549-8072-4e641b9fbc8a")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "433c2367-2358-4ee9-8c92-8e6eccb558a0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "edf8b7fa-a2fe-43e4-88b2-b3cef5005ed5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fd4f0ed1-19b5-4f04-8cce-6d4b8c919cdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ba047976-ef22-47b4-971c-21ef78c15aa2")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "291a74a8-da4b-4c6f-ae18-fe2315ad5c21")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "c6002fba-b95a-4d5d-bac4-91f17182a272")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "47fb70ca-faf7-44d8-a04f-dfa530db0bca")
@@ -69704,6 +70716,369 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "5a15eebe-e9ec-44ac-835d-ce568d1d4ac1")
+		(at 395.1 39.47)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H15"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "5656e37e-ddad-4413-aa16-bb2a069f3bf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "a1b2a6d4-5ad3-4e05-b012-02c263f63dd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "540121c3-6a72-4fa9-adfc-1613678c9bdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9c559c6-4cbc-46bd-b6f4-52f5a065b3c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a615b132-5265-4a3e-9b3a-e1ab8abfd6bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/94bbf57a-d75e-4f7f-ae60-e5b887cde66f")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "464b912b-f08e-4fea-a20d-2aa3d9f33da9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b44b0d9b-7097-4216-b948-b75dd8b6bb2d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5976b124-3cb7-483c-95ad-db8245342d40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "00adbac0-eb74-43ed-bea6-9fd0b7a5eff4")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "8242700e-c057-45ba-bf3c-2850763098d4")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "be25b20f-ee0f-437e-8a19-e9641890cdf1")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "5a21dff3-0ead-417c-ac40-467b302521cc")
+		(at 420.04 23.7)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H16"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "55624082-fb99-47b5-9647-0dfbe84d3af0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "ae8f4a78-2aad-479a-8ea2-6fb5a63085b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a218244-8fe5-4645-9e42-6c9548457d45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70ead887-869a-4588-a24b-d95baddb873a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9ae216e-040f-4297-9503-184882657b77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/b95d3a17-7e0c-45dd-92e0-6d22d2312fab")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "458fe056-ecc0-42ed-b67a-84262a6f88ec")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "69756fe8-20b4-406c-850b-e4b2f10effbd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "77e2e044-c84c-40f4-a613-d58142e630cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6be4b738-5d80-4fad-834c-56d3210d4735")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "b69a9388-8faf-4e7e-959a-5146868e9b39")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "36f2afb2-4765-43d0-a56f-dc20dd67cbc0")
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "5a240986-54ef-41e0-8619-658a2cf7d4cd")
+		(at 95.06 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H20"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "39fd27fa-e36a-4cce-9bd1-4bafe447b177")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "97dc8f31-776f-484e-9bf8-17fff28bae48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2755872-6ff0-4bee-8a2c-7b72ee32523f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d1be832-1ff4-4e1b-9808-f0c599665f1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51758a14-55bf-4c37-bfdc-862068e7fda7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/abf3d504-2f6a-4f10-be89-90461d1ff159")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2def3f85-e5a6-47ae-b7bf-7f79891ca023")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f3b407ab-e909-4e8c-b2cf-588ea1d32e11")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2009884d-ad96-4e26-a975-1ea294e158fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "24673ecc-d43f-4d69-9747-296ed2853cc1")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "7bb1e497-195b-4d08-b32e-8f54dce255e8")
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5a326b59-d394-46b4-a43f-9ce2630b7e69")
@@ -72902,6 +74277,140 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(layer "F.Cu")
+		(uuid "5f36d21b-8db8-427a-9e40-d9e340f3b345")
+		(at 230.03 59)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H36"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "82ec46d1-777c-4dbc-97fb-f3c0b3e38e2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "aa2b93de-849d-4b8f-8ad9-9899b6e1ea24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a4e9bba-942b-49a7-a6bc-d8fb397ed02d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d05f60d-8643-4cd0-a955-8c7432202c76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b0a07b3-3804-4f1c-9d00-ecf7f151dabc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/b7458e63-38ec-462f-b0b4-de8b36f04521")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "7bd1d7c0-1076-4ca2-b9f7-271391329b85")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.95 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "566bc7b8-40d9-403a-922b-825bb620f0b5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "929040ce-8be0-4b20-ac9d-93c0edb2d659")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "742e403f-a408-4ce5-85e5-da5af21f86c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "9fefecc3-faac-4665-908f-17d339366f5d")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(layers "F.Cu" "F.Mask")
+			(uuid "cb3f76ae-e07d-4fa1-afe4-43bf8e5bdefe")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 9.4 9.4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "d3254a3a-4b3a-4185-ad0d-20bacd02a9fc")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5f3e354e-774a-4d34-83a6-d0f3c053efc7")
@@ -73444,6 +74953,140 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(layer "F.Cu")
+		(uuid "5ff4f4cd-4b14-4bab-9484-92fc0f1a9b94")
+		(at 76.76 59)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H33"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "cadf370b-b78e-42cb-a707-b4b95cb3fb2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "710f1270-adda-4e27-bdad-49c38eaf44de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "655837f5-c51f-46a4-a522-47140a22eee0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d8b3d2a-496d-4c4b-b660-56397c0b42a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "870c38cf-dd7a-4470-b700-af80d3acaa4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/3aa4a985-716a-47f3-8203-a309f70eaf4c")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "dae28f7e-0eba-4b03-9f81-f19df617d7ba")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.95 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "7031061e-a449-42b5-a64a-1389ef6e976e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "3e64fb04-953c-4e51-9fca-ec5d71017c48")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ee9e4e4c-1e26-4d56-ae7e-81f87ebe250f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ce33b0d3-6195-409d-b6bf-aa23e8e3ab0c")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(layers "F.Cu" "F.Mask")
+			(uuid "fd3cb84b-d907-45fe-b009-84a108a30acb")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 9.4 9.4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "0b5d79b4-f3ef-41dd-8af8-03ddf1337018")
 		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
@@ -77868,6 +79511,252 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "68498f0f-06e7-45f5-b47a-6143cbe812ce")
+		(at 292.92 39.47)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H11"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "7bdfc842-b3c5-4ed8-96cd-94ee0e4a659d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "34aa462d-7fc7-4520-8dfc-332681a2c6c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0e7206f-fa10-4ece-b958-8a10fa818fdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e9f960b-9e21-4852-9915-0fa6b9a93ead")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b770e7cd-3cb2-4bbb-b83b-d7dc0b434edd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/bad9dc41-daf8-46bf-ac0c-fded19c9a1fc")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "ba47912f-d1ad-471f-b9b3-951c097cc978")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "963f364f-bc6e-48ef-925f-ed7812f00007")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ce409965-c588-4757-935a-dcca9482c99b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "cd02ed30-614e-4878-b32b-5a992e14bb83")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "2f8a6301-a554-4a03-bc1b-8a2c3dce5f70")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "833c6f08-2dbe-4b23-a506-82e48c90ad9c")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "69881464-9599-4843-b3f7-30f64f05f75f")
+		(at 62.41 23.7)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H2"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "3515de43-c9e1-48aa-9f1a-e5df47c7b4d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "599c47e0-a7df-4fe3-bcc8-853ca4d4b826")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "446c4247-ce8a-4648-9261-691743ee26a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5acf479-5819-4008-b1da-c8ee378b2fd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05857871-eae2-4e00-8d53-44e63b3afe7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/564215f0-4144-49b4-961e-3e80888f880b")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "516f4d46-7783-4c4b-a563-885063ce1ca9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e6897421-4475-458c-9e92-e00f344c6fde")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f8e90a71-d0d4-42cc-92cc-bda643e1eedb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "3a57aebe-7420-48f2-8a04-13bc76d73720")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "f49d9270-5852-45bd-a525-91d56c292a1d")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "3e81c2a7-6a20-4b1e-955e-6509125c511d")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "699a5ade-7a52-4771-87ff-c84a829013ee")
@@ -78954,6 +80843,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "6b3ee32b-7e36-4f5a-aa81-346e3020cda1")
+		(at 337.51 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H29"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "956f6bea-809e-4411-8be8-80d71826a1c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "0f858686-1a33-4697-957b-e575991f9cf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca9d4678-35d1-4a86-b312-d2554cc2ad8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd41dedf-37cf-4a0f-9b42-87d46511db28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf6b3911-2f7d-44e1-b377-bbb3c3d230f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/e4ccc7ea-d5f2-43a9-b91b-1712d0b67b58")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "75efa136-d741-4492-9f3a-9eb77548f4de")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "64ff2afd-aa7c-44ef-a55d-b950e71387c3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "bb3ceacd-7ae0-4992-8326-8fa47e5eb884")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "427479e7-7542-4a82-ae83-b70084893989")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "25587470-7cae-4a67-a405-3d274ae21c09")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -81216,6 +83222,123 @@
 			(net 1 "GND")
 			(pintype "passive")
 			(uuid "8f971f5a-a1e5-4918-a75b-0517acbb08f8")
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "6e8c2f47-a9e6-4896-8198-75e650fff3cb")
+		(at 43.97 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H18"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "3639bf44-4e29-4de7-90b2-e3daf95f2140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "11469550-dbae-486b-87f9-ee11cbf318e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba995052-d60c-4b9d-a0e5-e0943782f643")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fdbf0b9-600b-4cd9-909f-dac684fc22be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "936fe953-bfed-4f56-a85b-13862e1ff803")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a967e994-0f23-485c-96ff-9a2900748dbe")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "5f147df1-859d-426a-9ed6-a037cce8a555")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bccc681e-9970-4cb9-848f-fda8fbd4451d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fa955cda-bc3e-47bf-a431-221d681550fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6931f5e3-386f-455d-a380-59c3a72c7347")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "71a3978a-56cb-490f-b9a9-7b74864b2cf0")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-523"
@@ -85850,6 +87973,140 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(layer "F.Cu")
+		(uuid "732c1eea-e52a-42d9-8d03-23c062a809ee")
+		(at 127.85 59)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H34"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "469a4032-ed7e-4ce6-a816-5e1cdc8bf8f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "75fb9127-e249-4875-8afc-9ccc32571493")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16cc0bfb-a101-41d2-975c-279993e66df6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd68360e-4ed6-4d32-a57c-dadd315c6130")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fbe18cd-b483-4ac5-a8ab-023437e9571d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/8b262fca-184d-402a-9238-ae6b313cda28")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "e6c5e578-bf1f-4c66-ab10-050e56528534")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.95 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "936b3efe-eec1-4716-a925-75f395c53c8f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "40266f4c-6a4d-47bc-abc8-c7ef3cbd026a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6068eb22-44cb-4b6d-b2fb-b31bba812ed1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d523c03b-f8e0-4a54-98c3-f0ff833cf4d6")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(layers "F.Cu" "F.Mask")
+			(uuid "b7c37738-93c2-4f0b-8c5f-9caf774d4349")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 9.4 9.4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "773aa0d2-69e3-4974-95e7-4ce93ca6207c")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "74244ab5-8194-43d9-b93d-36fac5938e0c")
@@ -88195,6 +90452,240 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "75d901d4-5d79-4f01-b12d-51119ad6efec")
+		(at 146.15 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H22"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "a85df4d4-927c-41d3-9a81-9e5b27c9890d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "474241a4-c688-48c7-a822-7cca5c1ff304")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ca85d8e-1c7f-480e-b4fa-c5f4be2e1d68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbbd7870-a5a2-4eda-abcc-a62fb936dad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f773e6b-9692-4558-acef-722649466e69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/422f210d-565b-4a66-85a3-7ee60802146b")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "40af6d0c-3467-4497-ae75-ffe60015f260")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "64281fbc-004a-4c86-a809-73b7a9d6daed")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "14806f0f-3dbe-452d-a252-e2a2d6310b10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d3e1363e-9892-4a1a-8deb-68b615e57779")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "edb4cd2a-4e4a-44a0-bd2e-de3c2c9b44f6")
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "762217ce-d658-46fe-badf-551febfa9fc9")
+		(at 299.42 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H28"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "33f369e1-80f1-42a6-a402-6641f97b297d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "1eb26e7c-ef58-43e2-8c75-1557c3e17233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ffc55c9-47cb-4e5c-8a9a-e7a1444407e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01ab9778-a723-4601-a8d0-7a560477607b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c988fcf5-4f27-4dd2-bf67-e8a01611f739")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/609d3238-8c73-4f9a-ae89-9607d8380ce6")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "821a0bc5-73a3-408f-8101-6cb90442b7b3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "23aaadc0-3da9-4588-acef-70086855cd83")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c97a9f44-8f86-4689-903f-fc999c811a73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "53d716a0-6c6a-4812-a99d-3b5cf9ddfead")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "9bd9f7db-1963-4fe4-9f05-22f628aef118")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "764d369f-8c4b-46b0-afdf-a1faec93880f")
@@ -90306,6 +92797,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "79069db8-f0ff-4ea6-b5ff-9aabc8729775")
+		(at 197.24 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H24"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "cae80d89-712e-4411-9c7c-b2cfad9b70d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "65f00fae-2135-43e6-913a-493d69fb47e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15737a63-d200-4e42-944d-f7d005ae78b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a98fa667-d658-43dd-a9c4-772211aee59d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad4c9eb2-5160-4a62-9329-54d7b91e537d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d0c67070-6c9c-4a10-98b4-765a4bbb8269")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "1f0eed6a-a4f7-41ec-aa6e-bce9da01e408")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "101008d4-8632-46b8-8863-42ff784d2546")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "20ce9240-6d56-46fe-86ef-a744ae65af85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "aeeb7c24-b92d-4203-b807-6cec667006bb")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "d1bb4bce-3811-4e97-b7c8-d3653076892c")
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
@@ -93272,6 +95880,140 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(layer "F.Cu")
+		(uuid "7dfe61e0-06b3-4f6f-b8ab-7f58cd6f66a3")
+		(at 332.21 59)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H38"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "243adab4-bd89-4e6b-9654-3031fcea6698")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "b1e4c734-48a2-4a08-a057-cd2ae1208124")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fef6db7-2d4d-4caf-ba52-6caf9715f209")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b13c7739-7da4-46cf-b099-b0d06c68ba95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7316694-e38e-40b0-ba19-23d8e1b1936d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/3da2c113-cc5c-40c1-96f8-b11be31b2820")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "66f5acae-bfc6-43ea-8449-28d00affd17d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.95 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "bbb99d8a-f0a8-452b-a5f3-44ce71bda38d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e5881f3d-1536-43b1-955b-1ae4092e3d94")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "84f4ecbe-502e-4913-8ccb-1f5ff569e867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f6cfa994-8cf5-4079-a8d2-f129ebd8ff3f")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(layers "F.Cu" "F.Mask")
+			(uuid "adfe6461-7a93-467f-a96d-848809435458")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 9.4 9.4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "11b03e57-75b5-4521-8b70-44876c748e90")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7ecab291-439c-457f-a4fb-9fdb52f9958c")
@@ -95307,6 +98049,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "8096b4e5-4949-42ad-b7c8-06b9ff57ab73")
+		(at 184.24 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H23"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "37c3f5bd-10fd-4a31-b30c-9eeef588efe2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "60e38de0-2e6b-471a-b300-a9d7012f1ebc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c143ec86-d9d4-443f-861c-e1bdfba5ea91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ca47020-eafe-44ee-8051-dac774ea56a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6cdfa68-f42b-4d8b-bc90-b49055cb29c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/ba05789d-6384-4ac8-ae21-cfed20bfc0d0")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "f3986fb3-a84f-4a25-b9c0-98660fcee454")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "09a41b46-c9ec-44ff-8433-326324c5a412")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "59f5f666-1e8f-47a2-88ea-0fa69cc05f4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "98ec2c69-0cff-4671-b7b2-3c9c8946699b")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "8c822c29-41f2-467f-899d-c4ce40f704a1")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -101024,6 +103883,129 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "87ce5f99-1425-4cc1-b314-6eb47e69dd63")
+		(at 368.95 23.7)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H14"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "3c42e84d-bee0-4cf6-9013-63ced8a235eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "f7dc1011-c5f5-4f4b-a585-e3ca7a81ea08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e0323fc-9af6-4c07-b148-0d595a30458a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68a1e606-585a-4986-8b2e-ab2fc0847c9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1860e81-cd98-47b3-99b9-610afed3ebb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/311a0bc8-0aaf-41a6-ace9-97ae74a99e47")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "ff859723-24b3-49a6-a1ca-0d89656c9798")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ede28967-ef7a-4e85-8da6-bf60ca5d6347")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "39e92e73-65a2-402d-8914-ddc8054c2224")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "78fdfbe3-815e-4381-8bbb-03ea7d2fadf2")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "3c4521eb-ced1-4008-92de-0f21a772bc1f")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "c3a328e1-4107-4282-9769-97123fc45e4b")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -110815,6 +113797,140 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(layer "F.Cu")
+		(uuid "94150357-e7e8-4836-be66-79c7d2b22fe4")
+		(at 281.12 59)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H37"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "335fac08-09f5-4402-b987-214835a0fd62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "84ec128d-5677-4fa5-9eae-0b089eb7f5a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a16591d-18fb-4a9a-9366-cf9d8216e424")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "199f5087-3675-4ce8-a180-9df4efff2d84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d69f3d11-07ae-4227-a11a-6e9b1a60bdef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/5fb0e88f-8cd7-46ae-ac2e-f16a3e3656a8")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "4217ac41-2ccf-423a-9eaa-69be78fad17c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.95 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "9439d796-68f2-4166-a62f-5f157364c91a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8964d64c-3f0e-43c9-b1b0-58387d0c3b1d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "23f12735-b120-459a-b5cf-6c198dfe3ee8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d715afeb-dba5-4640-9789-e860bd75e1d9")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(layers "F.Cu" "F.Mask")
+			(uuid "d39646bc-741c-4ec3-be89-84dda2df80d2")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 9.4 9.4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "1c41061a-b5bd-484f-870a-ac8dd8f4a020")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9504247e-0394-4b5c-905e-9b592a9ad990")
@@ -111640,6 +114756,129 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "95973897-f897-456f-a217-47e790ebb374")
+		(at 164.59 23.7)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H6"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "22475342-254b-4b4f-b7f5-98031cc20443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "258e229a-fb9f-4333-8cd8-3dc3b4d81b0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36ed2555-8ada-48b7-99e1-7fd73589bfa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb4c3cfd-b9f9-49c1-a62e-a0f2500e9275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e711f68-ed8e-4d4a-9810-96e2e2a1486b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/ff596392-002f-465b-a9b6-fc024e922f48")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "e967dc93-d315-43a0-97b9-5f851f6dff13")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ad714c73-4551-49c4-8d82-46ea800a2563")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2203b00a-8e90-4902-ad77-86e8efc2213f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f4c115fb-7e09-42b8-aaf6-eec508ef1b68")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "41c5be65-0c83-4372-90fc-91d5a53862e7")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "9d3b2ed1-414d-43b1-be6f-1df1ee006745")
 		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
@@ -124912,6 +128151,123 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "a828c2de-8519-43d9-bec0-4f584e1b084c")
+		(at 235.33 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H25"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "e6337712-1072-42f9-a9e6-f852d4481573")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "25955d19-e505-411c-9b00-d3686c216b22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8358fa74-7c09-4330-b908-6d4816b88ffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a02990f7-799e-4b25-9cf0-9f125c1490d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04e6a80e-c9c8-4689-a701-1cb4408017ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c7e4f24e-09af-4e4f-a35c-96225162de72")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "c639b59a-8c2e-41bf-88a6-104b68339600")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4a8f33e1-d62b-4f0f-a620-4144cf7ad15c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fe69f7ea-51f8-4a6b-beaa-9d882a8e4405")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "619458bc-1484-48d4-a2d7-df06108f68b7")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "9ffd46a4-6851-4ccb-abba-bdab55066698")
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "a8431406-5435-4497-91cd-f59d320b0f53")
@@ -138168,6 +141524,123 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "b81fc850-00e1-4abf-a3f0-6678acf9c610")
+		(at 286.42 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H27"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "1b3fa5a7-4295-47ff-b5a8-e1e2c062d86b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "339711d8-29cb-4e95-8f66-8a051ff61c08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c10c122-f012-4ab5-96e6-93337c3fe609")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65d99b63-4ee6-4349-83d1-dbc4d125315c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b10e8397-5c61-4c86-b158-f53df2fbd903")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/6e99ef89-fe8d-4ad7-ba94-55608945a003")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "091da5c2-a77b-443a-90ad-b3a62fb632c7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d1d0871e-997a-41a1-8105-df153c6a91d1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fc6cbb3e-9df3-4e38-89a0-44908ac68bdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "92fa2bef-eef3-4fe1-80ca-a997dbec45c7")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "87f72734-6ab7-44cb-9d10-9577782a50d8")
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b888e721-dfc9-4003-80c6-a2c8e5e120d3")
@@ -149648,6 +153121,123 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "c81dac6f-d9ea-4a69-ac92-4dcee6191d42")
+		(at 133.15 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H21"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "8441244d-83ef-45e6-8f46-d04991100602")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "d351c9d7-6b01-4f71-b7a9-89e357db6c43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16a095df-f6e2-45cc-b491-65727aba13c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e548f389-fb3d-42f3-b13b-f511c8adcb1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8971ad1e-c903-4919-9834-0751ed1585ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/789fc15c-985a-4597-929d-e991a2690443")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "d5e8f649-ecf0-422c-9e41-bad961198a5a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "156e3804-73c4-4558-9ae5-f35349a23705")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "56e84750-ca6b-4c09-a1ea-59ac7e563186")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "4cd63578-0539-47e1-bc73-a296f9c8c3af")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "9f03e5ed-898b-4f75-9941-7b7156532c65")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c8336375-73e0-41ad-86c1-3ab2b5bf79a9")
@@ -150190,6 +153780,129 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "c950188e-6234-4031-b8ad-8d906e7783e9")
+		(at 344.01 39.47)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H13"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "42da6bf0-8e1b-4cad-8236-7a441d1be12b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "6a847f67-401f-4ea8-9ae3-95c4bcd39896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef636d0e-1228-42b6-b903-ab100d121919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dbd7499-a306-4fab-8c84-9d7518531ed3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45c1d366-d2ce-442e-990c-7b4220b0683e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/f4b7d0a2-4e0f-4817-9bfa-846bbcf3909f")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "4db502f5-f246-4513-92cc-54774e9b37d2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "9dfcc90d-5363-48f5-9d63-cb42f4ee586e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c7838bc9-f4dc-46f6-84a4-01839a3a1175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "204877fb-bee5-4971-89b6-dbbaa5831c1d")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "e2538568-aaa9-4455-afe4-203315dc34e0")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "1adc25e8-2f55-483b-9145-68ca9aa228f3")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -153150,6 +156863,140 @@
 			)
 		)
 	)
+	(footprint "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(layer "F.Cu")
+		(uuid "cc74ccbe-8e0e-4668-9411-b7788a7bbfcc")
+		(at 25.67 59)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H40"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "e8cf2ca3-08ac-4a32-97b8-96bedff1bc9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "27a2e9ba-7768-42f3-b02a-86ce2a66c327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaf8c53c-cca9-44bb-a876-328dedb745e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78ea6ac6-2fd8-467f-a907-9b305794135d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9caf8ca5-a8f2-44d3-8886-47eb8fd0bdf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d9089515-be81-4023-893b-db1830ec06b1")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "38dc7064-bb88-4de0-96f4-96ac8b675416")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.95 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "7d5dbf95-1d8e-4727-8333-dc52c3c67957")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "dba835f9-5cab-4f1d-a374-8a2200e53d89")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2a1416ed-e8d7-44d0-bc0f-7b43e10d6733")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "0bb0dce2-1ff6-4aa9-bd68-7e1656834e01")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(layers "F.Cu" "F.Mask")
+			(uuid "e7edab72-228f-4916-b6b1-1f4ff20e5642")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 9.4 9.4)
+			(layers "B.Cu" "B.Mask")
+			(uuid "13177b09-3156-47e3-9ab7-18d74d925ded")
+		)
+	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "ccad04ab-d586-4c56-93a9-1032a5b80cc6")
@@ -153985,6 +157832,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "ccc945ec-9ddc-4792-b09d-b8aae0d4d632")
+		(at 401.6 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H32"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "a8f7c882-efde-4b1e-b72d-f6b69c567c8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "cbce5690-11c5-42c2-9f9e-21de12a0c5d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd7883ad-b886-4616-aafd-f573c46fb9ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ee91cbb-92d8-4948-81af-2d0a1939116c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66467a27-d06b-43c4-8ef9-b6a0541ebb6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/4f383d8f-646d-4e87-8f04-8c3d852b12ec")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "d47e8f94-a4f1-410b-bc21-b0623d781d8d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2d836190-53cd-4a34-ac6b-2e14c72b4bc7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c4521c11-0643-4eb2-8ccd-fdeb1206c5fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6bbf0f76-07b4-4197-8bcf-7464c36110b4")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "12beed6f-4e37-44e6-8373-8facf715c7bb")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-523"
@@ -159930,6 +163894,129 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "d582e296-92cf-4152-9f09-07e0b5a060ab")
+		(at 266.77 23.7)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H10"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "39f29b25-8627-4894-9160-8f68ca175ca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "59c0432c-b9b9-4b8a-8318-f5c0bf8ba163")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74704e9d-d514-42d6-aa49-5e12151f2a3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe26d347-5b40-4c00-9cb5-def486128747")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e57c209-07d2-42ee-a64c-0e7833fbda0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/012d5106-94f3-407d-9a2d-ea7d15708711")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "07bb4c2a-37d4-4d62-88d5-77d139c5969c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "46e56574-ca26-4526-95b5-6af889f93987")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6f101f11-8982-4e6f-95ef-465392a92404")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "8933826a-9eb6-4e99-b4bb-f700a4a80a64")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "4be3a282-1227-4c94-8519-1b2b389aba6d")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "5761882b-a235-421b-9985-7a1d38a6be75")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d59640db-51d4-4701-ab43-15ba109c3edf")
@@ -165813,6 +169900,129 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "df08a94a-f368-49cb-98f2-080e011e1fcb")
+		(at 139.65 39.47)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H5"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "37e61583-6e0e-49b4-8a71-83d7a405a34e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "defbc21f-fb43-4aaf-9df0-3b60c0b842e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03c49d18-c776-4c8d-8162-5f09011c87d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df6ba9c5-9317-45ec-ae0c-7a2bb95e29d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a09c8c63-1101-4ace-9c09-2345fc9983be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a84c4df8-0c61-485e-acd9-7643abb92a1d")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "4b9cac08-9322-4e4b-97d5-2ef004c9c2cb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d3d836d1-4d4e-4d9b-ab5f-1edfc037fa9d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2b177905-2b78-4f7d-b27b-213457820d87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "497af8dc-8e87-4d41-8dbb-dd6f78c67d85")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "5aa3f6d7-47d7-4313-87a9-503a40ef84ba")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "a3f9c231-099b-427b-aa44-2501f68026f1")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "df51202e-1ef0-41b9-8f69-9b48ab56a811")
@@ -167431,6 +171641,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "e1a50e82-9f9e-4076-ad5f-bb8a4cb8f096")
+		(at 350.51 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H30"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "21fdf384-3211-404d-afdd-ff022f58d166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "c1a3946d-a792-4a2a-a5fa-9415a1773afc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45146ab5-2363-401b-9259-890e24d29be7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3daab83-8e59-4804-bd55-94a50591ca6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6398edf-cd53-4f8f-9880-be2ae5f30a4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/7991645d-fbbf-44a1-844b-955a4b3ee6b3")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "0473d600-3308-4042-be56-e25102e7ce55")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4290cfab-d3f8-4606-95da-ddf686cd5afd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "07d0d5c5-ed89-4161-a0b2-7e1f0a7260c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "008dab7e-acdf-4f0e-bcb6-a485e65b9a0e")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "e5047f82-38ed-4453-9b76-f9d35ded484f")
 		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
@@ -174951,6 +179278,123 @@
 			(uuid "6378ebf1-f812-4b2f-b97e-5d03d1c1b372")
 		)
 	)
+	(footprint "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+		(layer "F.Cu")
+		(uuid "eb1012ac-9a9e-41a7-83b5-73c9a221d6f0")
+		(at 248.33 36.26)
+		(descr "Mounting Hole 4mm")
+		(tags "mounting hole 4mm")
+		(property "Reference" "H26"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "abbf2cc6-2a02-4339-bee9-e2830bcdd11d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "517e5640-cf30-4b3b-b961-87076c1e950d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Robast:MountingHole_4mm_Pad_6.15mm_TopOnly"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42c82b2c-1662-4a88-87d4-b94058adc777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46b1304c-a6b3-48aa-9de6-f5417c78c97b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "114ca757-801b-4e3f-b9be-b488e78ace49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d797d2f8-4eba-4bd5-956a-bcabc3a2808a")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "1e44e4b6-94fc-4e80-b4fb-1aec3f9cd026")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "249375bd-eab4-41f2-897f-f41a3adfc485")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "99897194-2b24-4009-8a18-562e1df353e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.4 4.4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "fce1f201-689f-4fbb-8e91-c0157aefb2dc")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 6.15 6.15)
+			(layers "F.Cu" "F.Mask")
+			(uuid "7aa4a47b-6085-4e40-ab85-301608187a9f")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "eb3a0857-e64e-4edf-9e9e-327fd55f9896")
@@ -177584,6 +182028,129 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "efbbeb5d-f895-4f10-8d9f-bc7d255d3a0c")
+		(at 317.86 23.7)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H12"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "043ba358-4096-430d-a11d-5e7c59a7629a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "b4d333a7-50fc-4f6b-9cf8-a71ec90cdfce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e103cc1b-37c9-40db-a69e-438e007a8c61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfe2e79e-eb4e-4c26-8ab5-74eafb8d3101")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4e48b21-198f-4e9b-8495-25217c38d5ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/ba2cc4f2-3b73-4dbf-818d-f77b675404a1")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "ad9ea6de-e450-4a84-9472-de601633c41c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "fad61f4e-ebea-4361-ac99-cfecfaa3600f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7a53c8f5-9d10-4920-bc15-71cb85377979")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "230376a8-7d61-4246-8dbb-b00627120223")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "bed4a80d-d6b5-4b47-ac77-961021bb9964")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "f5c14309-9209-48a7-9f02-b873789dfc5e")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f0182baa-e0eb-4a0b-824b-5cb6e3bed6e8")
@@ -179188,6 +183755,129 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "f1601105-46bc-4011-8b80-f150665e709c")
+		(at 215.68 23.7)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H8"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "857ff8e2-a40c-42c9-8d3e-c652e038221c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "56c4ccaf-b770-4e57-8fb0-88db51f1f5bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ed62bd9-65d7-4812-b85c-32fc444da1d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf2bfaa1-1ae4-40cc-84cc-0d335b3e193b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eff604d2-d09a-457e-874e-b755149ca6d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/2da9d7ce-3b32-4330-ae24-f13c2c05c1b6")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "57dba125-2bf3-4c52-8ef9-8d5f6406bea1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b394c65d-1df2-48d3-9114-93f86070b5d3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9e1dc7b3-43cd-4022-bc43-b628c32c54bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "7d7f55f7-ac02-428b-ba6e-242b93c79b06")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "148e6ff4-faa1-46f6-81b8-ce75d2211802")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "8437063b-1595-438b-8ff7-065a4d2e0ef6")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -183616,6 +188306,252 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "f6d94ee5-57b8-4a70-9d9d-8d0f47933137")
+		(at 241.83 39.47)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H9"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "8d7abb4a-9930-4fca-964f-d010f12e603b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "88525bb1-5452-44f6-9d6e-99b5b0614fe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45737737-7456-4683-990f-98a630b72663")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11f80fad-9c8f-4f10-8720-a846657a3698")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4d6be9c-7d9a-4a08-abdc-042cf19aa983")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/8b2cf878-7e56-4235-81c1-4e300b862ae8")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2105a7da-0b46-4605-8213-98d4dbddda0b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "34deb128-10b0-4ba8-b1f6-e34f3245c42c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d8ba6d35-c09c-4409-8e34-4eb66f7ad59b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "212e5b93-3fdc-4dca-8295-9237cb27b141")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "5109e85a-018c-4a6f-b993-db11d0739bef")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "b75c114f-4795-441c-86bb-4f30a6da5453")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "fab474e1-3827-4f06-b91f-e90511bea526")
+		(at 37.47 39.47)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H1"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "a899dce4-ac84-4f9c-a6e0-173bb53b9445")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "a2d8c89c-5798-4f13-8594-d07813d54d5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59093307-2997-4020-94e5-b4e9bd42084c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "561d1e14-a547-4708-bb7c-f0ccde607680")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3806cf9-a1fa-4901-9355-7a0d566651cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/20aef0af-dead-4e04-a12e-809ca2d7178c")
+		(sheetname "Root")
+		(sheetfile "Partial_Drawer_Controller_v1.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "48996783-849f-4484-8719-915d12b4f8ea")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "373f6bd2-5bda-47c3-b7ae-3d70fc0c4091")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2324bf88-1429-4816-a905-8755c449c008")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e87e27fa-c80e-40d4-83b0-382e396340b1")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "e4738b8b-f68b-47cc-92d6-8d107097280b")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "b9ef35a0-d866-47d0-a5f8-dc3e84746308")
 		)
 	)
 	(footprint "Connector_JST:JST_XA_S08B-XASK-1_1x08_P2.50mm_Horizontal"
@@ -188668,5 +193604,78 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ffed83c4-1eac-41e3-a603-07c81c75fcfe")
+	)
+	(gr_line
+		(start 88.56 46.52)
+		(end 56.389166 25.370829)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "192febe3-5ccc-4c32-b5a5-4ff6d35fbed7")
+	)
+	(gr_line
+		(start 100.06 38.96)
+		(end 100.06 30.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "94e6fb7f-15c5-43b2-8878-e3eb3e23060a")
+	)
+	(gr_line
+		(start 88.56 46.52)
+		(end 100.059943 38.959914)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "b216c1af-534d-4fd9-ab1d-dff2bf31cd40")
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "In1.Cu")
+		(uuid "d6cf90ef-ecc4-459a-9734-ae17cac16537")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 20 20) (xy 20 70) (xy 429 70) (xy 429 20)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "In2.Cu")
+		(uuid "8b0efae8-744c-43cd-8591-2f11fcf71ea6")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 20 20) (xy 20 70) (xy 429 70) (xy 429 20)
+			)
+		)
 	)
 )
