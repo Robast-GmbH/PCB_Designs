@@ -670,20 +670,16 @@
       "8xLED_White29"
     ],
     [
-      "4f775c34-591c-4ce7-8371-4d3cb410bbf7",
+      "1435e788-24b0-4d35-b04b-da1d0e65b7d1",
       "Port Expander1"
     ],
     [
-      "b887cf59-3881-45d6-aa37-24c3d376a77f",
+      "336007e7-e816-41c4-9905-48078505cd87",
       "Port Expander2"
     ],
     [
       "784b2884-d726-456d-9cf9-7365a865d845",
       "Port Expander"
-    ],
-    [
-      "5b26ed90-7e22-4020-bd25-96294005c032",
-      "Port Expander3"
     ],
     [
       "d17982c1-9a9f-4dd2-aa68-8c26a8eeced1",
@@ -692,6 +688,10 @@
     [
       "1cb20bbd-00b4-431f-ae71-2d0dfae72065",
       "Differential_Line_Receiver"
+    ],
+    [
+      "289ed4a0-c0fb-403f-8449-e46a308dbcad",
+      "Ext_Switch_Sensing_Drawer_1"
     ]
   ],
   "text_variables": {}
