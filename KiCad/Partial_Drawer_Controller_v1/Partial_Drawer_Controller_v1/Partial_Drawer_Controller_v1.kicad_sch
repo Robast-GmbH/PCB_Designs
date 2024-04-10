@@ -12649,7 +12649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical"
 			(at 337.82 142.24 0)
 			(effects
 				(font
@@ -15977,7 +15977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
 			(at 339.09 58.42 0)
 			(effects
 				(font
