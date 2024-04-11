@@ -1539,27 +1539,6 @@
 		)
 		(uuid "f099bbd0-b524-45dd-9a83-75c1a5795741")
 	)
-	(text_box "TODO: Check if we might need to put some capacity at the 5V voltage output of the lock, because opening several locks at the same time could be to much"
-		(exclude_from_sim no)
-		(at 172.466 46.736 0)
-		(size 31.75 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "296723cf-b401-440c-af0e-2723bb7c8e1a")
-	)
 	(hierarchical_label "Gate_Control_N-Mosfet"
 		(shape input)
 		(at 106.68 85.09 180)
