@@ -7911,7 +7911,7 @@
 	)
 	(global_label "CAN-"
 		(shape input)
-		(at 38.1 76.2 180)
+		(at 38.1 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7921,7 +7921,7 @@
 		)
 		(uuid "4e4b5c9d-474d-4505-9f04-79e5ea003aed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9327 76.2 0)
+			(at 29.9327 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,7 +8901,7 @@
 	)
 	(global_label "CAN+"
 		(shape input)
-		(at 38.1 71.12 180)
+		(at 38.1 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8911,7 +8911,7 @@
 		)
 		(uuid "93480f60-b2ad-47ca-a70a-32b1f13ee3ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9327 71.12 0)
+			(at 29.9327 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
