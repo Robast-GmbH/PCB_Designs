@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -178,9 +172,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,12 +199,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -590,7 +577,7 @@
   "sheets": [
     [
       "57f8c193-fe09-43d3-9441-dbd40881d2aa",
-      "Root"
+      "Stammblatt"
     ],
     [
       "cf52d563-fbeb-48d6-b236-fc325e3d0bb7",
@@ -835,30 +822,6 @@
     [
       "2655a9d1-71af-409d-bbd2-3813169a4665",
       "8xLED_White23"
-    ],
-    [
-      "fd387e21-898d-4ede-8fcf-ebc067831c76",
-      "8xLED_White24"
-    ],
-    [
-      "6512e3c2-762d-4333-aec5-76c998f3a42d",
-      "8xLED_White25"
-    ],
-    [
-      "1e7ff721-b027-42f8-807a-b40e8980836d",
-      "8xLED_White26"
-    ],
-    [
-      "27a9aab7-eed9-44ea-97fd-cb0c527bed90",
-      "8xLED_White27"
-    ],
-    [
-      "cb6e0138-9195-4171-aed1-d2c0e39cf001",
-      "8xLED_White28"
-    ],
-    [
-      "4976777a-f279-4338-a042-8a0c8f762892",
-      "8xLED_White29"
     ],
     [
       "1435e788-24b0-4d35-b04b-da1d0e65b7d1",
