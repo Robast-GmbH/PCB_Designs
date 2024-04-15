@@ -8031,7 +8031,7 @@
 	)
 	(global_label "Drawer_1_OB2"
 		(shape input)
-		(at 335.28 82.55 180)
+		(at 335.28 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8041,7 +8041,7 @@
 		)
 		(uuid "6858e24f-e49c-4dc9-8221-f92760d4cdd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.009 82.55 0)
+			(at 319.009 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +9329,7 @@
 	)
 	(global_label "Drawer_1_OA2"
 		(shape input)
-		(at 335.28 74.93 180)
+		(at 335.28 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9339,7 +9339,7 @@
 		)
 		(uuid "c3e078e6-4a13-47fe-a846-e425e0fa2362")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.1904 74.93 0)
+			(at 319.1904 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +9373,7 @@
 	)
 	(global_label "Drawer_1_OB1"
 		(shape input)
-		(at 335.28 80.01 180)
+		(at 335.28 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9383,7 +9383,7 @@
 		)
 		(uuid "c5f25d3b-e971-41ba-aa6f-d4df3b12dceb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.009 80.01 0)
+			(at 319.009 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +10187,7 @@
 	)
 	(global_label "Drawer_1_OA1"
 		(shape input)
-		(at 335.28 77.47 180)
+		(at 335.28 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10197,7 +10197,7 @@
 		)
 		(uuid "ee73d8dc-df3f-43cb-af18-624bebecd337")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.1904 77.47 0)
+			(at 319.1904 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

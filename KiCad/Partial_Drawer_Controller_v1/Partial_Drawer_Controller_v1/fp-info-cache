@@ -1,4 +1,4 @@
-23087306542715031
+23090197975404467
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86975,12 +86975,19 @@ AMPHENOL_USB_Micro_10118194-0001LF
 11
 11
 Robast
+CP_Elec_12.5x13.5
+
+
+0
+2
+2
+Robast
 DSWB02LHGET
 
 
 0
-0
-0
+4
+4
 Robast
 ESP32-WROOM-32E
 
@@ -86995,6 +87002,20 @@ Fuse_154_OMNI_BLOK
 0
 2
 2
+Robast
+MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+3
+1
+Robast
+MountingHole_4mm_Pad_6.15mm_TopOnly
+Mounting Hole 4mm
+mounting hole 4mm
+0
+2
+1
 Robast
 Power_Inductor_SMDRI127
 
