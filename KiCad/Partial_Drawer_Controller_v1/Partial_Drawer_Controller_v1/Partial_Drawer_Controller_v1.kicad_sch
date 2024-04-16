@@ -4586,6 +4586,12 @@
 		(uuid "41a0db8e-b72c-494a-85a3-53bbbd98b565")
 	)
 	(junction
+		(at 19.05 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48094bd2-1cff-4a22-a1bc-7c8e19b56b0b")
+	)
+	(junction
 		(at 138.43 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5315,6 +5321,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 172.72) (xy 57.15 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b852883a-be2d-4f5c-856a-f51f8029dbe5")
+	)
+	(wire
+		(pts
 			(xy 214.63 41.91) (xy 218.44 41.91)
 		)
 		(stroke
@@ -5452,16 +5468,6 @@
 			(type default)
 		)
 		(uuid "dc1521d7-c7f1-417b-a92c-7e3d6622a0af")
-	)
-	(wire
-		(pts
-			(xy 30.48 172.72) (xy 57.15 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7e8ab7-ce48-487b-8f9c-28896a3e7148")
 	)
 	(wire
 		(pts
@@ -6491,7 +6497,7 @@
 	)
 	(global_label "Drawer_1_B+"
 		(shape input)
-		(at 107.95 49.53 0)
+		(at 107.95 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6501,7 +6507,7 @@
 		)
 		(uuid "105b3e20-8b23-4145-9151-e2a474e5f9fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2534 49.53 0)
+			(at 123.2534 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,22 +6827,22 @@
 	)
 	(global_label "JTAG_TDI"
 		(shape input)
-		(at 332.74 34.29 180)
+		(at 345.44 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "20225d42-2b19-4634-a084-ccc572dbd0d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.651 34.29 0)
+			(at 356.529 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6887,7 +6893,7 @@
 	)
 	(global_label "Drawer_1_N-"
 		(shape input)
-		(at 107.95 57.15 0)
+		(at 107.95 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6897,7 +6903,7 @@
 		)
 		(uuid "2425c271-682d-4b26-9c02-47a7e595ffe7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.3139 57.15 0)
+			(at 123.3139 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7157,7 @@
 	)
 	(global_label "Enable_LED_VDD"
 		(shape input)
-		(at 194.31 156.21 0)
+		(at 194.31 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7161,7 +7167,7 @@
 		)
 		(uuid "3409d140-3323-43d9-83ac-6b82c46a3dd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6559 156.21 0)
+			(at 212.6559 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7289,7 @@
 	)
 	(global_label "pe_2_IO1_7"
 		(shape input)
-		(at 194.31 213.36 0)
+		(at 223.52 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7293,7 +7299,7 @@
 		)
 		(uuid "3857a506-7791-4de3-a679-ef577134531e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.9994 213.36 0)
+			(at 237.2094 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,22 +8301,22 @@
 	)
 	(global_label "SPI_CS"
 		(shape input)
-		(at 334.01 63.5 180)
+		(at 346.71 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7aef4176-b419-46f5-8732-f90965fabdb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 324.4934 63.5 0)
+			(at 356.2266 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8427,7 +8433,7 @@
 	)
 	(global_label "Drawer_1_A-"
 		(shape input)
-		(at 107.95 46.99 0)
+		(at 107.95 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8437,7 +8443,7 @@
 		)
 		(uuid "8134f789-dec8-44d4-911e-43be9d83a212")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.072 46.99 0)
+			(at 123.072 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,22 +8455,22 @@
 	)
 	(global_label "EN_ESP32"
 		(shape input)
-		(at 345.44 34.29 0)
+		(at 332.74 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "81a717e7-187e-45f0-850d-67ce3977c575")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.9198 34.29 0)
+			(at 320.2602 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8977,22 +8983,22 @@
 	)
 	(global_label "JTAG_TDO"
 		(shape input)
-		(at 345.44 39.37 0)
+		(at 332.74 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a5abd1ee-255b-4022-86fa-94c55b17379b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.2547 39.37 0)
+			(at 320.9253 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9329,7 +9335,7 @@
 	)
 	(global_label "Drawer_1_OA2"
 		(shape input)
-		(at 335.28 80.01 180)
+		(at 335.28 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9339,7 +9345,7 @@
 		)
 		(uuid "c3e078e6-4a13-47fe-a846-e425e0fa2362")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.1904 80.01 0)
+			(at 319.1904 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9351,7 +9357,7 @@
 	)
 	(global_label "Drawer_1_N+"
 		(shape input)
-		(at 107.95 54.61 0)
+		(at 107.95 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9361,7 +9367,7 @@
 		)
 		(uuid "c420e2ca-10e7-4248-833d-7fa8df37d53c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.3139 54.61 0)
+			(at 123.3139 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9395,22 +9401,22 @@
 	)
 	(global_label "SPI_SO"
 		(shape input)
-		(at 346.71 63.5 0)
+		(at 334.01 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c6a18faa-1947-411e-b71a-7f33e43cb3b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.2871 63.5 0)
+			(at 324.4329 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9461,22 +9467,22 @@
 	)
 	(global_label "JTAG_TMS"
 		(shape input)
-		(at 332.74 39.37 180)
+		(at 345.44 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c8ef3891-5057-45ab-9517-a4599047c11b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.8649 39.37 0)
+			(at 357.3151 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9681,7 +9687,7 @@
 	)
 	(global_label "SPI_SCK"
 		(shape input)
-		(at 346.71 60.96 0)
+		(at 346.71 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9691,7 +9697,7 @@
 		)
 		(uuid "d5efd566-a5d2-4886-b73d-24eea72bfd9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.4966 60.96 0)
+			(at 357.4966 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9819,7 @@
 	)
 	(global_label "Drawer_1_B-"
 		(shape input)
-		(at 107.95 52.07 0)
+		(at 107.95 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9823,7 +9829,7 @@
 		)
 		(uuid "db73ae11-882f-4408-92ef-5d5f8e6131b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2534 52.07 0)
+			(at 123.2534 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +10193,7 @@
 	)
 	(global_label "Drawer_1_OA1"
 		(shape input)
-		(at 335.28 82.55 180)
+		(at 335.28 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10197,7 +10203,7 @@
 		)
 		(uuid "ee73d8dc-df3f-43cb-af18-624bebecd337")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.1904 82.55 0)
+			(at 319.1904 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10347,7 @@
 	)
 	(global_label "Drawer_1_A+"
 		(shape input)
-		(at 107.95 44.45 0)
+		(at 107.95 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10351,7 +10357,7 @@
 		)
 		(uuid "f9ac9ec3-7faf-4037-bf45-c346973837f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.072 44.45 0)
+			(at 123.072 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10835,112 +10841,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR0213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_R_0402:10K")
-		(at 30.48 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "092ff5bc-43ec-47d9-ad84-1f67c32e1e34")
-		(property "Reference" "R218"
-			(at 33.02 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 33.02 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 28.702 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
-			(at 30.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "UNI-ROYAL"
-			(at 30.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 30.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C25744"
-			(at 30.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 30.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "043b22bd-b182-4a52-8f19-1c8f7b18ba7b")
-		)
-		(pin "1"
-			(uuid "77a5f2c9-0bbd-4094-9965-283384a4b7ab")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
-					(reference "R218")
 					(unit 1)
 				)
 			)
@@ -11966,71 +11866,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "H14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 30.48 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "322be544-305a-4fe6-8c49-508cbb1b1c6d")
-		(property "Reference" "#PWR0180"
-			(at 30.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 30.48 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10f3d5b0-c023-429d-bc48-709e2255a64b")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
-					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
