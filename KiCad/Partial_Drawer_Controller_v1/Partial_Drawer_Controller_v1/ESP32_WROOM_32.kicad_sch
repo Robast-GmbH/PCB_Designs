@@ -13511,71 +13511,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 264.16 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1451b221-bed2-47e7-8af7-94c6b252f88f")
-		(property "Reference" "#PWR0188"
-			(at 264.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 264.16 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53be62bc-3a18-4cf0-8aac-5acac80a4a12")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
-					(reference "#PWR0188")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 282.575 81.28 0)
 		(unit 1)
@@ -13701,71 +13636,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 251.46 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ac411bd-769c-4428-b5b4-bbf046ad2fcc")
-		(property "Reference" "#PWR0191"
-			(at 251.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 251.46 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e228680b-d91c-450f-b538-8000bedf92eb")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
-					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -14703,6 +14573,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 251.46 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49867df1-3a96-4f5a-b0ff-e2773a50b9da")
+		(property "Reference" "#PWR0189"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 251.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b49fc56-988d-4476-919b-d3a85f85e8a9")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_Connector_USB:USB-Micro")
 		(at 22.86 66.04 0)
 		(unit 1)
@@ -15428,71 +15363,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
 					(reference "R224")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 232.41 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "610a0a66-747e-4d0e-b6d5-3a9204bf3303")
-		(property "Reference" "#PWR0189"
-			(at 232.41 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 232.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "348debf5-0e80-453f-9267-6d6164354cab")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
-					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -17475,6 +17345,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 213.36 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9eb69f69-695c-4084-89fc-f35b38f0060a")
+		(property "Reference" "#PWR0191"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 213.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "674ab6b9-e376-43b6-ad74-f45ca3f3d6c6")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_Diode_TVS:LESD5D5.0CT1G")
 		(at 74.93 75.565 90)
 		(unit 1)
@@ -17967,6 +17902,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 232.41 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9c75139-773f-42b8-8c7b-de8a33441b6c")
+		(property "Reference" "#PWR0180"
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee13e719-0061-4532-8f75-ee3369d4b295")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 81.28 0)
 		(unit 1)
@@ -18091,6 +18091,71 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 276.86 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b20b82-c09b-4c3d-bb2c-38e61fad5e82")
+		(property "Reference" "#PWR0184"
+			(at 276.86 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 276.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb66d150-a97d-45a4-8cc2-4a81a9521bc4")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -18370,136 +18435,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 213.36 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5a68b08-d9ba-4db1-9171-b85dbd2e69cd")
-		(property "Reference" "#PWR0184"
-			(at 213.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 213.36 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91af5221-d31f-4485-bd52-94989762045d")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
-					(reference "#PWR0184")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 276.86 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d682ed95-8dc5-41b4-af0a-5bd13bd5f872")
-		(property "Reference" "#PWR0196"
-			(at 276.86 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 276.86 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a60df62-aa0f-450f-8b29-46b63d4dd00a")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
-					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -19306,6 +19241,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 264.16 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6db5c6b-ba4a-4e69-9dce-b02c11f5bc2f")
+		(property "Reference" "#PWR0188"
+			(at 264.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 264.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d782b1d8-1723-48a0-af98-a3d2b4b34ee5")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_R_0402:10K")
 		(at 148.59 153.035 90)
 		(unit 1)
@@ -19503,16 +19503,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "+5V" input
-			(at 217.17 182.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c4e94d5a-65b1-403e-9729-6cc25cb7c970")
 		)
 		(pin "SDA" bidirectional
 			(at 217.17 189.23 180)
@@ -19744,6 +19734,16 @@
 			)
 			(uuid "bac16390-74c4-4b1e-9c90-4903aa773239")
 		)
+		(pin "+3V3" input
+			(at 217.17 182.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4aa2100-a02e-440d-b937-c2c273b19e86")
+		)
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
@@ -19781,16 +19781,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "+5V" input
-			(at 280.67 182.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4b021d70-3418-4bec-9769-190a2090ea07")
 		)
 		(pin "SDA" bidirectional
 			(at 280.67 189.23 180)
@@ -20022,6 +20012,16 @@
 			)
 			(uuid "110d2255-c110-4bcf-9c11-ae779f8c34b1")
 		)
+		(pin "+3V3" input
+			(at 280.67 182.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b508362-40b7-4666-bd94-0eab01d03a65")
+		)
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
@@ -20059,16 +20059,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "+5V" input
-			(at 267.97 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "34ac28e2-9aca-4f5a-84b0-ff32b3006e51")
 		)
 		(pin "SDA" bidirectional
 			(at 267.97 119.38 180)
@@ -20299,6 +20289,16 @@
 				(justify right)
 			)
 			(uuid "1d3680d1-bf99-4b4f-9a5a-39d45cb52dec")
+		)
+		(pin "+3V3" input
+			(at 267.97 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee7f9c01-75e0-4ac8-b81e-58a2898af8d8")
 		)
 		(instances
 			(project "Partial_Drawer_Controller_v1"
