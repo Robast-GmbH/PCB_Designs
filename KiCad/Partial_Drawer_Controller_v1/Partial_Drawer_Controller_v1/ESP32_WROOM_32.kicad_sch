@@ -2270,8 +2270,8 @@
 			)
 			(symbol "ESP32-WROOM-32E-N8_0_0"
 				(rectangle
-					(start -15.24 -30.48)
-					(end 15.24 33.02)
+					(start -15.24 33.02)
+					(end 15.24 -30.48)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2856,168 +2856,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -20.32 17.78 0)
 					(length 5.08)
@@ -3119,6 +2957,26 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESP32-WROOM-32E-N8_1_0"
+				(pin power_in line
+					(at 20.32 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -13166,286 +13024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "_MCU:ESP32-WROOM-32E-N8")
-		(at 260.35 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b77cfb1-16d5-4238-96f1-a546f6ff44f0")
-		(property "Reference" "U7"
-			(at 260.35 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32-WROOM-32E-N8"
-			(at 260.35 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Robast:ESP32-WROOM-32E"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESP32-WROOM-32E-N8, 8 MB Flash, PCB Antenna"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.4"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Espressif Systems"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.25mm"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Espressif Systems"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ESP32-WROOM-32E-N8"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C701342"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "25"
-			(uuid "72e503be-ad9f-42b1-91da-e5c6198d98d8")
-		)
-		(pin "27"
-			(uuid "2e6e29df-3c95-42cc-811f-9b90351a4070")
-		)
-		(pin "20"
-			(uuid "0cf58939-9b98-4d28-9345-41cb02a82b97")
-		)
-		(pin "39_1"
-			(uuid "35584e86-ce25-460c-a17c-01bae1281697")
-		)
-		(pin "16"
-			(uuid "20e3e991-49ff-4fa8-beaf-730f94f64237")
-		)
-		(pin "26"
-			(uuid "3c0d4731-c8d4-4f6c-b49c-681dc55e98d5")
-		)
-		(pin "18"
-			(uuid "d4d0c881-88aa-4295-a4e8-cb092e21a056")
-		)
-		(pin "13"
-			(uuid "0a24e87e-31bf-48ec-b073-a943bf5b7e7e")
-		)
-		(pin "19"
-			(uuid "74e28d44-1777-4bfc-a361-9f6c67cf8d53")
-		)
-		(pin "2"
-			(uuid "fed2a164-4d3f-47a5-9b0b-2e44769a9423")
-		)
-		(pin "23"
-			(uuid "c0aa9d4b-8b20-4dbc-be26-de4e0ed29ed5")
-		)
-		(pin "24"
-			(uuid "1c021746-7528-42f2-9b33-423dc138cd8e")
-		)
-		(pin "10"
-			(uuid "d100d416-bc76-4d8e-86cb-42e0b7f3a777")
-		)
-		(pin "28"
-			(uuid "170550bf-ce92-45a8-bb27-8d23035039ff")
-		)
-		(pin "12"
-			(uuid "21d2740f-a3f6-493b-9d4a-1f68d6fc3483")
-		)
-		(pin "21"
-			(uuid "5965b6e8-fb62-46a3-a794-0bf9fb30ab3f")
-		)
-		(pin "30"
-			(uuid "6ce52670-aa52-42e2-950c-6baba8c82758")
-		)
-		(pin "39_2"
-			(uuid "2f357529-aba0-4ecc-b371-477fa6bcf0e8")
-		)
-		(pin "1"
-			(uuid "ddbb5495-35a2-4efb-8bb4-22833c9584e4")
-		)
-		(pin "11"
-			(uuid "6e8111c0-b01c-44ea-8179-c061ad97c5c9")
-		)
-		(pin "22"
-			(uuid "ae1b2646-a780-4b15-8c23-1049730e4e99")
-		)
-		(pin "35"
-			(uuid "90ef881d-50eb-46b0-874a-8364cf87feba")
-		)
-		(pin "36"
-			(uuid "d2099c70-0dfe-436f-a4f2-00f8ee98d132")
-		)
-		(pin "37"
-			(uuid "d2d127a8-eb08-4de9-954b-5420695cb9b4")
-		)
-		(pin "39_6"
-			(uuid "370833c0-6898-483d-9aee-a4fd73cd2d0f")
-		)
-		(pin "39_8"
-			(uuid "181c8b2c-2332-4aad-89f6-910aeb85bbdf")
-		)
-		(pin "8"
-			(uuid "be94d369-0214-4109-b85d-1369c296b117")
-		)
-		(pin "9"
-			(uuid "2851cb9a-d3ae-46cb-af47-e8e37313f7ef")
-		)
-		(pin "34"
-			(uuid "adac8b3f-4a43-4627-b60a-17d091325d96")
-		)
-		(pin "5"
-			(uuid "d459b4de-3216-4ee6-8d72-0b490ed42273")
-		)
-		(pin "6"
-			(uuid "2bf171dd-b42d-4fae-ad9b-8fd9698fdd28")
-		)
-		(pin "15"
-			(uuid "63e1a2d6-d3e0-4485-9899-4242ddb7b704")
-		)
-		(pin "14"
-			(uuid "1916f4b8-207b-4c4e-a6fc-9b0baf4cf2d9")
-		)
-		(pin "31"
-			(uuid "90ca93c9-8356-46cf-b74e-87b1325e68aa")
-		)
-		(pin "3"
-			(uuid "4a930789-4b08-4233-a1e3-5d7fd1c0cc24")
-		)
-		(pin "17"
-			(uuid "0db51e8a-7388-4a21-8caf-b459cf82e36b")
-		)
-		(pin "32"
-			(uuid "91ad4455-cca8-473f-99b8-d9aeac7e9e3e")
-		)
-		(pin "4"
-			(uuid "ec9ad670-e1eb-4409-acee-2d8c2aedb759")
-		)
-		(pin "7"
-			(uuid "4b8149a4-b33f-4186-9650-238d31c7178b")
-		)
-		(pin "39_5"
-			(uuid "02e62bcb-c996-4a46-bf2b-801ba171175a")
-		)
-		(pin "38"
-			(uuid "3f5640f8-e5d5-4c66-9a6a-a0a5562249a8")
-		)
-		(pin "39_4"
-			(uuid "b6dd713a-7d25-42cd-afe4-2e0eee2ba50e")
-		)
-		(pin "39_7"
-			(uuid "71cac8a3-3e28-452d-bdc8-af56ee22c6ca")
-		)
-		(pin "29"
-			(uuid "ac90b00c-590d-4a9e-98ea-4183cc485ab8")
-		)
-		(pin "33"
-			(uuid "b0e02280-924d-411a-861d-8e27da893f0a")
-		)
-		(pin "39_3"
-			(uuid "230f6d4d-0ca8-474e-be71-e2b924964861")
-		)
-		(pin "39_9"
-			(uuid "732f6618-d43c-4cef-b926-3e07439d175b")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 151.13 103.505 0)
 		(unit 1)
@@ -14681,7 +14259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0 Micro-B SMD"
 			(at 22.86 66.04 0)
 			(effects
 				(font
@@ -16561,6 +16139,262 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_MCU:ESP32-WROOM-32E-N8")
+		(at 260.35 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "888e3f26-a8df-4819-afc9-3ed663ed3f83")
+		(property "Reference" "U7"
+			(at 260.35 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-WROOM-32E-N8"
+			(at 260.35 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robast:ESP32-WROOM-32E"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESP32-WROOM-32E-N8, 8 MB Flash, PCB Antenna"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.4"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Espressif Systems"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.25mm"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Espressif Systems"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESP32-WROOM-32E-N8"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C701342"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "25"
+			(uuid "72ab94fd-231d-47b6-afb7-821aff618aa7")
+		)
+		(pin "32"
+			(uuid "f090837f-e387-4da9-9487-a541b86efe8e")
+		)
+		(pin "23"
+			(uuid "38084b21-b1bd-4367-b498-d91261f88377")
+		)
+		(pin "38"
+			(uuid "7411dfc9-99e4-40b8-8757-1dc6eb9e9221")
+		)
+		(pin "36"
+			(uuid "731e58e8-ec29-4a7a-8a93-67b1d9d00300")
+		)
+		(pin "21"
+			(uuid "9154dafe-7497-486b-ac67-89d53e267770")
+		)
+		(pin "26"
+			(uuid "1f1aa210-1810-40e5-b057-52ca1b5c4cda")
+		)
+		(pin "29"
+			(uuid "36adee81-7c6e-4ea3-bbfa-fc73c91c7818")
+		)
+		(pin "4"
+			(uuid "8a460f57-ac02-4626-895c-697aaaffbf76")
+		)
+		(pin "34"
+			(uuid "ffa708eb-6ad3-4147-b7b1-eb69f0b7aafe")
+		)
+		(pin "35"
+			(uuid "1206de8b-1705-48d2-a597-f3ab286058ba")
+		)
+		(pin "18"
+			(uuid "62b755fd-9215-4ff6-bf72-8e596f7642d6")
+		)
+		(pin "7"
+			(uuid "bb257f42-373d-44bf-a839-9bfbfabfc94a")
+		)
+		(pin "22"
+			(uuid "47c4106c-bf99-4f0a-beac-9c3440dd2697")
+		)
+		(pin "8"
+			(uuid "429db4c8-d75b-4d0a-9958-c321f48ac49e")
+		)
+		(pin "39"
+			(uuid "3694cb8e-f1e9-4476-be26-ae79a76c2bbf")
+		)
+		(pin "37"
+			(uuid "bf2abb98-c935-4327-8a95-fab38197c07f")
+		)
+		(pin "5"
+			(uuid "0a7c425d-3594-4709-a6d9-2f8d6215a6e3")
+		)
+		(pin "3"
+			(uuid "fe93ba04-2e79-4241-9004-7dbf69deec1a")
+		)
+		(pin "31"
+			(uuid "784fdf09-045b-4045-9168-d7093e71f8fd")
+		)
+		(pin "24"
+			(uuid "16768d50-ed53-42b4-a0bf-0d59523fb231")
+		)
+		(pin "33"
+			(uuid "e66d3dcf-80fd-42e8-b9b0-72a473246c82")
+		)
+		(pin "30"
+			(uuid "6e48d290-5f74-4bf4-a3c4-ea74d413f043")
+		)
+		(pin "6"
+			(uuid "0734f571-8cba-4421-8a31-9a500d40c11c")
+		)
+		(pin "2"
+			(uuid "ad533406-28c7-430d-bdfb-d7b0184b27fd")
+		)
+		(pin "1"
+			(uuid "293e9bb3-0f58-4831-aee1-3e3019dc9f19")
+		)
+		(pin "10"
+			(uuid "bcdb5af9-3825-44d5-bf6a-a496a83f0d56")
+		)
+		(pin "11"
+			(uuid "7def8ffe-92d1-4e28-917c-a702cd0af279")
+		)
+		(pin "9"
+			(uuid "167c4fd2-81f7-4e09-8077-0172dfdfc199")
+		)
+		(pin "14"
+			(uuid "2e052af4-7a19-407e-8448-7c72c9edf478")
+		)
+		(pin "19"
+			(uuid "cceb66f5-6fe5-440c-a431-56bf6ec7b3fc")
+		)
+		(pin "17"
+			(uuid "7ced1e92-c38c-4551-a105-2d5acc75d26d")
+		)
+		(pin "20"
+			(uuid "8396f2d5-6853-41b7-91b3-22c1f9bf61e8")
+		)
+		(pin "28"
+			(uuid "9f1ea327-fed1-4e80-8e93-8a05aa341ac3")
+		)
+		(pin "27"
+			(uuid "be077bad-0dd3-4b41-8442-17148cabfb28")
+		)
+		(pin "16"
+			(uuid "76cc2eb1-32dd-4cff-8e48-ac8fbf32ddd3")
+		)
+		(pin "13"
+			(uuid "db794cda-068e-4b0b-bdf6-7c52857f7e80")
+		)
+		(pin "12"
+			(uuid "00a92fa9-3520-4280-ac93-1b959069ff63")
+		)
+		(pin "15"
+			(uuid "2a6f7cb6-cc70-4fc8-90b0-cd271d85422f")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447"
+					(reference "U7")
 					(unit 1)
 				)
 			)
