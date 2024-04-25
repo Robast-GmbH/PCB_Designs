@@ -2608,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 68.58) (xy 128.27 68.58)
+			(xy 132.08 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3048,7 +3048,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 120.015 109.22)
+			(xy 114.3 109.22) (xy 119.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4173,7 @@
 	)
 	(global_label "DIAG"
 		(shape input)
-		(at 131.445 68.58 0)
+		(at 132.08 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4184,7 +4184,7 @@
 		)
 		(uuid "ddec730b-3a33-4601-9c35-96e81df5377d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.4036 68.58 0)
+			(at 138.0386 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6786,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.015 109.22 0)
+		(at 119.38 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6795,7 +6795,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0a4c5df-7178-419a-a4f3-31a189a0d899")
 		(property "Reference" "#PWR0229"
-			(at 120.015 115.57 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +6804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.015 113.665 0)
+			(at 119.38 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.015 109.22 0)
+			(at 119.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +6821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.015 109.22 0)
+			(at 119.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +6830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.015 109.22 0)
+			(at 119.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

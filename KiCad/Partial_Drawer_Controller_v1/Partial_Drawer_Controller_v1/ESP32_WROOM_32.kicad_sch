@@ -7296,7 +7296,7 @@
 	)
 	(rectangle
 		(start 196.215 99.06)
-		(end 260.35 171.45)
+		(end 260.985 167.005)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7378,10 +7378,10 @@
 		)
 		(uuid c8c60986-8132-4757-81d9-7c0007dfcb29)
 	)
-	(text_box "I2C Bus Capacitance:\n- typ. ~10pF per device \n- ~2.2pF per cm microstrip (0.3mm width, 0.1mm above reference plane)\n\nWe have 4 devices and ~15cm microstrip\nC_{Bus} = 4 * 10pF + 15 * 2.2pF\n      = 73 pF\n\nPullup Resistor for Fast-mode I2C:\nR_{p}(max) = t_{r} / (0.8473 * C_{Bus})\n           = 300 * 10^{-9} / (0.8473 * 73 * 10^{-12})\n           = 4.85 kΩ\n\nR_{p}(min) = (V_{CC} - V_{OL}(max)) / I_{OL}\n           = (5 V - 0.4 V) / (3 * 10^{-3} A)\n           = 1.5 kΩ\n\nSo we can take e.g. 2.7 kΩ pullup resistor."
+	(text_box "I2C Bus Capacitance:\n- typ. ~10pF per device \n- ~0.8085 pF per cm microstrip (0.18mm width, 0.2104mm above reference plane)\n\nWe have 5 devices and ~22cm microstrip\nC_{Bus} = 5 * 10pF + 22 * 0.8085pF\n      = 67,79 pF\n\nPullup Resistor for Fast-mode I2C:\nR_{p}(max) = t_{r} / (0.8473 * C_{Bus})\n           = 300 * 10^{-9} / (0.8473 * 67,79 * 10^{-12})\n           = 5.22 kΩ\n\nR_{p}(min) = (V_{CC} - V_{OL}(max)) / I_{OL}\n           = (5 V - 0.4 V) / (3 * 10^{-3} A)\n           = 1.5 kΩ\n\nSo we can take e.g. 2.7 kΩ pullup resistor."
 		(exclude_from_sim no)
 		(at 197.485 121.92 0)
-		(size 40.64 42.291)
+		(size 46.355 41.91)
 		(stroke
 			(width -0.0001)
 			(type default)
