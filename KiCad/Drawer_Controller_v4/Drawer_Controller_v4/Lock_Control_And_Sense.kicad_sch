@@ -1,0 +1,353 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "829bf2fb-0cbe-499c-a458-8d59c8c34551")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 93.98 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b36330-2cf8-45ed-8dc0-dbf704c0c464")
+	)
+	(wire
+		(pts
+			(xy 93.98 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14a2471-e56f-4658-90f7-80eaac6dfda0")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b070bb55-0228-4296-a3e8-7ee4030ef808")
+	)
+	(wire
+		(pts
+			(xy 144.78 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea808fb-8ecd-4963-9d95-bd31b306a2df")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 177.165 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e301da27-6144-419d-9a60-ba17f7656a44")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bce64b-d205-47d8-b342-035aaa09b251")
+	)
+	(label "Lock_VDD_Open"
+		(at 154.94 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07f6740e-0c2d-4dbd-8b5e-198fcb5e8890")
+	)
+	(label "Lock_VDD_Close"
+		(at 155.575 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5751e8b1-f339-4c71-9edf-8cc9dd05e734")
+	)
+	(label "Switch_Output_Lock"
+		(at 155.575 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1a0330c-7a91-492f-add5-a9d1bcc4f2f8")
+	)
+	(hierarchical_label "Switch_Output_Lock"
+		(shape input)
+		(at 177.165 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0da03d81-c368-48bd-8c52-f71dbd2d30db")
+	)
+	(hierarchical_label "Lock_Open_Control"
+		(shape input)
+		(at 93.98 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "20f92dd2-6c71-49a8-90b4-1dcf58f6b837")
+	)
+	(hierarchical_label "Sense_Input_Lock"
+		(shape output)
+		(at 92.71 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "3eb8abcd-1d94-463d-8010-cf3042c13f07")
+	)
+	(hierarchical_label "Lock_VDD_Close"
+		(shape output)
+		(at 176.53 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6a59a092-4acd-4675-9f9d-221dd52df4f2")
+	)
+	(hierarchical_label "Lock_Close_Control"
+		(shape input)
+		(at 93.98 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "85bbb36c-65a4-4bb9-b0f3-7de8b333109c")
+	)
+	(hierarchical_label "Lock_VDD_Open"
+		(shape output)
+		(at 176.53 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a1d61627-6b21-4c63-b83b-8f7f21b91dbe")
+	)
+	(sheet
+		(at 101.6 53.34)
+		(size 43.18 4.445)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15668dfa-94df-40b3-a544-41fd1fccc398")
+		(property "Sheetname" "VDD_Switch_Lock_Open"
+			(at 101.6 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VDD_Switch.kicad_sch"
+			(at 101.6 58.3696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Gate_Control_N-Mosfet" input
+			(at 101.6 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86f841de-362b-4ff0-a1a6-a4519f6ae035")
+		)
+		(pin "VDD_Switchtable" output
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8944bf14-e311-4337-85c2-fb6cb808dda4")
+		)
+		(instances
+			(project "Drawer_Controller_v4"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 79.375)
+		(size 35.56 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b926a9c7-0ab5-42b5-a6cc-eed2281bf581")
+		(property "Sheetname" "Ext_Switch_Sensing"
+			(at 101.6 78.6634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ext_Switch_Sensing.kicad_sch"
+			(at 101.6 83.7696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Sense_Input" output
+			(at 101.6 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f540065f-ffbc-425a-ba5f-1b85a5555ceb")
+		)
+		(pin "Switch" input
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6b8065c-a289-4c67-a242-04c63ec33b34")
+		)
+		(instances
+			(project "Drawer_Controller_v4"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 67.31)
+		(size 43.18 4.445)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc31505b-5a69-4cae-b717-7ca611d3309b")
+		(property "Sheetname" "VDD_Switch_Lock_Close"
+			(at 101.6 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VDD_Switch.kicad_sch"
+			(at 101.6 72.3396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Gate_Control_N-Mosfet" input
+			(at 101.6 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0267dbe-2ec0-451e-8d34-8b1c6fef587b")
+		)
+		(pin "VDD_Switchtable" output
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4255efde-2b7d-481d-a22e-96a4618a9917")
+		)
+		(instances
+			(project "Drawer_Controller_v4"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a"
+					(page "5")
+				)
+			)
+		)
+	)
+)
