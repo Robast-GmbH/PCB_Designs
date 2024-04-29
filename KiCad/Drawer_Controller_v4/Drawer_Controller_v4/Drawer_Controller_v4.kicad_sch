@@ -5857,7 +5857,7 @@
 	)
 	(rectangle
 		(start 250.19 127)
-		(end 292.735 173.355)
+		(end 274.32 153.035)
 		(stroke
 			(width 0)
 			(type default)
@@ -5954,6 +5954,18 @@
 			(type none)
 		)
 		(uuid e333a722-39bd-4972-a43a-15bffe2e9ddc)
+	)
+	(rectangle
+		(start 275.59 127)
+		(end 298.45 141.605)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5e3cd07-18bc-4773-a170-b3ba807bb5c4)
 	)
 	(rectangle
 		(start 316.865 22.225)
@@ -6228,6 +6240,18 @@
 			(justify left bottom)
 		)
 		(uuid "e8ab76c8-c2a1-4023-966e-57c88a34d202")
+	)
+	(text "M2 for cable ties"
+		(exclude_from_sim no)
+		(at 284.734 129.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f4d69b5c-66ab-4bfa-9703-4a72f869104b")
 	)
 	(text "Drawer Closed Sensor Input"
 		(exclude_from_sim no)
@@ -7136,7 +7160,7 @@
 	)
 	(global_label "Drawer_1_OB2"
 		(shape input)
-		(at 335.28 77.47 180)
+		(at 335.28 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7146,7 +7170,7 @@
 		)
 		(uuid "6858e24f-e49c-4dc9-8221-f92760d4cdd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.009 77.47 0)
+			(at 319.009 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,7 +7666,7 @@
 	)
 	(global_label "Sense_Lock_1"
 		(shape input)
-		(at 194.31 77.47 0)
+		(at 194.31 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7652,7 +7676,7 @@
 		)
 		(uuid "a671ee93-5a21-4afa-8eb0-1ed900277460")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.2975 77.47 0)
+			(at 210.2975 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +7930,7 @@
 	)
 	(global_label "Drawer_1_OB1"
 		(shape input)
-		(at 335.28 74.93 180)
+		(at 335.28 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7916,7 +7940,7 @@
 		)
 		(uuid "c5f25d3b-e971-41ba-aa6f-d4df3b12dceb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.009 74.93 0)
+			(at 319.009 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8062,7 @@
 	)
 	(global_label "Sense_Input_Drawer_Closed_1"
 		(shape input)
-		(at 194.31 82.55 0)
+		(at 194.31 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8048,7 +8072,7 @@
 		)
 		(uuid "cfac8717-1d96-4df4-81f9-93aa5f716033")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.4768 82.55 0)
+			(at 225.4768 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,16 +8524,16 @@
 	)
 	(symbol
 		(lib_id "_Connector_JST:Conn_01x04_2.5mm_JST_S04B-XASK-1")
-		(at 340.36 77.47 0)
+		(at 340.36 80.01 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02e2df86-98d2-4a98-a3af-432e62c9bb32")
 		(property "Reference" "X3"
-			(at 342.9 77.4699 0)
+			(at 342.9 80.0101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +8542,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_2.5mm_JST_S04B-XASK-1"
-			(at 342.9 80.0099 0)
+			(at 342.9 77.4701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,7 +8551,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S04B-XASK-1_1x04_P2.50mm_Horizontal"
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,7 +8560,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_JST-S04B-XASK-1-LF-SN_C265097.pdf"
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8569,7 @@
 			)
 		)
 		(property "Description" "JST pin header (standard) XA total number of poles 4 Pitch: 2.50mm S04B-XASK-1 (LF)(SN)"
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +8578,7 @@
 			)
 		)
 		(property "MF" "JST"
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +8587,7 @@
 			)
 		)
 		(property "MPN" "S04B-XASK-1(LF)(SN)"
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8596,7 @@
 			)
 		)
 		(property "OC_CONRAD" "741407 - VQ"
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +8605,7 @@
 			)
 		)
 		(property "OC_LCSC" "C265097"
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8614,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +8623,7 @@
 			)
 		)
 		(property "OC_RS" "166-7451"
-			(at 340.36 77.47 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,70 +8784,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 255.27 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1550c776-9f3d-4549-8072-4e641b9fbc8a")
-		(property "Reference" "H3"
-			(at 257.81 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 257.81 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Drawer_Controller_v4"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 59.69 80.01 0)
 		(unit 1)
@@ -8916,7 +8876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_Bottom_9.2mm"
 			(at 255.27 133.35 0)
 			(effects
 				(font
@@ -9541,70 +9501,6 @@
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 255.27 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "500d2a30-1dd2-4514-af44-75a2b0230e20")
-		(property "Reference" "H4"
-			(at 257.81 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 257.81 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
-			(at 255.27 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 255.27 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Drawer_Controller_v4"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10476,7 +10372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_Bottom_9.2mm"
 			(at 255.27 138.43 0)
 			(effects
 				(font
@@ -10665,6 +10561,70 @@
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 280.67 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84a7d4b4-54b2-4857-aa33-d40a21fc8bf5")
+		(property "Reference" "H6"
+			(at 283.21 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 283.21 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Drawer_Controller_v4"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -11277,7 +11237,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 153.67 0)
+		(at 255.27 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11285,8 +11245,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a84c4df8-0c61-485e-acd9-7643abb92a1d")
-		(property "Reference" "H5"
-			(at 257.81 152.3999 0)
+		(property "Reference" "H3"
+			(at 257.81 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11295,7 +11255,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 154.9399 0)
+			(at 257.81 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,8 +11263,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
-			(at 255.27 153.67 0)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_Bottom_9.2mm"
+			(at 255.27 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11313,7 +11273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 153.67 0)
+			(at 255.27 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +11282,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 153.67 0)
+			(at 255.27 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11333,7 +11293,7 @@
 		(instances
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -12715,6 +12675,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 280.67 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f649593e-149d-4f17-beda-7b8ee2b2c221")
+		(property "Reference" "H5"
+			(at 283.21 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 283.21 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 280.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 280.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Drawer_Controller_v4"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 121.92 147.32 0)
 		(unit 1)
@@ -12974,7 +12997,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 158.75 0)
+		(at 255.27 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12982,8 +13005,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff596392-002f-465b-a9b6-fc024e922f48")
-		(property "Reference" "H6"
-			(at 257.81 157.4799 0)
+		(property "Reference" "H4"
+			(at 257.81 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12992,7 +13015,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 160.0199 0)
+			(at 257.81 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13000,8 +13023,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_6.4mm_Bottom_9.4mm"
-			(at 255.27 158.75 0)
+		(property "Footprint" "Robast:MountingHole_3.2mm_M3_Pad_Top_Bottom_9.2mm"
+			(at 255.27 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13010,7 +13033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 158.75 0)
+			(at 255.27 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13019,7 +13042,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 158.75 0)
+			(at 255.27 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13030,7 +13053,7 @@
 		(instances
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)

@@ -3181,16 +3181,16 @@
 	)
 	(symbol
 		(lib_id "_Switch:DSWB02LHGET")
-		(at 203.2 110.49 0)
+		(at 203.2 107.95 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19a5721c-a830-4501-99cf-2cc862bd6b29")
 		(property "Reference" "S11"
-			(at 203.2 100.33 0)
+			(at 203.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3198,7 @@
 			)
 		)
 		(property "Value" "DSWB02LHGET"
-			(at 203.2 102.87 0)
+			(at 203.2 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3206,7 @@
 			)
 		)
 		(property "Footprint" "Robast:DSWB02LHGET"
-			(at 203.2 110.49 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +3215,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2309061745_DongGuan-KINGTEK-Industrial-Co--LTD-DSWB02LHGET_C99421.pdf"
-			(at 203.2 110.49 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3224,7 @@
 			)
 		)
 		(property "Description" "2Bit SPST Red Slide"
-			(at 203.2 110.49 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +3233,7 @@
 			)
 		)
 		(property "MF" "DongGuan KINGTEK Industrial Co.,LTD"
-			(at 203.2 110.49 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +3242,7 @@
 			)
 		)
 		(property "MPN" "DSWB02LHGET"
-			(at 203.2 110.49 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3251,7 @@
 			)
 		)
 		(property "OC_LCSC" "C99421"
-			(at 203.2 110.49 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3260,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 203.2 110.49 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
