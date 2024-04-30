@@ -5906,7 +5906,7 @@
 	)
 	(rectangle
 		(start 246.38 120.015)
-		(end 405.13 177.165)
+		(end 301.625 156.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -6188,19 +6188,6 @@
 			)
 		)
 		(uuid "c27df6aa-dd38-444c-81a7-19d15a9f0d08")
-	)
-	(text "TODO: I2C Resistor!!!"
-		(exclude_from_sim no)
-		(at 196.088 142.494 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "d85e81b2-a6f1-4e2e-8051-38a56ed8d003")
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
@@ -9027,7 +9014,7 @@
 		(at 287.02 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11613,7 +11600,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
