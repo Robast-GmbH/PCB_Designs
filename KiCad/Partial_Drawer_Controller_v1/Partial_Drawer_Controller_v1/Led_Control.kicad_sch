@@ -5647,7 +5647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bf50d13-b16a-42ca-bf26-54b9e1aa9691")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0197"
 			(at 36.83 35.56 0)
 			(effects
 				(font
@@ -5697,7 +5697,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0168")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -5712,7 +5712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3902dc67-b834-4cef-91d6-176a3478da44")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0203"
 			(at 180.34 38.1 0)
 			(effects
 				(font
@@ -5762,7 +5762,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0174")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -5778,7 +5778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "393ee74b-6cfd-4608-ae7b-2240d83e3b0a")
-		(property "Reference" "C51"
+		(property "Reference" "C49"
 			(at 184.15 26.6699 0)
 			(effects
 				(font
@@ -5868,7 +5868,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "C51")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -5884,7 +5884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c255eb-b3bd-4502-8d5f-2bb965eb92bf")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0201"
 			(at 162.56 26.67 0)
 			(effects
 				(font
@@ -5934,7 +5934,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0181")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -5949,7 +5949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ad414ee-12a2-4533-9ab1-5cbf687638b3")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0204"
 			(at 198.12 149.86 0)
 			(effects
 				(font
@@ -5999,7 +5999,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0165")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -6015,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5803a993-0d03-48a7-9c77-26e6973cb50d")
-		(property "Reference" "R96"
+		(property "Reference" "R107"
 			(at 83.82 33.02 90)
 			(effects
 				(font
@@ -6103,7 +6103,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "R96")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65aec3f9-9258-4f70-be75-1bc0661d1571")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0205"
 			(at 214.63 152.4 0)
 			(effects
 				(font
@@ -6168,7 +6168,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0176")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -6184,7 +6184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "816b9119-47d5-405c-a695-beed63a70d5e")
-		(property "Reference" "R98"
+		(property "Reference" "R109"
 			(at 104.14 25.3999 0)
 			(effects
 				(font
@@ -6274,7 +6274,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "R98")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -6401,7 +6401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99f4c643-dc0f-43d9-a951-6b423407aaba")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0199"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0166")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -6467,7 +6467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0b1944-d4c1-4437-bdff-b58d8da0ac57")
-		(property "Reference" "C50"
+		(property "Reference" "C48"
 			(at 166.37 26.6699 0)
 			(effects
 				(font
@@ -6557,7 +6557,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "C50")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -6573,7 +6573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4f42f5-66a4-4deb-9f08-652e954806da")
-		(property "Reference" "R216"
+		(property "Reference" "R110"
 			(at 217.17 133.3499 0)
 			(effects
 				(font
@@ -6663,7 +6663,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "R216")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -6679,7 +6679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b320f5be-3dbc-47d7-88ef-c28013194509")
-		(property "Reference" "R97"
+		(property "Reference" "R108"
 			(at 92.71 43.1799 0)
 			(effects
 				(font
@@ -6769,7 +6769,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "R97")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -6784,7 +6784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9936bc0-b5c7-444e-a75b-796e4b451d73")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0207"
 			(at 269.24 148.59 0)
 			(effects
 				(font
@@ -6834,7 +6834,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0172")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -6850,7 +6850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba70e137-6f4a-4cd0-9fbe-6514db49f261")
-		(property "Reference" "C49"
+		(property "Reference" "C50"
 			(at 273.05 135.8899 0)
 			(effects
 				(font
@@ -6940,7 +6940,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -6955,7 +6955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbcc10f1-08a0-4cd4-a93f-40fbe692105a")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0202"
 			(at 162.56 38.1 0)
 			(effects
 				(font
@@ -7005,7 +7005,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0173")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -7133,7 +7133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c43f7f8b-e6da-44c2-af4c-22d1c5a8b14e")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 195.9259 34.29 0)
 			(effects
 				(font
@@ -7358,7 +7358,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "U4")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7373,7 +7373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d448f5f1-20b0-4f26-a54a-95be6902db04")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0198"
 			(at 36.83 46.99 0)
 			(effects
 				(font
@@ -7423,7 +7423,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0170")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -7438,7 +7438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6c9ee39-92f3-4c6f-8d15-750a29c664d1")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0200"
 			(at 109.22 25.4 0)
 			(effects
 				(font
@@ -7488,7 +7488,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0169")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -7504,7 +7504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ffc971-99ba-4986-9ecb-9dd9bec72c82")
-		(property "Reference" "R215"
+		(property "Reference" "R112"
 			(at 241.3 45.7199 0)
 			(effects
 				(font
@@ -7594,7 +7594,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "R215")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9f27bd4-c735-4226-aebd-6e610e5a5179")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0206"
 			(at 238.76 57.15 0)
 			(effects
 				(font
@@ -7659,7 +7659,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0175")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -7675,7 +7675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c85e77-1f10-43bd-8b11-b750f04607fa")
-		(property "Reference" "R217"
+		(property "Reference" "R111"
 			(at 217.17 140.9699 0)
 			(effects
 				(font
@@ -7765,7 +7765,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "R217")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -7781,7 +7781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f40e5f9e-a268-459e-a112-b191174758ef")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0196"
 			(at 36.83 26.67 0)
 			(effects
 				(font
@@ -7831,7 +7831,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/914bf34e-a655-4329-ab66-41415a8f8e45"
-					(reference "#PWR0178")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)

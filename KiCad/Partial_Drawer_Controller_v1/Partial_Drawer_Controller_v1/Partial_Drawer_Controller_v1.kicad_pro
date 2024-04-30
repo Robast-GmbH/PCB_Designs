@@ -502,7 +502,7 @@
       "idf": "",
       "netlist": "",
       "plot": "manufacturing/",
-      "pos_files": "manufacturing/",
+      "pos_files": "manufacturing/PCB Assembly/",
       "specctra_dsn": "",
       "step": "Partial_Drawer_Controller_v1.step",
       "svg": "",
@@ -528,13 +528,13 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Value",
+          "label": "Comment",
           "name": "Value",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
@@ -552,7 +552,7 @@
         },
         {
           "group_by": true,
-          "label": "OC_LCSC",
+          "label": "LCSC Part Number",
           "name": "OC_LCSC",
           "show": true
         },

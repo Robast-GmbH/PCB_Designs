@@ -2622,7 +2622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16b46cbc-2b5e-4875-ad96-d582638e2836")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0218"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -2672,15 +2672,15 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "#PWR0192")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
-					(reference "#PWR0196")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "#PWR0200")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -2695,7 +2695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1acc52dc-c85f-4ce0-8f5d-1da7e5eafa29")
-		(property "Reference" "#PWR0293"
+		(property "Reference" "#PWR0231"
 			(at 114.3 63.5 0)
 			(effects
 				(font
@@ -2745,15 +2745,15 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "#PWR0293")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "#PWR0193")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
-					(reference "#PWR0201")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f9b049c-14ac-4573-971a-337a6186ea0c")
-		(property "Reference" "U5"
+		(property "Reference" "U8"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -3032,7 +3032,7 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "U5")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
@@ -3040,7 +3040,7 @@
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "U19")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -3056,7 +3056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e71a1d-9fe2-4ca7-a783-373e5efcf20a")
-		(property "Reference" "R241"
+		(property "Reference" "R203"
 			(at 167.64 55.8799 0)
 			(effects
 				(font
@@ -3146,15 +3146,15 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "R241")
+					(reference "R203")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "R220")
+					(reference "R201")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
-					(reference "R223")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -3170,7 +3170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae8fe86-f284-4308-a87b-b6c5211023bd")
-		(property "Reference" "C72"
+		(property "Reference" "C55"
 			(at 118.11 52.0699 0)
 			(effects
 				(font
@@ -3260,15 +3260,15 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "C72")
+					(reference "C55")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "C52")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
-					(reference "C53")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -3283,7 +3283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73689e3b-0997-47c4-9677-6e4f57d76211")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0229"
 			(at 29.21 52.07 0)
 			(effects
 				(font
@@ -3333,15 +3333,15 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "#PWR0183")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "#PWR0187")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
-					(reference "#PWR0199")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -3356,7 +3356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "768bd215-a72b-4acc-8c57-9b4a86038634")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0216"
 			(at 29.21 27.94 0)
 			(effects
 				(font
@@ -3406,15 +3406,15 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "#PWR0182")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
-					(reference "#PWR0186")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "#PWR0198")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d13025e0-afc9-439b-a969-b5fa9481bb83")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0221"
 			(at 165.1 54.61 0)
 			(effects
 				(font
@@ -3479,15 +3479,15 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "#PWR0195")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
-					(reference "#PWR0203")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "#PWR0204")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -3502,7 +3502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d629a0fd-d9e1-4d2b-960e-6c74e9c6286a")
-		(property "Reference" "#PWR0285"
+		(property "Reference" "#PWR0232"
 			(at 127 116.84 0)
 			(effects
 				(font
@@ -3552,15 +3552,15 @@
 		(instances
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/784b2884-d726-456d-9cf9-7365a865d845"
-					(reference "#PWR0285")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/1435e788-24b0-4d35-b04b-da1d0e65b7d1"
-					(reference "#PWR0194")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d19b84cd-4ee4-4d95-811d-38c072072447/336007e7-e816-41c4-9905-48078505cd87"
-					(reference "#PWR0202")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
