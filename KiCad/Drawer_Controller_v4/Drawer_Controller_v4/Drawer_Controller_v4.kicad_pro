@@ -502,7 +502,7 @@
       "idf": "",
       "netlist": "",
       "plot": "manufacturing/",
-      "pos_files": "manufacturing/",
+      "pos_files": "manufacturing/PCB Assembly/",
       "specctra_dsn": "",
       "step": "Drawer_Controller_v4 .step",
       "svg": "",
