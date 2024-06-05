@@ -1052,7 +1052,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Robast:CP_Elec_12.5x13.5"
+			(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -1070,7 +1070,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Aluminum Electrolytic Capacitor 100uF 80V ±20% SMD,D12.5xL13.5mm"
+			(property "Description" "Aluminum Electrolytic Capacitor 100uF 80V ±20% SMD,D10xL10mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1088,7 +1088,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "VZH101M1KTR-1313"
+			(property "MPN" "VZH101M1KTR-1010"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1106,7 +1106,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_LCSC" "C249839"
+			(property "OC_LCSC" "C249838"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1115,7 +1115,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_MOUSER" "140-VZH101M1KTR1010 "
 				(at 0 0 0)
 				(effects
 					(font
@@ -4885,6 +4885,12 @@
 		(uuid "19d6a106-a2db-4c59-b5cc-7cb3e2bcf294")
 	)
 	(junction
+		(at 271.78 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3730ac56-fd67-4758-96e4-fa24a7bcb8f3")
+	)
+	(junction
 		(at 59.69 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4925,12 +4931,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "726ec7fb-0eb3-4c8d-8ca7-5628438cc670")
-	)
-	(junction
-		(at 271.78 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79a3a038-5b0b-40be-9017-8039457378f8")
 	)
 	(junction
 		(at 278.13 36.83)
@@ -5242,6 +5242,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 104.14) (xy 285.75 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496e92fd-2b9b-4859-8811-91fa5c9fae2e")
+	)
+	(wire
+		(pts
 			(xy 38.1 101.6) (xy 41.91 101.6)
 		)
 		(stroke
@@ -5352,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 104.14) (xy 285.75 104.14)
+			(xy 252.73 104.14) (xy 271.78 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5519,16 +5529,6 @@
 			(type default)
 		)
 		(uuid "a8416338-55b5-4335-807f-3da7704c26e3")
-	)
-	(wire
-		(pts
-			(xy 252.73 104.14) (xy 271.78 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adba4fcd-0424-494a-8dfb-27134d3a9054")
 	)
 	(wire
 		(pts
@@ -9801,130 +9801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "_C_Polarized:100uF_80V")
-		(at 271.78 100.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59781269-3d5f-4f8a-a1a3-13aa6be4e69c")
-		(property "Reference" "C1"
-			(at 267.97 98.1709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF_80V"
-			(at 267.97 100.7109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Robast:CP_Elec_12.5x13.5"
-			(at 270.8148 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/231/161587245243-2307006.pdf"
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Aluminum Electrolytic Capacitor 100uF 80V ±20% SMD,D12.5xL13.5mm"
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Lelon"
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "VZH101M1KTR-1313"
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_CONRAD" ""
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C249839"
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" ""
-			(at 271.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "911411c3-506a-4017-9025-d360c2e342d0")
-		)
-		(pin "2"
-			(uuid "f30a7d3e-404a-4197-bbfd-ded104caa7a2")
-		)
-		(instances
-			(project "Drawer_Controller_v4"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "_Connector_JST:Conn_01x02_2.5mm_JST_S02B-XASS-1N-BN")
 		(at 97.79 121.92 0)
 		(unit 1)
@@ -10722,6 +10598,129 @@
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_C_Polarized:100uF_80V")
+		(at 271.78 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8669dad0-da6c-408d-b60f-9dec75cdbb3e")
+		(property "Reference" "C1"
+			(at 258.064 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF_80V"
+			(at 258.064 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 272.7452 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/231/161587245243-2307006.pdf"
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitor 100uF 80V ±20% SMD,D10xL10mm"
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Lelon"
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VZH101M1KTR-1010"
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C249838"
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "140-VZH101M1KTR1010 "
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eece38c7-9ec4-4db6-b3eb-caf1a3ea2eca")
+		)
+		(pin "2"
+			(uuid "504fed30-1bf8-4af7-99ce-bd91c64cf51a")
+		)
+		(instances
+			(project "Drawer_Controller_v4"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
+					(reference "C1")
 					(unit 1)
 				)
 			)
