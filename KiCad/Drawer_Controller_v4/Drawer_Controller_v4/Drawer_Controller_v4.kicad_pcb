@@ -54260,6 +54260,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 117.55 142.25 90)
+		(layer "F.SilkS")
+		(uuid "7fd48f09-5178-4cec-b96a-a68eafd006ec")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.13)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "↓"
 		(at 213.15 123.75 180)
 		(layer "F.SilkS")
