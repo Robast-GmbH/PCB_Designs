@@ -6044,6 +6044,19 @@
 		)
 		(uuid "2e80dd44-98a9-4ee7-a004-f4b594f6c7ff")
 	)
+	(text "TODO: IO2 needs to be pulled low during flash,\nthis is not the case when using Drawer_1_Encoder_B\nhere!!"
+		(exclude_from_sim no)
+		(at 219.71 18.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "490c69ab-c98c-4dbb-af1b-d23ac39bf53f")
+	)
 	(text "CAN and Power Input"
 		(exclude_from_sim no)
 		(at 16.764 24.892 0)

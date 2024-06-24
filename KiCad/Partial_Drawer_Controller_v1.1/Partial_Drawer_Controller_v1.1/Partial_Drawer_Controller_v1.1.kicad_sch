@@ -5697,6 +5697,19 @@
 		)
 		(uuid fffb6dcb-1047-4f02-995e-1cdc8f9e6a30)
 	)
+	(text "TODO: IO2 needs to be pulled low during flash,\nthis is not the case when using Drawer_1_Encoder_B\nhere!!"
+		(exclude_from_sim no)
+		(at 219.71 18.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "0f9fc3ad-f301-465a-82b1-32b2e23bcf24")
+	)
 	(text "Lock Control and Sense"
 		(exclude_from_sim no)
 		(at 14.986 194.056 0)
