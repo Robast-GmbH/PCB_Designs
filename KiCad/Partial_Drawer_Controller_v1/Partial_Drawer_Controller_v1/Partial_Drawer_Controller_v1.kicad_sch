@@ -5829,6 +5829,19 @@
 		)
 		(uuid "7364e2bc-0eca-47ef-b289-05df3c58fbcf")
 	)
+	(text "TODO: Replace the P-MOSFET!"
+		(exclude_from_sim no)
+		(at 71.882 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "87d23346-220d-441d-8b69-db727d055572")
+	)
 	(text "Input protection\n"
 		(exclude_from_sim no)
 		(at 17.018 41.148 0)
