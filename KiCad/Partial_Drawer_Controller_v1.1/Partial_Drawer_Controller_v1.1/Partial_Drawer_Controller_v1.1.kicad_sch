@@ -5882,6 +5882,19 @@
 		)
 		(uuid "91f5899a-bf67-496f-9a1e-9b2125cf50bb")
 	)
+	(text "TODO: Reverse Voltage protection!"
+		(exclude_from_sim no)
+		(at 59.436 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "9afaff4c-f8c4-44cc-89f4-743a48d427f8")
+	)
 	(text "M2 for cable ties"
 		(exclude_from_sim no)
 		(at 371.094 168.402 0)
