@@ -6164,6 +6164,19 @@
 		)
 		(uuid "91f5899a-bf67-496f-9a1e-9b2125cf50bb")
 	)
+	(text "TODO: Add reverse polarity protection!"
+		(exclude_from_sim no)
+		(at 116.586 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "aa9f0d8d-204e-494c-b46d-152d9cf7a54e")
+	)
 	(text "Drawer Encoder Sensor Input"
 		(exclude_from_sim no)
 		(at 80.518 21.59 0)
@@ -6423,6 +6436,28 @@
 		(uuid "121ec306-d815-4994-b4ab-ec495a57c41b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 216.3866 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_EN_High_Speed_Mode"
+		(shape input)
+		(at 194.31 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14969cfe-611d-4ed8-b201-9a1ee021ed4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.0902 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8754,7 +8789,7 @@
 			(uuid "52e73783-c9a1-40f3-9d1b-7f34d80520af")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "X6")
 					(unit 1)
@@ -8820,7 +8855,7 @@
 			(uuid "65c74c70-7b51-4567-9735-1d851a46ce72")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR017")
 					(unit 1)
@@ -8885,7 +8920,7 @@
 			(uuid "94f22e17-25bc-42fa-b89d-3a755a540daf")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR030")
 					(unit 1)
@@ -8951,7 +8986,7 @@
 			(uuid "b6640e1e-2d83-43b2-9be5-a83c461d5dbe")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#FLG01")
 					(unit 1)
@@ -9014,7 +9049,7 @@
 			)
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "H1")
 					(unit 1)
@@ -9148,7 +9183,7 @@
 			(uuid "a943dec7-2c2b-44c9-927a-d40daa3b961c")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "X4")
 					(unit 1)
@@ -9214,7 +9249,7 @@
 			(uuid "27c48305-bda4-4c63-b81b-e89d562d98cb")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR023")
 					(unit 1)
@@ -9280,7 +9315,7 @@
 			(uuid "3a973b68-eb37-424f-8e72-1d6561021e90")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR010")
 					(unit 1)
@@ -9345,7 +9380,7 @@
 			(uuid "753db585-100f-43f0-95bc-48d6710081dc")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR033")
 					(unit 1)
@@ -9410,7 +9445,7 @@
 			(uuid "fc2cf3ee-b02d-4048-ad5b-ba76f1c75b71")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR034")
 					(unit 1)
@@ -9476,7 +9511,7 @@
 			(uuid "ef5375d1-c22c-4fea-b647-14cda05c1d16")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR014")
 					(unit 1)
@@ -9542,7 +9577,7 @@
 			(uuid "be15b8c9-00d6-46fd-a89d-3bf3717681a5")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR020")
 					(unit 1)
@@ -9608,7 +9643,7 @@
 			(uuid "468f9914-3a76-4c70-8152-de93cc0f4199")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR03")
 					(unit 1)
@@ -9674,7 +9709,7 @@
 			(uuid "76232f66-5c0c-4183-bdd0-a3ee934269c2")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR022")
 					(unit 1)
@@ -9739,7 +9774,7 @@
 			(uuid "b48160c0-8f1e-4de0-867e-0bd5ea2d072e")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR028")
 					(unit 1)
@@ -9805,7 +9840,7 @@
 			(uuid "59ac5c98-fe3f-4a66-8768-5150df188dd6")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR07")
 					(unit 1)
@@ -9929,7 +9964,7 @@
 			(uuid "dc042df9-d22b-4ffb-9e00-ab3610186eb8")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "X2")
 					(unit 1)
@@ -9995,7 +10030,7 @@
 			(uuid "11f051af-70b2-4955-8633-26989cf809d3")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR06")
 					(unit 1)
@@ -10060,7 +10095,7 @@
 			(uuid "a5fbd8e7-f663-4260-b261-dd0893b76964")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR024")
 					(unit 1)
@@ -10125,7 +10160,7 @@
 			(uuid "33134403-db73-4c77-bf45-a018aab5ce0c")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR021")
 					(unit 1)
@@ -10191,7 +10226,7 @@
 			(uuid "e8396392-b48a-42e2-b5b9-289299e73d3a")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR08")
 					(unit 1)
@@ -10257,7 +10292,7 @@
 			(uuid "db27b5cb-175a-4e1b-b4bb-57a0e50f8e75")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR02")
 					(unit 1)
@@ -10323,7 +10358,7 @@
 			(uuid "4d226bf0-eda8-4677-b0dc-7d7148a446a7")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR01")
 					(unit 1)
@@ -10386,7 +10421,7 @@
 			)
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "H2")
 					(unit 1)
@@ -10478,7 +10513,7 @@
 			(uuid "23d4e65d-8935-4170-a118-73eaf9eaf20f")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "J1")
 					(unit 1)
@@ -10544,7 +10579,7 @@
 			(uuid "dc9e98a4-395c-4f5d-a83d-ba2e07c094dd")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR09")
 					(unit 1)
@@ -10608,7 +10643,7 @@
 			)
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "H6")
 					(unit 1)
@@ -10731,7 +10766,7 @@
 			(uuid "504fed30-1bf8-4af7-99ce-bd91c64cf51a")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "C1")
 					(unit 1)
@@ -10797,7 +10832,7 @@
 			(uuid "7935649f-ed3f-4a97-add1-04bd42caf9ee")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR011")
 					(unit 1)
@@ -10862,7 +10897,7 @@
 			(uuid "81c3cc36-2bb1-40c6-9653-fa946f54d81d")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR025")
 					(unit 1)
@@ -10928,7 +10963,7 @@
 			(uuid "944657c4-939f-4d5e-a47b-0978f739b13a")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR013")
 					(unit 1)
@@ -10993,7 +11028,7 @@
 			(uuid "6ec4b536-55f2-4383-81b6-4c5cd53b1a2f")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR016")
 					(unit 1)
@@ -11058,7 +11093,7 @@
 			(uuid "a71598c1-4d7c-48bf-96d3-ac44c6bf6736")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR026")
 					(unit 1)
@@ -11124,7 +11159,7 @@
 			(uuid "db023be1-cf28-40a6-9857-34310689e34e")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR027")
 					(unit 1)
@@ -11230,7 +11265,7 @@
 			(uuid "e01df7f5-f360-4a0a-aff9-22bc230e0973")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "R1")
 					(unit 1)
@@ -11336,7 +11371,7 @@
 			(uuid "5fceaa90-01fd-4ae3-a4a2-5a955c6683a6")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "F1")
 					(unit 1)
@@ -11400,7 +11435,7 @@
 			)
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "H3")
 					(unit 1)
@@ -11466,7 +11501,7 @@
 			(uuid "72aadbf8-51b9-41df-8b7e-dd3afeb542f5")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR032")
 					(unit 1)
@@ -11532,7 +11567,7 @@
 			(uuid "41d48e67-8e06-459c-9b69-e303a65c8cd3")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR012")
 					(unit 1)
@@ -11598,7 +11633,7 @@
 			(uuid "62351751-9daa-4dab-8e25-4076ca6891c6")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR05")
 					(unit 1)
@@ -11742,7 +11777,7 @@
 			(uuid "d3cca575-8fbf-4c33-bb6c-c46011206caf")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "X1")
 					(unit 1)
@@ -11882,7 +11917,7 @@
 			(uuid "20882e2e-b6b1-4d5b-a82a-487d906329bf")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "X3")
 					(unit 1)
@@ -11962,7 +11997,7 @@
 			(uuid "c14a52ec-83ed-4fad-ae57-d03aa56462e1")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "J2")
 					(unit 1)
@@ -12048,7 +12083,7 @@
 			(uuid "b298dbd3-476d-470d-a7ad-594c33306f11")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "J3")
 					(unit 1)
@@ -12114,7 +12149,7 @@
 			(uuid "3c338471-b67e-4c5f-a473-82f71871787e")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR029")
 					(unit 1)
@@ -12236,7 +12271,7 @@
 			(uuid "af9736a9-e44d-4343-a6db-30fb84713e1d")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "R2")
 					(unit 1)
@@ -12455,7 +12490,7 @@
 			(uuid "f2ba61d4-ab56-4c0b-a6ab-5af14278499d")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "U1")
 					(unit 1)
@@ -12521,7 +12556,7 @@
 			(uuid "d73d2724-af82-4bfd-aef9-4ef7eceafbcb")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR015")
 					(unit 1)
@@ -12643,7 +12678,7 @@
 			(uuid "f5ce8461-d1d2-4aa0-806c-847504afd31f")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "F2")
 					(unit 1)
@@ -12709,7 +12744,7 @@
 			(uuid "523d8903-eb02-471e-ba5e-8123927982cd")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR04")
 					(unit 1)
@@ -12775,7 +12810,7 @@
 			(uuid "17daee44-7908-4fb6-b73b-4f5e1fe199af")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR031")
 					(unit 1)
@@ -12838,7 +12873,7 @@
 			)
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "H5")
 					(unit 1)
@@ -12904,7 +12939,7 @@
 			(uuid "18e86ba3-a18f-4000-b6d2-a54b6e5ae0fc")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR019")
 					(unit 1)
@@ -13031,7 +13066,7 @@
 			(uuid "85981b9f-f137-401e-90cf-ec629b06cb02")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "X5")
 					(unit 1)
@@ -13096,7 +13131,7 @@
 			(uuid "0b2d4760-cb83-4ad1-9492-fb12fdace38b")
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "#PWR018")
 					(unit 1)
@@ -13160,7 +13195,7 @@
 			)
 		)
 		(instances
-			(project "Drawer_Controller_v4"
+			(project "Drawer_Controller_v4.1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
 					(reference "H4")
 					(unit 1)
