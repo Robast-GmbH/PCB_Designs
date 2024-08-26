@@ -1952,6 +1952,105 @@
 				)
 			)
 		)
+		(symbol "Robast_Components:Teratron_PSS2000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Teratron PSS2000"
+				(at -0.254 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TODO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Teratron_PSS2000_1_0"
+				(pin power_in line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Teratron_PSS2000_1_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Robast_Components:Touchpad"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2900,6 +2999,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 90.17) (xy 275.59 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d926c981-5cd4-4dd7-bda4-56d1b27ac7fe")
+	)
+	(wire
+		(pts
 			(xy 349.25 36.83) (xy 201.93 36.83)
 		)
 		(stroke
@@ -2917,6 +3026,16 @@
 			(type default)
 		)
 		(uuid "e2f7693a-4343-4d6f-8368-925be70822ad")
+	)
+	(wire
+		(pts
+			(xy 201.93 93.98) (xy 275.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f83723-8521-41d7-8877-9cf472007a6e")
 	)
 	(wire
 		(pts
@@ -2993,6 +3112,18 @@
 			(type none)
 		)
 		(uuid 72c6fde5-7a2d-486d-9b56-8e6ae58e62c7)
+	)
+	(rectangle
+		(start 269.875 80.01)
+		(end 312.42 100.33)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8643a6ed-b8f2-4fd7-b572-65918a12c960)
 	)
 	(rectangle
 		(start 73.66 248.285)
@@ -3103,6 +3234,19 @@
 			)
 		)
 		(uuid "5a1f4ea2-7122-436b-953f-dd7151ac937b")
+	)
+	(text "Teratron"
+		(exclude_from_sim no)
+		(at 283.972 83.312 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "66d56879-d75e-439f-bdaf-30f405ea06b1")
 	)
 	(text "..."
 		(exclude_from_sim no)
@@ -3260,6 +3404,17 @@
 			(justify left bottom)
 		)
 		(uuid "b6e935d4-0ce9-4aeb-a057-75b93ceb9fde")
+	)
+	(label "+12V"
+		(at 219.71 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdb9e705-4d09-47b4-917b-c28e843020f4")
 	)
 	(label "+5V"
 		(at 367.03 66.04 0)
@@ -4495,6 +4650,76 @@
 			(project ""
 				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robast_Components:Teratron_PSS2000")
+		(at 284.48 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9f7a4fe-e897-4669-9251-0be9abe15404")
+		(property "Reference" "U18"
+			(at 292.1 90.8049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Teratron PSS2000"
+			(at 292.1 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TODO"
+			(at 284.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "218476bf-bd14-4750-872d-94c896ade54e")
+		)
+		(pin "1"
+			(uuid "edc9ecd6-15a4-42e4-ba5e-324707aaaeb5")
+		)
+		(instances
+			(project ""
+				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
+					(reference "U18")
 					(unit 1)
 				)
 			)
