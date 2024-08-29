@@ -3831,7 +3831,7 @@
 		)
 		(uuid e5dda3b5-76a6-4552-b81f-c699dc77ea7f)
 	)
-	(text_box "On the original PCB there was a P-Channel MOSFET here that was not suitable for this voltage. Therefore we repalced it and won't use the functionality of controlling the power input for the LEDS. We can control the LEDS through the driver anyway."
+	(text_box "On the original PCB there was a P-Channel MOSFET here that was not suitable for this voltage. Therefore we replaced it and won't use the functionality of controlling the power input for the LEDS. We can control the LEDS through the driver anyway."
 		(exclude_from_sim no)
 		(at 117.475 21.59 0)
 		(size 24.765 26.035)
