@@ -1204,24 +1204,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 3.81 -22.86 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -11.43 -2.54 0)
 					(length 2.54)
@@ -1348,29 +1330,11 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 -22.86 90)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "Jetson_Orin_NX_16GB_1_1"
 				(rectangle
 					(start -8.89 12.7)
-					(end 10.16 -20.32)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type default)
@@ -1389,26 +1353,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -15.24) (xy -8.89 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "GPIO"
-					(at -6.096 -17.018 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(text "USB"
@@ -2348,105 +2292,6 @@
 				)
 			)
 		)
-		(symbol "Robast_Components:Ultrasonic_Sensor"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Ultrasonic Sensor"
-				(at -0.254 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "TODO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Ultrasonic_Sensor_1_0"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Ultrasonic_Sensor_1_1"
-				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "Robast_Components:Zed_Camera"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2547,42 +2392,6 @@
 			)
 		)
 	)
-	(junction
-		(at 328.93 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "685b32c2-a234-4caa-822a-11e3880bcdea")
-	)
-	(junction
-		(at 332.74 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e3a3a16-a5a3-49dc-ba62-f57a58b2fd0d")
-	)
-	(junction
-		(at 332.74 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ddd3739-3ca7-452f-a4f0-70184daa9d39")
-	)
-	(junction
-		(at 328.93 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cafbd5c9-c860-40ef-a9d8-090817b695ee")
-	)
-	(junction
-		(at 332.74 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d12b54ea-95e9-4a20-bbc9-ac41a9188822")
-	)
-	(junction
-		(at 328.93 196.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6e01bd9-6ac9-45f8-91e8-552479013036")
-	)
 	(no_connect
 		(at 167.64 139.7)
 		(uuid "2e1424cd-6368-4d54-af93-ba2ae96898a8")
@@ -2617,16 +2426,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 190.5) (xy 332.74 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01629ce9-989b-457d-88ec-40b538e87825")
-	)
-	(wire
-		(pts
 			(xy 279.4 46.99) (xy 294.64 46.99)
 		)
 		(stroke
@@ -2634,16 +2433,6 @@
 			(type default)
 		)
 		(uuid "018cb2e8-3fc3-4a44-abfc-708f68b78e5c")
-	)
-	(wire
-		(pts
-			(xy 328.93 186.69) (xy 328.93 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03fe17a0-55d1-4b31-b691-739c5d6d9e11")
 	)
 	(wire
 		(pts
@@ -2704,16 +2493,6 @@
 			(type default)
 		)
 		(uuid "1474085e-b4b5-4c68-bb44-e395052f14b3")
-	)
-	(wire
-		(pts
-			(xy 363.22 196.85) (xy 328.93 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b2f870-35b1-456c-9e8c-2f44490ab7ec")
 	)
 	(wire
 		(pts
@@ -2787,16 +2566,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 168.91) (xy 328.93 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24266b01-079f-451b-8847-1f272ae4e362")
-	)
-	(wire
-		(pts
 			(xy 318.77 105.41) (xy 334.01 105.41)
 		)
 		(stroke
@@ -2847,16 +2616,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 168.91) (xy 332.74 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d6057ab-eb5e-4faa-92ba-98d5a0a7278d")
-	)
-	(wire
-		(pts
 			(xy 107.95 34.29) (xy 154.94 34.29)
 		)
 		(stroke
@@ -2897,16 +2656,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 190.5) (xy 332.74 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f035e5-7a17-4bdb-a119-6666add6c22c")
-	)
-	(wire
-		(pts
 			(xy 247.65 271.78) (xy 195.58 271.78)
 		)
 		(stroke
@@ -2924,16 +2673,6 @@
 			(type default)
 		)
 		(uuid "656aa0f6-9ee1-489d-9336-13d36883a3c4")
-	)
-	(wire
-		(pts
-			(xy 332.74 200.66) (xy 332.74 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658e189b-ab9d-43db-bd02-e2b35798d732")
 	)
 	(wire
 		(pts
@@ -2977,16 +2716,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 207.01) (xy 328.93 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7edb6884-e813-43e6-a130-f27289c6141b")
-	)
-	(wire
-		(pts
 			(xy 204.47 26.67) (xy 294.64 26.67)
 		)
 		(stroke
@@ -2994,26 +2723,6 @@
 			(type default)
 		)
 		(uuid "82038006-102c-4507-9935-78d0ce34a4a3")
-	)
-	(wire
-		(pts
-			(xy 328.93 176.53) (xy 363.22 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8287ad32-ec5c-45b0-bd17-afdb3ee493d8")
-	)
-	(wire
-		(pts
-			(xy 332.74 180.34) (xy 363.22 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83b477d5-d77d-4a77-a81e-a4c9663af13f")
 	)
 	(wire
 		(pts
@@ -3054,16 +2763,6 @@
 			(type default)
 		)
 		(uuid "9a7943db-aac6-40cc-8787-737fbff24b1a")
-	)
-	(wire
-		(pts
-			(xy 332.74 210.82) (xy 332.74 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08ffa53-ddcc-4f92-af42-585b0f3df925")
 	)
 	(wire
 		(pts
@@ -3147,26 +2846,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 196.85) (xy 328.93 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adfdf172-682a-46f0-8d22-d46c6857af72")
-	)
-	(wire
-		(pts
-			(xy 363.22 186.69) (xy 328.93 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef6e487-3f71-453a-84ae-2852f91c1da6")
-	)
-	(wire
-		(pts
 			(xy 107.95 49.53) (xy 154.94 49.53)
 		)
 		(stroke
@@ -3207,16 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 210.82) (xy 332.74 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c138d748-50e9-4bab-9553-b5f8f72a3fc3")
-	)
-	(wire
-		(pts
 			(xy 279.4 67.31) (xy 279.4 71.12)
 		)
 		(stroke
@@ -3234,16 +2903,6 @@
 			(type default)
 		)
 		(uuid "c2914ccf-870e-4020-9d70-96002d4ea312")
-	)
-	(wire
-		(pts
-			(xy 363.22 200.66) (xy 332.74 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3a1ec55-b596-48c1-9071-e5b102d171af")
 	)
 	(wire
 		(pts
@@ -3304,16 +2963,6 @@
 			(type default)
 		)
 		(uuid "d2e43472-96c0-4fb1-9404-0efedbc821e2")
-	)
-	(wire
-		(pts
-			(xy 363.22 207.01) (xy 328.93 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f8a66d-ed07-4a50-a90c-d70713004353")
 	)
 	(wire
 		(pts
@@ -3481,7 +3130,7 @@
 	)
 	(rectangle
 		(start 314.96 120.015)
-		(end 405.13 217.805)
+		(end 405.13 166.37)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4180,92 +3829,16 @@
 		(pin "8"
 			(uuid "d71915dd-c935-4d67-a459-8ecceea5919d")
 		)
-		(pin "10"
-			(uuid "f0f1e809-b750-416b-9501-eeb0fca3247f")
-		)
 		(pin "6"
 			(uuid "91c2ea57-b478-4061-a2ff-86d31b77cbb0")
 		)
 		(pin "7"
 			(uuid "afcc7550-de95-4a65-abd9-784df36e14db")
 		)
-		(pin "9"
-			(uuid "76abdf5e-1b13-4430-b596-097bc4af62de")
-		)
 		(instances
 			(project ""
 				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robast_Components:Ultrasonic_Sensor")
-		(at 372.11 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33f07fa9-32c1-4c7e-a0f4-f8e9f49d7fdf")
-		(property "Reference" "U14"
-			(at 379.73 177.1649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ultrasonic Sensor"
-			(at 379.73 179.7049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TODO"
-			(at 372.11 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69b5d47d-c788-4068-b6b1-d5752428346d")
-		)
-		(pin "1"
-			(uuid "024e7aa6-d0b4-438a-bbc9-bd513be1af06")
-		)
-		(instances
-			(project ""
-				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -4415,76 +3988,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Robast_Components:Ultrasonic_Sensor")
-		(at 372.11 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56228675-94fc-4c50-8383-b95eb16d991e")
-		(property "Reference" "U17"
-			(at 379.73 207.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ultrasonic Sensor"
-			(at 379.73 210.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TODO"
-			(at 372.11 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "501fc06d-0a23-4e7c-be32-90ee2dbe14bf")
-		)
-		(pin "1"
-			(uuid "b91b5797-3f8f-4b62-b8b3-e642c0e487d6")
-		)
-		(instances
-			(project "Wiring_Diagram_v1"
-				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
-					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Robast_Components:NFC_Reader")
 		(at 372.11 148.59 0)
 		(unit 1)
@@ -4619,76 +4122,6 @@
 			(project ""
 				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
 					(reference "U20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robast_Components:Ultrasonic_Sensor")
-		(at 372.11 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73b2c2de-ec0e-48e9-9df1-28fd5c339fb5")
-		(property "Reference" "U15"
-			(at 379.73 187.3249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ultrasonic Sensor"
-			(at 379.73 189.8649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TODO"
-			(at 372.11 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9cb63b5-0889-4e26-b0fc-0301fff37c27")
-		)
-		(pin "1"
-			(uuid "9c0194ce-c232-4947-9972-c8d8616126e4")
-		)
-		(instances
-			(project "Wiring_Diagram_v1"
-				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
-					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -4832,76 +4265,6 @@
 			(project ""
 				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robast_Components:Ultrasonic_Sensor")
-		(at 372.11 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9de5b74d-2e3a-47e0-9e8a-cb8d8d30cdd0")
-		(property "Reference" "U16"
-			(at 379.73 197.4849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ultrasonic Sensor"
-			(at 379.73 200.0249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TODO"
-			(at 372.11 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "932042d9-f5f7-4839-a719-f2f5d0da5054")
-		)
-		(pin "1"
-			(uuid "20a41473-2ff9-431e-8cbb-4c2e7a2d7f18")
-		)
-		(instances
-			(project "Wiring_Diagram_v1"
-				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
-					(reference "U16")
 					(unit 1)
 				)
 			)
