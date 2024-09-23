@@ -705,6 +705,356 @@
 				)
 			)
 		)
+		(symbol "_R_0603:120"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "120"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 120 1% 100mW 75V 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603WAF1200T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_LCSC" "C22787"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Res Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "120_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "120_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "_R_0603:1K2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1K2"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 2K7 1% 100mW 75V 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603WAF1201T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_LCSC" "C22765"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Res Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1K2_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1K2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "_Regulator_Linear:LM317T"
 			(pin_names
 				(offset 0.254)
@@ -1237,16 +1587,40 @@
 		)
 	)
 	(junction
-		(at 133.35 91.44)
+		(at 133.35 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "216c2d00-e86f-482d-b2ce-108d0e61614f")
+		(uuid "1f142921-a0e3-416b-b3dd-ac338f52d8b3")
 	)
 	(junction
-		(at 167.64 71.12)
+		(at 146.05 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6691f17-0b0a-4cdf-af63-a32f16dffbc1")
+		(uuid "68669b21-95c7-48ea-9b69-f4e485cb0f8a")
+	)
+	(junction
+		(at 153.67 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84a843ce-dc39-4c3e-bd8e-22aa05929183")
+	)
+	(junction
+		(at 133.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "881abe42-4c46-42ae-b29b-cd83f5751431")
+	)
+	(junction
+		(at 163.83 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6fc56f0-61f1-4e3b-b8ba-6b3cff1f0509")
+	)
+	(junction
+		(at 146.05 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e46d6dc8-81b8-4e22-8da7-b51993fb1ca2")
 	)
 	(junction
 		(at 113.03 71.12)
@@ -1254,15 +1628,9 @@
 		(color 0 0 0 0)
 		(uuid "ee9e8e3b-616b-40d2-8861-f51ed1e81542")
 	)
-	(junction
-		(at 146.05 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f367e256-335e-4364-a249-ce8cb34b2c63")
-	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 167.64 91.44)
+			(xy 146.05 96.52) (xy 163.83 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1282,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 133.35 91.44)
+			(xy 113.03 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1292,23 +1660,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 167.64 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3872ea72-1dc4-4fc5-95a6-2f6906fa0b13")
-	)
-	(wire
-		(pts
-			(xy 133.35 82.55) (xy 133.35 78.74)
+			(xy 133.35 78.74) (xy 133.35 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3aa85204-c46b-476e-ad6d-993fe6953ced")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 133.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb15bbb-6575-49b3-adc9-a29e43cc326c")
 	)
 	(wire
 		(pts
@@ -1332,17 +1700,27 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 146.05 91.44)
+			(xy 146.05 86.36) (xy 153.67 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c5015c3-30c7-477d-a49c-b5bfd6a97c85")
+		(uuid "8625488e-8cf2-4377-8e7e-4504d2891a25")
 	)
 	(wire
 		(pts
-			(xy 167.64 71.12) (xy 167.64 76.2)
+			(xy 163.83 90.17) (xy 163.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6df7b4-4bfd-4ce4-8bdf-bdec07ffa7e3")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1352,7 +1730,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 91.44) (xy 146.05 91.44)
+			(xy 133.35 96.52) (xy 146.05 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1362,7 +1740,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 167.64 71.12)
+			(xy 146.05 87.63) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef0edbb-7ee2-4203-a9dd-de9b6bc77601")
+	)
+	(wire
+		(pts
+			(xy 140.97 71.12) (xy 153.67 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1382,23 +1770,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 133.35 82.55)
+			(xy 133.35 86.36) (xy 146.05 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a34fa054-4b3c-4762-b14e-5fda0dd521f4")
-	)
-	(wire
-		(pts
-			(xy 167.64 71.12) (xy 179.07 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24378ee-b8f9-4b67-8290-b43d53d284fe")
+		(uuid "b41b60c9-f29e-4596-abdb-02e11e72d1c2")
 	)
 	(wire
 		(pts
@@ -1412,6 +1790,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 95.25) (xy 146.05 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8d64f4-5394-4462-8133-5a5689564607")
+	)
+	(wire
+		(pts
 			(xy 218.44 26.67) (xy 228.6 26.67)
 		)
 		(stroke
@@ -1419,6 +1807,46 @@
 			(type default)
 		)
 		(uuid "d0135b41-0ba9-4bc8-80b2-aa6357a147de")
+	)
+	(wire
+		(pts
+			(xy 133.35 87.63) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3432a3e-22a8-4b9a-896e-70238d883ebc")
+	)
+	(wire
+		(pts
+			(xy 153.67 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3aa5e4e-9b8b-467e-8412-2c2725d70f21")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72d2845-2767-4148-b03f-f6ce4ff0b8d6")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f146c3-ae62-40ed-953e-ca4ffc89d96c")
 	)
 	(wire
 		(pts
@@ -1432,7 +1860,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 91.44)
+			(xy 113.03 85.09) (xy 113.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1474,6 +1902,17 @@
 		)
 		(uuid be596d87-62dc-457b-bd3b-9df5061c7bbd)
 	)
+	(text "TODO: Add 1N4001 diodes"
+		(exclude_from_sim no)
+		(at 133.858 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "24416fd8-0005-4aa4-b7a5-78f1dbd2afaf")
+	)
 	(text "Output"
 		(exclude_from_sim no)
 		(at 214.884 18.288 0)
@@ -1502,7 +1941,7 @@
 	)
 	(symbol
 		(lib_id "_C_0603:10u_25V")
-		(at 146.05 86.36 0)
+		(at 146.05 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1511,7 +1950,7 @@
 		(fields_autoplaced yes)
 		(uuid "013ec20f-5c17-498e-9b6f-4e5dbb592142")
 		(property "Reference" "C2"
-			(at 149.86 85.0899 0)
+			(at 149.86 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1959,7 @@
 			)
 		)
 		(property "Value" "10u_25V"
-			(at 149.86 87.6299 0)
+			(at 149.86 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1968,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.0152 90.17 0)
+			(at 147.0152 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1977,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106MA8NRN.do"
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1986,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10uF 25V X5R 20% 0603"
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1995,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +2004,7 @@
 			)
 		)
 		(property "MPN" "CL10A106MA8NRNC"
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +2013,7 @@
 			)
 		)
 		(property "OC_CONRAD" ""
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +2022,7 @@
 			)
 		)
 		(property "OC_LCSC" "C96446"
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +2031,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +2040,7 @@
 			)
 		)
 		(property "OC_RS" ""
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +2049,7 @@
 			)
 		)
 		(property "path_to_docs" ""
-			(at 146.05 86.36 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +2074,7 @@
 	)
 	(symbol
 		(lib_id "_C_0805:1u_50V")
-		(at 167.64 80.01 0)
+		(at 163.83 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1644,7 +2083,7 @@
 		(fields_autoplaced yes)
 		(uuid "04259075-aed4-450d-a279-5f205e4ee51a")
 		(property "Reference" "C3"
-			(at 171.45 78.7399 0)
+			(at 167.64 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +2092,7 @@
 			)
 		)
 		(property "Value" "1u_50V"
-			(at 171.45 81.2799 0)
+			(at 167.64 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +2101,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 168.6052 83.82 0)
+			(at 164.7952 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +2110,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21B105KBFNNN.do"
-			(at 167.64 80.01 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +2119,7 @@
 			)
 		)
 		(property "Description" "Capacitor 1uF 50V X7R 10% 0805"
-			(at 167.64 80.01 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +2128,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 167.64 80.01 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +2137,7 @@
 			)
 		)
 		(property "MPN" "CL21B105KBFNNNE"
-			(at 167.64 80.01 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +2146,7 @@
 			)
 		)
 		(property "OC_LCSC" "C28323"
-			(at 167.64 80.01 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +2155,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 167.64 80.01 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,8 +2314,141 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "_R_0603:1K2")
 		(at 133.35 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec17b33-83df-45b0-b33e-9e04b5cb7b0d")
+		(property "Reference" "R1"
+			(at 135.89 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K2"
+			(at 135.89 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.572 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 2K7 1% 100mW 75V 0603"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1201T5E"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C22765"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df194b2b-d41f-45eb-a54e-4867892cb6a4")
+		)
+		(pin "2"
+			(uuid "c6c2cdd5-2e42-4f34-b340-af2b1da82165")
+		)
+		(instances
+			(project ""
+				(path "/23aacfce-d8ef-4bcc-8172-964385226609"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1885,7 +2457,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b7ebe2a-8a8b-4f50-856a-781e37b94ddf")
 		(property "Reference" "#PWR07"
-			(at 133.35 97.79 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +2466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 96.52 0)
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +2474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 91.44 0)
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +2483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 91.44 0)
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +2492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 91.44 0)
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,6 +2573,139 @@
 			(project ""
 				(path "/23aacfce-d8ef-4bcc-8172-964385226609"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_R_0603:120")
+		(at 153.67 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4295c5c3-cd8a-49db-8e6d-4a0aa81c9bc0")
+		(property "Reference" "R2"
+			(at 156.21 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 156.21 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.892 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 120 1% 100mW 75V 0603"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1200T5E"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C22787"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bc33f9d-5cff-42b0-b8e4-6ac6a9d58a3b")
+		)
+		(pin "1"
+			(uuid "0ab22cf4-02a9-4817-bfb5-0ee1193f30b9")
+		)
+		(instances
+			(project ""
+				(path "/23aacfce-d8ef-4bcc-8172-964385226609"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2107,6 +2812,139 @@
 			(project ""
 				(path "/23aacfce-d8ef-4bcc-8172-964385226609"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_R_0603:120")
+		(at 153.67 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53121344-868c-4fe6-9d85-f07a378bf511")
+		(property "Reference" "R3"
+			(at 156.21 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 156.21 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.892 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 120 1% 100mW 75V 0603"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1200T5E"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C22787"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b534391f-182c-4a0b-94b2-d05f36f5b57a")
+		)
+		(pin "1"
+			(uuid "f1b1877b-2379-4f7e-8538-c77ee44ec7c2")
+		)
+		(instances
+			(project "Voltage_Converter_Disinfection_Module_v1"
+				(path "/23aacfce-d8ef-4bcc-8172-964385226609"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2434,7 +3272,7 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 179.07 71.12 0)
+		(at 172.72 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2443,7 +3281,7 @@
 		(fields_autoplaced yes)
 		(uuid "b713b282-7604-4ccb-95cf-cb5fadb7cde9")
 		(property "Reference" "#PWR04"
-			(at 179.07 74.93 0)
+			(at 172.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +3290,7 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 179.07 66.04 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +3298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 71.12 0)
+			(at 172.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +3307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 71.12 0)
+			(at 172.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +3316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 179.07 71.12 0)
+			(at 172.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
