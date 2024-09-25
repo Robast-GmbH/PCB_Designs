@@ -9,10 +9,10 @@
    repository.
 5. Start KiCad and
    1. Click `Preferences` -> `Configure Paths...`
-      1. Replace the `KICAD7_FOOTPRINT_DIR` by the absolute path of the
+      1. Replace the `KICAD8_FOOTPRINT_DIR` by the absolute path of the
          `KiCad_Library/footprints`, so for example:
          *C:\Robast\KiCad_Library\footprints*
-      2. Replace the` KICAD7_SYMBOL_DIR` by the absolute path of the
+      2. Replace the` KICAD8_SYMBOL_DIR` by the absolute path of the
          `KiCad_Library/symbols`, so for example:
          *C:\Robast\KiCad_Library\symbols*
    2. Click `Preferences` -> `Manage Symbol Libraries...`
