@@ -76,6 +76,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C307331"
 				(at 0 0 0)
 				(effects
@@ -86,6 +95,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -275,7 +302,7 @@
 					(hide yes)
 				)
 			)
-			(property "path_to_docs" ""
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -429,6 +456,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C28323"
 				(at 0 0 0)
 				(effects
@@ -439,6 +475,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -616,6 +670,15 @@
 				)
 			)
 			(property "OC_RS" "175-4729"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Connectors/JST/XA_Connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1138,7 +1201,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor 2K7 1% 100mW 75V 0603"
+			(property "Description" "Resistor 1K2 1% 100mW 75V 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1377,7 +1440,7 @@
 					(hide yes)
 				)
 			)
-			(property "path_to_docs" "documents\\Semiconductor\\Power_Management\\Linear_Voltage_Regulator\\LM317T"
+			(property "path_to_docs" "documents/Semiconductors/Power_Management/Linear_Voltage_Regulators/LM317T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1467,9 +1530,9 @@
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1567,8 +1630,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0)
-					(name "~"
+					(length 0) hide
+					(name "+12V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1587,9 +1650,9 @@
 		)
 		(symbol "power:+7.5V"
 			(power)
-			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1687,8 +1750,8 @@
 			(symbol "+7.5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0)
-					(name "~"
+					(length 0) hide
+					(name "+7.5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1707,9 +1770,9 @@
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1783,8 +1846,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name "~"
+					(length 0) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2340,7 +2403,7 @@
 				(hide yes)
 			)
 		)
-		(property "path_to_docs" ""
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -2447,6 +2510,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -2578,7 +2668,7 @@
 				(hide yes)
 			)
 		)
-		(property "path_to_docs" "documents\\Semiconductor\\Power_Management\\Linear_Voltage_Regulator\\LM317T"
+		(property "path_to_docs" "documents/Semiconductors/Power_Management/Linear_Voltage_Regulators/LM317T"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -2651,7 +2741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 2K7 1% 100mW 75V 0603"
+		(property "Description" "Resistor 1K2 1% 100mW 75V 0603"
 			(at 133.35 91.44 0)
 			(effects
 				(font
@@ -3094,6 +3184,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71d67f00-f47a-4a4b-910d-1ea4fc5acd0a")
 		)
@@ -3407,6 +3524,15 @@
 			)
 		)
 		(property "OC_RS" "175-4729"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/JST/XA_Connector"
 			(at 40.64 33.02 0)
 			(effects
 				(font
@@ -3795,6 +3921,15 @@
 			)
 		)
 		(property "OC_RS" "175-4729"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/JST/XA_Connector"
 			(at 233.68 26.67 0)
 			(effects
 				(font
