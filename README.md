@@ -21,4 +21,33 @@
          `open`.
 
 
+### BOM Exports Including Datasheets And Certificates
+
+Once a PCB is considered finished, there should be a BOM, that is exported within KiCad by
+1. Go into the schematic of the project
+2. Click `Tools` -> `Generate Bill of Materials ...`
+3. Make a few settings here:
+   1. Under `Export` change the `Output file` to exactly the following string:
+   `manufacturing/PCB Assembly/${PROJECTNAME}_BOM.csv`
+   2. Field delimiter: `,`
+   3. String delimiter: `"`
+   4. Reference delimiter: `,`
+   5. Format presets: `CSV`
+   6. Under `Edit`:
+
+   | Field       | Label        | Show | Group By |
+   |-------------|--------------|------|----------|
+   | Reference   | Designator   | Yes  | No       |
+   | Value       | Comment      | Yes  | No       |
+   | Footprint   | Footprint    | Yes  | No       |
+   | ${QUANTITY} | Qty          | Yes  | No       |
+   | OC_LCSC     | OC_LCSC      | Yes  | Yes      |
+   | path_to_docs| path_to_docs | Yes  | No       |
+4. Hit `Apply, Save Schematic & Continue`.
+5. Hit `Export`.
+
+Now that we there is a BOM and we push the BOM to the main/master, the workflow triggers to create a bom export which includes documents like datasheets and certificates.
+
+
+
          
