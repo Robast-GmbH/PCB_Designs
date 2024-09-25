@@ -705,6 +705,222 @@
 				)
 			)
 		)
+		(symbol "_Diode:1N4001"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4001"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TWGMC-1N4001_C727079.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Independent Type 50V 1.1V@1A General Rectifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "TWGMC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1N4001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_LCSC" "C727079"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Diodes_Rectifiers/Rectifiers/1N4001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Diode General Rectifier 1N4001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4001_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4001_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "_R_0603:120"
 			(pin_numbers hide)
 			(pin_names
@@ -1593,16 +1809,16 @@
 		(uuid "1f142921-a0e3-416b-b3dd-ac338f52d8b3")
 	)
 	(junction
+		(at 146.05 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3486134a-0b04-4a52-8c69-f42b7167c6c4")
+	)
+	(junction
 		(at 146.05 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68669b21-95c7-48ea-9b69-f4e485cb0f8a")
-	)
-	(junction
-		(at 153.67 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84a843ce-dc39-4c3e-bd8e-22aa05929183")
 	)
 	(junction
 		(at 133.35 96.52)
@@ -1611,10 +1827,10 @@
 		(uuid "881abe42-4c46-42ae-b29b-cd83f5751431")
 	)
 	(junction
-		(at 163.83 71.12)
+		(at 116.84 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6fc56f0-61f1-4e3b-b8ba-6b3cff1f0509")
+		(uuid "cf2f5855-1769-489f-b344-c47ac4a355a2")
 	)
 	(junction
 		(at 146.05 86.36)
@@ -1623,14 +1839,20 @@
 		(uuid "e46d6dc8-81b8-4e22-8da7-b51993fb1ca2")
 	)
 	(junction
-		(at 113.03 71.12)
+		(at 172.72 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee9e8e3b-616b-40d2-8861-f51ed1e81542")
+		(uuid "e980ca41-c089-4824-8d47-746a9d4f91fa")
+	)
+	(junction
+		(at 158.75 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f97da62d-fa4e-4d82-a92a-d0f99d9d98f8")
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 163.83 96.52)
+			(xy 146.05 96.52) (xy 172.72 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1650,13 +1872,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 133.35 96.52)
+			(xy 116.84 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2db4508f-586d-46aa-b87b-8d548dcdfd78")
+	)
+	(wire
+		(pts
+			(xy 146.05 59.69) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a721d1-a85a-4b50-9a42-1f6089652eb3")
 	)
 	(wire
 		(pts
@@ -1680,17 +1912,37 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 71.12) (xy 125.73 71.12)
+			(xy 158.75 71.12) (xy 172.72 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fefe221-41d1-4b5b-be22-e8ec8ba80aa4")
+		(uuid "41674c71-e7f4-4a49-89aa-05ee4d2ada62")
 	)
 	(wire
 		(pts
-			(xy 101.6 71.12) (xy 113.03 71.12)
+			(xy 146.05 71.12) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5182831e-36e5-4742-8a05-8c3e14cb1534")
+	)
+	(wire
+		(pts
+			(xy 146.05 82.55) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5401f1a1-f959-4b74-a2e8-8a8811471ab7")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1700,7 +1952,37 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 153.67 86.36)
+			(xy 177.8 71.12) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a79bf0-14aa-4af1-b08b-9ffc2f8f2359")
+	)
+	(wire
+		(pts
+			(xy 116.84 59.69) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd8e8cf-9b84-40c7-85fa-62f033a2d6e2")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f78d85-714a-4bec-9be3-5ff1e50563df")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 158.75 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 90.17) (xy 163.83 96.52)
+			(xy 172.72 87.63) (xy 172.72 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 71.12) (xy 163.83 82.55)
+			(xy 172.72 71.12) (xy 172.72 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 153.67 71.12)
+			(xy 140.97 71.12) (xy 146.05 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1770,6 +2052,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 71.12) (xy 146.05 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4fde50-71b0-41ad-891b-184b59b9498a")
+	)
+	(wire
+		(pts
 			(xy 133.35 86.36) (xy 146.05 86.36)
 		)
 		(stroke
@@ -1777,6 +2069,16 @@
 			(type default)
 		)
 		(uuid "b41b60c9-f29e-4596-abdb-02e11e72d1c2")
+	)
+	(wire
+		(pts
+			(xy 129.54 59.69) (xy 116.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37f6fbc-ca5d-485a-85ba-1e768ec615a6")
 	)
 	(wire
 		(pts
@@ -1820,16 +2122,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 71.12) (xy 163.83 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3aa5e4e-9b8b-467e-8412-2c2725d70f21")
-	)
-	(wire
-		(pts
 			(xy 133.35 95.25) (xy 133.35 96.52)
 		)
 		(stroke
@@ -1837,16 +2129,6 @@
 			(type default)
 		)
 		(uuid "d72d2845-2767-4148-b03f-f6ce4ff0b8d6")
-	)
-	(wire
-		(pts
-			(xy 163.83 71.12) (xy 172.72 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6f146c3-ae62-40ed-953e-ca4ffc89d96c")
 	)
 	(wire
 		(pts
@@ -1860,7 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 96.52)
+			(xy 116.84 85.09) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1870,13 +2152,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 113.03 71.12)
+			(xy 116.84 77.47) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2678fe5-4f4f-41a4-a47c-7de699f0b81c")
+	)
+	(wire
+		(pts
+			(xy 137.16 59.69) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5619ee1-0fa0-4f90-a572-3a97d1cacbaf")
 	)
 	(rectangle
 		(start 213.995 13.97)
@@ -1902,17 +2194,6 @@
 		)
 		(uuid be596d87-62dc-457b-bd3b-9df5061c7bbd)
 	)
-	(text "TODO: Add 1N4001 diodes"
-		(exclude_from_sim no)
-		(at 133.858 60.452 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "24416fd8-0005-4aa4-b7a5-78f1dbd2afaf")
-	)
 	(text "Output"
 		(exclude_from_sim no)
 		(at 214.884 18.288 0)
@@ -1925,6 +2206,17 @@
 			(justify left bottom)
 		)
 		(uuid "418afdd6-8cc8-47cb-a55d-e0337c6021c5")
+	)
+	(text "R_{1} = (V_{O} - V_{REF}) * (R_{2} + R_{3}) / V_{REF}\n   = (7.5 V - 1.25 V) * 240 Ω / 1.25 V\n   = 1200 Ω"
+		(exclude_from_sim no)
+		(at 121.92 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bba24b86-abeb-45a0-b32c-74919ee1dca5")
 	)
 	(text "Input"
 		(exclude_from_sim no)
@@ -2074,7 +2366,7 @@
 	)
 	(symbol
 		(lib_id "_C_0805:1u_50V")
-		(at 163.83 86.36 0)
+		(at 172.72 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2083,7 +2375,7 @@
 		(fields_autoplaced yes)
 		(uuid "04259075-aed4-450d-a279-5f205e4ee51a")
 		(property "Reference" "C3"
-			(at 167.64 85.0899 0)
+			(at 176.53 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2384,7 @@
 			)
 		)
 		(property "Value" "1u_50V"
-			(at 167.64 87.6299 0)
+			(at 176.53 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2393,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 164.7952 90.17 0)
+			(at 173.6852 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2402,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21B105KBFNNN.do"
-			(at 163.83 86.36 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2411,7 @@
 			)
 		)
 		(property "Description" "Capacitor 1uF 50V X7R 10% 0805"
-			(at 163.83 86.36 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2420,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 163.83 86.36 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2429,7 @@
 			)
 		)
 		(property "MPN" "CL21B105KBFNNNE"
-			(at 163.83 86.36 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2438,7 @@
 			)
 		)
 		(property "OC_LCSC" "C28323"
-			(at 163.83 86.36 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2447,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 163.83 86.36 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2872,7 @@
 	)
 	(symbol
 		(lib_id "_R_0603:120")
-		(at 153.67 74.93 0)
+		(at 158.75 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2589,7 +2881,7 @@
 		(fields_autoplaced yes)
 		(uuid "4295c5c3-cd8a-49db-8e6d-4a0aa81c9bc0")
 		(property "Reference" "R2"
-			(at 156.21 73.6599 0)
+			(at 161.29 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2890,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 156.21 76.1999 0)
+			(at 161.29 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2899,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.892 74.93 90)
+			(at 156.972 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2908,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2917,7 @@
 			)
 		)
 		(property "Description" "Resistor 120 1% 100mW 75V 0603"
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2926,7 @@
 			)
 		)
 		(property "MF" "UNI-ROYAL"
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2935,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1200T5E"
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2944,7 @@
 			)
 		)
 		(property "OC_CONRAD" ""
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2953,7 @@
 			)
 		)
 		(property "OC_LCSC" "C22787"
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2962,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2971,7 @@
 			)
 		)
 		(property "OC_RS" ""
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2980,7 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
-			(at 153.67 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +3005,7 @@
 	)
 	(symbol
 		(lib_id "_C_0402:100n_50V")
-		(at 113.03 81.28 0)
+		(at 116.84 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2722,7 +3014,7 @@
 		(fields_autoplaced yes)
 		(uuid "4761a1e1-5dea-4a83-b49e-52700674d35e")
 		(property "Reference" "C1"
-			(at 116.84 80.0099 0)
+			(at 120.65 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +3023,7 @@
 			)
 		)
 		(property "Value" "100n_50V"
-			(at 116.84 82.5499 0)
+			(at 120.65 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +3032,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.9952 85.09 0)
+			(at 117.8052 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +3041,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KB54PN.do"
-			(at 113.03 81.28 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +3050,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF 50V X7R 10% 0402"
-			(at 113.03 81.28 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3059,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 113.03 81.28 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +3068,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KB54PNC"
-			(at 113.03 81.28 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +3077,7 @@
 			)
 		)
 		(property "OC_LCSC" "C307331"
-			(at 113.03 81.28 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +3086,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 113.03 81.28 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +3111,7 @@
 	)
 	(symbol
 		(lib_id "_R_0603:120")
-		(at 153.67 82.55 0)
+		(at 158.75 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2828,7 +3120,7 @@
 		(fields_autoplaced yes)
 		(uuid "53121344-868c-4fe6-9d85-f07a378bf511")
 		(property "Reference" "R3"
-			(at 156.21 81.2799 0)
+			(at 161.29 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +3129,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 156.21 83.8199 0)
+			(at 161.29 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +3138,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.892 82.55 90)
+			(at 156.972 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +3147,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +3156,7 @@
 			)
 		)
 		(property "Description" "Resistor 120 1% 100mW 75V 0603"
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +3165,7 @@
 			)
 		)
 		(property "MF" "UNI-ROYAL"
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +3174,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1200T5E"
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +3183,7 @@
 			)
 		)
 		(property "OC_CONRAD" ""
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +3192,7 @@
 			)
 		)
 		(property "OC_LCSC" "C22787"
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +3201,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +3210,7 @@
 			)
 		)
 		(property "OC_RS" ""
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +3219,7 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
-			(at 153.67 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3498,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 101.6 71.12 0)
+		(at 105.41 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3215,7 +3507,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2e3642a-293c-423d-8499-bd9988883a25")
 		(property "Reference" "#PWR03"
-			(at 101.6 74.93 0)
+			(at 105.41 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3516,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 101.6 66.04 0)
+			(at 105.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 71.12 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 71.12 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 101.6 71.12 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3564,7 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 172.72 71.12 0)
+		(at 177.8 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3281,7 +3573,7 @@
 		(fields_autoplaced yes)
 		(uuid "b713b282-7604-4ccb-95cf-cb5fadb7cde9")
 		(property "Reference" "#PWR04"
-			(at 172.72 74.93 0)
+			(at 177.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3582,7 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 172.72 66.04 0)
+			(at 177.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 71.12 0)
+			(at 177.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 71.12 0)
+			(at 177.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 172.72 71.12 0)
+			(at 177.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,6 +3813,306 @@
 			(project "Voltage_Converter_Disinfection_Module_v1"
 				(path "/23aacfce-d8ef-4bcc-8172-964385226609"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_Diode:1N4001")
+		(at 146.05 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0296ec9-541f-493d-a83f-42b2b8557d7f")
+		(property "Reference" "D2"
+			(at 148.59 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 148.59 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TWGMC-1N4001_C727079.pdf"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Independent Type 50V 1.1V@1A General Rectifier"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TWGMC"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4001"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C727079"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Diodes_Rectifiers/Rectifiers/1N4001"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8acf6287-f78f-4d81-a396-5e662e0b872c")
+		)
+		(pin "2"
+			(uuid "22629f05-d6d0-4598-9d45-583c80bee3cf")
+		)
+		(instances
+			(project "Voltage_Converter_Disinfection_Module_v1"
+				(path "/23aacfce-d8ef-4bcc-8172-964385226609"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_Diode:1N4001")
+		(at 133.35 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd339394-6c0f-4c68-a25c-e9d826d96db6")
+		(property "Reference" "D1"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TWGMC-1N4001_C727079.pdf"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Independent Type 50V 1.1V@1A General Rectifier"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TWGMC"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4001"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C727079"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Diodes_Rectifiers/Rectifiers/1N4001"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d2f4732-480e-4bdf-acda-59993ff4ac02")
+		)
+		(pin "2"
+			(uuid "dc3cf954-3332-4d0e-891c-769321e1faf0")
+		)
+		(instances
+			(project ""
+				(path "/23aacfce-d8ef-4bcc-8172-964385226609"
+					(reference "D1")
 					(unit 1)
 				)
 			)
