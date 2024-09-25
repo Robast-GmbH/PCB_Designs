@@ -1440,7 +1440,7 @@
 					(hide yes)
 				)
 			)
-			(property "path_to_docs" "documents/Semiconductors/Power_Management/Linear_Voltage_Regulators/LM317T"
+			(property "path_to_docs" "Semiconductors/Power_Management/Linear_Voltage_Regulators/LM317T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2668,7 +2668,7 @@
 				(hide yes)
 			)
 		)
-		(property "path_to_docs" "documents/Semiconductors/Power_Management/Linear_Voltage_Regulators/LM317T"
+		(property "path_to_docs" "Semiconductors/Power_Management/Linear_Voltage_Regulators/LM317T"
 			(at 133.35 71.12 0)
 			(effects
 				(font
