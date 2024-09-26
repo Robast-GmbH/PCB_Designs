@@ -18,7 +18,7 @@ jobs:
       with:
         repository: Robast-GmbH/KiCad_Library
         token: ${{ secrets.GH_PAT }} # `GH_PAT` is a secret that contains a PAT
-        path: KiCad_Library
+        path: ../KiCad_Library
 
     - name: Set up Python
       uses: actions/setup-python@v2
