@@ -14,6 +14,10 @@ PATH_TO_DOCS_COLUMN_NAME = "path_to_docs"
 
 
 def main():
+
+    # Print current working directory
+    print(f"Current working directory: {os.getcwd()}")
+
     # Step 1: Loop through all available projects
     available_projects = sorted([name for name in os.listdir(KICAD_PROJECTS_DIR) if os.path.isdir(os.path.join(KICAD_PROJECTS_DIR, name))])
 
