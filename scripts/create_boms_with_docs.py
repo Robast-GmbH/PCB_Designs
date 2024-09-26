@@ -7,7 +7,7 @@ from collections import defaultdict
 # Please mind: The script is designed to be run from the root directory of the repository!
 
 # Constants
-KICAD_LIBRARY_DOCS_DIR = "../KiCad_Library/documents"
+KICAD_LIBRARY_DOCS_DIR = "KiCad_Library/documents"
 KICAD_PROJECTS_DIR = "KiCad"
 BOM_EXPORTS_DIR = "bom_exports"
 PATH_TO_DOCS_COLUMN_NAME = "path_to_docs"

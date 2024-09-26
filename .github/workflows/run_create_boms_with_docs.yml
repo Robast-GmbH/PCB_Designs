@@ -10,25 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: 📥 Checkout repository
       uses: actions/checkout@v4
 
-    - name: Checkout KiCad_Library repository
+    - name: 📥 Checkout KiCad_Library repository
       uses: actions/checkout@v4
       with:
         repository: Robast-GmbH/KiCad_Library
         token: ${{ secrets.GH_PAT }} # `GH_PAT` is a secret that contains a PAT
-        path: ../KiCad_Library
+        path: KiCad_Library
 
-    - name: Set up Python
+    - name: 🐍 Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
+    - name: 📦 Install dependencies
       run: |
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
-    - name: Run create_boms_with_docs.py
+    - name: 📝 Run create_boms_with_docs.py
       run: python3 scripts/create_boms_with_docs.py
+
+    - name: 🚀 Commit and push bom exports
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: 'bom_exports'
+        default_author: github_actions
+        message: "chore: 🤖 KiCad BOM export"
