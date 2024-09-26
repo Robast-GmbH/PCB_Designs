@@ -17,7 +17,7 @@ jobs:
           uses: actions/checkout@v4
           with:
               repository: Robast-GmbH/KiCad_Library
-              token: ${{ secrets.GITHUB_TOKEN }} # `GH_PAT` is a secret that contains your PAT
+            #   token: ${{ secrets.GITHUB_TOKEN }} # `GH_PAT` is a secret that contains your PAT
               path: KiCad_Library
 
         - name: Set up Python
