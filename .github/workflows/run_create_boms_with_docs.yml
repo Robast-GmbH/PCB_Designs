@@ -16,7 +16,9 @@ jobs:
         - name: Checkout KiCad_Library repository
           uses: actions/checkout@v4
           with:
-              repository: Robast-GmbH/KiCad_Library      
+              repository: Robast-GmbH/KiCad_Library
+              token: ${{ secrets.GITHUB_TOKEN }} # `GH_PAT` is a secret that contains your PAT
+              path: KiCad_Library
 
         - name: Set up Python
           uses: actions/setup-python@v2
@@ -27,8 +29,6 @@ jobs:
           run: |
               python -m pip install --upgrade pip
               pip install -r scripts/requirements.txt
-
-
 
         - name: Run create_boms_with_docs.py
           run: python3 scripts/create_boms_with_docs.py
