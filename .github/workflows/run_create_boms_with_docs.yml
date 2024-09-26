@@ -11,7 +11,12 @@ jobs:
 
         steps:
         - name: Checkout repository
-          uses: actions/checkout@v3
+          uses: actions/checkout@v4
+
+        - name: Checkout KiCad_Library repository
+          uses: actions/checkout@v4
+          with:
+              repository: Robast-GmbH/KiCad_Library      
 
         - name: Set up Python
           uses: actions/setup-python@v2
@@ -23,9 +28,7 @@ jobs:
               python -m pip install --upgrade pip
               pip install -r scripts/requirements.txt
 
-        - name: Checkout KiCad_Library repository
-          run: |
-              git clone https://github.com/Robast-GmbH/KiCad_Library.git
+
 
         - name: Run create_boms_with_docs.py
           run: python3 scripts/create_boms_with_docs.py
