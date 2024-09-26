@@ -7,7 +7,7 @@ from collections import defaultdict
 # Please mind: The script is designed to be run from the root directory of the repository!
 
 # Constants
-KICAD_LIBRARY_DOCS_DIR = "../KiCad_Library/documents"
+KICAD_LIBRARY_DOCS_DIR = "KiCad_Library/documents"
 KICAD_PROJECTS_DIR = "KiCad"
 BOM_EXPORTS_DIR = "bom_exports"
 PATH_TO_DOCS_COLUMN_NAME = "path_to_docs"
@@ -17,6 +17,10 @@ def main():
 
     # Print current working directory
     print(f"Current working directory: {os.getcwd()}")
+    # Print everything that is in the current working directory
+    print(f"Contents of the current working directory:")
+    for item in os.listdir():
+        print(f"    {item}")
 
     # Step 1: Loop through all available projects
     available_projects = sorted([name for name in os.listdir(KICAD_PROJECTS_DIR) if os.path.isdir(os.path.join(KICAD_PROJECTS_DIR, name))])
