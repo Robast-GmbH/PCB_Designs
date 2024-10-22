@@ -46,7 +46,7 @@ Once a PCB is considered finished, there should be a BOM, that is exported withi
 4. Hit `Apply, Save Schematic & Continue`.
 5. Hit `Export`.
 
-Now that we there is a BOM and we push the BOM to the main/master, the workflow triggers to create a bom export which includes documents like datasheets and certificates.
+Now that we there is a BOM and we push the BOM to the main, the workflow triggers to create a bom export which includes documents like datasheets and certificates.
 
 
 
