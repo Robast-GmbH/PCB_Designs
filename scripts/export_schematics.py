@@ -34,13 +34,5 @@ for project in finished_projects:
 
     print(f'Exporting schematic for project {project} of schematic file {schematic_file} to PDF file {output_pdf}') 
 
-    # Print ls for workspace and bom_exports
-    print('Workspace directory contents:')
-    print(os.listdir('/workspace'))
-    print('BOM exports directory contents:')
-    print(os.listdir(bom_exports_dir))
-
     # Run the command to export the schematic to a PDF file
-    result = subprocess.run(['sudo', 'kicad-cli', 'sch', 'export', 'pdf', schematic_file, '-o', output_pdf], capture_output=True, text=True)
-    print(result.stdout)
-    print(result.stderr)
+    subprocess.run(['sudo', 'kicad-cli', 'sch', 'export', 'pdf', schematic_file, '-o', output_pdf], capture_output=True, text=True)

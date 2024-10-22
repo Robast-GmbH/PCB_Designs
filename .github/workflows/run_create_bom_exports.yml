@@ -33,18 +33,11 @@ jobs:
     - name: 📝 Run create_boms_with_docs.py
       run: python3 scripts/create_boms_with_docs.py
 
-    - name: Build Docker container
-      run: docker build -t kicad-schematic-exporter .
-
-    - name: List workspace directory before running Docker
-      run: ls -la
-
-    - name: List bom_exports directory before running Docker
-      run: ls -la bom_exports
-
-    - name: Run Docker container to export schematics
-      run: docker run --rm -v "${{ github.workspace }}:/workspace" kicad-schematic-exporter
-
+    - name: 🐳 Build and run docker container to export schematics
+      run: |
+          docker build -t kicad-schematic-exporter .
+          docker run -v "${{ github.workspace }}:/workspace" kicad-schematic-exporter
+          
     - name: 🚀 Commit and push bom exports
       uses: EndBug/add-and-commit@v9
       with:
