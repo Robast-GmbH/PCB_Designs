@@ -33,6 +33,12 @@ jobs:
     - name: 📝 Run create_boms_with_docs.py
       run: python3 scripts/create_boms_with_docs.py
 
+    - name: 🐛 Debug - List bom_exports directory
+      run: |
+          ls -la bom_exports/Voltage_Converter_Disinfection_Module_v1
+          ls -la
+          $PWD
+
     - name: 🐳 Build and run docker container to export schematics
       run: |
           docker build -t kicad-schematic-exporter .
