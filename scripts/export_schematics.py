@@ -41,6 +41,6 @@ for project in finished_projects:
     print(os.listdir(bom_exports_dir))
 
     # Run the command to export the schematic to a PDF file
-    result = subprocess.run(['kicad-cli', 'sch', 'export', 'pdf', schematic_file, '-o', output_pdf], capture_output=True, text=True)
+    result = subprocess.run(['sudo', 'kicad-cli', 'sch', 'export', 'pdf', schematic_file, '-o', output_pdf], capture_output=True, text=True)
     print(result.stdout)
     print(result.stderr)
