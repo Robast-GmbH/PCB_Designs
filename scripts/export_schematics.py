@@ -24,6 +24,10 @@ for project in finished_projects:
 
     # Define the path to the schematic file
     schematic_file = os.path.join(project_dir, project + '.kicad_sch')
+    # Check if the schematic file exists
+    if not os.path.exists(schematic_file):
+        print(f'ERROR: Schematic file {schematic_file} does not exist.')
+        continue
 
     # Define the path to the output PDF file
     output_pdf = os.path.join(bom_exports_dir, project, project + '.pdf')
