@@ -35,4 +35,6 @@ for project in finished_projects:
     print(f'Exporting schematic for project {project} of schematic file {schematic_file} to PDF file {output_pdf}') 
 
     # Run the command to export the schematic to a PDF file
-    subprocess.run(['kicad-cli', 'sch', 'export', 'pdf', schematic_file, '-o', output_pdf])
+    result = subprocess.run(['kicad-cli', 'sch', 'export', 'pdf', schematic_file, '-o', output_pdf], capture_output=True, text=True)
+    print(result.stdout)
+    print(result.stderr)
