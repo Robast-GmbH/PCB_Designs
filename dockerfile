@@ -9,8 +9,7 @@ COPY KiCad /workspace/KiCad
 
 # Install any additional dependencies (if needed)
 RUN sudo apt-get update && sudo apt-get install -y \
-    python3 \
-    python3-pip
-
+    python3
+    
 # run export schematic script
 CMD ["python3", "/workspace/scripts/export_schematics.py"]
