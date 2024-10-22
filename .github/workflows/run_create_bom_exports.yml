@@ -38,7 +38,7 @@ jobs:
           docker build -t kicad-schematic-exporter .
           docker run -v $PWD:/workspace kicad-schematic-exporter
 
-    - name: 🐛 Debug: List bom_exports directory
+    - name: 🐛 Debug - List bom_exports directory
       run: ls -la bom_exports
 
     - name: 🚀 Commit and push bom exports
