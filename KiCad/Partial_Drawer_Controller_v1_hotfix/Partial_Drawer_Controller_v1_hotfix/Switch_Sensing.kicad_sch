@@ -76,6 +76,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C307331"
 				(at 0 0 0)
 				(effects
@@ -86,6 +95,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -409,6 +436,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25741"
 				(at 0 0 0)
 				(effects
@@ -419,6 +455,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -557,6 +611,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25744"
 				(at 0 0 0)
 				(effects
@@ -567,6 +630,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -703,6 +784,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C221796"
 				(at 0 0 0)
 				(effects
@@ -712,7 +802,25 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_MOUSER" "611-KSS321GLFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Electromechanical/Switches/Tactile_Switches/KSS321GLFS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -870,7 +978,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -921,7 +1029,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0) hide
-					(name "+3V3"
+					(name "+3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -990,7 +1098,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1239,7 +1347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 129.54 88.9 0)
 			(effects
 				(font
@@ -1332,7 +1440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 154.94 63.5 0)
 			(effects
 				(font
@@ -1470,6 +1578,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1698d4b5-db42-48c7-9b4f-e1fe6f2e6179")
 		)
@@ -1557,7 +1692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -1831,6 +1966,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66fccbb9-a639-4506-9bc6-f4a890d39155")
 		)
@@ -1965,6 +2127,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2fc31e1-3be9-4767-85e0-05b71bba9156")
 		)
@@ -2052,7 +2241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 204.47 88.9 0)
 			(effects
 				(font
@@ -2181,7 +2370,34 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "611-KSS321GLFS"
+			(at 195.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 195.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 195.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Electromechanical/Switches/Tactile_Switches/KSS321GLFS"
 			(at 195.58 76.2 0)
 			(effects
 				(font

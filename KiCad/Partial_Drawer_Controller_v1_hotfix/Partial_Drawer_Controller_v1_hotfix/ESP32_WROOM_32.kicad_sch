@@ -220,6 +220,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C307331"
 				(at 0 0 0)
 				(effects
@@ -230,6 +239,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -383,6 +410,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C28323"
 				(at 0 0 0)
 				(effects
@@ -393,6 +429,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -844,7 +898,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0 Micro-B SMD"
+			(property "Description" "USB 2.0 Micro SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -871,6 +925,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C132563"
 				(at 0 0 0)
 				(effects
@@ -880,7 +943,25 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_MOUSER" "649-10118194-0001LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Connectors/USB/Micro/Amphenol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1251,6 +1332,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C8678"
 				(at 0 0 0)
 				(effects
@@ -1261,6 +1351,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Diodes_Rectifiers/Schottky_Diodes_Rectifiers/SS34"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1592,6 +1700,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C964632"
 				(at 0 0 0)
 				(effects
@@ -1601,7 +1718,25 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_MOUSER" "634-CP2102NA02QFN28R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Semiconductors/Interface_ICs/USB/Silicon_Labs"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2268,6 +2403,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C701342"
 				(at 0 0 0)
 				(effects
@@ -2277,7 +2421,25 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_MOUSER" "356-ESP32WRM32E164PH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Embedded_Solutions/Wireless_RF_Modules/ESP32-WROOM-32E-N8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3082,6 +3244,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25076"
 				(at 0 0 0)
 				(effects
@@ -3092,6 +3263,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3230,6 +3419,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25744"
 				(at 0 0 0)
 				(effects
@@ -3240,6 +3438,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3378,6 +3594,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C11702"
 				(at 0 0 0)
 				(effects
@@ -3388,6 +3613,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3526,6 +3769,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25768"
 				(at 0 0 0)
 				(effects
@@ -3536,6 +3788,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3674,6 +3944,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25117"
 				(at 0 0 0)
 				(effects
@@ -3684,6 +3963,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3822,6 +4119,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25792"
 				(at 0 0 0)
 				(effects
@@ -3832,6 +4138,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3970,6 +4294,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C21189"
 				(at 0 0 0)
 				(effects
@@ -3980,6 +4313,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4118,6 +4469,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C23345"
 				(at 0 0 0)
 				(effects
@@ -4128,6 +4488,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4266,6 +4644,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C13167"
 				(at 0 0 0)
 				(effects
@@ -4276,6 +4663,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4596,6 +5001,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C2150"
 				(at 0 0 0)
 				(effects
@@ -4606,6 +5020,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/Bipolar_Transistors/SS8050"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4810,6 +5242,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C139445"
 				(at 0 0 0)
 				(effects
@@ -4819,7 +5260,25 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_MOUSER" "621-2N7002T-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/MOSFETs/2N7002T-7-F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -12612,7 +13071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
 			(at 205.105 30.48 0)
 			(effects
 				(font
@@ -12649,6 +13108,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 205.105 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 205.105 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 205.105 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 205.105 30.48 0)
 			(effects
 				(font
@@ -12716,7 +13202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 90.17 52.705 0)
 			(effects
 				(font
@@ -12781,7 +13267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 22K 1% 62.5mW 50V 0402"
 			(at 80.01 140.97 0)
 			(effects
 				(font
@@ -12818,6 +13304,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 80.01 140.97 0)
 			(effects
 				(font
@@ -12932,6 +13445,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ddc23a0-6228-486f-a588-8eaa673f109e")
 		)
@@ -12990,7 +13530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 100nF 50V X7R 10% 0402"
 			(at 59.055 32.385 0)
 			(effects
 				(font
@@ -13027,6 +13567,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 59.055 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 59.055 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 59.055 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 59.055 32.385 0)
 			(effects
 				(font
@@ -13094,7 +13661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 151.13 103.505 0)
 			(effects
 				(font
@@ -13160,7 +13727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 282.575 81.28 0)
 			(effects
 				(font
@@ -13225,7 +13792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 205.105 26.67 0)
 			(effects
 				(font
@@ -13292,7 +13859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 4.7uF 50V X7R 10% 1206"
 			(at 98.425 122.555 0)
 			(effects
 				(font
@@ -13398,7 +13965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 100nF 50V X7R 10% 0402"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -13435,6 +14002,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -13502,7 +14096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dip Tactile Switch Top 12V 50mA"
 			(at 95.885 25.4 0)
 			(effects
 				(font
@@ -13608,7 +14202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V 150W TVS Diode Bi-Directional"
 			(at 44.45 75.565 0)
 			(effects
 				(font
@@ -13712,7 +14306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 33.02 27.305 0)
 			(effects
 				(font
@@ -13777,7 +14371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dip Tactile Switch Top 12V 50mA"
 			(at 59.055 25.4 0)
 			(effects
 				(font
@@ -13883,7 +14477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky Diode 40V 3A 0.55V@3A"
 			(at 90.17 56.515 0)
 			(effects
 				(font
@@ -13920,6 +14514,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 90.17 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 90.17 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 90.17 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Diodes_Rectifiers/Schottky_Diodes_Rectifiers/SS34"
 			(at 90.17 56.515 0)
 			(effects
 				(font
@@ -13987,7 +14608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 265.43 134.62 0)
 			(effects
 				(font
@@ -14052,7 +14673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 100 1% 62.5mW 50V 0402"
 			(at 92.075 140.97 0)
 			(effects
 				(font
@@ -14089,6 +14710,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 92.075 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 92.075 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 92.075 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 92.075 140.97 0)
 			(effects
 				(font
@@ -14156,7 +14804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 138.43 103.505 0)
 			(effects
 				(font
@@ -14221,7 +14869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 251.46 105.41 0)
 			(effects
 				(font
@@ -14286,7 +14934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0 Micro-B SMD"
+		(property "Description" "USB 2.0 Micro SMD"
 			(at 22.86 66.04 0)
 			(effects
 				(font
@@ -14322,7 +14970,34 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "649-10118194-0001LF"
+			(at 22.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 22.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 22.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/USB/Micro/Amphenol"
 			(at 22.86 66.04 0)
 			(effects
 				(font
@@ -14401,7 +15076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0 1% 100mW 75V 0603"
 			(at 33.655 107.95 0)
 			(effects
 				(font
@@ -14438,6 +15113,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 33.655 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 33.655 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 33.655 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 33.655 107.95 0)
 			(effects
 				(font
@@ -14552,6 +15254,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 251.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 251.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 251.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4bfdb6d-8781-4e44-8e62-4c94cccff9b2")
 		)
@@ -14611,7 +15340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
 			(at 35.56 121.92 0)
 			(effects
 				(font
@@ -14648,6 +15377,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 35.56 121.92 0)
 			(effects
 				(font
@@ -14715,7 +15471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 81.28 0)
 			(effects
 				(font
@@ -14781,7 +15537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.305 32.385 0)
 			(effects
 				(font
@@ -14846,7 +15602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 156.21 153.67 0)
 			(effects
 				(font
@@ -14958,6 +15714,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 196.85 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 196.85 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 196.85 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e9f83e8c-9174-421e-a9bf-0b40b49cdaf7")
 		)
@@ -15017,7 +15800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.735 81.915 0)
 			(effects
 				(font
@@ -15084,7 +15867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 300mW 200@100mA,1V 1.5A NPN SOT-23 Bipolar Transistors"
 			(at 44.45 137.795 0)
 			(effects
 				(font
@@ -15121,6 +15904,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 44.45 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 44.45 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 44.45 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/Bipolar_Transistors/SS8050"
 			(at 44.45 137.795 0)
 			(effects
 				(font
@@ -15191,7 +16001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 278.13 204.47 0)
 			(effects
 				(font
@@ -15256,7 +16066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 314.325 39.37 0)
 			(effects
 				(font
@@ -15321,7 +16131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 27.305 22.86 0)
 			(effects
 				(font
@@ -15386,7 +16196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 163.83 0)
 			(effects
 				(font
@@ -15451,7 +16261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 314.325 21.59 0)
 			(effects
 				(font
@@ -15518,7 +16328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 47K 1% 62.5mW 50V 0402"
 			(at 97.79 150.495 0)
 			(effects
 				(font
@@ -15555,6 +16365,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 97.79 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 97.79 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 97.79 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 97.79 150.495 0)
 			(effects
 				(font
@@ -15624,7 +16461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "60V 115mA 7.5Ω@5V 50mA 150mW N Channel MOSFET SOT-523"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -15660,7 +16497,34 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "621-2N7002T-F"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/MOSFETs/2N7002T-7-F"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -15778,6 +16642,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 260.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 260.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 260.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b50add68-e86e-445e-b479-fc15f48f86b0")
 		)
@@ -15836,7 +16727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 100nF 50V X7R 10% 0402"
 			(at 95.885 32.385 0)
 			(effects
 				(font
@@ -15873,6 +16764,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 95.885 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 95.885 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 95.885 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 95.885 32.385 0)
 			(effects
 				(font
@@ -15942,7 +16860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 1uF 50V X7R 10% 0805"
 			(at 205.105 45.72 0)
 			(effects
 				(font
@@ -15979,6 +16897,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 205.105 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 205.105 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 205.105 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 205.105 45.72 0)
 			(effects
 				(font
@@ -16046,7 +16991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 22 1% 100mW 75V 0603"
 			(at 316.865 56.515 0)
 			(effects
 				(font
@@ -16083,6 +17028,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 316.865 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 316.865 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 316.865 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 316.865 56.515 0)
 			(effects
 				(font
@@ -16150,7 +17122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 103.505 0)
 			(effects
 				(font
@@ -16292,7 +17264,34 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "356-ESP32WRM32E164PH"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Embedded_Solutions/Wireless_RF_Modules/ESP32-WROOM-32E-N8"
 			(at 260.35 53.34 0)
 			(effects
 				(font
@@ -16473,7 +17472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V 150W TVS Diode Bi-Directional"
 			(at 59.69 74.93 0)
 			(effects
 				(font
@@ -16577,7 +17576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 205.105 49.53 0)
 			(effects
 				(font
@@ -16644,7 +17643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 300mW 200@100mA,1V 1.5A NPN SOT-23 Bipolar Transistors"
 			(at 44.45 121.92 0)
 			(effects
 				(font
@@ -16681,6 +17680,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/Bipolar_Transistors/SS8050"
 			(at 44.45 121.92 0)
 			(effects
 				(font
@@ -16752,7 +17778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.185 34.29 0)
 			(effects
 				(font
@@ -16817,7 +17843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 106.045 124.46 0)
 			(effects
 				(font
@@ -16882,7 +17908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 81.28 0)
 			(effects
 				(font
@@ -16949,7 +17975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
 			(at 138.43 98.425 0)
 			(effects
 				(font
@@ -16986,6 +18012,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 138.43 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 138.43 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 138.43 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 138.43 98.425 0)
 			(effects
 				(font
@@ -17053,7 +18106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 204.47 0)
 			(effects
 				(font
@@ -17119,7 +18172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -17184,7 +18237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 44.45 81.915 0)
 			(effects
 				(font
@@ -17249,7 +18302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 213.36 181.61 0)
 			(effects
 				(font
@@ -17316,7 +18369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V 150W TVS Diode Bi-Directional"
 			(at 74.93 75.565 0)
 			(effects
 				(font
@@ -17422,7 +18475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "60V 115mA 7.5Ω@5V 50mA 150mW N Channel MOSFET SOT-523"
 			(at 163.195 74.93 0)
 			(effects
 				(font
@@ -17458,7 +18511,34 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "621-2N7002T-F"
+			(at 163.195 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 163.195 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 163.195 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/MOSFETs/2N7002T-7-F"
 			(at 163.195 74.93 0)
 			(effects
 				(font
@@ -17529,7 +18609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 189.23 0)
 			(effects
 				(font
@@ -17596,7 +18676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 100nF 50V X7R 10% 0402"
 			(at 90.17 73.025 0)
 			(effects
 				(font
@@ -17633,6 +18713,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 90.17 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 90.17 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 90.17 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 90.17 73.025 0)
 			(effects
 				(font
@@ -17806,7 +18913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 232.41 105.41 0)
 			(effects
 				(font
@@ -17871,7 +18978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 59.69 81.28 0)
 			(effects
 				(font
@@ -17936,7 +19043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 88.265 116.205 0)
 			(effects
 				(font
@@ -18001,7 +19108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 276.86 181.61 0)
 			(effects
 				(font
@@ -18068,7 +19175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 470 1% 62.5mW 50V 0402"
 			(at 97.79 158.115 0)
 			(effects
 				(font
@@ -18105,6 +19212,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 97.79 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 97.79 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 97.79 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 97.79 158.115 0)
 			(effects
 				(font
@@ -18210,7 +19344,34 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "634-CP2102NA02QFN28R"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Semiconductors/Interface_ICs/USB/Silicon_Labs"
 			(at 127 156.21 0)
 			(effects
 				(font
@@ -18358,7 +19519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, open"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -18428,7 +19589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 100nF 50V X7R 10% 0402"
 			(at 83.185 122.555 0)
 			(effects
 				(font
@@ -18465,6 +19626,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 83.185 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 83.185 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 83.185 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 83.185 122.555 0)
 			(effects
 				(font
@@ -18532,7 +19720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 1K 1% 62.5mW 50V 0402"
 			(at 118.745 91.44 0)
 			(effects
 				(font
@@ -18569,6 +19757,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 118.745 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 118.745 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 118.745 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 118.745 91.44 0)
 			(effects
 				(font
@@ -18635,7 +19850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
 			(at 35.56 137.795 0)
 			(effects
 				(font
@@ -18672,6 +19887,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 35.56 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 35.56 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 35.56 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 35.56 137.795 0)
 			(effects
 				(font
@@ -18738,7 +19980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 1K 1% 62.5mW 50V 0402"
 			(at 110.49 128.27 0)
 			(effects
 				(font
@@ -18775,6 +20017,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 110.49 128.27 0)
 			(effects
 				(font
@@ -18844,7 +20113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 100nF 50V X7R 10% 0402"
 			(at 309.88 29.845 0)
 			(effects
 				(font
@@ -18881,6 +20150,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 309.88 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 309.88 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 309.88 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 			(at 309.88 29.845 0)
 			(effects
 				(font
@@ -18948,7 +20244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 127 69.215 0)
 			(effects
 				(font
@@ -19013,7 +20309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 128.905 0)
 			(effects
 				(font
@@ -19077,7 +20373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0 1% 100mW 75V 0603"
 			(at 33.655 99.695 0)
 			(effects
 				(font
@@ -19114,6 +20410,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 33.655 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 33.655 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 33.655 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 33.655 99.695 0)
 			(effects
 				(font
@@ -19181,7 +20504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 264.16 111.76 0)
 			(effects
 				(font
@@ -19246,7 +20569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 10K 1% 62.5mW 50V 0402"
 			(at 148.59 153.67 0)
 			(effects
 				(font
@@ -19283,6 +20606,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 148.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 148.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 148.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 148.59 153.67 0)
 			(effects
 				(font
@@ -19350,7 +20700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 22.86 79.375 0)
 			(effects
 				(font

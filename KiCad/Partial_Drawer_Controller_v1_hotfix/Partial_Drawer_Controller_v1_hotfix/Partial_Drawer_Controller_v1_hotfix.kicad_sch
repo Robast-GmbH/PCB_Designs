@@ -1332,6 +1332,15 @@
 					(hide yes)
 				)
 			)
+			(property "path_to_docs" "Connectors/JST/XA_Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "JST"
 				(at 0 0 0)
 				(effects
@@ -1508,6 +1517,15 @@
 				)
 			)
 			(property "OC_RS" "602-8206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Connectors/JST/XA_Connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1721,6 +1739,15 @@
 				)
 			)
 			(property "OC_RS" "166-7451"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Connectors/JST/XA_Connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1963,6 +1990,15 @@
 				)
 			)
 			(property "OC_RS" "602-8290"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Connectors/JST/XA_Connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2293,6 +2329,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" ""
 				(at 0 0 0)
 				(effects
@@ -2302,7 +2347,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_MOUSER" "538-43650-0316"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2312,6 +2357,15 @@
 				)
 			)
 			(property "OC_RS" "670-4723"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2707,6 +2761,15 @@
 					(hide yes)
 				)
 			)
+			(property "path_to_docs" "Circuit_Protection/Fuses/SMD/Littlefuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "SMD Fuse"
 				(at 0 0 0)
 				(effects
@@ -2962,6 +3025,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C3711787"
 				(at 0 0 0)
 				(effects
@@ -2971,7 +3043,25 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_MOUSER" "771-PESD2CANFD24L-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/Nexperia"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3581,6 +3671,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25744"
 				(at 0 0 0)
 				(effects
@@ -3591,6 +3690,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3729,6 +3846,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C11702"
 				(at 0 0 0)
 				(effects
@@ -3739,6 +3865,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3905,6 +4049,15 @@
 				)
 			)
 			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4266,7 +4419,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4386,7 +4539,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10184,6 +10337,15 @@
 				(hide yes)
 			)
 		)
+		(property "path_to_docs" "Connectors/JST/XA_Connector"
+			(at 340.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "8118485f-4d23-4d68-8d9d-020d765ea2e8")
 		)
@@ -10250,7 +10412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 83.82 0)
 			(effects
 				(font
@@ -10316,7 +10478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 213.36 270.51 0)
 			(effects
 				(font
@@ -10381,7 +10543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 321.31 55.88 0)
 			(effects
 				(font
@@ -10548,7 +10710,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "538-43650-0316"
 			(at 275.59 43.18 0)
 			(effects
 				(font
@@ -10558,6 +10720,24 @@
 			)
 		)
 		(property "OC_RS" "670-4723"
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 			(at 275.59 43.18 0)
 			(effects
 				(font
@@ -10629,7 +10809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 109.22 0)
 			(effects
 				(font
@@ -10751,6 +10931,15 @@
 			)
 		)
 		(property "OC_RS" "166-7451"
+			(at 58.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/JST/XA_Connector"
 			(at 58.42 27.94 0)
 			(effects
 				(font
@@ -10889,7 +11078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -11019,7 +11208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 45.72 0)
 			(effects
 				(font
@@ -11148,7 +11337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 156.21 35.56 0)
 			(effects
 				(font
@@ -11278,7 +11467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 27.94 0)
 			(effects
 				(font
@@ -11598,7 +11787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 359.41 55.88 0)
 			(effects
 				(font
@@ -11855,7 +12044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 359.41 58.42 0)
 			(effects
 				(font
@@ -11921,7 +12110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 95.25 114.3 0)
 			(effects
 				(font
@@ -11987,7 +12176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 46.99 154.94 0)
 			(effects
 				(font
@@ -12053,7 +12242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 54.61 0)
 			(effects
 				(font
@@ -12119,7 +12308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 35.56 113.03 0)
 			(effects
 				(font
@@ -12185,7 +12374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 121.92 0)
 			(effects
 				(font
@@ -12379,7 +12568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 152.4 25.4 0)
 			(effects
 				(font
@@ -12507,7 +12696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 349.25 143.51 0)
 			(effects
 				(font
@@ -12573,7 +12762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 255.27 0)
 			(effects
 				(font
@@ -12740,7 +12929,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "538-43650-0316"
 			(at 275.59 68.58 0)
 			(effects
 				(font
@@ -12750,6 +12939,24 @@
 			)
 		)
 		(property "OC_RS" "670-4723"
+			(at 275.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 275.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 			(at 275.59 68.58 0)
 			(effects
 				(font
@@ -13013,6 +13220,15 @@
 				(hide yes)
 			)
 		)
+		(property "path_to_docs" "Connectors/JST/XA_Connector"
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82447762-9d12-45e5-a1bb-dc371e409ab2")
 		)
@@ -13073,7 +13289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 134.62 242.57 0)
 			(effects
 				(font
@@ -13176,7 +13392,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "538-43650-0316"
 			(at 275.59 106.68 0)
 			(effects
 				(font
@@ -13186,6 +13402,24 @@
 			)
 		)
 		(property "OC_RS" "670-4723"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 			(at 275.59 106.68 0)
 			(effects
 				(font
@@ -13256,7 +13490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 158.75 25.4 0)
 			(effects
 				(font
@@ -13321,7 +13555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 133.35 60.96 0)
 			(effects
 				(font
@@ -13387,7 +13621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 53.34 182.88 0)
 			(effects
 				(font
@@ -13517,7 +13751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 128.27 245.11 0)
 			(effects
 				(font
@@ -13583,7 +13817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -13869,7 +14103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 66.04 76.2 0)
 			(effects
 				(font
@@ -13934,7 +14168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 321.31 105.41 0)
 			(effects
 				(font
@@ -14127,7 +14361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -14192,7 +14426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 213.36 246.38 0)
 			(effects
 				(font
@@ -14321,7 +14555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 340.36 95.25 0)
 			(effects
 				(font
@@ -14424,7 +14658,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "538-43650-0316"
 			(at 275.59 93.98 0)
 			(effects
 				(font
@@ -14434,6 +14668,24 @@
 			)
 		)
 		(property "OC_RS" "670-4723"
+			(at 275.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 275.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 			(at 275.59 93.98 0)
 			(effects
 				(font
@@ -14569,7 +14821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 33.02 0)
 			(effects
 				(font
@@ -14672,7 +14924,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "538-43650-0316"
 			(at 275.59 81.28 0)
 			(effects
 				(font
@@ -14682,6 +14934,24 @@
 			)
 		)
 		(property "OC_RS" "670-4723"
+			(at 275.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 275.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 			(at 275.59 81.28 0)
 			(effects
 				(font
@@ -14753,7 +15023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 58.42 0)
 			(effects
 				(font
@@ -14857,6 +15127,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -15053,7 +15350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 96.52 0)
 			(effects
 				(font
@@ -15120,7 +15417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V 200W TVS Diode Bi-Directional"
 			(at 31.75 55.88 0)
 			(effects
 				(font
@@ -15417,7 +15714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 359.41 36.83 0)
 			(effects
 				(font
@@ -15483,7 +15780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 67.31 49.53 0)
 			(effects
 				(font
@@ -15549,7 +15846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 276.86 0)
 			(effects
 				(font
@@ -15717,6 +16014,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 19.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 19.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 19.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 			(at 19.05 168.91 0)
 			(effects
 				(font
@@ -16103,6 +16427,15 @@
 				(hide yes)
 			)
 		)
+		(property "path_to_docs" "Connectors/JST/XA_Connector"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a985f4e1-eb7b-4e41-82c5-281c82007172")
 		)
@@ -16181,7 +16514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 71.12 0)
 			(effects
 				(font
@@ -16666,6 +16999,15 @@
 				(hide yes)
 			)
 		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 342.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04782ac5-1252-4a7c-80c1-4f18358f4f98")
 		)
@@ -16937,7 +17279,34 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "771-PESD2CANFD24L-TR"
+			(at 52.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 52.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 52.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/Nexperia"
 			(at 52.07 73.66 0)
 			(effects
 				(font
@@ -17009,7 +17378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 116.84 0)
 			(effects
 				(font
@@ -17129,6 +17498,15 @@
 			)
 		)
 		(property "OC_RS" ""
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Circuit_Protection/Fuses/SMD/Littlefuse"
 			(at 45.72 49.53 0)
 			(effects
 				(font
@@ -17325,7 +17703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 19.05 165.1 0)
 			(effects
 				(font
@@ -17555,7 +17933,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "538-43650-0316"
 			(at 275.59 55.88 0)
 			(effects
 				(font
@@ -17565,6 +17943,24 @@
 			)
 		)
 		(property "OC_RS" "670-4723"
+			(at 275.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 275.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 			(at 275.59 55.88 0)
 			(effects
 				(font
@@ -17636,7 +18032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 53.34 154.94 0)
 			(effects
 				(font
@@ -17862,7 +18258,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "538-43650-0316"
 			(at 275.59 30.48 0)
 			(effects
 				(font
@@ -17872,6 +18268,24 @@
 			)
 		)
 		(property "OC_RS" "670-4723"
+			(at 275.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 275.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 			(at 275.59 30.48 0)
 			(effects
 				(font
@@ -17943,7 +18357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 134.62 0)
 			(effects
 				(font
@@ -18009,7 +18423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 321.31 58.42 0)
 			(effects
 				(font
@@ -18139,7 +18553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -18269,6 +18683,15 @@
 				(hide yes)
 			)
 		)
+		(property "path_to_docs" "Connectors/JST/XA_Connector"
+			(at 359.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "71466c0f-f9d7-4ac8-b5e4-75806284e291")
 		)
@@ -18369,7 +18792,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "538-43650-0316"
 			(at 275.59 119.38 0)
 			(effects
 				(font
@@ -18379,6 +18802,24 @@
 			)
 		)
 		(property "OC_RS" "670-4723"
+			(at 275.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 275.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
 			(at 275.59 119.38 0)
 			(effects
 				(font
@@ -18449,7 +18890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 116.84 113.03 0)
 			(effects
 				(font

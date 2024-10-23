@@ -76,6 +76,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C307331"
 				(at 0 0 0)
 				(effects
@@ -86,6 +95,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -409,6 +436,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25741"
 				(at 0 0 0)
 				(effects
@@ -419,6 +455,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -557,6 +611,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C25744"
 				(at 0 0 0)
 				(effects
@@ -567,6 +630,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -688,7 +769,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -739,7 +820,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0) hide
-					(name "+3V3"
+					(name "+3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -808,7 +889,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1094,6 +1175,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9f447c6-6580-4815-a1c0-a545ecf1163b")
 		)
@@ -1153,7 +1261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 96.52 0)
 			(effects
 				(font
@@ -1265,6 +1373,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4d613cb-22e5-4857-86f1-6fcc55a25b36")
 		)
@@ -1324,7 +1459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -1436,6 +1571,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "818f851c-beb6-47a8-8d8d-a651493738ea")
 		)
@@ -1495,7 +1657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 151.13 73.66 0)
 			(effects
 				(font
