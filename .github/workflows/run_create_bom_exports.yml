@@ -30,6 +30,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
+    - name: 🧹 Clean bom exports directory
+      run: rm -rf bom_exports/*
+
     - name: 📝 Run create_boms_with_docs.py
       run: python3 scripts/create_boms_with_docs.py
 
