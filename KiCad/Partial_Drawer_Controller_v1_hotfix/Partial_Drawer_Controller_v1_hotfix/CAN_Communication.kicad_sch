@@ -195,7 +195,7 @@
 				)
 			)
 		)
-		(symbol "_C_0603:10uF_25V"
+		(symbol "_C_0603:10u_25V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -212,7 +212,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10uF_25V"
+			(property "Value" "10u_25V"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -266,6 +266,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C96446"
 				(at 0 0 0)
 				(effects
@@ -284,6 +293,24 @@
 					(hide yes)
 				)
 			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "Cap Capacitor"
 				(at 0 0 0)
 				(effects
@@ -293,7 +320,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "10uF_25V_0_1"
+			(symbol "10u_25V_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -319,7 +346,7 @@
 					)
 				)
 			)
-			(symbol "10uF_25V_1_1"
+			(symbol "10u_25V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2185,12 +2212,6 @@
 		(uuid "28ac838d-d5c7-44cf-bc0b-71e921339374")
 	)
 	(junction
-		(at 115.57 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d9657e4-64e6-4a13-a94f-8f7d9777648d")
-	)
-	(junction
 		(at 187.96 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2219,6 +2240,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "810e26e0-a34a-4ab2-970d-4b65a68421b6")
+	)
+	(junction
+		(at 115.57 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dcfbb76-1f86-4e57-ae20-365d49c2562f")
 	)
 	(junction
 		(at 100.33 118.11)
@@ -3853,112 +3880,6 @@
 		)
 	)
 	(symbol
-		(lib_id "_C_0603:10uF_25V")
-		(at 115.57 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "518595c2-6686-4935-9c93-461a552aed95")
-		(property "Reference" "C14"
-			(at 119.38 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF_25V"
-			(at 119.38 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.5352 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106MA8NRN.do"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 10uF 25V X5R 20% 0603"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A106MA8NRNC"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C96446"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f199b172-b46e-433b-b1e0-1cb2c940e887")
-		)
-		(pin "2"
-			(uuid "c61a747e-da20-433c-b1a2-baaf0bd005f4")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/1e314787-7f45-4847-9ba5-2ff173980b3b"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 115.57 85.09 0)
 		(unit 1)
@@ -5213,6 +5134,139 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/1e314787-7f45-4847-9ba5-2ff173980b3b"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_C_0603:10u_25V")
+		(at 115.57 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f258f9db-0e1b-41e8-931b-163528a3fb34")
+		(property "Reference" "C14"
+			(at 119.38 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u_25V"
+			(at 119.38 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.5352 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106MA8NRN.do"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 10uF 25V X5R 20% 0603"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C96446"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9a3bbc-d33e-417e-a7ca-f2e3cacb49da")
+		)
+		(pin "2"
+			(uuid "bfd9ddb0-4185-456f-ade3-0bee0836619e")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/1e314787-7f45-4847-9ba5-2ff173980b3b"
+					(reference "C14")
 					(unit 1)
 				)
 			)

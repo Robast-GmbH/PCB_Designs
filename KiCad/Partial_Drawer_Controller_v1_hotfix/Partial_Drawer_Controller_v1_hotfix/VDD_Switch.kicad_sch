@@ -5,7 +5,7 @@
 	(uuid "87d2ea11-24e0-4971-a8f5-50286431931a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "_C_1206:22uF_25V"
+		(symbol "_C_1206:22u_25V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -22,7 +22,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "22uF_25V"
+			(property "Value" "22u_25V"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -76,6 +76,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C12891"
 				(at 0 0 0)
 				(effects
@@ -94,6 +103,24 @@
 					(hide yes)
 				)
 			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "Cap Capacitor"
 				(at 0 0 0)
 				(effects
@@ -103,7 +130,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "22uF_25V_0_1"
+			(symbol "22u_25V_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -129,7 +156,7 @@
 					)
 				)
 			)
-			(symbol "22uF_25V_1_1"
+			(symbol "22u_25V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1743,170 +1770,6 @@
 		)
 	)
 	(symbol
-		(lib_id "_C_1206:22uF_25V")
-		(at 163.83 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22819bcd-6b4b-403f-b4bd-118d0f0be1e1")
-		(property "Reference" "C39"
-			(at 163.83 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uF_25V"
-			(at 163.83 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 167.64 63.8048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 22uF 25V X7R 10% 1206"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A226KAHNNNE"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C12891"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5813a93f-4b0f-46ac-879b-69b7e6b8f061")
-		)
-		(pin "2"
-			(uuid "83aa0567-5074-4712-afce-d0ead020028c")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/2c75bec1-6ab8-4504-af17-54d03254e90d/1d666509-c79e-4445-83e5-19adc86bede4"
-					(reference "C39")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/2c75bec1-6ab8-4504-af17-54d03254e90d/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
-					(reference "C40")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/38952abe-30d5-4ef0-9940-75b5c54f090d/1d666509-c79e-4445-83e5-19adc86bede4"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/38952abe-30d5-4ef0-9940-75b5c54f090d/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/55464f09-8141-44f3-a4dc-8d95b835c76f/1d666509-c79e-4445-83e5-19adc86bede4"
-					(reference "C41")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/55464f09-8141-44f3-a4dc-8d95b835c76f/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
-					(reference "C42")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/659f014e-7acd-4f7d-85c4-f114c10273ee/1d666509-c79e-4445-83e5-19adc86bede4"
-					(reference "C28")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/659f014e-7acd-4f7d-85c4-f114c10273ee/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
-					(reference "C29")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/7c455a2c-ce6f-4f9e-9e17-9ef94ac67c36/1d666509-c79e-4445-83e5-19adc86bede4"
-					(reference "C31")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/7c455a2c-ce6f-4f9e-9e17-9ef94ac67c36/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
-					(reference "C32")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/a479dd19-ccc5-4bf9-8c7a-2de508f1e4d5/1d666509-c79e-4445-83e5-19adc86bede4"
-					(reference "C37")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/a479dd19-ccc5-4bf9-8c7a-2de508f1e4d5/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
-					(reference "C38")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/b9fb9dae-4501-47b9-b244-0c87703f9fe3/1d666509-c79e-4445-83e5-19adc86bede4"
-					(reference "C33")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/b9fb9dae-4501-47b9-b244-0c87703f9fe3/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
-					(reference "C34")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f3392d72-ba81-465b-9e51-4fde0591fde8/1d666509-c79e-4445-83e5-19adc86bede4"
-					(reference "C35")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f3392d72-ba81-465b-9e51-4fde0591fde8/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 135.89 104.14 0)
 		(unit 1)
@@ -2834,6 +2697,197 @@
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f3392d72-ba81-465b-9e51-4fde0591fde8/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_C_1206:22u_25V")
+		(at 163.83 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58c35c9-d9fd-492e-8c0e-b14a861c5e71")
+		(property "Reference" "C39"
+			(at 163.83 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u_25V"
+			(at 163.83 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 167.64 63.8048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 22uF 25V X7R 10% 1206"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A226KAHNNNE"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C12891"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bc4653f-9d27-4ce2-a761-452fc21735ae")
+		)
+		(pin "1"
+			(uuid "9f611500-08a7-47c5-a0f6-5b51831d2044")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/2c75bec1-6ab8-4504-af17-54d03254e90d/1d666509-c79e-4445-83e5-19adc86bede4"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/2c75bec1-6ab8-4504-af17-54d03254e90d/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/38952abe-30d5-4ef0-9940-75b5c54f090d/1d666509-c79e-4445-83e5-19adc86bede4"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/38952abe-30d5-4ef0-9940-75b5c54f090d/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/55464f09-8141-44f3-a4dc-8d95b835c76f/1d666509-c79e-4445-83e5-19adc86bede4"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/55464f09-8141-44f3-a4dc-8d95b835c76f/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/659f014e-7acd-4f7d-85c4-f114c10273ee/1d666509-c79e-4445-83e5-19adc86bede4"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/659f014e-7acd-4f7d-85c4-f114c10273ee/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/7c455a2c-ce6f-4f9e-9e17-9ef94ac67c36/1d666509-c79e-4445-83e5-19adc86bede4"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/7c455a2c-ce6f-4f9e-9e17-9ef94ac67c36/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/a479dd19-ccc5-4bf9-8c7a-2de508f1e4d5/1d666509-c79e-4445-83e5-19adc86bede4"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/a479dd19-ccc5-4bf9-8c7a-2de508f1e4d5/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/b9fb9dae-4501-47b9-b244-0c87703f9fe3/1d666509-c79e-4445-83e5-19adc86bede4"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/b9fb9dae-4501-47b9-b244-0c87703f9fe3/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f3392d72-ba81-465b-9e51-4fde0591fde8/1d666509-c79e-4445-83e5-19adc86bede4"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f3392d72-ba81-465b-9e51-4fde0591fde8/50b27d2d-7b72-44ef-86f9-989f2f4bb8aa"
+					(reference "C36")
 					(unit 1)
 				)
 			)

@@ -539,7 +539,7 @@
 				)
 			)
 		)
-		(symbol "_C_Polarized:100uF_80V"
+		(symbol "_C_Polarized:100u_80V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -556,7 +556,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100uF_80V"
+			(property "Value" "100u_80V"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -646,6 +646,15 @@
 					(hide yes)
 				)
 			)
+			(property "path_to_docs" "Passive_Components/Capacitors/Aluminium_Electrolytic_Capacitors/Lelon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "Cap Capacitor"
 				(at 0 0 0)
 				(effects
@@ -655,7 +664,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "100uF_80V_0_1"
+			(symbol "100u_80V_0_1"
 				(rectangle
 					(start -2.286 0.508)
 					(end 2.286 1.016)
@@ -703,7 +712,7 @@
 					)
 				)
 			)
-			(symbol "100uF_80V_1_1"
+			(symbol "100u_80V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1523,6 +1532,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C2286"
 				(at 0 0 0)
 				(effects
@@ -1533,6 +1551,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Optoelectronics/LED_Emitter/SMD/0603/Red/Hubei_Kento_Electronic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3174,16 +3210,6 @@
 			(type default)
 		)
 		(uuid "fa549241-384c-4b64-9e53-72a15ba29d76")
-	)
-	(wire
-		(pts
-			(xy 181.61 46.99) (xy 181.61 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc860575-a072-4dbf-8bc6-db86719a5490")
 	)
 	(wire
 		(pts
@@ -5166,130 +5192,6 @@
 		)
 	)
 	(symbol
-		(lib_id "_C_Polarized:100uF_80V")
-		(at 224.79 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fb31def-0047-4ef5-98f0-0c72a02f4721")
-		(property "Reference" "C63"
-			(at 228.6 25.7809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF_80V"
-			(at 228.6 28.3209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 225.7552 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/231/161587245243-2307006.pdf"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Aluminum Electrolytic Capacitor 100uF 80V ±20% SMD,D10xL10mm"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Lelon"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "VZH101M1KTR-1010"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_CONRAD" ""
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C249838"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "140-VZH101M1KTR1010 "
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" ""
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b41ae0a-d2eb-44fb-aafd-eadf84f617e6")
-		)
-		(pin "2"
-			(uuid "78c33e1b-f4ae-49f3-b795-ed31797b267a")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d17982c1-9a9f-4dd2-aa68-8c26a8eeced1"
-					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 125.73 58.42 0)
 		(unit 1)
@@ -5578,6 +5480,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Optoelectronics/LED_Emitter/SMD/0603/Red/Hubei_Kento_Electronic"
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9642d545-b845-499b-b999-3806863347c5")
 		)
@@ -5854,6 +5783,139 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d17982c1-9a9f-4dd2-aa68-8c26a8eeced1"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_C_Polarized:100u_80V")
+		(at 224.79 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77bf9c04-6e25-4367-91dc-6059e9dbc78e")
+		(property "Reference" "C68"
+			(at 228.6 25.7809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u_80V"
+			(at 228.6 28.3209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 225.7552 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/231/161587245243-2307006.pdf"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitor 100uF 80V ±20% SMD,D10xL10mm"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Lelon"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VZH101M1KTR-1010"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C249838"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "140-VZH101M1KTR1010 "
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/Aluminium_Electrolytic_Capacitors/Lelon"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52afa00a-e75c-4f7e-88b4-528c2951309e")
+		)
+		(pin "1"
+			(uuid "dc0c4291-f646-442f-a10c-6f139dc92b63")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/d17982c1-9a9f-4dd2-aa68-8c26a8eeced1"
+					(reference "C68")
 					(unit 1)
 				)
 			)

@@ -195,7 +195,7 @@
 				)
 			)
 		)
-		(symbol "_Diode_TVS:LESD5D5.0CT1G"
+		(symbol "_Diode_TVS:ESD5Z5.0T1G"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -210,7 +210,7 @@
 					)
 				)
 			)
-			(property "Value" "LESD5D5.0CT1G"
+			(property "Value" "ESD5Z5.0T1G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -227,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_LRC-LESD5D5-0CT1G_C383211.pdf"
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/ESD5Z2_5T1_D-2311718.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -236,7 +236,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5V 150W TVS Diode Bi-Directional"
+			(property "Description" "5V 174W TVS Diode Unidirectional"
 				(at 0 0 0)
 				(effects
 					(font
@@ -245,7 +245,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "LRC"
+			(property "Sim.Device" "D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -254,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LESD5D5.0CT1G"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -263,7 +263,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_LCSC" "C383211"
+			(property "MF" "onsemi"
 				(at 0 0 0)
 				(effects
 					(font
@@ -272,7 +272,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "MPN" "ESD5Z5.0T1G"
 				(at 0 0 0)
 				(effects
 					(font
@@ -281,7 +281,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "TVS Diode Bi-Directional"
+			(property "OC_CONRAD" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -290,7 +290,64 @@
 					(hide yes)
 				)
 			)
-			(symbol "LESD5D5.0CT1G_0_1"
+			(property "OC_LCSC" "C82044"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_MOUSER" "863-ESD5Z5.0T5G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/onsemi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS Diode Unidirectional"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD5Z5.0T1G_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -305,19 +362,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -328,11 +373,11 @@
 					)
 				)
 			)
-			(symbol "LESD5D5.0CT1G_1_1"
+			(symbol "ESD5Z5.0T1G_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -350,7 +395,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1304,6 +1349,185 @@
 		(uuid "e49034f1-0295-4295-9472-0f35a61a2c27")
 	)
 	(symbol
+		(lib_id "_Diode_TVS:ESD5Z5.0T1G")
+		(at 162.56 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c2a1c87-7cf4-4c26-95a6-49d0ee233935")
+		(property "Reference" "F5"
+			(at 165.1 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD5Z5.0T1G"
+			(at 165.1 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/ESD5Z2_5T1_D-2311718.pdf"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V 174W TVS Diode Unidirectional"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5Z5.0T1G"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C82044"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "863-ESD5Z5.0T5G"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/onsemi"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2573ed36-338d-4099-9aa0-d883c640b0d9")
+		)
+		(pin "2"
+			(uuid "e6e6e105-013e-479e-9467-90bb19886c23")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/0481b9ea-4eda-4779-9c33-4563f4e2b2a2"
+					(reference "F12")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/1eea38db-548a-40f6-8a6e-d81a1cdf84c1"
+					(reference "F7")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/23e17d2f-6daa-410c-af9f-904b12b7e8e6"
+					(reference "F8")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/3728aa58-a31c-4878-ac51-cdf756b1203c"
+					(reference "F9")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/8c2b5797-1f1b-4f1d-bcbe-d9175d1d94ba"
+					(reference "F6")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/cd8aaea3-c06d-4481-9a3c-94147a3b7f01"
+					(reference "F11")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/daa5c514-a8db-4b4e-b18c-9fe500a82c8d"
+					(reference "F5")
+					(unit 1)
+				)
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f7e89e29-505f-4615-983e-7608df4b6a54"
+					(reference "F10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 88.9 0)
 		(unit 1)
@@ -1736,140 +1960,6 @@
 				)
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f7e89e29-505f-4615-983e-7608df4b6a54"
 					(reference "#PWR0194")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_Diode_TVS:LESD5D5.0CT1G")
-		(at 162.56 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a420044b-342d-4143-a44d-9ce26142908f")
-		(property "Reference" "F13"
-			(at 165.1 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LESD5D5.0CT1G"
-			(at 165.1 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_LRC-LESD5D5-0CT1G_C383211.pdf"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V 150W TVS Diode Bi-Directional"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "LRC"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LESD5D5.0CT1G"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C383211"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7347cd1e-4558-4827-b7f5-543218e5bbd8")
-		)
-		(pin "2"
-			(uuid "3ceb9587-b509-4c20-b95d-0ebf0ded75d4")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/0481b9ea-4eda-4779-9c33-4563f4e2b2a2"
-					(reference "F13")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/1eea38db-548a-40f6-8a6e-d81a1cdf84c1"
-					(reference "F8")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/23e17d2f-6daa-410c-af9f-904b12b7e8e6"
-					(reference "F9")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/3728aa58-a31c-4878-ac51-cdf756b1203c"
-					(reference "F10")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/8c2b5797-1f1b-4f1d-bcbe-d9175d1d94ba"
-					(reference "F7")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/cd8aaea3-c06d-4481-9a3c-94147a3b7f01"
-					(reference "F12")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/daa5c514-a8db-4b4e-b18c-9fe500a82c8d"
-					(reference "F6")
-					(unit 1)
-				)
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/43bcf634-e9c3-4351-a59f-ee0dcec3115a/f7e89e29-505f-4615-983e-7608df4b6a54"
-					(reference "F11")
 					(unit 1)
 				)
 			)

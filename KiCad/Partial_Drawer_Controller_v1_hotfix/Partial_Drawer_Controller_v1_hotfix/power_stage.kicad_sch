@@ -195,7 +195,7 @@
 				)
 			)
 		)
-		(symbol "_C_0603:10uF_25V"
+		(symbol "_C_0603:10u_25V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -212,7 +212,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10uF_25V"
+			(property "Value" "10u_25V"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -266,6 +266,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C96446"
 				(at 0 0 0)
 				(effects
@@ -284,6 +293,24 @@
 					(hide yes)
 				)
 			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "Cap Capacitor"
 				(at 0 0 0)
 				(effects
@@ -293,7 +320,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "10uF_25V_0_1"
+			(symbol "10u_25V_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -319,7 +346,7 @@
 					)
 				)
 			)
-			(symbol "10uF_25V_1_1"
+			(symbol "10u_25V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -548,7 +575,7 @@
 				)
 			)
 		)
-		(symbol "_C_0805:220nF_50V"
+		(symbol "_C_0805:220n_50V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -565,7 +592,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "220nF_50V"
+			(property "Value" "220n_50V"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -619,6 +646,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C5378"
 				(at 0 0 0)
 				(effects
@@ -637,6 +673,24 @@
 					(hide yes)
 				)
 			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "Cap Capacitor"
 				(at 0 0 0)
 				(effects
@@ -646,7 +700,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "220nF_50V_0_1"
+			(symbol "220n_50V_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -672,7 +726,7 @@
 					)
 				)
 			)
-			(symbol "220nF_50V_1_1"
+			(symbol "220n_50V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -711,7 +765,7 @@
 				)
 			)
 		)
-		(symbol "_C_1206:22uF_25V"
+		(symbol "_C_1206:22u_25V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -728,7 +782,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "22uF_25V"
+			(property "Value" "22u_25V"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -782,6 +836,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C12891"
 				(at 0 0 0)
 				(effects
@@ -800,6 +863,24 @@
 					(hide yes)
 				)
 			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "Cap Capacitor"
 				(at 0 0 0)
 				(effects
@@ -809,7 +890,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "22uF_25V_0_1"
+			(symbol "22u_25V_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -835,7 +916,7 @@
 					)
 				)
 			)
-			(symbol "22uF_25V_1_1"
+			(symbol "22u_25V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1107,6 +1188,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C2286"
 				(at 0 0 0)
 				(effects
@@ -1117,6 +1207,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Optoelectronics/LED_Emitter/SMD/0603/Red/Hubei_Kento_Electronic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1305,6 +1413,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C2296"
 				(at 0 0 0)
 				(effects
@@ -1315,6 +1432,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Optoelectronics/LED_Emitter/SMD/0805/Yellow/Hubei_Kento_Electronic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3368,40 +3503,28 @@
 		(uuid "174475c0-0e67-45e5-9f49-4491d58cd35b")
 	)
 	(junction
+		(at 181.61 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18d56603-2a25-4a77-a48a-7128f74e7e76")
+	)
+	(junction
 		(at 205.105 113.665)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "274d3c1a-81ea-4948-9ced-ffb17d8bcb8b")
 	)
 	(junction
-		(at 123.19 46.99)
+		(at 198.12 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fa98742-8bb5-4728-91ec-557550186855")
-	)
-	(junction
-		(at 182.245 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ad76f5e-c7c3-4be6-a3b8-f103dca433fd")
-	)
-	(junction
-		(at 217.17 86.995)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e4ac668-84b5-4874-b0c6-d2102054dc58")
+		(uuid "323c9f2d-0ea0-4234-9c8a-ef89cd701a35")
 	)
 	(junction
 		(at 17.78 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51213f4a-677e-4bac-9c5f-cba70f8be496")
-	)
-	(junction
-		(at 210.82 86.995)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "557420b6-076a-4115-b247-5102fe74aed6")
 	)
 	(junction
 		(at 69.85 50.8)
@@ -3416,10 +3539,22 @@
 		(uuid "5eabe6f6-ae8e-4028-8a6b-3103e91e1df0")
 	)
 	(junction
+		(at 125.73 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64922fe1-a2e5-40cc-9c75-870d78c0ba45")
+	)
+	(junction
 		(at 108.585 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67ce5cde-2375-4a62-991b-11d48632a663")
+	)
+	(junction
+		(at 217.17 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bbed3bf-af5b-4d92-b9cf-45cee17a9c55")
 	)
 	(junction
 		(at 53.34 50.8)
@@ -3452,12 +3587,6 @@
 		(uuid "8bdcb79a-edfe-4d56-bb46-51fa1e3d79ea")
 	)
 	(junction
-		(at 123.19 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99dca3d1-dc61-42f3-9920-9c52b67b579f")
-	)
-	(junction
 		(at 226.06 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3470,16 +3599,16 @@
 		(uuid "abddf917-bcd6-4154-9d02-31d4b88e38a9")
 	)
 	(junction
-		(at 198.12 86.995)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac48c8a6-1dc5-41fb-bcc6-8894c11d1ade")
-	)
-	(junction
 		(at 139.7 85.725)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c079d02d-56f2-4f49-a660-b9bb56c9b5d4")
+	)
+	(junction
+		(at 125.73 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2beeb46-6825-43ae-9a31-4d2e0824fb84")
 	)
 	(junction
 		(at 140.97 142.24)
@@ -3561,16 +3690,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 85.725) (xy 217.17 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a0dcc72-6df3-40f7-ad86-94ab82d648b8")
-	)
-	(wire
-		(pts
 			(xy 29.21 50.8) (xy 29.21 54.61)
 		)
 		(stroke
@@ -3601,13 +3720,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 57.15) (xy 141.605 57.15)
+			(xy 233.68 86.36) (xy 217.17 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1305dcff-a03c-4c97-a998-83138d759e63")
+		(uuid "166baa42-4871-4028-8598-fcebab7fff64")
 	)
 	(wire
 		(pts
@@ -3628,6 +3747,16 @@
 			(type default)
 		)
 		(uuid "194033cc-badb-427b-8a5e-d5ebc58fe42e")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 142.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213be1e5-f8fe-4214-9f4e-19c034244d5e")
 	)
 	(wire
 		(pts
@@ -3671,13 +3800,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 86.995) (xy 210.82 86.995)
+			(xy 181.61 77.47) (xy 181.61 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c3f3ef6-4673-40b5-bd4f-bbf3d3754dc3")
+		(uuid "2b5c851a-c3b0-4599-9a53-0cb155c8a235")
 	)
 	(wire
 		(pts
@@ -3711,7 +3840,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 77.47) (xy 198.12 77.47)
+			(xy 181.61 77.47) (xy 198.12 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3741,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.105) (xy 198.12 77.47)
+			(xy 198.12 77.47) (xy 198.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3910,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 77.47) (xy 217.17 78.105)
+			(xy 198.12 86.36) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475850ee-8e40-46aa-a951-7ce71a12b7fe")
+	)
+	(wire
+		(pts
+			(xy 217.17 77.47) (xy 217.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3811,16 +3950,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 77.47) (xy 182.245 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c18049-7718-41d4-a8e2-12fc257976a3")
-	)
-	(wire
-		(pts
 			(xy 26.67 28.575) (xy 31.75 28.575)
 		)
 		(stroke
@@ -3841,23 +3970,13 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 54.61) (xy 141.605 57.15)
+			(xy 142.24 54.61) (xy 142.24 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f408bb2-94ae-4d79-a34a-8b59c244b017")
-	)
-	(wire
-		(pts
-			(xy 182.245 86.995) (xy 182.245 85.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63dba6fa-4bf6-4a1a-b87a-f1af17e95cfd")
 	)
 	(wire
 		(pts
@@ -3911,6 +4030,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 86.36) (xy 198.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f17706-4d6e-4d1a-a0b9-24de16465569")
+	)
+	(wire
+		(pts
 			(xy 211.455 121.285) (xy 211.455 121.92)
 		)
 		(stroke
@@ -3921,33 +4050,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 86.995) (xy 233.68 85.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb9f26a-300f-4d61-932d-638bd82a171c")
-	)
-	(wire
-		(pts
-			(xy 123.19 54.61) (xy 123.19 57.15)
+			(xy 125.73 54.61) (xy 125.73 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c68fc19-6a4b-47eb-9226-70610f514cd5")
-	)
-	(wire
-		(pts
-			(xy 182.245 86.995) (xy 198.12 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cf46925-39cf-4bb4-a626-25ccc1d61c30")
 	)
 	(wire
 		(pts
@@ -4011,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 78.105) (xy 233.68 77.47)
+			(xy 233.68 77.47) (xy 233.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4031,6 +4140,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d62833-a5eb-4a51-b3e6-77446564381d")
+	)
+	(wire
+		(pts
 			(xy 149.225 123.825) (xy 156.845 123.825)
 		)
 		(stroke
@@ -4041,16 +4160,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 46.99) (xy 141.605 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95fd2c65-fe08-430d-b16c-a03545a40145")
-	)
-	(wire
-		(pts
 			(xy 69.85 50.8) (xy 76.2 50.8)
 		)
 		(stroke
@@ -4058,16 +4167,6 @@
 			(type default)
 		)
 		(uuid "99651e4c-6125-4103-bed2-9cf4f066ff44")
-	)
-	(wire
-		(pts
-			(xy 182.245 77.47) (xy 182.245 78.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a22b55a-827d-4ca7-9546-c9fe5babb061")
 	)
 	(wire
 		(pts
@@ -4111,17 +4210,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 86.995) (xy 210.82 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a09b1b8f-28be-461e-9f31-c09d1f4489a4")
-	)
-	(wire
-		(pts
-			(xy 108.585 46.99) (xy 123.19 46.99)
+			(xy 108.585 46.99) (xy 125.73 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4138,16 +4227,6 @@
 			(type default)
 		)
 		(uuid "b303dee1-c4dd-48e1-bee5-63bce13bfb62")
-	)
-	(wire
-		(pts
-			(xy 210.82 86.995) (xy 217.17 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b987b31d-936b-4237-aebb-ed0a01f7cadc")
 	)
 	(wire
 		(pts
@@ -4221,26 +4300,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 85.725) (xy 198.12 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce5fb37f-7314-429f-8038-f6b004eaadf5")
-	)
-	(wire
-		(pts
-			(xy 217.17 86.995) (xy 233.68 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ed3a9b-36e4-434e-aeaf-c6d1104b2d1d")
-	)
-	(wire
-		(pts
 			(xy 205.105 113.665) (xy 211.455 113.665)
 		)
 		(stroke
@@ -4271,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.585 57.15) (xy 123.19 57.15)
+			(xy 108.585 57.15) (xy 125.73 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4870,114 +4929,8 @@
 		)
 	)
 	(symbol
-		(lib_id "_C_1206:22uF_25V")
-		(at 233.68 81.915 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05a9d94e-b70a-40c1-9e16-4eb253b8decf")
-		(property "Reference" "C13"
-			(at 236.855 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF_25V"
-			(at 236.855 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 234.6452 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
-			(at 233.68 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 233.68 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A226KAHNNNE"
-			(at 233.68 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C12891"
-			(at 233.68 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 233.68 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "648d22d1-da5a-456a-a4f2-5eef4fac8908")
-		)
-		(pin "1"
-			(uuid "20a811e3-b3ba-48e6-b569-2932055eee49")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "_C_1206:4u7_50V")
-		(at 123.19 50.8 0)
+		(at 125.73 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4986,7 +4939,7 @@
 		(fields_autoplaced yes)
 		(uuid "0854e09f-b33d-4e6a-94c4-3952cc4ca910")
 		(property "Reference" "C6"
-			(at 126.365 49.53 0)
+			(at 128.905 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4948,7 @@
 			)
 		)
 		(property "Value" "4u7_50V"
-			(at 126.365 52.07 0)
+			(at 128.905 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +4957,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 124.1552 54.61 0)
+			(at 126.6952 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +4966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +4975,7 @@
 			)
 		)
 		(property "Description" "Capacitor 4.7uF 50V X7R 10% 1206"
-			(at 123.19 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +4984,7 @@
 			)
 		)
 		(property "MF" "FH"
-			(at 123.19 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +4993,7 @@
 			)
 		)
 		(property "MPN" "1206B475K500NT"
-			(at 123.19 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5002,7 @@
 			)
 		)
 		(property "OC_LCSC" "C29823"
-			(at 123.19 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5011,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 123.19 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,6 +5452,139 @@
 		)
 	)
 	(symbol
+		(lib_id "_C_1206:22u_25V")
+		(at 217.17 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bea52d0-0263-4afa-9fd7-20f310a395bf")
+		(property "Reference" "C12"
+			(at 220.98 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u_25V"
+			(at 220.98 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 218.1352 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 22uF 25V X7R 10% 1206"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A226KAHNNNE"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C12891"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "458784bc-92b8-45da-b255-fa53b7e2d04c")
+		)
+		(pin "1"
+			(uuid "0d47010e-1027-4791-b8ad-c952a81667b0")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 271.78 24.765 0)
 		(unit 1)
@@ -5721,6 +5807,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 17.78 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 17.78 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Optoelectronics/LED_Emitter/SMD/0603/Red/Hubei_Kento_Electronic"
+			(at 17.78 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c2b234e-50d7-4177-bb84-117c507917fe")
 		)
@@ -5797,112 +5910,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_C_0805:220nF_50V")
-		(at 141.605 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41fb9ed3-636e-478a-9b56-8104c94946e8")
-		(property "Reference" "C8"
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF_50V"
-			(at 144.78 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 142.5702 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21B224KBFNNN.do"
-			(at 141.605 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 141.605 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 141.605 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21B224KBFNNNE"
-			(at 141.605 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C5378"
-			(at 141.605 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 141.605 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a01260d-5e64-422b-bbcb-d42c4975658d")
-		)
-		(pin "1"
-			(uuid "24374b91-5e8a-4ca1-8f61-3c745494c58b")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6036,6 +6043,139 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_C_1206:22u_25V")
+		(at 198.12 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1acd1c-6063-4cf2-aaf5-efbae35d5656")
+		(property "Reference" "C10"
+			(at 201.93 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u_25V"
+			(at 201.93 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 199.0852 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 22uF 25V X7R 10% 1206"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A226KAHNNNE"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C12891"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c85fc528-cb95-4a18-b3dd-ff3f213d9dc0")
+		)
+		(pin "1"
+			(uuid "5e227499-2ea8-4ce7-a987-e5950cf3883c")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6190,6 +6330,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 69.85 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 69.85 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 69.85 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Optoelectronics/LED_Emitter/SMD/0805/Yellow/Hubei_Kento_Electronic"
 			(at 69.85 64.135 0)
 			(effects
 				(font
@@ -6651,6 +6818,139 @@
 		)
 	)
 	(symbol
+		(lib_id "_C_0805:220n_50V")
+		(at 142.24 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6576adf8-ee6c-447c-92bf-473d446131a0")
+		(property "Reference" "C8"
+			(at 146.05 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n_50V"
+			(at 146.05 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 143.2052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21B224KBFNNN.do"
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 220nF 50V X7R 10% 0805"
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B224KBFNNNE"
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C5378"
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07a4e319-3a1f-4299-b8e6-e02b248e754f")
+		)
+		(pin "2"
+			(uuid "c213de98-25da-407a-bbda-185aa2ea1710")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 272.415 32.385 0)
 		(unit 1)
@@ -6711,6 +7011,139 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_C_0603:10u_25V")
+		(at 29.21 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f7ac66-28c3-4449-9e64-0cbb71efb0ad")
+		(property "Reference" "C2"
+			(at 33.02 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u_25V"
+			(at 33.02 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 30.1752 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106MA8NRN.do"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 10uF 25V X5R 20% 0603"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C96446"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cf47797-8a70-4c8a-94ac-f0072bc1f439")
+		)
+		(pin "1"
+			(uuid "4ca7c3ce-433d-4ee8-818b-8f8a2c653038")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6783,6 +7216,139 @@
 		)
 	)
 	(symbol
+		(lib_id "_C_1206:22u_25V")
+		(at 181.61 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d152eac-e4bd-4e14-819d-9c87bb747ceb")
+		(property "Reference" "C9"
+			(at 185.42 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u_25V"
+			(at 185.42 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 182.5752 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 22uF 25V X7R 10% 1206"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A226KAHNNNE"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C12891"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8624aefe-d95b-458d-abd7-5c1261f8eaee")
+		)
+		(pin "2"
+			(uuid "e35906e4-211b-430e-89b0-35e93e40dac5")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 108.585 44.45 0)
 		(unit 1)
@@ -6849,112 +7415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "_C_1206:22uF_25V")
-		(at 217.17 81.915 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83e98428-79cb-4b8f-a65e-6bf146360c7a")
-		(property "Reference" "C12"
-			(at 220.345 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF_25V"
-			(at 220.345 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 218.1352 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
-			(at 217.17 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 217.17 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A226KAHNNNE"
-			(at 217.17 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C12891"
-			(at 217.17 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 217.17 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee1a42e8-8281-49af-a962-d6612f8c27c4")
-		)
-		(pin "1"
-			(uuid "25545388-fe3c-4ec7-967c-2c88e87e5368")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 17.78 50.8 0)
 		(unit 1)
@@ -7014,112 +7474,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_C_0603:10uF_25V")
-		(at 53.34 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9293f809-7cca-4f0d-88c7-f5aa500c81fc")
-		(property "Reference" "C3"
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF_25V"
-			(at 57.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.3052 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106MA8NRN.do"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A106MA8NRNC"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C96446"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b46e56f-d36e-4c3b-a9b0-8de969fbb168")
-		)
-		(pin "2"
-			(uuid "47dd1f05-4a5d-406c-97a4-4e33ef88393a")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7320,112 +7674,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_C_1206:22uF_25V")
-		(at 198.12 81.915 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98e7fc4c-8472-41d1-9658-e543d2c9920e")
-		(property "Reference" "C10"
-			(at 201.295 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF_25V"
-			(at 201.295 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 199.0852 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
-			(at 198.12 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 198.12 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A226KAHNNNE"
-			(at 198.12 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C12891"
-			(at 198.12 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 198.12 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98f3b762-8f22-4f68-8315-a70b4b13a96c")
-		)
-		(pin "1"
-			(uuid "68f8be21-8bb5-47a8-b12e-1d74bc148df4")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8096,17 +8344,17 @@
 		)
 	)
 	(symbol
-		(lib_id "_C_0603:10uF_25V")
-		(at 29.21 58.42 0)
+		(lib_id "_C_0603:10u_25V")
+		(at 53.34 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d3ed250a-e3e8-4c71-8ac0-27f4513ec6d1")
-		(property "Reference" "C2"
-			(at 33.02 57.15 0)
+		(uuid "da075a69-e2d5-4186-95ad-14a8c53f2ab7")
+		(property "Reference" "C3"
+			(at 57.15 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,8 +8362,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF_25V"
-			(at 33.02 59.69 0)
+		(property "Value" "10u_25V"
+			(at 57.15 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8372,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 30.1752 62.23 0)
+			(at 54.3052 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8381,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106MA8NRN.do"
-			(at 29.21 58.42 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,8 +8389,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 58.42 0)
+		(property "Description" "Capacitor 10uF 25V X5R 20% 0603"
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8399,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 29.21 58.42 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8408,16 @@
 			)
 		)
 		(property "MPN" "CL10A106MA8NRNC"
-			(at 29.21 58.42 0)
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8426,7 @@
 			)
 		)
 		(property "OC_LCSC" "C96446"
-			(at 29.21 58.42 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8435,25 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 29.21 58.42 0)
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,121 +8462,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d8142de-de95-4187-91ca-aaa0a3d7ebcf")
+			(uuid "a895ca9b-3825-4285-b5a3-7ea7a663b1ff")
 		)
 		(pin "2"
-			(uuid "cb091a57-a117-4a1c-af27-2743f6f7e484")
+			(uuid "ac72eb91-6c3e-4fca-8a6a-79e1e9d96767")
 		)
 		(instances
-			(project "Partial_Drawer_Controller_v1"
+			(project ""
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_C_1206:22uF_25V")
-		(at 182.245 81.915 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d82c664e-766e-4a45-8800-fde820f95a3d")
-		(property "Reference" "C9"
-			(at 185.42 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF_25V"
-			(at 185.42 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 183.2102 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
-			(at 182.245 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.245 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 182.245 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A226KAHNNNE"
-			(at 182.245 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C12891"
-			(at 182.245 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 182.245 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "998b0098-78f7-475c-b9d0-ce24faa9e41e")
-		)
-		(pin "1"
-			(uuid "0e710d31-f2cf-472a-b6aa-f9e893b3dcba")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8539,6 +8708,139 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_C_1206:22u_25V")
+		(at 233.68 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7aa1d96-9e34-42c1-9634-faed832f798a")
+		(property "Reference" "C13"
+			(at 237.49 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u_25V"
+			(at 237.49 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 234.6452 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31A226KAHNNN.do"
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 22uF 25V X7R 10% 1206"
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A226KAHNNNE"
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C12891"
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8eef25dc-d530-4c3b-b03e-93bd5206b39c")
+		)
+		(pin "1"
+			(uuid "fdc151c4-58b3-4d7f-ad21-551a3841a6e0")
+		)
+		(instances
+			(project "Partial_Drawer_Controller_v1_hotfix"
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
+					(reference "C13")
 					(unit 1)
 				)
 			)

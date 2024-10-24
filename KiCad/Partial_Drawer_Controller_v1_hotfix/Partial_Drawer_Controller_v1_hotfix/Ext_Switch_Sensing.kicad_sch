@@ -195,7 +195,7 @@
 				)
 			)
 		)
-		(symbol "_Diode_TVS:LESD5D5.0CT1G"
+		(symbol "_Diode_TVS:ESD5Z5.0T1G"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -210,7 +210,7 @@
 					)
 				)
 			)
-			(property "Value" "LESD5D5.0CT1G"
+			(property "Value" "ESD5Z5.0T1G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -227,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_LRC-LESD5D5-0CT1G_C383211.pdf"
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/ESD5Z2_5T1_D-2311718.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -236,7 +236,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5V 150W TVS Diode Bi-Directional"
+			(property "Description" "5V 174W TVS Diode Unidirectional"
 				(at 0 0 0)
 				(effects
 					(font
@@ -245,7 +245,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "LRC"
+			(property "Sim.Device" "D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -254,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LESD5D5.0CT1G"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -263,7 +263,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_LCSC" "C383211"
+			(property "MF" "onsemi"
 				(at 0 0 0)
 				(effects
 					(font
@@ -272,7 +272,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "MPN" "ESD5Z5.0T1G"
 				(at 0 0 0)
 				(effects
 					(font
@@ -281,7 +281,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "TVS Diode Bi-Directional"
+			(property "OC_CONRAD" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -290,7 +290,64 @@
 					(hide yes)
 				)
 			)
-			(symbol "LESD5D5.0CT1G_0_1"
+			(property "OC_LCSC" "C82044"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_MOUSER" "863-ESD5Z5.0T5G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/onsemi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS Diode Unidirectional"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD5Z5.0T1G_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -305,19 +362,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -328,11 +373,11 @@
 					)
 				)
 			)
-			(symbol "LESD5D5.0CT1G_1_1"
+			(symbol "ESD5Z5.0T1G_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -350,7 +395,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1481,6 +1526,157 @@
 		)
 	)
 	(symbol
+		(lib_id "_Diode_TVS:ESD5Z5.0T1G")
+		(at 157.48 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b191e90c-5c25-4751-842e-b5713ec5dac7")
+		(property "Reference" "F13"
+			(at 160.02 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD5Z5.0T1G"
+			(at 160.02 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/ESD5Z2_5T1_D-2311718.pdf"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V 174W TVS Diode Unidirectional"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5Z5.0T1G"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C82044"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "863-ESD5Z5.0T5G"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/onsemi"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d8eb22d-f9e2-4f4b-881c-3e894391939d")
+		)
+		(pin "1"
+			(uuid "36974237-e87b-45a4-9ed5-32e3e0a8e7b2")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/289ed4a0-c0fb-403f-8449-e46a308dbcad"
+					(reference "F13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_C_0402:100n_50V")
 		(at 128.27 91.44 0)
 		(unit 1)
@@ -1673,112 +1869,6 @@
 			(project "Partial_Drawer_Controller_v1"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/289ed4a0-c0fb-403f-8449-e46a308dbcad"
 					(reference "#PWR0265")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_Diode_TVS:LESD5D5.0CT1G")
-		(at 157.48 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff4ea037-4a2c-4049-a037-66db3a47cefc")
-		(property "Reference" "F14"
-			(at 160.02 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LESD5D5.0CT1G"
-			(at 160.02 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 157.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_LRC-LESD5D5-0CT1G_C383211.pdf"
-			(at 157.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V 150W TVS Diode Bi-Directional"
-			(at 157.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "LRC"
-			(at 157.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LESD5D5.0CT1G"
-			(at 157.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C383211"
-			(at 157.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 157.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7b8d53e-d096-47e8-bef9-2be260bad9db")
-		)
-		(pin "2"
-			(uuid "71469091-8de1-4aaa-bc38-0e0e90c21a23")
-		)
-		(instances
-			(project "Partial_Drawer_Controller_v1"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/289ed4a0-c0fb-403f-8449-e46a308dbcad"
-					(reference "F14")
 					(unit 1)
 				)
 			)
