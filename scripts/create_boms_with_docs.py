@@ -30,8 +30,9 @@ def main():
         bom_file = project_name + "_BOM.csv"
         bom_path = os.path.join(project_path, project_name, "manufacturing", "PCB Assembly", bom_file)
         if not os.path.isfile(bom_path):
-            print(f"    Error! BOM file not found at path:")
+            print(f"    Warning! BOM file not found at path:")
             print(f"        {bom_path}")
+            print(f"    Skipping project.")
             continue
 
         # Step 4: Read the BOM File
@@ -53,6 +54,10 @@ def main():
         # Group designators by path_to_docs
         docs_to_designators = defaultdict(list)
         for index, row in bom_df.iterrows():
+            # Skip rows with empty path_to_docs
+            if pd.isna(row[PATH_TO_DOCS_COLUMN_NAME]):
+                print/f"    Warning: Empty path_to_docs in row {index} for designator {row['Designator']}. Skipping."
+                continue
             path_to_docs = os.path.join(KICAD_LIBRARY_DOCS_DIR, row[PATH_TO_DOCS_COLUMN_NAME])
             designator = row.get("Designator", f"entry_{index}")
             docs_to_designators[path_to_docs].append(designator)
