@@ -3,6 +3,7 @@ import shutil
 import sys
 import pandas as pd
 from collections import defaultdict
+import re
 
 # Please mind: The script is designed to be run from the root directory of the repository!
 
@@ -11,6 +12,46 @@ KICAD_LIBRARY_DOCS_DIR = "KiCad_Library/documents"
 KICAD_PROJECTS_DIR = "KiCad"
 BOM_EXPORTS_DIR = "bom_exports"
 PATH_TO_DOCS_COLUMN_NAME = "path_to_docs"
+
+def sort_and_merge_designators(designators):
+    def extract_number(designator):
+        match = re.match(r"([A-Za-z]+)(\d+)", designator)
+        if match:
+            return match.group(1), int(match.group(2))
+        return designator, 0
+
+    def merge_ranges(ranges):
+        merged = []
+        for r in ranges:
+            if not merged or merged[-1][-1] + 1 < r[0]:
+                merged.append(r)
+            else:
+                merged[-1][-1] = r[-1]
+        return merged
+
+    # Flatten the list and sort by the numeric part
+    flattened = [d for sublist in designators for d in sublist.split(',')]
+    sorted_designators = sorted(flattened, key=extract_number)
+
+    # Group by prefix and merge ranges
+    grouped = {}
+    for d in sorted_designators:
+        prefix, number = extract_number(d)
+        if prefix not in grouped:
+            grouped[prefix] = []
+        grouped[prefix].append(number)
+
+    merged_designators = []
+    for prefix, numbers in grouped.items():
+        ranges = [[n, n] for n in numbers]
+        merged_ranges = merge_ranges(ranges)
+        for r in merged_ranges:
+            if r[0] == r[1]:
+                merged_designators.append(f"{prefix}{r[0]}")
+            else:
+                merged_designators.append(f"{prefix}{r[0]}-{prefix}{r[1]}")
+
+    return merged_designators
 
 
 def main():
@@ -68,7 +109,7 @@ def main():
                 print(f"    Error: Directory {path_to_docs} does not exist.")
                 continue
 
-            dest_dir = os.path.join(docs_export_dir, ",".join(designators[::-1]))
+            dest_dir = os.path.join(docs_export_dir, ",".join(sort_and_merge_designators(designators)))
             os.makedirs(dest_dir, exist_ok=True)
 
             try:
