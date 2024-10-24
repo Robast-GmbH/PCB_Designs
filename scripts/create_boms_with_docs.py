@@ -56,7 +56,7 @@ def main():
         for index, row in bom_df.iterrows():
             # Skip rows with empty path_to_docs
             if pd.isna(row[PATH_TO_DOCS_COLUMN_NAME]):
-                print/f"    Warning: Empty path_to_docs in row {index} for designator {row['Designator']}. Skipping."
+                print(f"    Warning: Empty path_to_docs in row {index} for designator {row['Designator']} with value {row['Comment']}. Skipping.")
                 continue
             path_to_docs = os.path.join(KICAD_LIBRARY_DOCS_DIR, row[PATH_TO_DOCS_COLUMN_NAME])
             designator = row.get("Designator", f"entry_{index}")
