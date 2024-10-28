@@ -582,7 +582,7 @@
           "group_by": false,
           "label": "Comment",
           "name": "Comment",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
