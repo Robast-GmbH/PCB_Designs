@@ -5179,6 +5179,15 @@
 					(hide yes)
 				)
 			)
+			(property "OC_CONRAD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "OC_LCSC" "C318884"
 				(at 0 0 0)
 				(effects
@@ -5189,6 +5198,24 @@
 				)
 			)
 			(property "OC_MOUSER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OC_RS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Electromechanical/Switches/Tactile_Switches/TS-1187A-B-A-B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -12109,6 +12136,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_CONRAD" ""
+			(at 95.885 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 95.885 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Electromechanical/Switches/Tactile_Switches/TS-1187A-B-A-B"
+			(at 95.885 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca775e4d-7a9a-49ad-afa7-4d731ce32427")
 		)
@@ -12537,6 +12591,33 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 59.055 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 59.055 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 59.055 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Electromechanical/Switches/Tactile_Switches/TS-1187A-B-A-B"
 			(at 59.055 25.4 0)
 			(effects
 				(font

@@ -1,7 +1,7 @@
 "Comment","Designator","Footprint","LCSC Part Number","Qty","path_to_docs"
 "ESD122DMYR","F3","Robast:Texas_X2SON_DMY0003A","C1975871","1","Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/2-Channel/TI"
 "KSS321G","S4,S5,S6,S7,S8,S9,S10,S11","Robast:Switch_KSS_Side_Actuated","C221796","8","Electromechanical/Switches/Tactile_Switches/KSS321GLFS"
-"TS-1187A-B-A-B","S2,S3","Robast:SW_TS-1187","C318884","2",""
+"TS-1187A-B-A-B","S2,S3","Robast:SW_TS-1187","C318884","2","Electromechanical/Switches/Tactile_Switches/TS-1187A-B-A-B"
 "PESD2CANFD24L-TR","U1","Robast:SOT23","C3711787","1","Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/Nexperia"
 "15uH@4.5A","L1","Robast:Power_Inductor_SMDRI127","C40000","1",""
 "2A","F2","Robast:Fuse_154_OMNI_BLOK","C206911","1","Circuit_Protection/Fuses/SMD/Littlefuse"
