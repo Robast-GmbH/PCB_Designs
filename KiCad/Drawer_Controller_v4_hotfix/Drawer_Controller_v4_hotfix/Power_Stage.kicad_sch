@@ -1595,7 +1595,7 @@
 				)
 			)
 		)
-		(symbol "_L_Power:15uH@4.5A"
+		(symbol "_L_Power:15uH@3.0A"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1610,7 +1610,7 @@
 					)
 				)
 			)
-			(property "Value" "15uH@4.5A"
+			(property "Value" "15uH@3.0A"
 				(at 1.905 0 90)
 				(effects
 					(font
@@ -1618,7 +1618,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Robast:Power_Inductor_SMDRI127"
+			(property "Footprint" "Robast:IND_ETQP3M150KVN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1627,7 +1627,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108131530_SXN-Shun-Xiang-Nuo-Elec-SMDRI127-150MT_C40000.pdf"
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/315/AGL0000C63-1283966.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1636,7 +1636,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Shielded Power Inductor 15uH@4.5A, 0.027Ω, I_SAT=8A"
+			(property "Description" "Integrated Polded Power Inductor 15uH@3.0A, 0.099Ω, I_SAT=5.1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1645,7 +1645,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "SXN(Shun Xiang Nuo Elec)"
+			(property "MF" "PANASONIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1654,7 +1654,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SMDRI127-150MT"
+			(property "MPN" "ETQP3M150KVN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1663,7 +1663,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_LCSC" "C40000"
+			(property "OC_CONRAD" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1672,7 +1672,7 @@
 					(hide yes)
 				)
 			)
-			(property "OC_MOUSER" ""
+			(property "OC_LCSC" "C542310"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1681,7 +1681,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Shielded Power Inductor"
+			(property "OC_MOUSER" "667-ETQ-P3M150KVN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1690,7 +1690,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "15uH@4.5A_0_1"
+			(property "OC_RS" "238-3570"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "path_to_docs" "Passive_Components/Inductors/Power_Inductors_SMD/Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Integrated Polded Power Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "15uH@3.0A_0_1"
 				(arc
 					(start 0 -2.54)
 					(mid 0.6323 -1.905)
@@ -1740,7 +1767,7 @@
 					)
 				)
 			)
-			(symbol "15uH@4.5A_1_1"
+			(symbol "15uH@3.0A_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -6740,6 +6767,137 @@
 		)
 	)
 	(symbol
+		(lib_id "_L_Power:15uH@3.0A")
+		(at 177.8 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "660246ad-0910-46ab-93ff-b57d3206b7da")
+		(property "Reference" "L1"
+			(at 177.8 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15uH@3.0A"
+			(at 177.8 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robast:IND_ETQP3M150KVN"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/315/AGL0000C63-1283966.pdf"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Polded Power Inductor 15uH@3.0A, 0.099Ω, I_SAT=5.1"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ETQP3M150KVN"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_CONRAD" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C542310"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "667-ETQ-P3M150KVN"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" "238-3570"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "path_to_docs" "Passive_Components/Inductors/Power_Inductors_SMD/Panasonic"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c205b06b-128d-4225-b508-402538995b8d")
+		)
+		(pin "2"
+			(uuid "c7a7b1e0-c363-4596-9143-b37d6f993c25")
+		)
+		(instances
+			(project ""
+				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 272.415 32.385 0)
 		(unit 1)
@@ -8392,110 +8550,6 @@
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_L_Power:15uH@4.5A")
-		(at 177.8 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5e7bdbd-8946-4fad-8d0c-a602b1c1f860")
-		(property "Reference" "L1"
-			(at 177.8 71.755 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15uH@4.5A"
-			(at 177.8 74.295 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Robast:Power_Inductor_SMDRI127"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108131530_SXN-Shun-Xiang-Nuo-Elec-SMDRI127-150MT_C40000.pdf"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shielded Power Inductor 15uH@4.5A, 0.027Ω, I_SAT=8A"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "SXN(Shun Xiang Nuo Elec)"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMDRI127-150MT"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C40000"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa13420b-2d00-4e66-8bfc-a6e3b628e7d3")
-		)
-		(pin "2"
-			(uuid "7cf0081f-bdf3-4937-9985-57e676d80bb0")
-		)
-		(instances
-			(project "Drawer_Controller_v4"
-				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa/cf52d563-fbeb-48d6-b236-fc325e3d0bb7"
-					(reference "L1")
 					(unit 1)
 				)
 			)
