@@ -755,6 +755,12 @@
           "label": "EXCLUDE_FROM_BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "durability",
+          "name": "durability",
+          "show": true
         }
       ],
       "filter_string": "",

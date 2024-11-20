@@ -1079,6 +1079,15 @@
 					(hide yes)
 				)
 			)
+			(property "durability" "5000h@105°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "MF" "Lelon"
 				(at 0 0 0)
 				(effects
@@ -11244,6 +11253,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/Aluminium_Electrolytic_Capacitors/Lelon"
+			(at 340.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" "5000h@105°C"
 			(at 340.36 101.6 0)
 			(effects
 				(font
