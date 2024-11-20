@@ -42,6 +42,7 @@ Once a PCB is considered finished, there should be a BOM, that is exported withi
    | Footprint   | Footprint    | Yes  | No       |
    | ${QUANTITY} | Qty          | Yes  | No       |
    | OC_LCSC     | OC_LCSC      | Yes  | Yes      |
+   | durability  | durability   | Yes  | No       |
    | path_to_docs| path_to_docs | Yes  | No       |
 4. Hit `Apply, Save Schematic & Continue`.
 5. Hit `Export`.
