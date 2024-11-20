@@ -46,6 +46,7 @@
 "ESD5Z5.0T1G","F4,F5,F6,F7,F8,F9,F10,F11,F12,F13","Diode_SMD:D_SOD-523","C82044","10","Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/onsemi"
 "SMF30CA","F1","Diode_SMD:D_SOD-123F","C2990493","1","Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/Liown"
 "SS34","D27","Diode_SMD:D_SMA","C8678","1","Semiconductors/Discrete_Semiconductors/Diodes_Rectifiers/Schottky_Diodes_Rectifiers/SS34"
+"Conn_01x03_3.0mm_Molex_Micro_Fit","X4,X5,X6,X7,X8,X9,X10,X11","Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical","","8","Connectors/Molex/Micro-Fit"
 "Conn_01x08_2.5mm_JST_S04B-XASK-1","X3","Connector_JST:JST_XA_S08B-XASK-1_1x08_P2.50mm_Horizontal","C495695","1","Connectors/JST/XA_Connector"
 "Conn_01x04_2.5mm_JST_S04B-XASK-1","X1,X12","Connector_JST:JST_XA_S04B-XASK-1_1x04_P2.50mm_Horizontal","C265097","2","Connectors/JST/XA_Connector"
 "Conn_01x03_2.5mm_JST_S04B-XASK-1","X13","Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal","C491707","1","Connectors/JST/XA_Connector"

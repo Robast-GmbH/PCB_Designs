@@ -543,7 +543,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Comment",
           "name": "Value",
           "show": true
@@ -763,13 +763,19 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EXCLUDE_FROM_BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Footprint"
+      "sort_field": "OC_LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {

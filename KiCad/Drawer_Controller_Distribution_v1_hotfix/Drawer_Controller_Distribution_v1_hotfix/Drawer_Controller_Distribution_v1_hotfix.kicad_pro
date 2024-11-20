@@ -631,6 +631,12 @@
           "label": "MF",
           "name": "MF",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EXCLUDE_FROM_BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
         }
       ],
       "filter_string": "",

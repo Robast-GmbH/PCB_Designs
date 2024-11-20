@@ -529,7 +529,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Comment",
           "name": "Value",
           "show": true
@@ -748,6 +748,12 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EXCLUDE_FROM_BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": false
         }
       ],
