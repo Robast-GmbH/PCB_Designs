@@ -5,141 +5,6 @@
 	(uuid "451f28ba-d488-4337-a34b-e9763634fac9")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Robast_Components:DC/DC-Wandler_TDK_I3A4W008A033V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DC/DC-Wandler TDK I3A4W008A033V"
-				(at 0.254 -5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DC/DC-Wandler_TDK_I3A4W008A033V_1_0"
-				(pin power_in line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "VDD_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "GND_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "VDD_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "GND_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "DC/DC-Wandler_TDK_I3A4W008A033V_1_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "Robast_Components:Drawer_Controller_ Distribution"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1138,6 +1003,105 @@
 				)
 			)
 		)
+		(symbol "Robast_Components:Fan_Sunon_DC_24V/12V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fan Sunon DC 24V/12V "
+				(at -0.254 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TODO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fan_Sunon_DC_24V/12V_1_0"
+				(pin power_in line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Fan_Sunon_DC_24V/12V_1_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Robast_Components:Jetson_Orin_NX_16GB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1197,6 +1161,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1330,11 +1312,29 @@
 						)
 					)
 				)
+				(pin output line
+					(at 12.7 -21.59 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "Jetson_Orin_NX_16GB_1_1"
 				(rectangle
 					(start -8.89 12.7)
-					(end 10.16 -15.24)
+					(end 10.16 -24.13)
 					(stroke
 						(width 0)
 						(type default)
@@ -1345,7 +1345,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 12.7) (xy 2.54 -15.24)
+						(xy 2.54 12.7) (xy 2.54 -24.13)
 					)
 					(stroke
 						(width 0)
@@ -2292,6 +2292,141 @@
 				)
 			)
 		)
+		(symbol "Robast_Components:Voltage_Converter_Disinfection_Module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Voltage Converter Disinfection Module v1.0"
+				(at 0.254 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Voltage_Converter_Disinfection_Module_1_0"
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VDD_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "GND_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VDD_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "GND_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Voltage_Converter_Disinfection_Module_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Robast_Components:Zed_Camera"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2391,6 +2526,18 @@
 				)
 			)
 		)
+	)
+	(junction
+		(at 262.89 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5be1a133-3fd0-470d-b907-58490680be0f")
+	)
+	(junction
+		(at 259.08 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8e79b2c-3c40-4827-8a1d-93c89ff94e13")
 	)
 	(no_connect
 		(at 167.64 139.7)
@@ -2496,13 +2643,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 120.65) (xy 240.03 120.65)
+			(xy 201.93 113.03) (xy 274.32 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "158a5a2e-9507-42f5-9fff-99c764daee82")
+	)
+	(wire
+		(pts
+			(xy 262.89 120.65) (xy 262.89 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c350b6-5366-46ba-ba16-ee87db494669")
 	)
 	(wire
 		(pts
@@ -2516,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 148.59) (xy 317.5 148.59)
+			(xy 270.51 148.59) (xy 317.5 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2533,26 +2690,6 @@
 			(type default)
 		)
 		(uuid "1c0f5097-df20-439b-813f-81fade0318cb")
-	)
-	(wire
-		(pts
-			(xy 208.28 30.48) (xy 294.64 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe8ab56-572f-492c-8ff6-7c335f083faa")
-	)
-	(wire
-		(pts
-			(xy 208.28 36.83) (xy 201.93 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21a2225d-eff5-45fa-aea0-3a588accdb9a")
 	)
 	(wire
 		(pts
@@ -2576,6 +2713,36 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 208.28) (xy 259.08 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcc236a-91dd-4ca6-a7ee-b2617759ff56")
+	)
+	(wire
+		(pts
+			(xy 262.89 215.9) (xy 364.49 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f99cfa4-5cff-4c68-9da8-306c4dd69a8d")
+	)
+	(wire
+		(pts
+			(xy 356.87 187.96) (xy 346.71 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e95f78-2687-46fd-bcd4-f41d5a4ce7f9")
+	)
+	(wire
+		(pts
 			(xy 279.4 71.12) (xy 201.93 71.12)
 		)
 		(stroke
@@ -2583,6 +2750,26 @@
 			(type default)
 		)
 		(uuid "36f0aa62-a62a-41c2-bc5c-6b658bce7024")
+	)
+	(wire
+		(pts
+			(xy 262.89 204.47) (xy 262.89 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3894db1b-b5a2-4bbf-8555-2114b3db518f")
+	)
+	(wire
+		(pts
+			(xy 346.71 167.64) (xy 341.63 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1a179c-2cf8-4284-8386-b4755e7e4647")
 	)
 	(wire
 		(pts
@@ -2656,6 +2843,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 124.46) (xy 201.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a2f147-0754-45b6-a603-2f092015c6f0")
+	)
+	(wire
+		(pts
 			(xy 247.65 271.78) (xy 195.58 271.78)
 		)
 		(stroke
@@ -2663,6 +2860,16 @@
 			(type default)
 		)
 		(uuid "6198812d-d26e-4600-9ffc-039e9a1cec10")
+	)
+	(wire
+		(pts
+			(xy 259.08 208.28) (xy 259.08 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ee3688-f41d-42ff-9622-5f2a978117ab")
 	)
 	(wire
 		(pts
@@ -2686,6 +2893,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 120.65) (xy 262.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d19e11d-d205-48da-9057-7237d4d55e7b")
+	)
+	(wire
+		(pts
 			(xy 370.84 140.97) (xy 341.63 140.97)
 		)
 		(stroke
@@ -2693,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "6d73f5b3-a768-4e23-8c69-587472ca94d4")
+	)
+	(wire
+		(pts
+			(xy 259.08 124.46) (xy 259.08 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714b55d2-6b80-4710-9e26-1a80bc1d85dc")
 	)
 	(wire
 		(pts
@@ -2716,13 +2943,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 26.67) (xy 294.64 26.67)
+			(xy 350.52 184.15) (xy 350.52 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82038006-102c-4507-9935-78d0ce34a4a3")
+		(uuid "85a43ca7-48db-48f5-a8e7-963e135b3c8d")
 	)
 	(wire
 		(pts
@@ -2796,26 +3023,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 33.02) (xy 204.47 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83986f2-7953-4f73-b97a-79514ebfc221")
-	)
-	(wire
-		(pts
-			(xy 208.28 30.48) (xy 208.28 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b5e517-8f1a-45d4-8a3b-00d566e21ca4")
-	)
-	(wire
-		(pts
 			(xy 341.63 146.05) (xy 363.22 146.05)
 		)
 		(stroke
@@ -2856,7 +3063,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 144.78) (xy 317.5 144.78)
+			(xy 356.87 184.15) (xy 350.52 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b303e7b6-73b2-490a-b1da-4cfe99a325b8")
+	)
+	(wire
+		(pts
+			(xy 274.32 144.78) (xy 317.5 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 124.46) (xy 201.93 124.46)
+			(xy 270.51 116.84) (xy 201.93 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +3143,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 120.65) (xy 240.03 144.78)
+			(xy 274.32 113.03) (xy 274.32 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +3163,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 124.46) (xy 236.22 148.59)
+			(xy 270.51 116.84) (xy 270.51 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2996,6 +3213,26 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 219.71) (xy 259.08 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9684cd-3ac3-4dbe-94b9-3d450871e5bb")
+	)
+	(wire
+		(pts
+			(xy 346.71 187.96) (xy 346.71 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21529e4-e1e7-4e18-8f1c-52f29cbbd7a3")
+	)
+	(wire
+		(pts
 			(xy 370.84 105.41) (xy 374.65 105.41)
 		)
 		(stroke
@@ -3003,6 +3240,26 @@
 			(type default)
 		)
 		(uuid "e2f7693a-4343-4d6f-8368-925be70822ad")
+	)
+	(wire
+		(pts
+			(xy 262.89 204.47) (xy 364.49 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4151e25-9ad7-466d-ba3f-0a14cb224b0a")
+	)
+	(wire
+		(pts
+			(xy 350.52 163.83) (xy 341.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cc3bc7-8f64-47d9-a7e2-2505ec9abbca")
 	)
 	(wire
 		(pts
@@ -3034,16 +3291,6 @@
 		)
 		(uuid "fccbfaf5-11f5-4c07-bf93-dab98e9c05c4")
 	)
-	(wire
-		(pts
-			(xy 201.93 33.02) (xy 204.47 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffcc60bb-b1be-4233-8d93-6b042491cfd3")
-	)
 	(rectangle
 		(start 238.125 255.905)
 		(end 290.83 279.4)
@@ -3057,7 +3304,7 @@
 		(uuid 042dafdd-75ce-41a4-960c-553c9fd6161e)
 	)
 	(rectangle
-		(start 285.115 90.805)
+		(start 283.718 90.805)
 		(end 359.41 117.475)
 		(stroke
 			(width 0)
@@ -3105,6 +3352,18 @@
 		(uuid 9bf1edd6-4cda-4984-8eed-50c04c13073e)
 	)
 	(rectangle
+		(start 343.154 194.818)
+		(end 405.384 226.568)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9cc4ff58-fb3b-4bbc-9aa3-a6e15f03d8f5)
+	)
+	(rectangle
 		(start 288.925 58.42)
 		(end 337.185 78.105)
 		(stroke
@@ -3130,7 +3389,7 @@
 	)
 	(rectangle
 		(start 314.96 120.015)
-		(end 405.13 166.37)
+		(end 405.13 172.466)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3141,8 +3400,8 @@
 		(uuid d2cdceef-293e-4b50-967b-4278844713f1)
 	)
 	(rectangle
-		(start 288.925 16.51)
-		(end 363.855 35.433)
+		(start 353.822 173.99)
+		(end 405.13 192.913)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3289,7 +3548,7 @@
 	)
 	(text "Speaker"
 		(exclude_from_sim no)
-		(at 302.768 20.574 0)
+		(at 367.284 177.292 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3299,6 +3558,19 @@
 			(justify right)
 		)
 		(uuid "bddb04c0-ab9a-461a-a39d-659a37d9a5f8")
+	)
+	(text "Cooling Fans"
+		(exclude_from_sim no)
+		(at 364.236 198.12 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "efd34a27-2e06-4877-a09a-2326241a4955")
 	)
 	(text "Power Rail"
 		(exclude_from_sim no)
@@ -3356,6 +3628,17 @@
 		)
 		(uuid "3a378e5b-9e5d-472a-ad0a-121906faa6ad")
 	)
+	(label "+12V"
+		(at 220.98 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc07895-b19e-4751-a04e-b2843fad009d")
+	)
 	(label "+5V"
 		(at 350.52 154.94 0)
 		(fields_autoplaced yes)
@@ -3366,6 +3649,17 @@
 			(justify left bottom)
 		)
 		(uuid "5142cc2d-731f-4c9a-9c68-952fff565e67")
+	)
+	(label "+12V"
+		(at 349.25 204.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c08a106-4fa7-47e1-a576-351d704a6dcd")
 	)
 	(label "+7.5V"
 		(at 323.85 105.41 0)
@@ -3379,7 +3673,7 @@
 		(uuid "6115277e-2878-4093-8311-3d8bbc891c7b")
 	)
 	(label "+12V"
-		(at 219.71 120.65 0)
+		(at 220.98 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3388,6 +3682,17 @@
 			(justify left bottom)
 		)
 		(uuid "745ef36d-857e-430f-b43e-103dfe055823")
+	)
+	(label "+5V"
+		(at 346.71 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85bbbf36-bd8f-4f5e-9716-ec56aa62d8e2")
 	)
 	(label "+12V"
 		(at 219.71 105.41 0)
@@ -3410,17 +3715,6 @@
 			(justify left bottom)
 		)
 		(uuid "990987a3-54f5-411b-a468-30926fda9508")
-	)
-	(label "+24V"
-		(at 215.9 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab034baa-f4d7-4540-9b43-0eeecf10f965")
 	)
 	(label "+24V"
 		(at 367.03 82.55 0)
@@ -3465,6 +3759,17 @@
 			(justify left bottom)
 		)
 		(uuid "dc692b35-27ed-4979-8f55-7ff9a9aa0d3d")
+	)
+	(label "+12V"
+		(at 349.25 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e30c5066-b0a0-402e-8149-451fd56fbee3")
 	)
 	(label "24V Source"
 		(at 139.7 262.89 0)
@@ -3835,6 +4140,12 @@
 		(pin "7"
 			(uuid "afcc7550-de95-4a65-abd9-784df36e14db")
 		)
+		(pin "9"
+			(uuid "9268bee4-d936-45b5-b529-837d4441dbc9")
+		)
+		(pin "10"
+			(uuid "a6002c02-c896-41e3-9527-f48ff2009227")
+		)
 		(instances
 			(project ""
 				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
@@ -3988,6 +4299,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Robast_Components:Voltage_Converter_Disinfection_Module")
+		(at 306.07 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "589a1c6e-bf85-4abc-a758-066cd40782f9")
+		(property "Reference" "U3"
+			(at 306.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Voltage Converter Disinfection Module v1.0"
+			(at 306.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88222524-a68c-48b9-aceb-07856cd5a801")
+		)
+		(pin "1"
+			(uuid "2bb0cd69-0466-474a-bbb0-6f5ea8a446e9")
+		)
+		(pin "4"
+			(uuid "d467e50d-e9eb-4151-ba1e-62c9faf5540a")
+		)
+		(pin "3"
+			(uuid "1c571f39-7798-42b0-8491-14575b35f99f")
+		)
+		(instances
+			(project ""
+				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Robast_Components:NFC_Reader")
 		(at 372.11 148.59 0)
 		(unit 1)
@@ -4128,79 +4513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Robast_Components:DC/DC-Wandler_TDK_I3A4W008A033V")
-		(at 306.07 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "761c73b8-92d9-480d-848b-c086dd6cd9e1")
-		(property "Reference" "U3"
-			(at 306.07 98.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC/DC-Wandler TDK I3A4W008A033V"
-			(at 306.07 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 306.07 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 306.07 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 306.07 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a078b695-d285-4d81-a025-39b9c4f3ad0b")
-		)
-		(pin "4"
-			(uuid "c92eced9-c608-451b-9fa6-de2e1f954609")
-		)
-		(pin "2"
-			(uuid "a9cd87dc-a250-4bb7-a1c1-f57c4bd5bdaa")
-		)
-		(pin "1"
-			(uuid "be894975-700b-497b-a176-91ce48bd5266")
-		)
-		(instances
-			(project ""
-				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Robast_Components:Drawer_Controller_v4.0")
 		(at 99.06 36.83 0)
 		(mirror y)
@@ -4265,6 +4577,146 @@
 			(project ""
 				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robast_Components:Fan_Sunon_DC_24V/12V")
+		(at 373.38 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b314064f-1a44-4de7-bce0-c2844cb7e8f2")
+		(property "Reference" "U15"
+			(at 381 216.5349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan Sunon DC 24V/12V"
+			(at 381 219.0749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TODO"
+			(at 373.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "563132ce-70f1-4c44-af19-4d732683c359")
+		)
+		(pin "2"
+			(uuid "fd4f461b-a9e0-4852-8fa9-26dc865bbec3")
+		)
+		(instances
+			(project "Wiring_Diagram_v1"
+				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robast_Components:Fan_Sunon_DC_24V/12V")
+		(at 373.38 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd84f544-7341-4985-8748-2fd577c34e75")
+		(property "Reference" "U14"
+			(at 381 205.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan Sunon DC 24V/12V"
+			(at 381 207.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TODO"
+			(at 373.38 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "436a3e39-aff6-4fce-9b72-924a078fa8ad")
+		)
+		(pin "2"
+			(uuid "dfce5a14-5557-447a-a2e4-ab99f83267f3")
+		)
+		(instances
+			(project ""
+				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4932,7 @@
 	)
 	(symbol
 		(lib_id "Robast_Components:Speaker")
-		(at 303.53 29.21 0)
+		(at 365.76 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4489,7 +4941,7 @@
 		(fields_autoplaced yes)
 		(uuid "e84ac6c3-d968-4f0f-895f-b7ba3e0e92b6")
 		(property "Reference" "U19"
-			(at 311.15 27.3049 0)
+			(at 373.38 184.7849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,8 +4949,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Rockwood Bodyshaker Kompakt ST-805 15W RMS 8Ω"
-			(at 311.15 29.8449 0)
+		(property "Value" "YYV PC Lautsprecher, 10 Watt"
+			(at 373.38 187.3249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 29.21 0)
+			(at 365.76 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4968,7 @@
 			)
 		)
 		(property "Datasheet" "TODO"
-			(at 303.53 29.21 0)
+			(at 365.76 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 303.53 29.21 0)
+			(at 365.76 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
