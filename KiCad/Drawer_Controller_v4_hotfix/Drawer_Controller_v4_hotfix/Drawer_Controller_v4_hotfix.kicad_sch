@@ -1079,6 +1079,15 @@
 					(hide yes)
 				)
 			)
+			(property "durability" "5000h@105°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "MF" "Lelon"
 				(at 0 0 0)
 				(effects
@@ -1282,6 +1291,15 @@
 				)
 			)
 			(property "Description" "RJ45 PCB Connector 45 degree angled"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "durability" "500 Mating cycles"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8899,6 +8917,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 340.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "8118485f-4d23-4d68-8d9d-020d765ea2e8")
 		)
@@ -9171,6 +9198,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 255.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
@@ -9288,6 +9324,15 @@
 			)
 		)
 		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
+			(at 287.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 287.02 34.29 0)
 			(effects
 				(font
@@ -10098,6 +10143,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 97.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82447762-9d12-45e5-a1bb-dc371e409ab2")
 		)
@@ -10561,6 +10615,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 255.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
@@ -10615,6 +10678,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -10775,6 +10847,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 280.67 138.43 0)
 			(effects
 				(font
@@ -11032,6 +11113,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/Aluminium_Electrolytic_Capacitors/Lelon"
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" "5000h@105°C"
 			(at 271.78 100.33 0)
 			(effects
 				(font
@@ -11435,6 +11525,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "871694d5-a6b5-433c-8703-dbcab1b4fac0")
 		)
@@ -11568,6 +11667,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 31.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44de63f2-b6ec-4aa1-ad93-fe9889100445")
 		)
@@ -11630,6 +11738,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 255.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 255.27 143.51 0)
 			(effects
 				(font
@@ -11962,6 +12079,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" "500 Mating cycles"
+			(at 30.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "ed5a0642-cd6c-4e38-ab74-7e8b8a303c1c")
 		)
@@ -12114,6 +12240,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a985f4e1-eb7b-4e41-82c5-281c82007172")
 		)
@@ -12200,6 +12335,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 337.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "020597e1-4669-4445-ba77-78edb1acebcd")
 		)
@@ -12272,6 +12416,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 339.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 339.09 58.42 0)
 			(effects
 				(font
@@ -12487,6 +12640,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 274.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 274.32 106.68 0)
 			(effects
 				(font
@@ -12738,6 +12900,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 52.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2306fea6-4456-4236-8e07-6e5c5be75881")
 		)
@@ -12930,6 +13101,15 @@
 			)
 		)
 		(property "path_to_docs" "Circuit_Protection/Fuses/SMD/Littlefuse"
+			(at 45.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 45.72 80.01 0)
 			(effects
 				(font
@@ -13139,6 +13319,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 280.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Drawer_Controller_v4"
 				(path "/57f8c193-fe09-43d3-9441-dbd40881d2aa"
@@ -13332,6 +13521,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 290.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "71466c0f-f9d7-4ac8-b5e4-75806284e291")
 		)
@@ -13462,6 +13660,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 255.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 255.27 148.59 0)
 			(effects
 				(font

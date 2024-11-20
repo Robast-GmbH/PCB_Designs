@@ -1847,6 +1847,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7c4376ab-05ea-4617-85af-935fb2caa0b5")
 		)
@@ -2249,6 +2258,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Interface_ICs/RS-422_RS-485/SNx5176B"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 139.7 99.06 0)
 			(effects
 				(font
@@ -2733,6 +2751,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "781a2669-afc3-4142-abb4-43968b31430e")
 		)
@@ -2996,6 +3023,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 166.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5831f4c5-60bd-4eaa-960f-957653e953f4")
 		)
@@ -3120,6 +3156,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Interface_ICs/RS-422_RS-485/SNx5176B"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -3271,6 +3316,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 166.37 69.85 0)
 			(effects
 				(font

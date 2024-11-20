@@ -1814,6 +1814,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21a0b6fa-63f7-4619-b730-705460991f97")
 		)
@@ -2230,6 +2239,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05f82e14-8e7e-4506-940c-fc31f8d6d7fd")
 		)
@@ -2370,6 +2388,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "620f3675-02bc-47aa-b97a-efabb2bc6466")
 		)
@@ -2499,6 +2526,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 124.46 92.71 0)
 			(effects
 				(font
@@ -2647,6 +2683,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0774991a-3e4a-413a-89b8-e17377b4e555")
 		)
@@ -2777,6 +2822,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 115.57 85.09 0)
 			(effects
 				(font

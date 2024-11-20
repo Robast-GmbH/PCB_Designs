@@ -1249,6 +1249,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2a6e252-e762-4e8a-b06d-9ba3201e08a5")
 		)
@@ -1378,6 +1387,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 128.27 91.44 0)
 			(effects
 				(font
@@ -1582,6 +1600,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 139.7 85.09 0)
 			(effects
 				(font
@@ -1875,6 +1902,15 @@
 			)
 		)
 		(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/onsemi"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 157.48 91.44 0)
 			(effects
 				(font

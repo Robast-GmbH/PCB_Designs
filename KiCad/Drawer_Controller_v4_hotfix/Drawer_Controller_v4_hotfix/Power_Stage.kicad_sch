@@ -5007,6 +5007,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 134.62 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c8d0306-310d-4b10-be31-5abbed6d431b")
 		)
@@ -5132,6 +5141,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/FH"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -5396,6 +5414,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Power_Management/Switching_Voltage_Regulators"
+			(at 174.625 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 174.625 128.905 0)
 			(effects
 				(font
@@ -5690,6 +5717,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76008e39-41f1-45a9-a3f4-c8e135991186")
 		)
@@ -5881,6 +5917,15 @@
 			)
 		)
 		(property "path_to_docs" "Optoelectronics/LED_Emitter/SMD/0603/Red/Hubei_Kento_Electronic"
+			(at 17.78 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 17.78 64.135 0)
 			(effects
 				(font
@@ -6088,6 +6133,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 144.145 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca8fce7b-c1fb-4380-8fd7-9560b37c211e")
 		)
@@ -6279,6 +6333,15 @@
 			)
 		)
 		(property "path_to_docs" "Optoelectronics/LED_Emitter/SMD/0805/Yellow/Hubei_Kento_Electronic"
+			(at 69.85 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 69.85 64.135 0)
 			(effects
 				(font
@@ -6552,6 +6615,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c44d30d-9080-420e-b6bd-0b8b33611131")
 		)
@@ -6751,6 +6823,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a145417-e085-41c4-84a7-f3a90883f59b")
 		)
@@ -6874,6 +6955,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Inductors/Power_Inductors_SMD/Panasonic"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 177.8 77.47 0)
 			(effects
 				(font
@@ -7213,6 +7303,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18c5e30e-5a58-4980-8a0c-22a589a3aa8c")
 		)
@@ -7544,6 +7643,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d20fb98-2d87-4b36-8882-883678191f02")
 		)
@@ -7809,6 +7917,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 140.97 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c03730c5-a524-454b-8be8-a197687efb2e")
 		)
@@ -7934,6 +8051,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -8141,6 +8267,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 199.39 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c84a3cdb-6ba1-4d2f-b789-094138ec07be")
 		)
@@ -8266,6 +8401,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -8407,6 +8551,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 217.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43f4f5ed-0ff6-497b-a6df-a56b043d6556")
 		)
@@ -8532,6 +8685,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 211.455 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 211.455 117.475 0)
 			(effects
 				(font
@@ -8673,6 +8835,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 233.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d22883d-46d9-4190-8585-8902427c1faa")
 		)
@@ -8798,6 +8969,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 198.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 198.12 81.28 0)
 			(effects
 				(font
@@ -9003,6 +9183,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "baca50fd-d02e-4c7f-b776-e414de58977e")
 		)
@@ -9131,6 +9320,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/FH"
+			(at 108.585 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 108.585 50.8 0)
 			(effects
 				(font
@@ -9396,6 +9594,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 17.78 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 17.78 57.785 0)
 			(effects
 				(font

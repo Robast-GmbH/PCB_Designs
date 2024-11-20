@@ -3222,6 +3222,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53a39973-e016-4d7c-93a3-44afffb7da90")
 		)
@@ -3347,6 +3356,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 100.33 123.19 0)
 			(effects
 				(font
@@ -3488,6 +3506,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 187.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe33165c-9047-43af-826b-d4e7cf1e7652")
 		)
@@ -3611,6 +3638,15 @@
 			)
 		)
 		(property "path_to_docs" "Electromechanical/Switches/Dip_Switches/DSWB02LHGET"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 203.2 107.95 0)
 			(effects
 				(font
@@ -3750,6 +3786,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 226.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 226.06 114.3 0)
 			(effects
 				(font
@@ -4222,6 +4267,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55f87fc5-7ec9-427e-ba24-f13032794ddd")
 		)
@@ -4422,6 +4476,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c727264f-3f6d-4fa2-9d6e-11cf14a166ad")
 		)
@@ -4555,6 +4618,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 177.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a965fc7-aaec-4451-b52d-22c901ac9252")
 		)
@@ -4680,6 +4752,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Interface_ICs/CAN"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -4971,6 +5052,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 187.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8127dbd6-615a-497d-9399-78fbc7dee075")
 		)
@@ -5174,6 +5264,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 109.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "723c7d31-3de5-482a-96ad-0012750032ac")
 		)
@@ -5311,6 +5410,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "caa79b5a-2888-464e-912f-9c6a124895ef")
 		)
@@ -5434,6 +5542,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 91.44 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 91.44 118.11 0)
 			(effects
 				(font

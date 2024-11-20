@@ -11244,6 +11244,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 205.105 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "259e16ce-22ff-4d86-96a4-4676483eecb5")
 		)
@@ -11440,6 +11449,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e8d04cc-49ba-4e17-8459-7b76d0e1dd45")
 		)
@@ -11562,6 +11580,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 59.055 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 59.055 32.385 0)
 			(effects
 				(font
@@ -11899,6 +11926,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 98.425 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61023bc5-d6e0-4557-bdf2-f2772ebc0e3d")
 		)
@@ -12024,6 +12060,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -12163,6 +12208,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 95.885 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca775e4d-7a9a-49ad-afa7-4d731ce32427")
 		)
@@ -12286,6 +12340,15 @@
 			)
 		)
 		(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/2-Channel/TI"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -12495,6 +12558,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "202d76bd-9c69-43c9-95ee-ca3b096e0df5")
 		)
@@ -12618,6 +12690,15 @@
 			)
 		)
 		(property "path_to_docs" "Electromechanical/Switches/Tactile_Switches/TS-1187A-B-A-B"
+			(at 59.055 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 59.055 25.4 0)
 			(effects
 				(font
@@ -12751,6 +12832,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Diodes_Rectifiers/Schottky_Diodes_Rectifiers/SS34"
+			(at 90.17 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 90.17 56.515 0)
 			(effects
 				(font
@@ -12947,6 +13037,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 92.075 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 92.075 140.97 0)
 			(effects
 				(font
@@ -13216,6 +13315,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 22.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "d4822673-c224-4571-9a0d-cf9ed4dc42bc")
 		)
@@ -13358,6 +13466,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 33.655 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ecb801e-4e97-40fe-b2b6-3f7995bea836")
 		)
@@ -13481,6 +13598,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 35.56 121.92 0)
 			(effects
 				(font
@@ -13875,6 +14001,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/Bipolar_Transistors/SS8050"
+			(at 44.45 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 44.45 137.795 0)
 			(effects
 				(font
@@ -14279,6 +14414,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 97.79 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "055864c6-2915-4ccc-bde6-927294c67d65")
 		)
@@ -14404,6 +14548,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/MOSFETs/2N7002T-7-F"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -14545,6 +14698,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 95.885 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dcb7946c-5956-4780-96c5-1f1858540146")
 		)
@@ -14678,6 +14840,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 205.105 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68cee2b4-14f8-46bb-9575-498e36ea61c4")
 		)
@@ -14801,6 +14972,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 316.865 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 316.865 56.515 0)
 			(effects
 				(font
@@ -15038,6 +15218,15 @@
 			)
 		)
 		(property "path_to_docs" "Embedded_Solutions/Wireless_RF_Modules/ESP32-WROOM-32E-N8"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 260.35 53.34 0)
 			(effects
 				(font
@@ -15347,6 +15536,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/Bipolar_Transistors/SS8050"
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 44.45 121.92 0)
 			(effects
 				(font
@@ -15687,6 +15885,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 138.43 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6ae3c6e-0696-42f5-8951-88453dc1f89e")
 		)
@@ -15951,6 +16158,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 320.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01761716-5a92-4d63-b433-79d8f88fbd17")
 		)
@@ -16076,6 +16292,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Discrete_Semiconductors/Transistors/MOSFETs/2N7002T-7-F"
+			(at 163.195 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 163.195 74.93 0)
 			(effects
 				(font
@@ -16285,6 +16510,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 90.17 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b25abc2-44e5-4b91-969e-48626d31d2db")
 		)
@@ -16428,6 +16662,15 @@
 			)
 		)
 		(property "path_to_docs" "Circuit_Protection/ESD_Protection_Diodes_TVS_Diodes/onsemi"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 73.66 74.93 0)
 			(effects
 				(font
@@ -16699,6 +16942,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 97.79 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f891526-8474-49c6-a25e-d822cd2f430e")
 		)
@@ -16824,6 +17076,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Interface_ICs/USB/Silicon_Labs"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 127 156.21 0)
 			(effects
 				(font
@@ -16980,6 +17241,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1fc1a0c-d0a9-4735-b8a0-e76c1f44d8fe")
 		)
@@ -17105,6 +17375,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 83.185 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 83.185 122.555 0)
 			(effects
 				(font
@@ -17244,6 +17523,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 118.745 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3529039-b1a6-4a92-8e0d-050f8d082da3")
 		)
@@ -17374,6 +17662,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 35.56 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ecceeb94-9d58-4485-a806-faf0d98e7782")
 		)
@@ -17496,6 +17793,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 110.49 128.27 0)
 			(effects
 				(font
@@ -17637,6 +17943,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 309.88 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb390368-affe-4694-8ed2-5a9c8854a623")
 		)
@@ -17762,6 +18077,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 251.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 251.46 110.49 0)
 			(effects
 				(font
@@ -18030,6 +18354,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 33.655 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08ef7642-4c75-417d-85f4-910f0a10cea6")
 		)
@@ -18218,6 +18551,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 148.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 148.59 153.67 0)
 			(effects
 				(font

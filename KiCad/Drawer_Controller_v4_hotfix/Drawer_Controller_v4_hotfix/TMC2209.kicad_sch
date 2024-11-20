@@ -628,6 +628,15 @@
 					(hide yes)
 				)
 			)
+			(property "durability" "5000h@105°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "MF" "Lelon"
 				(at 0 0 0)
 				(effects
@@ -4973,6 +4982,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" "5000h@105°C"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "393a76aa-aacb-48d5-a69b-aefea07caa2e")
 		)
@@ -5098,6 +5116,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/UNI-ROYAL"
+			(at 39.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 39.37 156.21 0)
 			(effects
 				(font
@@ -5239,6 +5266,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 205.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe5eb40c-e25b-4a72-8b43-d59763e9e1f3")
 		)
@@ -5364,6 +5400,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/FH"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -5703,6 +5748,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9642d545-b845-499b-b999-3806863347c5")
 		)
@@ -5836,6 +5890,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 171.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95a40ac0-1aa5-4111-b3f7-21b4e43ed9d2")
 		)
@@ -5961,6 +6024,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 187.96 27.94 0)
 			(effects
 				(font
@@ -6300,6 +6372,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a6b063f-f0cf-4b12-9cef-43f7d5f31121")
 		)
@@ -6423,6 +6504,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Resistors/FOJAN"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 194.31 124.46 0)
 			(effects
 				(font
@@ -6628,6 +6718,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 194.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae15f16a-872e-4be7-acb2-1f5c6b5eb7f3")
 		)
@@ -6802,6 +6901,15 @@
 			)
 		)
 		(property "path_to_docs" "Semiconductors/Power_Management/Motor_Controllers/TMC2209-LA"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -7420,6 +7528,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12b600db-080c-44f8-a8b1-6662d855c956")
 		)
@@ -7553,6 +7670,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a4be8e87-7766-4e05-938d-7cdb9c608f85")
 		)
@@ -7678,6 +7804,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 50.8 107.95 0)
 			(effects
 				(font

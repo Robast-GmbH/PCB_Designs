@@ -3013,6 +3013,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "f4619986-a282-4827-b90e-e87570a0fea6")
 		)
@@ -3212,6 +3221,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "159c211e-ff50-4cf8-b6b6-20479f915983")
 		)
@@ -3337,6 +3355,15 @@
 			)
 		)
 		(property "path_to_docs" "Passive_Components/Capacitors/MLCC/Samsung_Electro-Mechanics"
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" ""
 			(at 114.3 53.34 0)
 			(effects
 				(font
