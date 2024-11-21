@@ -51,5 +51,5 @@
 "Red","D1,D4","LED_SMD:LED_0603_1608Metric","C2286","2","Optoelectronics/LED_Emitter/SMD/0603/Red/Hubei_Kento_Electronic",""
 "SS8050","Q6,Q7","Package_TO_SOT_SMD:SOT-23","C2150","2","Semiconductors/Discrete_Semiconductors/Transistors/Bipolar_Transistors/SS8050",""
 "22n_50V","C31","Capacitor_SMD:C_0402_1005Metric","C1532","1","Passive_Components/Capacitors/MLCC/FH",""
-"Conn_02x03_3.0mm_Molex_Micro_Fit","X4","Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal","","1","Connectors/Molex/Micro-Fit",""
-"RJ45_45_degree_angled","X1","Robast:Wurth_RJ45_45_degree_angled","","1","Connectors/Ethernet_Connectors/Wurth_Electronics","500 Mating cycles"
+"Conn_02x03_3.0mm_Molex_Micro_Fit","X4","Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal","","1","Connectors/Molex/Micro-Fit","30 mating cycles"
+"RJ45_45_degree_angled","X1","Robast:Wurth_RJ45_45_degree_angled","","1","Connectors/Ethernet_Connectors/Wurth_Electronics","500 mating cycles"

@@ -2329,6 +2329,15 @@
 					(hide yes)
 				)
 			)
+			(property "durability" "30 mating cycles"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "MF" "Molex"
 				(at 0 0 0)
 				(effects
@@ -10791,6 +10800,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" "30 mating cycles"
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62fc79c3-d141-477a-922d-08924bf199d2")
 		)
@@ -13151,6 +13169,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" "30 mating cycles"
+			(at 275.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4c9ccdc-c654-43aa-bd15-1c2abd3fc975")
 		)
@@ -13606,6 +13633,15 @@
 			)
 		)
 		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" "30 mating cycles"
 			(at 275.59 106.68 0)
 			(effects
 				(font
@@ -14880,6 +14916,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" "30 mating cycles"
+			(at 275.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa486be7-f492-4dce-bacf-a0130a02b36e")
 		)
@@ -15138,6 +15183,15 @@
 			)
 		)
 		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
+			(at 275.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" "30 mating cycles"
 			(at 275.59 81.28 0)
 			(effects
 				(font
@@ -18182,6 +18236,15 @@
 				(hide yes)
 			)
 		)
+		(property "durability" "30 mating cycles"
+			(at 275.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d40910b4-010d-4d7f-97b7-fc08d6825fb3")
 		)
@@ -18376,6 +18439,15 @@
 			)
 		)
 		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
+			(at 275.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" "30 mating cycles"
 			(at 275.59 30.48 0)
 			(effects
 				(font
@@ -18910,6 +18982,15 @@
 			)
 		)
 		(property "path_to_docs" "Connectors/Molex/Micro-Fit"
+			(at 275.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "durability" "30 mating cycles"
 			(at 275.59 119.38 0)
 			(effects
 				(font

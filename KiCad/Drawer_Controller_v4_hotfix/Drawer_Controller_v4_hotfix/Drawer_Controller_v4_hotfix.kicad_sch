@@ -1299,7 +1299,7 @@
 					(hide yes)
 				)
 			)
-			(property "durability" "500 Mating cycles"
+			(property "durability" "500 mating cycles"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2742,6 +2742,15 @@
 				)
 			)
 			(property "Description" "Molex Micro-Fit 3.0 Leiterplatten-Stiftleiste gewinkelt, 6-polig / 2-reihig, Raster 3.0mm, Kabel-Platine"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "durability" "30 mating cycles"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9332,7 +9341,7 @@
 				(hide yes)
 			)
 		)
-		(property "durability" ""
+		(property "durability" "30 mating cycles"
 			(at 287.02 34.29 0)
 			(effects
 				(font
@@ -12079,7 +12088,7 @@
 				(hide yes)
 			)
 		)
-		(property "durability" "500 Mating cycles"
+		(property "durability" "500 mating cycles"
 			(at 30.48 45.72 0)
 			(effects
 				(font
