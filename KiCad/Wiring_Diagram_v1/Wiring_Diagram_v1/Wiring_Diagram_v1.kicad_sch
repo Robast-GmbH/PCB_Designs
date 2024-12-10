@@ -5,6 +5,141 @@
 	(uuid "451f28ba-d488-4337-a34b-e9763634fac9")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Robast_Components:DC/DC-Wandler_Mean_Well_DDR-30L-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DC/DC-Wandler_Mean_Well_DDR-30L-12"
+				(at 0.254 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DC/DC-Wandler_Mean_Well_DDR-30L-12_1_0"
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VDD_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "GND_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VDD_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "GND_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DC/DC-Wandler_Mean_Well_DDR-30L-12_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Robast_Components:Drawer_Controller_ Distribution"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1984,7 +2119,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -0.254 10.16 0)
+				(at 0 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1992,7 +2127,7 @@
 				)
 			)
 			(property "Value" "RB_Theron"
-				(at 0.254 -10.414 0)
+				(at 0 -14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2000,7 +2135,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2009,7 +2144,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2018,7 +2153,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2028,7 +2163,7 @@
 			)
 			(symbol "RB_Theron_1_0"
 				(pin power_out line
-					(at 8.89 6.35 180)
+					(at 8.89 10.16 180)
 					(length 2.54)
 					(name "+24V"
 						(effects
@@ -2046,7 +2181,7 @@
 					)
 				)
 				(pin power_out line
-					(at 8.89 2.54 180)
+					(at 8.89 6.35 180)
 					(length 2.54)
 					(name "GND_24V"
 						(effects
@@ -2064,7 +2199,7 @@
 					)
 				)
 				(pin power_out line
-					(at 8.89 -2.54 180)
+					(at 8.89 1.27 180)
 					(length 2.54)
 					(name "+12V"
 						(effects
@@ -2082,7 +2217,7 @@
 					)
 				)
 				(pin power_out line
-					(at 8.89 -6.35 180)
+					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "GND_12V"
 						(effects
@@ -2099,11 +2234,47 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 8.89 -7.62 180)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 -11.43 180)
+					(length 2.54)
+					(name "BAT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "RB_Theron_1_1"
 				(rectangle
-					(start -6.35 8.89)
-					(end 6.35 -8.89)
+					(start -6.604 11.938)
+					(end 6.35 -13.462)
 					(stroke
 						(width 0)
 						(type default)
@@ -3215,6 +3386,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 276.86) (xy 283.21 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c74ad0-e38d-4154-8743-fea06075d7bb")
+	)
+	(wire
+		(pts
+			(xy 149.86 265.43) (xy 149.86 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d640f6-bef6-4d1e-8e65-39a0568a1a34")
+	)
+	(wire
+		(pts
 			(xy 243.84 182.88) (xy 203.2 182.88)
 		)
 		(stroke
@@ -3295,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 262.89) (xy 173.99 271.78)
+			(xy 173.99 267.97) (xy 173.99 262.89)
 		)
 		(stroke
 			(width 0)
@@ -3325,13 +3516,33 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 267.97) (xy 247.65 267.97)
+			(xy 144.78 264.16) (xy 144.78 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153fa731-65cc-4847-a4fc-0668696a9994")
+	)
+	(wire
+		(pts
+			(xy 187.96 264.16) (xy 234.95 264.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "18a2fbf3-8d07-4db5-9983-212f6d9ed54d")
+	)
+	(wire
+		(pts
+			(xy 283.21 276.86) (xy 283.21 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1937d4fd-799f-4bdd-8ba8-217c95a65c06")
 	)
 	(wire
 		(pts
@@ -3435,6 +3646,36 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 262.89) (xy 165.1 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f27a70f-47da-40f6-b476-9e4894d1cc13")
+	)
+	(wire
+		(pts
+			(xy 142.24 270.51) (xy 142.24 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5068b7-244b-4493-af93-a86471477205")
+	)
+	(wire
+		(pts
+			(xy 304.8 125.73) (xy 317.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb2de29-c6fa-4bd9-9d63-f0dcb4c0c64e")
+	)
+	(wire
+		(pts
 			(xy 322.58 170.18) (xy 335.28 170.18)
 		)
 		(stroke
@@ -3465,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 271.78) (xy 173.99 271.78)
+			(xy 144.78 267.97) (xy 173.99 267.97)
 		)
 		(stroke
 			(width 0)
@@ -3515,6 +3756,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 262.89) (xy 168.91 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f332c97-11ca-4ffa-8fe8-0e8803f74bab")
+	)
+	(wire
+		(pts
+			(xy 168.91 265.43) (xy 149.86 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5176e2d2-4acb-4ef5-8922-a976dab7f99f")
+	)
+	(wire
+		(pts
 			(xy 85.09 242.57) (xy 85.09 257.81)
 		)
 		(stroke
@@ -3535,17 +3796,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 266.7) (xy 114.3 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59b8149d-2cc0-4732-a5f9-db7335cb1d52")
-	)
-	(wire
-		(pts
-			(xy 247.65 271.78) (xy 195.58 271.78)
+			(xy 234.95 267.97) (xy 195.58 267.97)
 		)
 		(stroke
 			(width 0)
@@ -3595,7 +3846,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 129.54) (xy 317.5 129.54)
+			(xy 304.8 129.54) (xy 317.5 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3615,13 +3866,23 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 113.03) (xy 274.32 125.73)
+			(xy 283.21 147.32) (xy 274.32 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "711d4ad3-2207-4604-9f1e-844feb2aa878")
+		(uuid "6ac04f97-a15c-4572-be9f-5dd5f4ef5522")
+	)
+	(wire
+		(pts
+			(xy 116.84 273.05) (xy 279.4 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c99f31-e529-4f5c-b9c4-4dbef81a9de5")
 	)
 	(wire
 		(pts
@@ -3635,33 +3896,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 275.59) (xy 114.3 275.59)
+			(xy 177.8 270.51) (xy 142.24 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72ef6821-10af-416f-bfdb-943cb13c9730")
-	)
-	(wire
-		(pts
-			(xy 274.32 125.73) (xy 317.5 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "736f2d47-89ad-4e42-b552-843b9f6321a2")
-	)
-	(wire
-		(pts
-			(xy 168.91 266.7) (xy 168.91 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7556d2cf-9ce0-47d5-8c8b-22e7202428d3")
 	)
 	(wire
 		(pts
@@ -3702,6 +3943,16 @@
 			(type default)
 		)
 		(uuid "7b9a9165-30ac-42d2-b2e0-615ddca88c5c")
+	)
+	(wire
+		(pts
+			(xy 269.24 125.73) (xy 279.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4cd4a4-1d8b-467a-bf42-8fc0a6e44ac8")
 	)
 	(wire
 		(pts
@@ -3775,16 +4026,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 116.84) (xy 201.93 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7ecd2b-4791-4764-ad3c-ec8f9d32679f")
-	)
-	(wire
-		(pts
 			(xy 201.93 36.83) (xy 295.91 36.83)
 		)
 		(stroke
@@ -3822,6 +4063,16 @@
 			(type default)
 		)
 		(uuid "9f9d5a1f-3e37-4b2c-88a6-ae7ddbeb7c7e")
+	)
+	(wire
+		(pts
+			(xy 144.78 264.16) (xy 116.84 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31b6f99-3ff4-4632-9e40-cee0209749e8")
 	)
 	(wire
 		(pts
@@ -3872,6 +4123,16 @@
 			(type default)
 		)
 		(uuid "aa4f9e2c-c200-45d7-b806-8688b8865998")
+	)
+	(wire
+		(pts
+			(xy 154.94 255.27) (xy 154.94 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abce2bbd-e9f6-40e8-98be-b7aeed26dc61")
 	)
 	(wire
 		(pts
@@ -3955,6 +4216,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 151.13) (xy 269.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6776792-6563-45f1-b17f-e61af7b23f2e")
+	)
+	(wire
+		(pts
 			(xy 234.95 66.04) (xy 375.92 66.04)
 		)
 		(stroke
@@ -3975,16 +4246,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 116.84) (xy 270.51 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc562af7-1323-4a42-8a97-76d6f6e45dc2")
-	)
-	(wire
-		(pts
 			(xy 125.73 227.33) (xy 118.11 227.33)
 		)
 		(stroke
@@ -3992,16 +4253,6 @@
 			(type default)
 		)
 		(uuid "bdd0e9a2-2822-4fd2-9923-8c603cb729e2")
-	)
-	(wire
-		(pts
-			(xy 201.93 113.03) (xy 274.32 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1bbc180-ef52-45b4-84ba-2f4a9f884b0b")
 	)
 	(wire
 		(pts
@@ -4015,7 +4266,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 262.89) (xy 177.8 275.59)
+			(xy 177.8 262.89) (xy 177.8 270.51)
 		)
 		(stroke
 			(width 0)
@@ -4032,6 +4283,16 @@
 			(type default)
 		)
 		(uuid "c9e3db8b-6fc1-46c5-815d-5db88cb00e07")
+	)
+	(wire
+		(pts
+			(xy 142.24 267.97) (xy 116.84 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca28f6bf-45a1-4797-b40f-8052257f2a8f")
 	)
 	(wire
 		(pts
@@ -4055,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 262.89) (xy 165.1 262.89)
+			(xy 116.84 255.27) (xy 154.94 255.27)
 		)
 		(stroke
 			(width 0)
@@ -4075,6 +4336,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 129.54) (xy 279.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d821f82b-f0c3-48ef-875d-1799b91a83f4")
+	)
+	(wire
+		(pts
 			(xy 322.58 173.99) (xy 335.28 173.99)
 		)
 		(stroke
@@ -4082,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "dddfa706-39d4-494e-9502-70699314818c")
+	)
+	(wire
+		(pts
+			(xy 274.32 147.32) (xy 274.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e174974b-35db-4ace-a44a-725186923016")
 	)
 	(wire
 		(pts
@@ -4105,13 +4386,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 271.78) (xy 195.58 262.89)
+			(xy 195.58 267.97) (xy 195.58 262.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6daf13c-9a20-42c9-883a-d95252e45255")
+	)
+	(wire
+		(pts
+			(xy 279.4 273.05) (xy 279.4 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98e048f-99e9-466f-8fd8-fd3722fcfc41")
 	)
 	(wire
 		(pts
@@ -4165,7 +4456,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 267.97) (xy 187.96 262.89)
+			(xy 149.86 259.08) (xy 116.84 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2035a7-faf2-4722-863e-eea2b8fdc29c")
+	)
+	(wire
+		(pts
+			(xy 187.96 264.16) (xy 187.96 262.89)
 		)
 		(stroke
 			(width 0)
@@ -4173,9 +4474,19 @@
 		)
 		(uuid "fccbfaf5-11f5-4c07-bf93-dab98e9c05c4")
 	)
+	(wire
+		(pts
+			(xy 279.4 151.13) (xy 269.24 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2fea93-855f-403e-8840-3bb784346a3a")
+	)
 	(rectangle
-		(start 238.125 255.905)
-		(end 290.83 279.4)
+		(start 231.775 252.095)
+		(end 275.59 275.59)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4196,6 +4507,18 @@
 			(type none)
 		)
 		(uuid 144b055f-e244-4abb-b68b-cbf79560ed17)
+	)
+	(rectangle
+		(start 267.716 111.506)
+		(end 312.928 134.366)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 166eb3c3-fba5-4ea2-98b5-363cba4576cc)
 	)
 	(rectangle
 		(start 343.154 203.708)
@@ -4407,7 +4730,7 @@
 	)
 	(text "Robot Base LED Controller"
 		(exclude_from_sim no)
-		(at 259.842 259.334 0)
+		(at 253.492 255.524 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4502,6 +4825,19 @@
 		)
 		(uuid "f2c69c52-73f6-4aa2-9331-bb1cfd023fe6")
 	)
+	(text "DC-DC Converter"
+		(exclude_from_sim no)
+		(at 294.894 114.046 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "fa66db77-0f4a-4df9-abd2-c4d196fc43d5")
+	)
 	(text "Speaker"
 		(exclude_from_sim no)
 		(at 346.964 162.814 0)
@@ -4560,7 +4896,7 @@
 		(uuid "27e476db-301a-4b95-858f-218ce54838d8")
 	)
 	(label "+24V"
-		(at 210.82 267.97 0)
+		(at 210.82 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4582,7 +4918,7 @@
 		(uuid "3a378e5b-9e5d-472a-ad0a-121906faa6ad")
 	)
 	(label "+12V"
-		(at 307.34 125.73 0)
+		(at 306.07 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4591,6 +4927,17 @@
 			(justify left bottom)
 		)
 		(uuid "4cc07895-b19e-4751-a04e-b2843fad009d")
+	)
+	(label "BAT+"
+		(at 274.32 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cea416f-f6bd-4329-bc86-f6c0a1c5c8c5")
 	)
 	(label "+12V"
 		(at 349.25 213.36 0)
@@ -4603,6 +4950,17 @@
 		)
 		(uuid "4d7fb3e5-3926-417f-b61e-70f2dc2cc902")
 	)
+	(label "BAT-"
+		(at 274.32 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b0c48d6-5ae2-4ea9-b7aa-33fdd1eff008")
+	)
 	(label "+5V"
 		(at 350.52 127 0)
 		(fields_autoplaced yes)
@@ -4613,17 +4971,6 @@
 			(justify left bottom)
 		)
 		(uuid "6eaed2b3-6047-43a4-9238-4bf37c24c553")
-	)
-	(label "+12V"
-		(at 220.98 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "745ef36d-857e-430f-b43e-103dfe055823")
 	)
 	(label "+12V"
 		(at 219.71 105.41 0)
@@ -4703,7 +5050,7 @@
 		(uuid "cdb9e705-4d09-47b4-917b-c28e843020f4")
 	)
 	(label "24V Source"
-		(at 139.7 262.89 0)
+		(at 123.19 255.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4736,7 +5083,7 @@
 		(uuid "fe842f58-23cd-475b-b65c-79613ed3a353")
 	)
 	(label "12V Source"
-		(at 139.7 271.78 0)
+		(at 123.19 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5080,7 +5427,7 @@
 	)
 	(symbol
 		(lib_id "Robast_Components:Drawer_Controller_v4.0")
-		(at 256.54 270.51 0)
+		(at 243.84 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5088,7 +5435,7 @@
 		(dnp no)
 		(uuid "20caf20c-2ed5-4c9f-84b2-480ffd5831cd")
 		(property "Reference" "U11"
-			(at 264.16 269.2399 0)
+			(at 251.46 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5444,7 @@
 			)
 		)
 		(property "Value" "Drawer_Controller_v4.0"
-			(at 264.16 271.7799 0)
+			(at 251.46 267.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 270.51 0)
+			(at 243.84 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 270.51 0)
+			(at 243.84 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 270.51 0)
+			(at 243.84 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,16 +5784,15 @@
 	)
 	(symbol
 		(lib_id "Robast_Components:RB_Theron")
-		(at 105.41 269.24 0)
+		(at 107.95 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f590925-66f7-449a-8d75-b503f07838f6")
 		(property "Reference" "U4"
-			(at 105.41 255.27 0)
+			(at 107.95 249.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5800,7 @@
 			)
 		)
 		(property "Value" "RB_Theron"
-			(at 105.41 257.81 0)
+			(at 107.95 252.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 269.24 0)
+			(at 107.95 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 269.24 0)
+			(at 107.95 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 269.24 0)
+			(at 107.95 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,6 +5845,12 @@
 		)
 		(pin "3"
 			(uuid "889a6036-0d43-4d77-b134-6fc621a11f7a")
+		)
+		(pin "6"
+			(uuid "6d6ac9ad-694a-4c53-9a67-c87ad16b68a8")
+		)
+		(pin "5"
+			(uuid "1c348620-afa2-4349-ab15-4bfc8c1735eb")
 		)
 		(instances
 			(project ""
@@ -6465,6 +6817,80 @@
 			(project "Wiring_Diagram_v1"
 				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
 					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robast_Components:DC/DC-Wandler_Mean_Well_DDR-30L-12")
+		(at 292.1 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2a1ebd2-1cd3-4517-819f-bf129d0c24ae")
+		(property "Reference" "U24"
+			(at 292.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC/DC-Wandler_Mean_Well_DDR-30L-12"
+			(at 292.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d0f3cf83-cade-41c1-b2ba-42175177ca6c")
+		)
+		(pin "2"
+			(uuid "6128f5bc-85b6-4243-8a33-5073e7ad2674")
+		)
+		(pin "1"
+			(uuid "f89874e5-8e21-42dc-80aa-851779b4c039")
+		)
+		(pin "4"
+			(uuid "af046126-85d5-46a9-8619-49649b358449")
+		)
+		(instances
+			(project ""
+				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
+					(reference "U24")
 					(unit 1)
 				)
 			)
