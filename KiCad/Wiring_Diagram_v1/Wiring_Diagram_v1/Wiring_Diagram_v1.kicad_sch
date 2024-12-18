@@ -3240,6 +3240,141 @@
 				)
 			)
 		)
+		(symbol "Robast_Components:WE-CLFS_EMV-Filter"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WE-CLFS_EMV-Filter"
+				(at 0.254 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WE-CLFS_EMV-Filter_1_0"
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "L'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "N'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WE-CLFS_EMV-Filter_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Robast_Components:Zed_Camera"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3386,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 276.86) (xy 283.21 276.86)
+			(xy 71.12 276.86) (xy 283.21 276.86)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 265.43) (xy 149.86 259.08)
+			(xy 151.13 251.46) (xy 151.13 265.43)
 		)
 		(stroke
 			(width 0)
@@ -3476,7 +3611,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 222.25) (xy 118.11 222.25)
+			(xy 105.41 209.55) (xy 92.71 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3526,6 +3661,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 247.65) (xy 154.94 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b68b3d-c873-4816-b797-6af5778fd020")
+	)
+	(wire
+		(pts
 			(xy 187.96 264.16) (xy 234.95 264.16)
 		)
 		(stroke
@@ -3553,6 +3698,26 @@
 			(type default)
 		)
 		(uuid "1f1b1e24-3a00-465c-b326-16f2bf647973")
+	)
+	(wire
+		(pts
+			(xy 124.46 267.97) (xy 142.24 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288a3255-697d-4347-845c-e253f6e80919")
+	)
+	(wire
+		(pts
+			(xy 71.12 264.16) (xy 99.06 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd64d41-b23f-45e5-b638-47dabf544f6f")
 	)
 	(wire
 		(pts
@@ -3586,7 +3751,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 227.33) (xy 53.34 227.33)
+			(xy 24.13 214.63) (xy 27.94 214.63)
 		)
 		(stroke
 			(width 0)
@@ -3596,7 +3761,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 242.57) (xy 76.2 257.81)
+			(xy 33.02 229.87) (xy 33.02 260.35)
 		)
 		(stroke
 			(width 0)
@@ -3626,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 238.76) (xy 49.53 227.33)
+			(xy 24.13 226.06) (xy 24.13 214.63)
 		)
 		(stroke
 			(width 0)
@@ -3656,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 270.51) (xy 142.24 267.97)
+			(xy 142.24 267.97) (xy 142.24 270.51)
 		)
 		(stroke
 			(width 0)
@@ -3693,6 +3858,16 @@
 			(type default)
 		)
 		(uuid "439cf031-2da7-45a4-bdd8-c4035a1e58b3")
+	)
+	(wire
+		(pts
+			(xy 71.12 267.97) (xy 99.06 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472fdbef-459a-46e5-a7a6-36b70f324fb6")
 	)
 	(wire
 		(pts
@@ -3766,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 265.43) (xy 149.86 265.43)
+			(xy 168.91 265.43) (xy 151.13 265.43)
 		)
 		(stroke
 			(width 0)
@@ -3776,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 242.57) (xy 85.09 257.81)
+			(xy 41.91 229.87) (xy 41.91 260.35)
 		)
 		(stroke
 			(width 0)
@@ -3793,6 +3968,16 @@
 			(type default)
 		)
 		(uuid "5561ca5c-a24b-4565-a76f-57c9813a2627")
+	)
+	(wire
+		(pts
+			(xy 91.44 251.46) (xy 99.06 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d5ebd0-a75d-4210-83f2-2e7a3b389f45")
 	)
 	(wire
 		(pts
@@ -3826,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 222.25) (xy 78.74 222.25)
+			(xy 43.18 209.55) (xy 53.34 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3876,7 +4061,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 273.05) (xy 279.4 273.05)
+			(xy 87.63 255.27) (xy 87.63 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711e9b28-31a5-4853-b160-495976da6067")
+	)
+	(wire
+		(pts
+			(xy 71.12 273.05) (xy 279.4 273.05)
 		)
 		(stroke
 			(width 0)
@@ -3886,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 227.33) (xy 78.74 227.33)
+			(xy 43.18 214.63) (xy 53.34 214.63)
 		)
 		(stroke
 			(width 0)
@@ -3926,7 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 242.57) (xy 44.45 222.25)
+			(xy 19.05 229.87) (xy 19.05 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3936,13 +4131,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 222.25) (xy 102.87 222.25)
+			(xy 68.58 209.55) (xy 77.47 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b9a9165-30ac-42d2-b2e0-615ddca88c5c")
+	)
+	(wire
+		(pts
+			(xy 71.12 259.08) (xy 91.44 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7beed291-df21-4c41-ab6b-d0bb1b494aa8")
 	)
 	(wire
 		(pts
@@ -3956,7 +4161,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 238.76) (xy 88.9 257.81)
+			(xy 45.72 226.06) (xy 45.72 260.35)
 		)
 		(stroke
 			(width 0)
@@ -3996,6 +4201,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 264.16) (xy 144.78 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86222481-44a0-4633-adc6-91763d6d51de")
+	)
+	(wire
+		(pts
 			(xy 275.59 86.36) (xy 300.99 86.36)
 		)
 		(stroke
@@ -4016,7 +4231,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 242.57) (xy 44.45 242.57)
+			(xy 33.02 229.87) (xy 19.05 229.87)
 		)
 		(stroke
 			(width 0)
@@ -4036,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 222.25) (xy 53.34 222.25)
+			(xy 19.05 209.55) (xy 27.94 209.55)
 		)
 		(stroke
 			(width 0)
@@ -4056,23 +4271,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 242.57) (xy 130.81 242.57)
+			(xy 87.63 247.65) (xy 99.06 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a651606-4a78-4fd1-b1ad-2a88447dd8f6")
+	)
+	(wire
+		(pts
+			(xy 41.91 229.87) (xy 105.41 229.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f9d5a1f-3e37-4b2c-88a6-ae7ddbeb7c7e")
-	)
-	(wire
-		(pts
-			(xy 144.78 264.16) (xy 116.84 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a31b6f99-3ff4-4632-9e40-cee0209749e8")
 	)
 	(wire
 		(pts
@@ -4096,7 +4311,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 227.33) (xy 102.87 227.33)
+			(xy 68.58 214.63) (xy 77.47 214.63)
 		)
 		(stroke
 			(width 0)
@@ -4126,16 +4341,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 255.27) (xy 154.94 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abce2bbd-e9f6-40e8-98be-b7aeed26dc61")
-	)
-	(wire
-		(pts
 			(xy 107.95 38.1) (xy 154.94 38.1)
 		)
 		(stroke
@@ -4146,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 238.76) (xy 125.73 238.76)
+			(xy 49.53 226.06) (xy 100.33 226.06)
 		)
 		(stroke
 			(width 0)
@@ -4166,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 238.76) (xy 125.73 227.33)
+			(xy 100.33 226.06) (xy 100.33 214.63)
 		)
 		(stroke
 			(width 0)
@@ -4246,13 +4451,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 227.33) (xy 118.11 227.33)
+			(xy 100.33 214.63) (xy 92.71 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bdd0e9a2-2822-4fd2-9923-8c603cb729e2")
+	)
+	(wire
+		(pts
+			(xy 124.46 251.46) (xy 151.13 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c326b5ff-f3f0-4a20-90c6-fa0a1ac86ecd")
 	)
 	(wire
 		(pts
@@ -4286,17 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 267.97) (xy 116.84 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca28f6bf-45a1-4797-b40f-8052257f2a8f")
-	)
-	(wire
-		(pts
-			(xy 130.81 242.57) (xy 130.81 222.25)
+			(xy 105.41 229.87) (xy 105.41 209.55)
 		)
 		(stroke
 			(width 0)
@@ -4306,23 +4511,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 238.76) (xy 92.71 257.81)
+			(xy 49.53 226.06) (xy 49.53 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d17fee3c-60c9-4e48-b23a-e27cc7420fdd")
-	)
-	(wire
-		(pts
-			(xy 116.84 255.27) (xy 154.94 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7948634-40cf-4330-86dc-9aa012521c6d")
 	)
 	(wire
 		(pts
@@ -4353,6 +4548,16 @@
 			(type default)
 		)
 		(uuid "dddfa706-39d4-494e-9502-70699314818c")
+	)
+	(wire
+		(pts
+			(xy 91.44 259.08) (xy 91.44 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de092142-c225-4a44-ac6f-727827352746")
 	)
 	(wire
 		(pts
@@ -4406,6 +4611,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 247.65) (xy 154.94 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb582d8a-dcb7-45a9-bdce-3512d3a2f0ba")
+	)
+	(wire
+		(pts
 			(xy 276.86 52.07) (xy 201.93 52.07)
 		)
 		(stroke
@@ -4416,7 +4631,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 238.76) (xy 49.53 238.76)
+			(xy 45.72 226.06) (xy 24.13 226.06)
 		)
 		(stroke
 			(width 0)
@@ -4433,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "f3ba4f8c-6931-486e-9bc0-7cf0de1cf0b7")
+	)
+	(wire
+		(pts
+			(xy 71.12 255.27) (xy 87.63 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f965e74f-5bfb-4c4e-98af-1d0c6277a6b1")
 	)
 	(wire
 		(pts
@@ -4453,16 +4678,6 @@
 			(type default)
 		)
 		(uuid "fc077cd1-f924-4cdd-871f-4100bb0a089c")
-	)
-	(wire
-		(pts
-			(xy 149.86 259.08) (xy 116.84 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc2035a7-faf2-4722-863e-eea2b8fdc29c")
 	)
 	(wire
 		(pts
@@ -4569,8 +4784,8 @@
 		(uuid 92af78c2-5955-4a37-b7a9-69e9c8afdac1)
 	)
 	(rectangle
-		(start 48.26 248.285)
-		(end 136.906 280.67)
+		(start 13.97 236.855)
+		(end 139.7 280.67)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4605,8 +4820,8 @@
 		(uuid ca7b2998-8cde-4d47-b880-75d6a479b8f9)
 	)
 	(rectangle
-		(start 39.624 209.042)
-		(end 137.16 246.126)
+		(start 14.224 196.342)
+		(end 111.76 233.426)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4642,7 +4857,7 @@
 	)
 	(rectangle
 		(start 60.325 19.685)
-		(end 137.16 207.645)
+		(end 137.16 186.69)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4679,7 +4894,7 @@
 	)
 	(text "Robot Base"
 		(exclude_from_sim no)
-		(at 58.928 251.714 0)
+		(at 23.622 244.856 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4742,7 +4957,7 @@
 	)
 	(text "E-Stop"
 		(exclude_from_sim no)
-		(at 46.736 212.598 0)
+		(at 21.336 199.898 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4972,6 +5187,17 @@
 		)
 		(uuid "6eaed2b3-6047-43a4-9238-4bf37c24c553")
 	)
+	(label "12V Filtered"
+		(at 124.46 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81805c3d-5348-4ee1-8362-c393fe487433")
+	)
 	(label "+12V"
 		(at 219.71 105.41 0)
 		(fields_autoplaced yes)
@@ -5049,8 +5275,19 @@
 		)
 		(uuid "cdb9e705-4d09-47b4-917b-c28e843020f4")
 	)
-	(label "24V Source"
-		(at 123.19 255.27 0)
+	(label "24V Filtered"
+		(at 124.46 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de27265b-2de5-448f-9dfc-d1057557982a")
+	)
+	(label "24V Robo Base"
+		(at 72.39 255.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5082,8 +5319,8 @@
 		)
 		(uuid "fe842f58-23cd-475b-b65c-79613ed3a353")
 	)
-	(label "12V Source"
-		(at 123.19 264.16 0)
+	(label "12V Robo Base"
+		(at 72.39 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5095,7 +5332,7 @@
 	)
 	(symbol
 		(lib_id "Robast_Components:E-Stop")
-		(at 60.96 227.33 270)
+		(at 35.56 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5104,7 +5341,7 @@
 		(fields_autoplaced yes)
 		(uuid "03067f6f-8a19-4f5f-b0bc-c59abd4b174b")
 		(property "Reference" "U17"
-			(at 60.96 214.63 90)
+			(at 35.56 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5349,7 @@
 			)
 		)
 		(property "Value" "E-Stop"
-			(at 60.96 217.17 90)
+			(at 35.56 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 227.33 0)
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5366,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/628/Datasheet_component_switching_element_61_8755_17-3465379.pdf"
-			(at 60.96 227.33 0)
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5375,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 227.33 0)
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5946,7 @@
 	)
 	(symbol
 		(lib_id "Robast_Components:RB_Theron_E_Stop")
-		(at 82.55 265.43 0)
+		(at 39.37 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5717,7 +5954,7 @@
 		(dnp no)
 		(uuid "48b23a73-31dd-476a-a633-e025732a9f53")
 		(property "Reference" "U16"
-			(at 80.518 272.034 0)
+			(at 37.338 274.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5963,7 @@
 			)
 		)
 		(property "Value" "RB_Theron_E_Stop"
-			(at 74.422 274.32 0)
+			(at 31.242 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 261.62 0)
+			(at 39.37 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 261.62 0)
+			(at 39.37 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 261.62 0)
+			(at 39.37 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "Robast_Components:RB_Theron")
-		(at 107.95 265.43 0)
+		(at 62.23 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5792,7 +6029,7 @@
 		(dnp no)
 		(uuid "4f590925-66f7-449a-8d75-b503f07838f6")
 		(property "Reference" "U4"
-			(at 107.95 249.936 0)
+			(at 62.23 249.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +6037,7 @@
 			)
 		)
 		(property "Value" "RB_Theron"
-			(at 107.95 252.476 0)
+			(at 62.23 252.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +6045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 265.43 0)
+			(at 62.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +6054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 265.43 0)
+			(at 62.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +6063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 265.43 0)
+			(at 62.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,6 +6307,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Robast_Components:WE-CLFS_EMV-Filter")
+		(at 111.76 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c38d4fb-8567-4c51-bc27-29dc2ddc0b5a")
+		(property "Reference" "U25"
+			(at 111.76 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WE-CLFS_EMV-Filter (810912003)"
+			(at 111.76 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95b8a161-7de4-4cca-9dbd-1a8979334f6a")
+		)
+		(pin "2"
+			(uuid "33b36a08-553d-49e0-bc88-1f9617eb20bc")
+		)
+		(pin "4"
+			(uuid "c5b2d791-c39c-4733-a667-fb706b8cb524")
+		)
+		(pin "3"
+			(uuid "49086547-3d94-4774-8359-329576eb169e")
+		)
+		(instances
+			(project ""
+				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
+					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Robast_Components:Fan_Sunon_DC_24V/12V")
 		(at 373.38 227.33 0)
 		(unit 1)
@@ -6211,7 +6522,7 @@
 	)
 	(symbol
 		(lib_id "Robast_Components:E-Stop")
-		(at 110.49 227.33 270)
+		(at 85.09 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6220,7 +6531,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4d566f5-7c40-46a1-8727-019fda24e302")
 		(property "Reference" "U22"
-			(at 110.49 214.63 90)
+			(at 85.09 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6539,7 @@
 			)
 		)
 		(property "Value" "E-Stop"
-			(at 110.49 217.17 90)
+			(at 85.09 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 227.33 0)
+			(at 85.09 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6556,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/628/Datasheet_component_switching_element_61_8755_17-3465379.pdf"
-			(at 110.49 227.33 0)
+			(at 85.09 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6565,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 227.33 0)
+			(at 85.09 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,6 +6687,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Robast_Components:WE-CLFS_EMV-Filter")
+		(at 111.76 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b450a09a-230c-4e29-8525-70814bf2c99f")
+		(property "Reference" "U26"
+			(at 111.76 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WE-CLFS_EMV-Filter (810912006)"
+			(at 111.76 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c3aca32-45e4-4e05-9ea2-f9d4a387e817")
+		)
+		(pin "2"
+			(uuid "b6194329-9e0f-44ba-8815-77220fccd0e3")
+		)
+		(pin "4"
+			(uuid "a82771ad-5449-452e-bee5-14c2aaccddf1")
+		)
+		(pin "3"
+			(uuid "dd4feb49-bc19-4cd4-b9c3-222937db8e88")
+		)
+		(instances
+			(project "Wiring_Diagram_v1"
+				(path "/451f28ba-d488-4337-a34b-e9763634fac9"
+					(reference "U26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Robast_Components:Teratron_PSS2000")
 		(at 304.8 35.56 0)
 		(unit 1)
@@ -6447,7 +6832,7 @@
 	)
 	(symbol
 		(lib_id "Robast_Components:E-Stop")
-		(at 86.36 227.33 270)
+		(at 60.96 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6456,7 +6841,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd8080d1-963d-45c0-b73f-dc3feb000487")
 		(property "Reference" "U21"
-			(at 86.36 214.63 90)
+			(at 60.96 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6849,7 @@
 			)
 		)
 		(property "Value" "E-Stop"
-			(at 86.36 217.17 90)
+			(at 60.96 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,7 +6857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 227.33 0)
+			(at 60.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +6866,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/628/Datasheet_component_switching_element_61_8755_17-3465379.pdf"
-			(at 86.36 227.33 0)
+			(at 60.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,7 +6875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 227.33 0)
+			(at 60.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
