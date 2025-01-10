@@ -49,7 +49,7 @@ Once a PCB is considered finished, there should be a BOM, that is exported withi
 
 Now that we there is a BOM and we push the BOM to the main, the workflow triggers to create a bom export which includes documents like datasheets and certificates.
 
-*Hint: Check that all relevant parts are exported and check that no part accidently has checked the `EXCLUDE_FROM_BOM` attribut. You can easily check all parts for that attribute if you add the field `${EXCLUDE_FROM_BOM}` in the `Generate Bill of Materials ...` GUI.*  
+*Hint: Check that all relevant parts are exported and check that no part accidently has checked the `EXCLUDE_FROM_BOM` attribute. You can easily check all parts for that attribute if you add the field `${EXCLUDE_FROM_BOM}` in the `Generate Bill of Materials ...` GUI.*  
 
 
 
