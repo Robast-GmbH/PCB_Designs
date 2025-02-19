@@ -4898,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 269.24) (xy 213.36 270.51)
+			(xy 199.39 269.24) (xy 199.39 270.51)
 		)
 		(stroke
 			(width 0)
@@ -5158,7 +5158,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 269.24) (xy 213.36 269.24)
+			(xy 204.47 269.24) (xy 199.39 269.24)
 		)
 		(stroke
 			(width 0)
@@ -5308,7 +5308,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 246.38) (xy 218.44 246.38)
+			(xy 199.39 246.38) (xy 204.47 246.38)
 		)
 		(stroke
 			(width 0)
@@ -5730,6 +5730,19 @@
 		(uuid 7a0db449-994e-499e-b7ab-19223fe3ccea)
 	)
 	(rectangle
+		(start 256.54 222.25)
+		(end 406.4 245.11)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f79b9cf-e697-4375-8940-c00accf33329)
+	)
+	(rectangle
 		(start 15.875 21.59)
 		(end 78.74 36.195)
 		(stroke
@@ -5894,7 +5907,7 @@
 	)
 	(rectangle
 		(start 109.855 230.505)
-		(end 280.035 282.575)
+		(end 254 282.575)
 		(stroke
 			(width 0)
 			(type default)
@@ -5955,6 +5968,20 @@
 			(justify left bottom)
 		)
 		(uuid "2e80dd44-98a9-4ee7-a004-f4b594f6c7ff")
+	)
+	(text "Attention:\nTo flash the ESP, the IO2 Pin of the ESP needs to be pulled down.\nThis can be done by pulling Drawer_1_B+ to GND.\n(this should be fixed in the next version)"
+		(exclude_from_sim no)
+		(at 258.064 233.68 0)
+		(effects
+			(font
+				(size 2.8 2.8)
+				(thickness 0.6)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "302d8474-02b0-4b45-9c8b-ec7eb5aaaecd")
 	)
 	(text "CAN and Power Input"
 		(exclude_from_sim no)
@@ -6216,7 +6243,7 @@
 	)
 	(global_label "Drawer_1_Encoder_N"
 		(shape input)
-		(at 242.57 260.35 0)
+		(at 228.6 260.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6226,7 +6253,7 @@
 		)
 		(uuid "01289d69-4188-48da-87ca-423c047ef62f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.8885 260.35 0)
+			(at 250.9185 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6419,7 @@
 	)
 	(global_label "Drawer_1_B+"
 		(shape input)
-		(at 218.44 256.54 180)
+		(at 204.47 256.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6402,7 +6429,7 @@
 		)
 		(uuid "08fbc8ed-dd01-43df-b768-b3f83963ab94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1366 256.54 0)
+			(at 189.1666 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +7035,7 @@
 	)
 	(global_label "Drawer_1_N+"
 		(shape input)
-		(at 218.44 262.89 180)
+		(at 204.47 262.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7018,7 +7045,7 @@
 		)
 		(uuid "2b1a7bcf-09ad-401f-9eb1-324d92da522e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.0761 262.89 0)
+			(at 189.1061 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,7 +7607,7 @@
 	)
 	(global_label "Drawer_1_Encoder_B"
 		(shape input)
-		(at 242.57 256.54 0)
+		(at 228.6 256.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7590,7 +7617,7 @@
 		)
 		(uuid "4fe4977b-076e-441a-a0f4-912a8d5087c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.828 256.54 0)
+			(at 250.858 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8223,7 @@
 	)
 	(global_label "Drawer_1_N-"
 		(shape input)
-		(at 218.44 265.43 180)
+		(at 204.47 265.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8206,7 +8233,7 @@
 		)
 		(uuid "777bb10c-4652-4407-ae3f-a516a9b00cdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.0761 265.43 0)
+			(at 189.1061 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,7 +8795,7 @@
 	)
 	(global_label "Drawer_1_A-"
 		(shape input)
-		(at 218.44 252.73 180)
+		(at 204.47 252.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8778,7 +8805,7 @@
 		)
 		(uuid "a489e18b-3ef8-43b1-9782-e51e31e0dd72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.318 252.73 0)
+			(at 189.348 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +9037,7 @@
 	)
 	(global_label "Drawer_1_Encoder_A"
 		(shape input)
-		(at 242.57 252.73 0)
+		(at 228.6 252.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9020,7 +9047,7 @@
 		)
 		(uuid "b476750b-5dfd-466e-9005-c946d59ccbbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.6466 252.73 0)
+			(at 250.6766 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +9631,7 @@
 	)
 	(global_label "Drawer_1_B-"
 		(shape input)
-		(at 218.44 259.08 180)
+		(at 204.47 259.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9614,7 +9641,7 @@
 		)
 		(uuid "da222909-fba8-4ce4-809e-6ed67b918859")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1366 259.08 0)
+			(at 189.1666 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,7 +9851,7 @@
 	)
 	(global_label "Drawer_1_A+"
 		(shape input)
-		(at 218.44 250.19 180)
+		(at 204.47 250.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9834,7 +9861,7 @@
 		)
 		(uuid "e2442859-4207-4639-a226-2b344635a82b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.318 250.19 0)
+			(at 189.348 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +10516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 270.51 0)
+		(at 199.39 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10497,7 +10524,7 @@
 		(dnp no)
 		(uuid "05683ab4-b144-47c3-b7ab-5c6c03454554")
 		(property "Reference" "#PWR026"
-			(at 213.36 276.86 0)
+			(at 199.39 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 211.455 274.32 0)
+			(at 197.485 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 270.51 0)
+			(at 199.39 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,7 +10551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 270.51 0)
+			(at 199.39 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 270.51 0)
+			(at 199.39 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14606,7 +14633,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 213.36 246.38 0)
+		(at 199.39 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14614,7 +14641,7 @@
 		(dnp no)
 		(uuid "937ba506-800d-4b02-b660-72f0424a094b")
 		(property "Reference" "#PWR025"
-			(at 213.36 250.19 0)
+			(at 199.39 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14623,7 +14650,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 213.36 242.57 0)
+			(at 199.39 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14631,7 +14658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 246.38 0)
+			(at 199.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14640,7 +14667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 246.38 0)
+			(at 199.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14649,7 +14676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 246.38 0)
+			(at 199.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19147,7 +19174,7 @@
 		)
 	)
 	(sheet
-		(at 218.44 244.475)
+		(at 204.47 244.475)
 		(size 24.13 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -19159,7 +19186,7 @@
 		)
 		(uuid "1cb20bbd-00b4-431f-ae71-2d0dfae72065")
 		(property "Sheetname" "Differential_Line_Receiver"
-			(at 218.44 243.7634 0)
+			(at 204.47 243.7634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19168,7 +19195,7 @@
 			)
 		)
 		(property "Sheetfile" "Differential_Line_Receiver.kicad_sch"
-			(at 218.44 271.7296 0)
+			(at 204.47 271.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19177,7 +19204,7 @@
 			)
 		)
 		(pin "A+" input
-			(at 218.44 250.19 180)
+			(at 204.47 250.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19187,7 +19214,7 @@
 			(uuid "aef81771-cff3-4507-bd3e-eacd3a0ec2ef")
 		)
 		(pin "+5V" input
-			(at 218.44 246.38 180)
+			(at 204.47 246.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19197,7 +19224,7 @@
 			(uuid "3cf8f554-3182-4902-819d-7857e009e625")
 		)
 		(pin "A-" input
-			(at 218.44 252.73 180)
+			(at 204.47 252.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19207,7 +19234,7 @@
 			(uuid "897fbf4a-b315-46a6-898b-a333d3a6069c")
 		)
 		(pin "B-" input
-			(at 218.44 259.08 180)
+			(at 204.47 259.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19217,7 +19244,7 @@
 			(uuid "f61fe2bf-2653-48c3-a8a7-840bc62434b6")
 		)
 		(pin "N+" input
-			(at 218.44 262.89 180)
+			(at 204.47 262.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19227,7 +19254,7 @@
 			(uuid "25fcc5f6-4a23-4d7e-87c5-8704bf34e70d")
 		)
 		(pin "GND" input
-			(at 218.44 269.24 180)
+			(at 204.47 269.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19237,7 +19264,7 @@
 			(uuid "81b60dd8-26db-4aa8-9e87-a8b4649c1d4e")
 		)
 		(pin "N-" input
-			(at 218.44 265.43 180)
+			(at 204.47 265.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19247,7 +19274,7 @@
 			(uuid "f78002ef-0303-4ccd-b480-9546262b4d6f")
 		)
 		(pin "B+" input
-			(at 218.44 256.54 180)
+			(at 204.47 256.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19257,7 +19284,7 @@
 			(uuid "64e1ab2a-8af4-4ace-9594-53480215e851")
 		)
 		(pin "A" output
-			(at 242.57 252.73 0)
+			(at 228.6 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19267,7 +19294,7 @@
 			(uuid "845e7b39-638f-4cf7-955f-14176633d66e")
 		)
 		(pin "B" output
-			(at 242.57 256.54 0)
+			(at 228.6 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19277,7 +19304,7 @@
 			(uuid "7c1e483c-1e12-4162-9307-3524b2a3a0ed")
 		)
 		(pin "N" output
-			(at 242.57 260.35 0)
+			(at 228.6 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)

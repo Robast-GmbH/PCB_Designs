@@ -6006,6 +6006,19 @@
 		(uuid 6ff6c7fb-db34-4d26-bf49-1e9dc3a19c65)
 	)
 	(rectangle
+		(start 135.89 156.845)
+		(end 399.415 193.04)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 797707e0-8f8a-4fef-acf4-301a0b2f098c)
+	)
+	(rectangle
 		(start 15.875 67.945)
 		(end 73.66 112.395)
 		(stroke
@@ -6339,6 +6352,20 @@
 			(justify left bottom)
 		)
 		(uuid "91f5899a-bf67-496f-9a1e-9b2125cf50bb")
+	)
+	(text "Attention:\nTo flash the ESP, the IO2 Pin of the ESP needs to be pulled down.\nThis can be done by pulling Drawer_1_B+ to GND.\n(this should be fixed in the next version)"
+		(exclude_from_sim no)
+		(at 137.668 173.99 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.6)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a560768b-0f59-4f58-9430-e59a45774b19")
 	)
 	(text "Drawer Encoder Sensor Input"
 		(exclude_from_sim no)
