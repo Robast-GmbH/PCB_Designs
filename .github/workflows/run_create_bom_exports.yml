@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: 📥 Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: 📥 Checkout KiCad_Library repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         repository: Robast-GmbH/KiCad_Library
         token: ${{ secrets.GH_PAT }} # `GH_PAT` is a secret that contains a PAT
